@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
           <div className="container">
             <a className="navbar-brand d-flex align-items-center gap-2" href="/">
-              <img src="/logo.png" alt="Preisgucken Logo" style={{ height: 36, width: "auto" }} />
+              <img src="/logo.png" alt="Preisgucken Logo" style={{ height: 56, width: "auto" }} />
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
               <span className="navbar-toggler-icon" />
