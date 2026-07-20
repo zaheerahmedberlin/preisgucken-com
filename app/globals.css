@@ -1,8 +1,11 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 :root {
-  --brand: #e63946;
-  --brand-dark: #c1121f;
+  --pg-blue:        #1A3A6B;
+  --pg-blue-dark:   #122b52;
+  --pg-blue-light:  #e8eef8;
+  --pg-orange:      #F5A623;
+  --pg-orange-dark: #d4891a;
 }
 
 body {
@@ -10,14 +13,21 @@ body {
   background: #f8f9fa;
 }
 
-.navbar-brand span { color: var(--brand); font-weight: 800; }
+/* Navbar */
+.navbar { border-bottom: 2px solid var(--pg-blue-light); padding: 0.25rem 0; }
+.navbar-brand img { height: 90px; width: auto; transition: transform 0.3s; }
+.navbar-brand:hover img { transform: scale(1.05); }
+.nav-link { color: var(--pg-blue) !important; font-weight: 500; }
+.nav-link:hover { color: var(--pg-orange) !important; }
 
+/* Hero */
 .hero {
-  background: linear-gradient(135deg, #1d3557 0%, #457b9d 100%);
+  background: linear-gradient(135deg, var(--pg-blue) 0%, #2a5298 100%);
   color: white;
   padding: 80px 0;
 }
 
+/* Cards */
 .card {
   border: none;
   border-radius: 12px;
@@ -26,16 +36,28 @@ body {
 }
 .card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
 
+/* Tags */
 .tag {
   display: inline-block;
-  background: #e9ecef;
-  color: #495057;
+  background: var(--pg-blue-light);
+  color: var(--pg-blue);
   font-size: 0.75rem;
   padding: 2px 10px;
   border-radius: 20px;
   font-weight: 500;
 }
 
+/* Buttons */
+.btn-brand { background: var(--pg-blue); border: none; color: white; font-weight: 600; }
+.btn-brand:hover { background: var(--pg-blue-dark); color: white; }
+.btn-outline-brand { border: 2px solid var(--pg-blue); color: var(--pg-blue); font-weight: 600; background: transparent; }
+.btn-outline-brand:hover { background: var(--pg-blue); color: white; }
+
+/* Footer */
+footer { font-size: 0.9rem; }
+footer a:hover { color: var(--pg-orange) !important; text-decoration: underline !important; }
+
+/* TikTok admin (only used in /admin) */
 .tiktok-output {
   background: #111;
   color: #fff;
@@ -44,6 +66,3 @@ body {
   white-space: pre-wrap;
   min-height: 200px;
 }
-
-.btn-brand { background: var(--brand); border: none; color: white; font-weight: 600; }
-.btn-brand:hover { background: var(--brand-dark); color: white; }

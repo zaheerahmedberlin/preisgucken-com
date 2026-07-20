@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Preisgucken – Deals, Tipps & TikTok Content",
+  title: "Preisgucken – Deals, Tipps & Kaufberatung",
   description: "Schnäppchen-Tipps, Kaufberatung und Preisvergleich-News aus Deutschland.",
 };
 
@@ -10,16 +10,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="de">
       <body>
-        <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
           <div className="container">
-            <a className="navbar-brand d-flex align-items-center gap-2" href="/">
-              <img src="/logo.png" alt="Preisgucken Logo" style={{ height: 56, width: "auto" }} />
+            <a className="navbar-brand" href="/">
+              <img src="/logo.png" alt="Preisgucken Logo" />
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
               <span className="navbar-toggler-icon" />
             </button>
             <div className="collapse navbar-collapse" id="nav">
-              <ul className="navbar-nav ms-auto gap-2">
+              <ul className="navbar-nav ms-auto gap-2 align-items-center">
                 <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
                 <li className="nav-item">
                   <a className="btn btn-brand btn-sm px-3" href="https://www.preisgucken.de" target="_blank" rel="noopener">
@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
 
         <footer className="bg-dark text-white py-4 mt-5">
-          <div className="container text-center small text-muted">
+          <div className="container text-center small">
             <div className="d-flex flex-wrap justify-content-center gap-3 mb-2">
               <a href="/impressum" className="text-muted text-decoration-none">Impressum</a>
               <a href="/datenschutz" className="text-muted text-decoration-none">Datenschutz</a>
@@ -42,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/kontakt" className="text-muted text-decoration-none">Kontakt</a>
               <a href="https://www.preisgucken.de" target="_blank" rel="noopener" className="text-muted text-decoration-none">Preisgucken.de</a>
             </div>
-            <div>© {new Date().getFullYear()} Preisgucken.com · Zaheer Ahmed, Berlin</div>
+            <div className="text-muted">© {new Date().getFullYear()} Preisgucken.com · Zaheer Ahmed, Berlin</div>
           </div>
         </footer>
 
