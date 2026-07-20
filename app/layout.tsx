@@ -36,7 +36,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <footer className="bg-dark text-white py-4 mt-5">
           <div className="container text-center small text-muted">
-            © {new Date().getFullYear()} Preisgucken.com · <a href="https://www.preisgucken.de/impressum" className="text-muted">Impressum</a>
+            <div className="d-flex flex-wrap justify-content-center gap-3 mb-2">
+              <a href="/impressum" className="text-muted text-decoration-none">Impressum</a>
+              <a href="/datenschutz" className="text-muted text-decoration-none">Datenschutz</a>
+              <a href="/agb" className="text-muted text-decoration-none">AGB</a>
+              <a href="/kontakt" className="text-muted text-decoration-none">Kontakt</a>
+              <a href="https://www.preisgucken.de" target="_blank" rel="noopener" className="text-muted text-decoration-none">Preisgucken.de</a>
+            </div>
+            <div>© {new Date().getFullYear()} Preisgucken.com · Zaheer Ahmed, Berlin</div>
           </div>
         </footer>
 
