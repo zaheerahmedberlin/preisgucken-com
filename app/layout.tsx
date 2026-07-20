@@ -21,7 +21,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="collapse navbar-collapse" id="nav">
               <ul className="navbar-nav ms-auto gap-2">
                 <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
-                <li className="nav-item"><a className="nav-link" href="/admin/tiktok">TikTok Generator</a></li>
                 <li className="nav-item">
                   <a className="btn btn-brand btn-sm px-3" href="https://www.preisgucken.de" target="_blank" rel="noopener">
                     Preise vergleichen →
