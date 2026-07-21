@@ -33,16 +33,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <main>{children}</main>
 
-        <footer className="bg-dark text-white py-4 mt-5">
+        <footer className="py-4 mt-5" style={{ background: "var(--pg-blue)" }}>
           <div className="container text-center small">
             <div className="d-flex flex-wrap justify-content-center gap-3 mb-2">
-              <a href="/impressum" className="text-muted text-decoration-none">Impressum</a>
-              <a href="/datenschutz" className="text-muted text-decoration-none">Datenschutz</a>
-              <a href="/agb" className="text-muted text-decoration-none">AGB</a>
-              <a href="/kontakt" className="text-muted text-decoration-none">Kontakt</a>
-              <a href="https://www.preisgucken.de" target="_blank" rel="noopener" className="text-muted text-decoration-none">Preisgucken.de</a>
+              <a href="/impressum" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Impressum</a>
+              <a href="/datenschutz" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Datenschutz</a>
+              <a href="/agb" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>AGB</a>
+              <a href="/kontakt" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Kontakt</a>
+              <a href="https://www.preisgucken.de" target="_blank" rel="noopener" className="text-decoration-none" style={{ color: "var(--pg-orange)" }}>Preisgucken.de ↗</a>
             </div>
-            <div className="text-muted">© {new Date().getFullYear()} Preisgucken.com · Zaheer Ahmed, Berlin</div>
+            <div style={{ color: "rgba(255,255,255,0.6)" }}>© {new Date().getFullYear()} Preisgucken.com · Zaheer Ahmed, Berlin</div>
           </div>
         </footer>
 
