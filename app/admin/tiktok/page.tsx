@@ -157,6 +157,8 @@ export default function TikTokGenerator() {
   const [mode, setMode] = useState<"search" | "manual" | "autopilot">("search");
   const [style, setStyle] = useState("energetisch");
   const [query, setQuery] = useState("");
+  const [vendorFilter, setVendorFilter] = useState("");
+  const [vendors, setVendors] = useState<string[]>([]);
   const [results, setResults] = useState<any[]>([]);
   const [selected, setSelected] = useState<any>(null);
   const [variations, setVariations] = useState<Variation[]>([]);
@@ -173,6 +175,11 @@ export default function TikTokGenerator() {
   useEffect(() => {
     const saved = localStorage.getItem("tiktok_history");
     if (saved) setHistory(JSON.parse(saved));
+    // Load vendors
+    fetch("/api/vendors").then(r => r.json()).then(data => {
+      const names = (data.vendors || data || []).map((v: any) => v.name).filter(Boolean).sort();
+      setVendors(names);
+    }).catch(() => {});
   }, []);
 
   function saveHistory(productName: string, price: string | undefined, vars: Variation[]) {
@@ -183,10 +190,13 @@ export default function TikTokGenerator() {
   }
 
   async function searchProducts() {
-    if (!query.trim()) return;
+    if (!query.trim() && !vendorFilter) return;
     setSearching(true); setResults([]); setSelected(null); setVariations([]);
     try {
-      const res = await fetch(`${PREISGUCKEN_API}?q=${encodeURIComponent(query)}&limit=6&inStockOnly=true`);
+      const params = new URLSearchParams({ limit: "8", inStockOnly: "true" });
+      if (query.trim()) params.set("q", query.trim());
+      if (vendorFilter) params.set("vendor", vendorFilter);
+      const res = await fetch(`${PREISGUCKEN_API}?${params}`);
       const data = await res.json();
       setResults(data.products || []);
     } catch { setResults([]); } finally { setSearching(false); }
@@ -256,9 +266,19 @@ export default function TikTokGenerator() {
           {/* Search mode */}
           {mode === "search" && (
             <div className="card p-4 mb-4">
-              <div className="input-group mb-3">
-                <input className="form-control" placeholder="z. B. iPhone, Sofa, Vitamins..." value={query} onChange={e => setQuery(e.target.value)} onKeyDown={e => e.key === "Enter" && searchProducts()} />
-                <button className="btn btn-brand px-4" onClick={searchProducts} disabled={searching}>{searching ? "..." : "Suchen"}</button>
+              <div className="row g-2 mb-3">
+                <div className="col">
+                  <input className="form-control" placeholder="z. B. iPhone, Sofa, Vitamins..." value={query} onChange={e => setQuery(e.target.value)} onKeyDown={e => e.key === "Enter" && searchProducts()} />
+                </div>
+                <div className="col-auto">
+                  <select className="form-select" value={vendorFilter} onChange={e => setVendorFilter(e.target.value)} style={{ minWidth: 150 }}>
+                    <option value="">Alle Händler</option>
+                    {vendors.map(v => <option key={v} value={v}>{v}</option>)}
+                  </select>
+                </div>
+                <div className="col-auto">
+                  <button className="btn btn-brand px-4" onClick={searchProducts} disabled={searching}>{searching ? "..." : "Suchen"}</button>
+                </div>
               </div>
               {results.length > 0 && (
                 <div className="row g-2">
