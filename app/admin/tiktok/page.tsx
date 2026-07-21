@@ -177,8 +177,8 @@ export default function TikTokGenerator() {
     if (saved) setHistory(JSON.parse(saved));
     // Load vendors
     fetch("/api/vendors").then(r => r.json()).then(data => {
-      const names = (data.vendors || data || []).map((v: any) => v.name).filter(Boolean).sort();
-      setVendors(names);
+      const list: string[] = data.vendors ?? [];
+      setVendors(list.sort());
     }).catch(() => {});
   }, []);
 
