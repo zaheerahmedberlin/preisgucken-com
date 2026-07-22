@@ -171,6 +171,7 @@ export default function TikTokGenerator() {
   const [manualOldPrice, setManualOldPrice] = useState("");
   const [manualVendor, setManualVendor] = useState("");
   const [copied, setCopied] = useState(false);
+  const [copiedCapcut, setCopiedCapcut] = useState(false);
 
   useEffect(() => {
     const saved = localStorage.getItem("tiktok_history");
@@ -234,6 +235,19 @@ export default function TikTokGenerator() {
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  }
+
+  function copyForCapcut() {
+    const v = variations[activeVar] as any;
+    if (!v) return;
+    const lines: string[] = v.capcut_lines?.length
+      ? v.capcut_lines
+      : [v.hook, v.main, v.cta];
+    const caption = `${v.cta}\n\n${v.hashtags.map((h: string) => `#${h}`).join(" ")}`;
+    const text = `📋 CAPCUT TEXT-ZEILEN (nacheinander einfügen):\n${lines.map((l: string, i: number) => `${i + 1}. ${l}`).join("\n")}\n\n📲 TIKTOK CAPTION (nach dem Upload):\n${caption}\n\n🎵 SOUND: ${v.sound}`;
+    navigator.clipboard.writeText(text);
+    setCopiedCapcut(true);
+    setTimeout(() => setCopiedCapcut(false), 2000);
   }
 
   const currentProduct = selected || (mode === "manual" ? { title: manualName, price: manualPrice, image: null } : null);
@@ -406,9 +420,14 @@ export default function TikTokGenerator() {
                     <div className="mb-3 p-2 rounded" style={{ background: "#f5f5f5" }}>
                       <p className="small mb-0">🎵 <strong>Sound:</strong> {v.sound}</p>
                     </div>
-                    <button className="btn btn-outline-secondary btn-sm w-100" onClick={copyScript}>
-                      {copied ? "✅ Kopiert!" : "📋 Script kopieren"}
-                    </button>
+                    <div className="d-flex gap-2">
+                      <button className="btn btn-outline-secondary btn-sm flex-fill" onClick={copyScript}>
+                        {copied ? "✅ Kopiert!" : "📋 Script kopieren"}
+                      </button>
+                      <button className="btn btn-sm flex-fill" style={{ background: "#000", color: "#fff", border: "none" }} onClick={copyForCapcut}>
+                        {copiedCapcut ? "✅ Kopiert!" : "🎬 Für CapCut kopieren"}
+                      </button>
+                    </div>
                   </>
                 );
               })()}

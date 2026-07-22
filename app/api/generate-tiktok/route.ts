@@ -29,6 +29,11 @@ ${category ? `Kategorie: ${category}` : ""}
 
 Stil: ${STYLE_PROMPTS[style] || STYLE_PROMPTS.energetisch}
 
+WICHTIG:
+- capcut_lines: Den Text aufteilen in kurze Zeilen für CapCut (max 6 Wörter pro Zeile, 4-6 Zeilen gesamt)
+- Jede capcut_line ist ein separater Text-Block der nacheinander erscheint
+- Schreibe "preisgucken punkt de" (nicht "preisgucken.de") wenn die Domain vorgesprochen wird
+
 Antworte NUR mit diesem JSON (kein Text davor/danach):
 {
   "variations": [
@@ -36,13 +41,14 @@ Antworte NUR mit diesem JSON (kein Text davor/danach):
       "label": "Variante 1",
       "hook": "Hook-Text (max 10 Wörter, erster Satz des Videos)",
       "main": "Hauptteil (2-3 Sätze, Produkt + Preis erklären)",
-      "cta": "Call to Action (1 Satz, Link in Bio erwähnen)",
+      "cta": "Call to Action (1 Satz, preisgucken.de erwähnen)",
       "overlay": "Kurzer Text für Text-Overlay auf dem Video (max 5 Wörter)",
+      "capcut_lines": ["Zeile 1", "Zeile 2", "Zeile 3", "Zeile 4"],
       "hashtags": ["hashtag1", "hashtag2", "hashtag3", "hashtag4", "hashtag5"],
       "sound": "Empfohlener Sound-Typ"
     },
-    { "label": "Variante 2", "hook": "...", "main": "...", "cta": "...", "overlay": "...", "hashtags": [], "sound": "..." },
-    { "label": "Variante 3", "hook": "...", "main": "...", "cta": "...", "overlay": "...", "hashtags": [], "sound": "..." }
+    { "label": "Variante 2", "hook": "...", "main": "...", "cta": "...", "overlay": "...", "capcut_lines": [], "hashtags": [], "sound": "..." },
+    { "label": "Variante 3", "hook": "...", "main": "...", "cta": "...", "overlay": "...", "capcut_lines": [], "hashtags": [], "sound": "..." }
   ]
 }`;
 
