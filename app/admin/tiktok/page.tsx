@@ -240,11 +240,23 @@ export default function TikTokGenerator() {
   function copyForCapcut() {
     const v = variations[activeVar] as any;
     if (!v) return;
-    const lines: string[] = v.capcut_lines?.length
-      ? v.capcut_lines
-      : [v.hook, v.main, v.cta];
+    const spokenCta = v.cta?.replace(/preisgucken\.de/gi, "Link in Bio") ?? v.cta;
+    const spokenMain = v.main?.replace(/preisgucken\.de/gi, "Link in Bio") ?? v.main;
     const caption = `${v.cta}\n\n${v.hashtags.map((h: string) => `#${h}`).join(" ")}`;
-    const text = `📋 CAPCUT TEXT-ZEILEN (nacheinander einfügen):\n${lines.map((l: string, i: number) => `${i + 1}. ${l}`).join("\n")}\n\n📲 TIKTOK CAPTION (nach dem Upload):\n${caption}\n\n🎵 SOUND: ${v.sound}`;
+    const text = [
+      `🎙️ VOICEOVER (CapCut AI liest das vor):`,
+      v.hook,
+      spokenMain,
+      spokenCta,
+      ``,
+      `📌 TEXT-STICKER auf dem Video platzieren:`,
+      `preisgucken.de`,
+      ``,
+      `📲 TIKTOK CAPTION (nach dem Upload einfügen):`,
+      caption,
+      ``,
+      `🎵 SOUND: ${v.sound}`,
+    ].join("\n");
     navigator.clipboard.writeText(text);
     setCopiedCapcut(true);
     setTimeout(() => setCopiedCapcut(false), 2000);
