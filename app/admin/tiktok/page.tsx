@@ -175,6 +175,8 @@ export default function TikTokGenerator() {
   const [tiktokConnected, setTiktokConnected] = useState(false);
   const [posting, setPosting] = useState(false);
   const [postResult, setPostResult] = useState<string | null>(null);
+  const [generatingVideo, setGeneratingVideo] = useState(false);
+  const [videoUrl, setVideoUrl] = useState<string | null>(null);
 
   useEffect(() => {
     const saved = localStorage.getItem("tiktok_history");
@@ -188,6 +190,29 @@ export default function TikTokGenerator() {
     if (params.get("tiktok") === "connected") setTiktokConnected(true);
     if (params.get("error")) setPostResult("TikTok Verbindung fehlgeschlagen. Bitte erneut versuchen.");
   }, []);
+
+  async function generateVideo() {
+    if (!currentProduct) return;
+    setGeneratingVideo(true); setVideoUrl(null); setPostResult(null);
+    try {
+      const res = await fetch(`/api/generate-video`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          title: currentProduct.title,
+          price: currentProduct.price,
+          old_price: currentProduct.old_price,
+          image: currentProduct.image,
+        }),
+      });
+      if (!res.ok) throw new Error("Generation failed");
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      setVideoUrl(url);
+    } catch {
+      setPostResult("❌ Video-Generierung fehlgeschlagen.");
+    } finally { setGeneratingVideo(false); }
+  }
 
   async function postToTikTok() {
     if (!variations[activeVar]) return;
@@ -470,12 +495,30 @@ export default function TikTokGenerator() {
                       <button className="btn btn-sm flex-fill" style={{ background: "#000", color: "#fff", border: "none" }} onClick={copyForCapcut}>
                         {copiedCapcut ? "✅ Kopiert!" : "🎬 Für CapCut kopieren"}
                       </button>
-                      {tiktokConnected && (
-                        <button className="btn btn-sm flex-fill" style={{ background: "#ff0050", color: "#fff", border: "none" }} onClick={postToTikTok} disabled={posting}>
-                          {posting ? "⏳ Wird gepostet..." : "▶ Auf TikTok posten"}
-                        </button>
-                      )}
                     </div>
+
+                    {currentProduct && (
+                      <div className="mt-3">
+                        <button className="btn btn-brand w-100" onClick={generateVideo} disabled={generatingVideo}>
+                          {generatingVideo ? "⏳ Video wird generiert (~10 Sek)..." : "🎥 Video automatisch generieren"}
+                        </button>
+                        {videoUrl && (
+                          <div className="mt-3">
+                            <video src={videoUrl} controls style={{ width: "100%", borderRadius: 8, maxHeight: 300 }} />
+                            <div className="d-flex gap-2 mt-2">
+                              <a href={videoUrl} download="preisgucken-promo.mp4" className="btn btn-outline-success btn-sm flex-fill">
+                                ⬇️ MP4 herunterladen
+                              </a>
+                              {tiktokConnected && (
+                                <button className="btn btn-sm flex-fill" style={{ background: "#ff0050", color: "#fff", border: "none" }} onClick={postToTikTok} disabled={posting}>
+                                  {posting ? "⏳ Wird gepostet..." : "▶ Auf TikTok posten"}
+                                </button>
+                              )}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
                     {postResult && <div className="mt-2 small text-center">{postResult}</div>}
                   </>
                 );
