@@ -172,16 +172,41 @@ export default function TikTokGenerator() {
   const [manualVendor, setManualVendor] = useState("");
   const [copied, setCopied] = useState(false);
   const [copiedCapcut, setCopiedCapcut] = useState(false);
+  const [tiktokConnected, setTiktokConnected] = useState(false);
+  const [posting, setPosting] = useState(false);
+  const [postResult, setPostResult] = useState<string | null>(null);
 
   useEffect(() => {
     const saved = localStorage.getItem("tiktok_history");
     if (saved) setHistory(JSON.parse(saved));
-    // Load vendors
     fetch("/api/vendors").then(r => r.json()).then(data => {
       const list: string[] = data.vendors ?? [];
       setVendors(list.sort());
     }).catch(() => {});
+    // Check if TikTok connected via URL param
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("tiktok") === "connected") setTiktokConnected(true);
+    if (params.get("error")) setPostResult("TikTok Verbindung fehlgeschlagen. Bitte erneut versuchen.");
   }, []);
+
+  async function postToTikTok() {
+    if (!variations[activeVar]) return;
+    setPosting(true); setPostResult(null);
+    const v = variations[activeVar] as any;
+    const caption = `${v.cta}\n\n${v.hashtags.map((h: string) => `#${h}`).join(" ")}`;
+    try {
+      const res = await fetch("/api/tiktok/upload", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ videoUrl: currentProduct?.image ?? "", caption }),
+      });
+      const data = await res.json();
+      if (data.publish_id) setPostResult("✅ Video wird auf TikTok hochgeladen!");
+      else setPostResult(`❌ Fehler: ${data.error}`);
+    } catch {
+      setPostResult("❌ Upload fehlgeschlagen.");
+    } finally { setPosting(false); }
+  }
 
   function saveHistory(productName: string, price: string | undefined, vars: Variation[]) {
     const item: HistoryItem = { productName, price, style, variations: vars, timestamp: Date.now() };
@@ -270,6 +295,12 @@ export default function TikTokGenerator() {
       <div className="text-center mb-5">
         <h1 className="fw-bold">🎬 TikTok Script Generator</h1>
         <p className="text-muted">Produkt wählen → Stil wählen → fertiges Script + Vorschau in Sekunden</p>
+        <div className="mt-3">
+          {tiktokConnected
+            ? <span className="badge bg-success px-3 py-2 fs-6">✅ TikTok verbunden (Sandbox)</span>
+            : <a href="/api/tiktok/auth" className="btn btn-dark px-4">🔗 Mit TikTok verbinden</a>
+          }
+        </div>
       </div>
 
       <div className="row g-4">
@@ -432,14 +463,20 @@ export default function TikTokGenerator() {
                     <div className="mb-3 p-2 rounded" style={{ background: "#f5f5f5" }}>
                       <p className="small mb-0">🎵 <strong>Sound:</strong> {v.sound}</p>
                     </div>
-                    <div className="d-flex gap-2">
+                    <div className="d-flex gap-2 flex-wrap">
                       <button className="btn btn-outline-secondary btn-sm flex-fill" onClick={copyScript}>
                         {copied ? "✅ Kopiert!" : "📋 Script kopieren"}
                       </button>
                       <button className="btn btn-sm flex-fill" style={{ background: "#000", color: "#fff", border: "none" }} onClick={copyForCapcut}>
                         {copiedCapcut ? "✅ Kopiert!" : "🎬 Für CapCut kopieren"}
                       </button>
+                      {tiktokConnected && (
+                        <button className="btn btn-sm flex-fill" style={{ background: "#ff0050", color: "#fff", border: "none" }} onClick={postToTikTok} disabled={posting}>
+                          {posting ? "⏳ Wird gepostet..." : "▶ Auf TikTok posten"}
+                        </button>
+                      )}
                     </div>
+                    {postResult && <div className="mt-2 small text-center">{postResult}</div>}
                   </>
                 );
               })()}
