@@ -48,8 +48,12 @@ export async function POST(req: NextRequest) {
   });
 
   const initData = await initRes.json();
+  console.log("[TikTok init] title:", title);
+  console.log("[TikTok init] videoSize:", videoSize);
+  console.log("[TikTok init] response:", JSON.stringify(initData));
+
   if (initData.error?.code !== "ok") {
-    return NextResponse.json({ error: initData.error?.message ?? "Upload init failed" }, { status: 500 });
+    return NextResponse.json({ error: initData.error?.message ?? "Upload init failed", detail: initData }, { status: 500 });
   }
 
   const { publish_id, upload_url } = initData.data;
@@ -65,8 +69,11 @@ export async function POST(req: NextRequest) {
     body: videoBuffer,
   });
 
+  const uploadBody = await uploadRes.text();
+  console.log("[TikTok upload] status:", uploadRes.status, "body:", uploadBody);
+
   if (!uploadRes.ok) {
-    return NextResponse.json({ error: `Upload failed: ${uploadRes.status}` }, { status: 500 });
+    return NextResponse.json({ error: `Upload failed: ${uploadRes.status}`, detail: uploadBody }, { status: 500 });
   }
 
   return NextResponse.json({ publish_id, status: "uploaded" });
