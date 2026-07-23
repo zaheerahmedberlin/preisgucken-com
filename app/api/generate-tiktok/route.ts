@@ -33,6 +33,7 @@ WICHTIG:
 - capcut_lines: Den Text aufteilen in kurze Zeilen für CapCut (max 6 Wörter pro Zeile, 4-6 Zeilen gesamt)
 - Jede capcut_line ist ein separater Text-Block der nacheinander erscheint
 - Schreibe "preisgucken punkt de" (nicht "preisgucken.de") wenn die Domain vorgesprochen wird
+- Hashtags: NUR generische Produkt/Deal-Hashtags (z.B. #schnäppchen #deals #preisvergleich #sparen). NIEMALS Händler- oder Markennamen als Hashtag
 
 Antworte NUR mit diesem JSON (kein Text davor/danach):
 {
