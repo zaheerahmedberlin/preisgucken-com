@@ -11,7 +11,14 @@ export async function POST(req: NextRequest) {
   if (!file) {
     return NextResponse.json({ error: "No video file provided" }, { status: 400 });
   }
-  const caption = (formData.get("caption") as string) || "Check preisgucken.de für die besten Deals! 🔥";
+  const rawCaption = (formData.get("caption") as string) || "Die besten Deals auf preisgucken.de";
+
+  // TikTok title: strip emojis, hashtags, limit to 150 chars
+  const title = rawCaption
+    .replace(/#\S+/g, "")
+    .replace(/[\u{1F300}-\u{1FFFF}]/gu, "")
+    .trim()
+    .slice(0, 150) || "Die besten Deals auf preisgucken.de";
 
   const videoBuffer = Buffer.from(await file.arrayBuffer());
   const videoSize = videoBuffer.byteLength;
@@ -25,7 +32,7 @@ export async function POST(req: NextRequest) {
     },
     body: JSON.stringify({
       post_info: {
-        title: caption,
+        title,
         privacy_level: "SELF_ONLY",
         disable_duet: false,
         disable_comment: false,
