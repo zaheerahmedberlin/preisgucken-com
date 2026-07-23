@@ -6,12 +6,17 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Not authenticated with TikTok" }, { status: 401 });
   }
 
-  const { videoUrl, caption } = await req.json();
-  if (!videoUrl) {
-    return NextResponse.json({ error: "videoUrl required" }, { status: 400 });
+  const formData = await req.formData();
+  const file = formData.get("video") as File | null;
+  if (!file) {
+    return NextResponse.json({ error: "No video file provided" }, { status: 400 });
   }
+  const caption = (formData.get("caption") as string) || "Check preisgucken.de für die besten Deals! 🔥";
 
-  // Step 1: Initialize video upload
+  const videoBuffer = Buffer.from(await file.arrayBuffer());
+  const videoSize = videoBuffer.byteLength;
+
+  // Step 1: Initialize FILE_UPLOAD
   const initRes = await fetch("https://open.tiktokapis.com/v2/post/publish/video/init/", {
     method: "POST",
     headers: {
@@ -20,24 +25,42 @@ export async function POST(req: NextRequest) {
     },
     body: JSON.stringify({
       post_info: {
-        title: caption || "Check preisgucken.de für die besten Deals! 🔥",
-        privacy_level: "SELF_ONLY", // sandbox: always self-only
+        title: caption,
+        privacy_level: "SELF_ONLY",
         disable_duet: false,
         disable_comment: false,
         disable_stitch: false,
       },
       source_info: {
-        source: "PULL_FROM_URL",
-        video_url: videoUrl,
+        source: "FILE_UPLOAD",
+        video_size: videoSize,
+        chunk_size: videoSize,
+        total_chunk_count: 1,
       },
     }),
   });
 
   const initData = await initRes.json();
-
   if (initData.error?.code !== "ok") {
     return NextResponse.json({ error: initData.error?.message ?? "Upload init failed" }, { status: 500 });
   }
 
-  return NextResponse.json({ publish_id: initData.data?.publish_id, status: "uploading" });
+  const { publish_id, upload_url } = initData.data;
+
+  // Step 2: Upload the video chunk
+  const uploadRes = await fetch(upload_url, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "video/mp4",
+      "Content-Range": `bytes 0-${videoSize - 1}/${videoSize}`,
+      "Content-Length": String(videoSize),
+    },
+    body: videoBuffer,
+  });
+
+  if (!uploadRes.ok) {
+    return NextResponse.json({ error: `Upload failed: ${uploadRes.status}` }, { status: 500 });
+  }
+
+  return NextResponse.json({ publish_id, status: "uploaded" });
 }

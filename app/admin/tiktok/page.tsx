@@ -177,6 +177,7 @@ export default function TikTokGenerator() {
   const [postResult, setPostResult] = useState<string | null>(null);
   const [generatingVideo, setGeneratingVideo] = useState(false);
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
+  const [videoBlob, setVideoBlob] = useState<Blob | null>(null);
 
   useEffect(() => {
     const saved = localStorage.getItem("tiktok_history");
@@ -193,7 +194,7 @@ export default function TikTokGenerator() {
 
   async function generateVideo() {
     if (!currentProduct) return;
-    setGeneratingVideo(true); setVideoUrl(null); setPostResult(null);
+    setGeneratingVideo(true); setVideoUrl(null); setVideoBlob(null); setPostResult(null);
     try {
       const res = await fetch(`/api/generate-video`, {
         method: "POST",
@@ -207,6 +208,7 @@ export default function TikTokGenerator() {
       });
       if (!res.ok) throw new Error("Generation failed");
       const blob = await res.blob();
+      setVideoBlob(blob);
       const url = URL.createObjectURL(blob);
       setVideoUrl(url);
     } catch {
@@ -215,16 +217,15 @@ export default function TikTokGenerator() {
   }
 
   async function postToTikTok() {
-    if (!variations[activeVar]) return;
+    if (!variations[activeVar] || !videoBlob) return;
     setPosting(true); setPostResult(null);
     const v = variations[activeVar] as any;
     const caption = `${v.cta}\n\n${v.hashtags.map((h: string) => `#${h}`).join(" ")}`;
     try {
-      const res = await fetch("/api/tiktok/upload", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ videoUrl: currentProduct?.image ?? "", caption }),
-      });
+      const form = new FormData();
+      form.append("video", videoBlob, "preisgucken-promo.mp4");
+      form.append("caption", caption);
+      const res = await fetch("/api/tiktok/upload", { method: "POST", body: form });
       const data = await res.json();
       if (data.publish_id) setPostResult("✅ Video wird auf TikTok hochgeladen!");
       else setPostResult(`❌ Fehler: ${data.error}`);
