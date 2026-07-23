@@ -228,7 +228,7 @@ export default function TikTokGenerator() {
       const res = await fetch("/api/tiktok/upload", { method: "POST", body: form });
       const data = await res.json();
       if (data.publish_id) setPostResult("✅ Video wird auf TikTok hochgeladen!");
-      else setPostResult(`❌ Fehler: ${data.error}`);
+      else setPostResult(`❌ Fehler: ${data.error} — ${JSON.stringify(data.detail ?? {})}`);
     } catch {
       setPostResult("❌ Upload fehlgeschlagen.");
     } finally { setPosting(false); }
