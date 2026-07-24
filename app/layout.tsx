@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import CookieBanner from "@/components/CookieBanner";
 
 export const metadata: Metadata = {
   title: "Preisgucken – Deals, Tipps & Kaufberatung",
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </nav>
 
         <main>{children}</main>
+        <CookieBanner />
 
         <footer className="py-4 mt-5" style={{ background: "var(--pg-blue)" }}>
           <div className="container text-center small">
