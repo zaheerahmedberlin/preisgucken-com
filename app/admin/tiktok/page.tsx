@@ -175,6 +175,7 @@ export default function TikTokGenerator() {
   const [tiktokConnected, setTiktokConnected] = useState(false);
   const [posting, setPosting] = useState(false);
   const [postResult, setPostResult] = useState<string | null>(null);
+  const [publishId, setPublishId] = useState<string | null>(null);
   const [generatingVideo, setGeneratingVideo] = useState(false);
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
   const [videoBlob, setVideoBlob] = useState<Blob | null>(null);
@@ -227,8 +228,10 @@ export default function TikTokGenerator() {
       form.append("caption", caption);
       const res = await fetch("/api/tiktok/upload", { method: "POST", body: form });
       const data = await res.json();
-      if (data.publish_id) setPostResult("✅ Video wird auf TikTok hochgeladen!");
-      else setPostResult(`❌ Fehler: ${data.error} — ${JSON.stringify(data.detail ?? {})}`);
+      if (data.publish_id) {
+        setPublishId(data.publish_id);
+        setPostResult(`✅ Video hochgeladen! publish_id: ${data.publish_id}`);
+      } else setPostResult(`❌ Fehler: ${data.error} — ${JSON.stringify(data.detail ?? {})}`);
     } catch {
       setPostResult("❌ Upload fehlgeschlagen.");
     } finally { setPosting(false); }
@@ -520,7 +523,14 @@ export default function TikTokGenerator() {
                         )}
                       </div>
                     )}
-                    {postResult && <div className="mt-2 small text-center">{postResult}</div>}
+                    {postResult && <div className="mt-2 small text-center" style={{wordBreak:"break-all"}}>{postResult}</div>}
+                    {publishId && (
+                      <button className="btn btn-sm btn-outline-secondary mt-2 w-100" onClick={async () => {
+                        const res = await fetch(`/api/tiktok/status?publish_id=${publishId}`);
+                        const data = await res.json();
+                        setPostResult(`Status: ${JSON.stringify(data?.data ?? data)}`);
+                      }}>Status prüfen</button>
+                    )}
                   </>
                 );
               })()}
