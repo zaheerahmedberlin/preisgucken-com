@@ -23,7 +23,7 @@ export default function CookieBanner() {
     save({ necessary: true, stats: false, marketing: false });
   }
 
-  function save(consent) {
+  function save(consent: { necessary: boolean; stats: boolean; marketing: boolean }) {
     try {
       localStorage.setItem(COOKIE_KEY, JSON.stringify({ ...consent, updatedAt: Date.now() }));
     } catch {}
