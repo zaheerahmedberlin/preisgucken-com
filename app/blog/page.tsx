@@ -57,6 +57,33 @@ const posts = [
     readTime: "5 Min.",
     featured: false,
   },
+  {
+    slug: "/blog/staubsauger-kaufen-ratgeber",
+    title: "Staubsauger kaufen 2026: Der große Ratgeber",
+    excerpt: "Beutellos, Akku oder Roboter? Wir erklären alle Typen und zeigen dir, wo du den besten Staubsauger zum günstigsten Preis findest.",
+    category: "Kaufberatung",
+    date: "24. Juli 2026",
+    readTime: "7 Min.",
+    featured: false,
+  },
+  {
+    slug: "/blog/fernseher-kaufen-ratgeber",
+    title: "Fernseher kaufen 2026: OLED, QLED oder LED?",
+    excerpt: "Welcher TV-Typ lohnt sich wirklich? Wir erklären die Unterschiede zwischen OLED, QLED und LED und zeigen wo du am günstigsten kaufst.",
+    category: "Kaufberatung",
+    date: "24. Juli 2026",
+    readTime: "8 Min.",
+    featured: false,
+  },
+  {
+    slug: "/blog/gartenmoebel-kaufen-ratgeber",
+    title: "Gartenmöbel kaufen 2026: Ratgeber für Balkon & Garten",
+    excerpt: "Polyrattan, Aluminium oder Holz? Unser Ratgeber erklärt die Materialien und zeigt, wie du Gartenmöbel günstig kaufst.",
+    category: "Kaufberatung",
+    date: "24. Juli 2026",
+    readTime: "7 Min.",
+    featured: false,
+  },
 ];
 
 const categoryColors: Record<string, string> = {
