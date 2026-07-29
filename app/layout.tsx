@@ -2,9 +2,25 @@ import type { Metadata } from "next";
 import "./globals.css";
 import CookieBanner from "@/components/CookieBanner";
 
+const BASE_URL = "https://www.preisgucken.com";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: "Preisgucken – Deals, Tipps & Kaufberatung",
   description: "Schnäppchen-Tipps, Kaufberatung und Preisvergleich-News aus Deutschland.",
+  alternates: { canonical: BASE_URL },
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    url: BASE_URL,
+    siteName: "Preisgucken",
+    title: "Preisgucken – Deals, Tipps & Kaufberatung",
+    description: "Schnäppchen-Tipps, Kaufberatung und Preisvergleich-News aus Deutschland.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
