@@ -1,24 +1,24 @@
 const latestPosts = [
   {
-    slug: "/blog/boxspringbett-kaufen-ratgeber",
-    title: "Boxspringbett kaufen 2026: Der ultimative Ratgeber",
-    excerpt: "Welche Größe, Härtegrad und Qualität lohnt sich wirklich?",
+    slug: "/blog/matratze-kaufen-ratgeber",
+    title: "Matratze kaufen 2026: Härtegrad, Größe & Material",
+    excerpt: "Welcher Härtegrad passt zu dir und Federkern oder Schaumstoff?",
     category: "Kaufberatung",
-    date: "20. Juli 2026",
+    date: "29. Juli 2026",
   },
   {
-    slug: "/blog/schnaeppchen-tipps-2026",
-    title: "15 Schnäppchen-Tipps 2026",
-    excerpt: "Wie du nie wieder zu viel bezahlst – 15 Tricks die sofort funktionieren.",
-    category: "Spartipps",
-    date: "19. Juli 2026",
+    slug: "/blog/abendkleid-cocktailkleid-kaufen-ratgeber",
+    title: "Abendkleid & Cocktailkleid kaufen 2026",
+    excerpt: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass?",
+    category: "Kaufberatung",
+    date: "29. Juli 2026",
   },
   {
-    slug: "/blog/sofa-kaufen-ratgeber",
-    title: "Sofa kaufen: Ratgeber 2026",
-    excerpt: "Größe, Stoff, Budget – Schritt für Schritt zum richtigen Sofa.",
+    slug: "/blog/vorhaenge-kaufen-ratgeber",
+    title: "Vorhänge kaufen 2026: Verdunkelung & Schallschutz",
+    excerpt: "Nicht jeder Vorhang kann alles – welcher Stoff für welchen Zweck taugt.",
     category: "Kaufberatung",
-    date: "17. Juli 2026",
+    date: "29. Juli 2026",
   },
 ];
 
