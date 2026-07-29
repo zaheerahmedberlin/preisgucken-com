@@ -11,6 +11,11 @@ const blogPosts = [
   "staubsauger-kaufen-ratgeber",
   "fernseher-kaufen-ratgeber",
   "gartenmoebel-kaufen-ratgeber",
+  "matratze-kaufen-ratgeber",
+  "vorhaenge-kaufen-ratgeber",
+  "abendkleid-cocktailkleid-kaufen-ratgeber",
+  "kamerastativ-kaufen-ratgeber",
+  "smartphone-kaufen-ratgeber",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
