@@ -16,6 +16,16 @@ const blogPosts = [
   "abendkleid-cocktailkleid-kaufen-ratgeber",
   "kamerastativ-kaufen-ratgeber",
   "smartphone-kaufen-ratgeber",
+  "uhren-kaufen-ratgeber",
+  "schmuck-kaufen-ratgeber",
+  "ohrringe-kaufen-ratgeber",
+  "halsketten-kaufen-ratgeber",
+  "armbaender-kaufen-ratgeber",
+  "ringe-kaufen-ratgeber",
+  "fusskettchen-kaufen-ratgeber",
+  "schmucksets-kaufen-ratgeber",
+  "schmuck-als-geschenk-ratgeber",
+  "sterlingsilber-vs-edelstahl-schmuck",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

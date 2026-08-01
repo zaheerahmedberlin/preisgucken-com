@@ -1,24 +1,24 @@
 const latestPosts = [
   {
-    slug: "/blog/matratze-kaufen-ratgeber",
-    title: "Matratze kaufen 2026: Härtegrad, Größe & Material",
-    excerpt: "Welcher Härtegrad passt zu dir und Federkern oder Schaumstoff?",
+    slug: "/blog/uhren-kaufen-ratgeber",
+    title: "Uhren kaufen 2026: Automatik, Quarz & Material",
+    excerpt: "Automatik oder Quarz? Welches Material hält am längsten?",
     category: "Kaufberatung",
-    date: "29. Juli 2026",
+    date: "1. August 2026",
   },
   {
-    slug: "/blog/abendkleid-cocktailkleid-kaufen-ratgeber",
-    title: "Abendkleid & Cocktailkleid kaufen 2026",
-    excerpt: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass?",
+    slug: "/blog/schmuck-kaufen-ratgeber",
+    title: "Schmuck kaufen: Materialien, Qualität & Kauftipps",
+    excerpt: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck.",
     category: "Kaufberatung",
-    date: "29. Juli 2026",
+    date: "1. August 2026",
   },
   {
-    slug: "/blog/vorhaenge-kaufen-ratgeber",
-    title: "Vorhänge kaufen 2026: Verdunkelung & Schallschutz",
-    excerpt: "Nicht jeder Vorhang kann alles – welcher Stoff für welchen Zweck taugt.",
+    slug: "/blog/schmuck-als-geschenk-ratgeber",
+    title: "Schmuck verschenken: Die besten Geschenkideen",
+    excerpt: "Welcher Schmuck passt zu welchem Anlass? Geschenkideen für jedes Budget.",
     category: "Kaufberatung",
-    date: "29. Juli 2026",
+    date: "1. August 2026",
   },
 ];
 
