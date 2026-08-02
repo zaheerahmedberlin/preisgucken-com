@@ -6,9 +6,14 @@ const BASE_URL = "https://www.preisgucken.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
-  title: "Preisgucken – Deals, Tipps & Kaufberatung",
-  description: "Schnäppchen-Tipps, Kaufberatung und Preisvergleich-News aus Deutschland.",
+  title: {
+    default: "Preisgucken – Preisvergleich, Deals & Kaufberatung",
+    template: "%s | Preisgucken – Preisvergleich",
+  },
+  description: "Preisvergleich-Ratgeber, Schnäppchen-Tipps und Kaufberatung aus Deutschland – von den Preisvergleich-Experten von Preisgucken.de.",
   keywords: [
+    "Preisvergleich",
+    "Preisvergleich Ratgeber",
     "Kaufberatung",
     "Ratgeber",
     "Schnäppchen-Tipps",
@@ -32,8 +37,8 @@ export const metadata: Metadata = {
     locale: "de_DE",
     url: BASE_URL,
     siteName: "Preisgucken",
-    title: "Preisgucken – Deals, Tipps & Kaufberatung",
-    description: "Schnäppchen-Tipps, Kaufberatung und Preisvergleich-News aus Deutschland.",
+    title: "Preisgucken – Preisvergleich, Deals & Kaufberatung",
+    description: "Preisvergleich-Ratgeber, Schnäppchen-Tipps und Kaufberatung aus Deutschland – von den Preisvergleich-Experten von Preisgucken.de.",
   },
   robots: {
     index: true,

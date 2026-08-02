@@ -27,9 +27,9 @@ export default function Home() {
     <>
       <section className="hero text-center">
         <div className="container">
-          <h1 className="display-5 fw-bold mb-3">Deals finden. Schlau sparen.</h1>
+          <h1 className="display-5 fw-bold mb-3">Preisvergleich, Deals & schlau sparen</h1>
           <p className="lead mb-4 opacity-75">
-            Kaufberatung, Schnäppchen-Tipps und Preisvergleiche aus Deutschland.
+            Kaufberatung, Schnäppchen-Tipps und Preisvergleich-Ratgeber aus Deutschland.
           </p>
           <div className="d-flex justify-content-center gap-3 flex-wrap">
             <a href="/blog" className="btn btn-light btn-lg px-4 fw-semibold">Zum Blog</a>
