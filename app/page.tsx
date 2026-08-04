@@ -78,7 +78,7 @@ export default function Home() {
             <div className="card h-100 p-4">
               <div className="fs-2 mb-3">💰</div>
               <h3 className="h5 fw-bold">Preise vergleichen</h3>
-              <p className="text-muted small">Über 8.000 Produkte im Preisvergleich auf preisgucken.de – kostenlos und ohne Anmeldung.</p>
+              <p className="text-muted small">Tausende Produkte im Preisvergleich auf preisgucken.de – kostenlos und ohne Anmeldung.</p>
               <a href="https://www.preisgucken.de" className="btn btn-brand btn-sm mt-auto d-inline-block" target="_blank" rel="noopener">Zu preisgucken.de →</a>
             </div>
           </div>
