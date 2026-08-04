@@ -222,10 +222,19 @@ const posts = [
   {
     slug: "/blog/smartwatch-armband-kaufen-guide",
     title: "Smartwatch Armband kaufen 2026: Material, Größe & Preisvergleich",
-    excerpt: "Ersatzarmband für Apple Watch, Samsung, Garmin, Fitbit oder Xiaomi gesucht? Kompatibilität, Material und Größe im Ratgeber.",
+    excerpt: "Ersatzarmband für Apple Watch, Samsung, Garmin, Fitbit oder Xiaomi gesucht? Kompatibilität, Material und Größe im Guide.",
     category: "Kaufberatung",
     date: "4. August 2026",
     readTime: "7 Min.",
+    featured: true,
+  },
+  {
+    slug: "/blog/luxusuhren-kaufen",
+    title: "Luxusuhren kaufen 2026: Was einen hohen Preis rechtfertigt",
+    excerpt: "Material, Limitierung und Fertigung im Check – mit der Dark Matter 4 von Tsarbomba als Praxisbeispiel im Preisvergleich.",
+    category: "Kaufberatung",
+    date: "4. August 2026",
+    readTime: "8 Min.",
     featured: true,
   },
 ];

@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/luxusuhren-kaufen",
+    title: "Luxusuhren kaufen 2026: Was den Preis rechtfertigt",
+    excerpt: "Material, Limitierung & Fertigung – mit der Dark Matter 4 von Tsarbomba als Beispiel.",
+    category: "Kaufberatung",
+    date: "4. August 2026",
+  },
+  {
     slug: "/blog/smartwatch-armband-kaufen-guide",
     title: "Smartwatch Armband kaufen 2026: Material & Größe",
     excerpt: "Apple Watch, Garmin, Samsung oder Fitbit – welches Ersatzarmband passt?",
@@ -10,13 +17,6 @@ const latestPosts = [
     slug: "/blog/uhren-kaufen-ratgeber",
     title: "Uhren kaufen 2026: Automatik, Quarz & Material",
     excerpt: "Automatik oder Quarz? Welches Material hält am längsten?",
-    category: "Kaufberatung",
-    date: "1. August 2026",
-  },
-  {
-    slug: "/blog/schmuck-kaufen-ratgeber",
-    title: "Schmuck kaufen: Materialien, Qualität & Kauftipps",
-    excerpt: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck.",
     category: "Kaufberatung",
     date: "1. August 2026",
   },
