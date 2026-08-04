@@ -237,6 +237,15 @@ const posts = [
     readTime: "8 Min.",
     featured: true,
   },
+  {
+    slug: "/blog/kleider-fuer-jeden-anlass",
+    title: "Kleider für jeden Anlass: Alltag, Hochzeit & Schwangerschaft",
+    excerpt: "Alltagskleid, Brautkleid oder Umstandskleid – welcher Schnitt und Stoff passt zu welchem Anlass? Mit Preisvergleich.",
+    category: "Kaufberatung",
+    date: "4. August 2026",
+    readTime: "8 Min.",
+    featured: true,
+  },
 ];
 
 const categoryColors: Record<string, string> = {

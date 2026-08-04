@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/kleider-fuer-jeden-anlass",
+    title: "Kleider für jeden Anlass: Alltag, Hochzeit & Schwangerschaft",
+    excerpt: "Alltagskleid, Brautkleid oder Umstandskleid – Schnitt und Stoff im Guide.",
+    category: "Kaufberatung",
+    date: "4. August 2026",
+  },
+  {
     slug: "/blog/luxusuhren-kaufen",
     title: "Luxusuhren kaufen 2026: Was den Preis rechtfertigt",
     excerpt: "Material, Limitierung & Fertigung – mit der Dark Matter 4 von Tsarbomba als Beispiel.",
@@ -12,13 +19,6 @@ const latestPosts = [
     excerpt: "Apple Watch, Garmin, Samsung oder Fitbit – welches Ersatzarmband passt?",
     category: "Kaufberatung",
     date: "4. August 2026",
-  },
-  {
-    slug: "/blog/uhren-kaufen-ratgeber",
-    title: "Uhren kaufen 2026: Automatik, Quarz & Material",
-    excerpt: "Automatik oder Quarz? Welches Material hält am längsten?",
-    category: "Kaufberatung",
-    date: "1. August 2026",
   },
 ];
 
