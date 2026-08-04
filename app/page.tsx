@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/smartwatch-armband-kaufen-guide",
+    title: "Smartwatch Armband kaufen 2026: Material & Größe",
+    excerpt: "Apple Watch, Garmin, Samsung oder Fitbit – welches Ersatzarmband passt?",
+    category: "Kaufberatung",
+    date: "4. August 2026",
+  },
+  {
     slug: "/blog/uhren-kaufen-ratgeber",
     title: "Uhren kaufen 2026: Automatik, Quarz & Material",
     excerpt: "Automatik oder Quarz? Welches Material hält am längsten?",
@@ -10,13 +17,6 @@ const latestPosts = [
     slug: "/blog/schmuck-kaufen-ratgeber",
     title: "Schmuck kaufen: Materialien, Qualität & Kauftipps",
     excerpt: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck.",
-    category: "Kaufberatung",
-    date: "1. August 2026",
-  },
-  {
-    slug: "/blog/schmuck-als-geschenk-ratgeber",
-    title: "Schmuck verschenken: Die besten Geschenkideen",
-    excerpt: "Welcher Schmuck passt zu welchem Anlass? Geschenkideen für jedes Budget.",
     category: "Kaufberatung",
     date: "1. August 2026",
   },

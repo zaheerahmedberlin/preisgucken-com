@@ -219,6 +219,15 @@ const posts = [
     readTime: "6 Min.",
     featured: false,
   },
+  {
+    slug: "/blog/smartwatch-armband-kaufen-guide",
+    title: "Smartwatch Armband kaufen 2026: Material, Größe & Preisvergleich",
+    excerpt: "Ersatzarmband für Apple Watch, Samsung, Garmin, Fitbit oder Xiaomi gesucht? Kompatibilität, Material und Größe im Ratgeber.",
+    category: "Kaufberatung",
+    date: "4. August 2026",
+    readTime: "7 Min.",
+    featured: true,
+  },
 ];
 
 const categoryColors: Record<string, string> = {
