@@ -1,10 +1,10 @@
 const latestPosts = [
   {
-    slug: "/blog/kleider-fuer-jeden-anlass",
-    title: "Kleider für jeden Anlass: Alltag, Hochzeit & Schwangerschaft",
-    excerpt: "Alltagskleid, Brautkleid oder Umstandskleid – Schnitt und Stoff im Guide.",
+    slug: "/blog/schokolade-pralinen-kaufen",
+    title: "Pralinen, Tafel oder Geschenkbox? So findest du die richtige Schokolade",
+    excerpt: "Kakaoanteil, Herkunft & Verarbeitung – mit Venchi als Praxisbeispiel im Preisvergleich.",
     category: "Kaufberatung",
-    date: "4. August 2026",
+    date: "7. August 2026",
   },
   {
     slug: "/blog/luxusuhren-kaufen",

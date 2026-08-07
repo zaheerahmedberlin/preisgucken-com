@@ -101,6 +101,15 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     ],
   },
   {
+    slug: "suesswaren-genuss",
+    name: "Süßwaren & Genuss",
+    description: "Schokolade, Pralinen und Geschenkideen für Genießer im Kaufberatungs-Check.",
+    pgLink: "suesswaren",
+    posts: [
+      { slug: "schokolade-pralinen-kaufen", title: "Pralinen, Tafel oder Geschenkbox? So findest du die richtige Schokolade", excerpt: "Kakaoanteil, Herkunft und Verarbeitung im Überblick – mit Venchi als Praxisbeispiel im Preisvergleich.", date: "7. August 2026", readTime: "6 Min.", featured: true, pgLink: "suesswaren" },
+    ],
+  },
+  {
     slug: "spartipps-preisvergleich",
     name: "Spartipps & Preisvergleich",
     description: "So nutzt du Preisvergleiche richtig und sparst bei jedem Einkauf.",
