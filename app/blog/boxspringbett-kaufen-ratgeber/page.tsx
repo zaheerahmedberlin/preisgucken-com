@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Boxspringbett kaufen 2026: Der ultimative Ratgeber | Preisgucken",
+  title: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten | Preisgucken",
   description: "Boxspringbett kaufen: Welche Größe, Härtegrad und Qualität lohnt sich wirklich? Unser Experten-Ratgeber mit Preisvergleich – spare bis zu 40% beim Kauf.",
   keywords: ["boxspringbett kaufen", "boxspringbett ratgeber", "bestes boxspringbett 2026", "boxspringbett preisvergleich", "boxspringbett 140x200", "boxspringbett 180x200"],
   openGraph: {
-    title: "Boxspringbett kaufen 2026: Der ultimative Ratgeber",
+    title: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten",
     description: "Welche Größe, Härtegrad und Qualität lohnt sich wirklich? Unser Experten-Ratgeber mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/boxspringbett-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Boxspringbett kaufen 2026: Der ultimative Ratgeber",
+  headline: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten",
   description: "Alles was du wissen musst, bevor du ein Boxspringbett kaufst – Größen, Härtegrade, Materialien und Preise im Vergleich.",
   datePublished: "2026-07-20",
   author: { "@type": "Organization", name: "Preisgucken" },
@@ -36,7 +36,7 @@ export default function BoxspringbettRatgeber() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Boxspringbett kaufen 2026: Der ultimative Ratgeber</h1>
+          <h1 className="fw-bold display-6 mb-3">7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten</h1>
           <p className="lead text-muted">Welche Größe, welcher Härtegrad, welches Material – und wo kaufst du am günstigsten? Wir beantworten alle Fragen, damit du nicht zu viel bezahlst.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 20. Juli 2026</span>
@@ -139,7 +139,7 @@ export default function BoxspringbettRatgeber() {
         <div className="card p-4 text-center" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Jetzt Boxspringbett-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Über 1.800 Bett-Angebote aus deutschen Online-Shops – aktuell & kostenlos.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/schlafen" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

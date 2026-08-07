@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sofa kaufen 2026: Ratgeber für das perfekte Wohnzimmersofa | Preisgucken",
+  title: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide | Preisgucken",
   description: "Sofa kaufen: Welche Größe, welcher Stoff und wie viel Budget? Unser Experten-Ratgeber hilft dir, das beste Sofa zum besten Preis zu finden.",
   keywords: ["sofa kaufen", "couch kaufen ratgeber", "sofa kaufberatung 2026", "bestes sofa preisvergleich", "sofa stoff oder leder", "sofa maße"],
   openGraph: {
-    title: "Sofa kaufen 2026: Ratgeber für das perfekte Wohnzimmersofa",
+    title: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide",
     description: "Welche Größe, welcher Stoff und wie viel Budget? Unser Experten-Ratgeber für den Sofa-Kauf.",
     url: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Sofa kaufen 2026: Ratgeber für das perfekte Wohnzimmersofa",
+  headline: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide",
   datePublished: "2026-07-17",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function SofaKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Sofa kaufen 2026: Der Ratgeber für das perfekte Wohnzimmersofa</h1>
+          <h1 className="fw-bold display-6 mb-3">Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide</h1>
           <p className="lead text-muted">Größe, Form, Stoff – beim Sofakauf gibt es viele Entscheidungen. Wir führen dich Schritt für Schritt zum richtigen Sofa zum besten Preis.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 17. Juli 2026</span>
@@ -137,7 +137,7 @@ export default function SofaKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Sofa-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Über 1.600 Sofas & Couches aus deutschen Online-Shops – jetzt günstigsten Preis finden.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Sofa-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/sitzen" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Sofa-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

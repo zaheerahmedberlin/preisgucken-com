@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Smartwatch Armband kaufen 2026: Material, Größe & Preisvergleich | Preisgucken",
+  title: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt | Preisgucken",
   description: "Ersatzarmband für Apple Watch, Samsung Galaxy Watch, Garmin, Fitbit oder Xiaomi gesucht? Der Guide zu Material, Kompatibilität und Größe – mit Preisvergleich.",
   keywords: [
     "smartwatch armband kaufen",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "smartwatch armband größe messen",
   ],
   openGraph: {
-    title: "Smartwatch Armband kaufen 2026: Material, Größe & Preisvergleich",
+    title: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt",
     description: "Ersatzarmband für Apple Watch, Samsung, Garmin, Fitbit oder Xiaomi – der komplette Guide mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide",
     type: "article",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Smartwatch Armband kaufen 2026: Material, Größe & Preisvergleich",
+  headline: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt",
   datePublished: "2026-08-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -45,7 +45,7 @@ export default function SmartwatchArmbandKaufenGuidePage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Smartwatch Armband kaufen 2026: Der komplette Guide</h1>
+          <h1 className="fw-bold display-6 mb-3">Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt</h1>
           <p className="lead text-muted">
             Ob Apple Watch, Samsung Galaxy Watch, Garmin, Fitbit oder Xiaomi – ein neues Armband verändert Tragekomfort
             und Optik deiner Smartwatch komplett, oft für einen Bruchteil des Preises einer neuen Uhr. Der Guide zeigt,

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Staubsauger kaufen 2026: Ratgeber & Preisvergleich | Preisgucken",
+  title: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt | Preisgucken",
   description: "Welcher Staubsauger lohnt sich 2026? Beutellos, Akku oder Roboter? Unser Ratgeber hilft dir, den besten Staubsauger zum günstigsten Preis zu finden.",
   keywords: ["staubsauger kaufen", "bester staubsauger 2026", "staubsauger preisvergleich", "akkusauger test", "staubsauger roboter günstig"],
   alternates: { canonical: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber" },
   openGraph: {
-    title: "Staubsauger kaufen 2026: Ratgeber & Preisvergleich",
+    title: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt",
     description: "Beutellos, Akku oder Roboter? Wir helfen dir, den richtigen Staubsauger zum besten Preis zu finden.",
     url: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber",
     type: "article",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Staubsauger kaufen 2026: Ratgeber & Preisvergleich",
+  headline: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt",
   description: "Welcher Staubsauger lohnt sich 2026? Unser Ratgeber erklärt alle Typen und zeigt dir, wo du am günstigsten kaufst.",
   datePublished: "2026-07-24",
   author: { "@type": "Organization", name: "Preisgucken" },

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fußkettchen kaufen: Längen, Trends & Materialien | Preisgucken",
+  title: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden | Preisgucken",
   description: "Der Sommer-Trend Fußkettchen im Ratgeber: richtige Länge, wasserfeste Materialien und Styling-Tipps.",
   keywords: ["fußkettchen kaufen", "anklet damen", "fußkette sommer", "fußkettchen silber", "fußkette länge"],
   openGraph: {
-    title: "Fußkettchen kaufen: Längen, Trends & Materialien",
+    title: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden",
     description: "Der Sommer-Trend Fußkettchen im Ratgeber: richtige Länge, wasserfeste Materialien und Styling-Tipps.",
     url: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Fußkettchen kaufen: Längen, Trends & Materialien",
+  headline: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function FusskettchenKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Fußkettchen kaufen 2026: Längen, Trends & Materialien</h1>
+          <h1 className="fw-bold display-6 mb-3">Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden</h1>
           <p className="lead text-muted">Ob am Strand oder im Alltag – Fußkettchen sind ein unterschätztes Accessoire. So findest du die richtige Länge und ein Material, das Wasser und Sonne verträgt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
@@ -91,7 +91,7 @@ export default function FusskettchenKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Fußkettchen-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Wasserfeste und klassische Fußkettchen aus deutschen Online-Shops – jetzt den günstigsten Preis finden.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Fußkettchen-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/schmuck" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Fußkettchen-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

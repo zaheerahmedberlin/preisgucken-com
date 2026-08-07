@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kamerastativ kaufen 2026: Carbon vs. Aluminium & Kugelkopf-Ratgeber | Preisgucken",
+  title: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck | Preisgucken",
   description: "Reisestativ, Videostativ oder Einbeinstativ? Der Ratgeber zu Material, Traglast und Stativkopf – mit Preisvergleich für Foto- und Videozubehör.",
   keywords: ["kamerastativ kaufen", "reisestativ ratgeber", "carbon oder aluminium stativ", "kugelkopf kaufen", "videostativ kaufen", "einbeinstativ ratgeber"],
   openGraph: {
-    title: "Kamerastativ kaufen 2026: Carbon vs. Aluminium & Kugelkopf-Ratgeber",
+    title: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck",
     description: "Reisestativ, Videostativ oder Einbeinstativ? Der Ratgeber zu Material, Traglast und Stativkopf.",
     url: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Kamerastativ kaufen 2026: Carbon vs. Aluminium & Kugelkopf-Ratgeber",
+  headline: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck",
   datePublished: "2026-07-29",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function KamerastativKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Kamerastativ kaufen 2026: Der Ratgeber für Foto &amp; Video</h1>
+          <h1 className="fw-bold display-6 mb-3">Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck</h1>
           <p className="lead text-muted">Carbon oder Aluminium, Kugelkopf oder Videokopf – welches Stativ wirklich zu deinem Einsatzzweck passt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>
@@ -124,7 +124,7 @@ export default function KamerastativKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Foto- &amp; Videozubehör vergleichen</h3>
           <p className="text-muted small mb-3">Stative, Stativköpfe und mehr im direkten Preisvergleich.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/foto-optik" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

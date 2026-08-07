@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sterlingsilber oder Edelstahl? Der Material-Vergleich | Preisgucken",
+  title: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser? | Preisgucken",
   description: "925er Sterlingsilber vs. hypoallergener Edelstahl: Unterschiede bei Preis, Pflege, Allergierisiko und Haltbarkeit.",
   keywords: ["sterlingsilber vs edelstahl", "welcher schmuck läuft nicht an", "hypoallergener schmuck material", "schmuck empfindliche haut", "925 silber pflege"],
   openGraph: {
-    title: "Sterlingsilber oder Edelstahl? Der Material-Vergleich",
+    title: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?",
     description: "925er Sterlingsilber vs. hypoallergener Edelstahl: Unterschiede bei Preis, Pflege, Allergierisiko und Haltbarkeit.",
     url: "https://www.preisgucken.com/blog/sterlingsilber-vs-edelstahl-schmuck",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Sterlingsilber oder Edelstahl? Der Material-Vergleich",
+  headline: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function SterlingsilberVsEdelstahlPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Sterlingsilber oder Edelstahl? Der große Material-Vergleich</h1>
+          <h1 className="fw-bold display-6 mb-3">Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?</h1>
           <p className="lead text-muted">Zwei der beliebtesten Schmuckmaterialien im direkten Vergleich – wir zeigen, wo die Unterschiede bei Preis, Pflege und Verträglichkeit wirklich liegen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
@@ -95,7 +95,7 @@ export default function SterlingsilberVsEdelstahlPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Schmuck-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Sterlingsilber- und Edelstahl-Schmuck aus deutschen Online-Shops – jetzt den günstigsten Preis finden.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Schmuck-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/schmuck" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Schmuck-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

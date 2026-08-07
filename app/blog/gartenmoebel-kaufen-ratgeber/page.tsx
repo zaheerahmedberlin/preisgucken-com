@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gartenmöbel kaufen 2026: Ratgeber & Preisvergleich | Preisgucken",
+  title: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich | Preisgucken",
   description: "Welche Gartenmöbel lohnen sich 2026? Lounge, Essgruppe oder Liegestuhl? Unser Ratgeber zeigt dir die besten Materialien und Schnäppchen.",
   keywords: ["gartenmöbel kaufen", "gartenmöbel günstig", "gartenmöbel 2026", "lounge set garten", "gartenset preisvergleich"],
   alternates: { canonical: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber" },
   openGraph: {
-    title: "Gartenmöbel kaufen 2026: Ratgeber & Preisvergleich",
+    title: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich",
     description: "Lounge, Essgruppe oder Liegestuhl? Unser Ratgeber hilft dir, die besten Gartenmöbel zum günstigsten Preis zu finden.",
     url: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber",
     type: "article",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Gartenmöbel kaufen 2026: Ratgeber & Preisvergleich",
+  headline: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich",
   description: "Welche Gartenmöbel lohnen sich 2026? Wir erklären Materialien, Typen und zeigen wo du am günstigsten kaufst.",
   datePublished: "2026-07-24",
   author: { "@type": "Organization", name: "Preisgucken" },
@@ -88,7 +88,7 @@ export default function GartenmoebелRatgeber() {
         <div className="mt-5 p-4 rounded" style={{ background: "#f0f4fa", border: "1px solid #d0daea" }}>
           <h3 className="h5 fw-bold mb-2" style={{ color: "#1A3A6B" }}>Jetzt Gartenmöbel günstig finden</h3>
           <p className="mb-3">Täglich aktualisierte Preise aus deutschen Online-Shops – kostenlos vergleichen.</p>
-          <a href="https://www.preisgucken.de" className="btn fw-bold px-4" style={{ background: "#F5A623", color: "#fff", borderRadius: 8 }}>
+          <a href="https://www.preisgucken.de/kategorie/gartenmoebel" className="btn fw-bold px-4" style={{ background: "#F5A623", color: "#fff", borderRadius: 8 }}>
             Gartenmöbel vergleichen →
           </a>
         </div>

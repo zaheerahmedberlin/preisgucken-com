@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Vorhänge kaufen 2026: Verdunkelung, Schallschutz & Stoffe im Ratgeber | Preisgucken",
+  title: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt | Preisgucken",
   description: "Verdunkelungsvorhang, Schallschutzvorhang oder lichtdurchlässiger Stoff? Der komplette Ratgeber für den richtigen Vorhang – mit Preisvergleich.",
   keywords: ["vorhänge kaufen", "verdunkelungsvorhang ratgeber", "schallschutzvorhang", "gardinen vs vorhänge", "vorhang stoffarten", "vorhänge kaufberatung 2026"],
   openGraph: {
-    title: "Vorhänge kaufen 2026: Verdunkelung, Schallschutz & Stoffe im Ratgeber",
+    title: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt",
     description: "Verdunkelungsvorhang, Schallschutzvorhang oder lichtdurchlässiger Stoff? Der komplette Ratgeber.",
     url: "https://www.preisgucken.com/blog/vorhaenge-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Vorhänge kaufen 2026: Verdunkelung, Schallschutz & Stoffe im Ratgeber",
+  headline: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt",
   datePublished: "2026-07-29",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function VorhaengeKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Vorhänge kaufen 2026: Verdunkelung, Schallschutz &amp; die richtige Stoffwahl</h1>
+          <h1 className="fw-bold display-6 mb-3">Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt</h1>
           <p className="lead text-muted">Nicht jeder Vorhang kann alles – wir zeigen dir, welcher Stoff für welchen Zweck taugt und wie du beim Kauf nichts falsch machst.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>
@@ -103,7 +103,7 @@ export default function VorhaengeKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Vorhänge-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Verdunkelungs-, Schallschutz- und Thermovorhänge im direkten Preisvergleich.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Vorhänge-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/vorhaenge" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Vorhänge-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

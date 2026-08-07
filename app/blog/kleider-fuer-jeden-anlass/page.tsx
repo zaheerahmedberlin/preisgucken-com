@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kleider für jeden Anlass 2026: Alltag, Hochzeit & Schwangerschaft | Preisgucken",
+  title: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte | Preisgucken",
   description: "Alltagskleid, Brautkleid oder Umstandskleid – welcher Schnitt und Stoff passt zu welchem Anlass? Der Guide zu Passform, Material und Preisvergleich für Damenkleider.",
   keywords: [
     "kleider kaufen",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "kleidergröße bestimmen",
   ],
   openGraph: {
-    title: "Kleider für jeden Anlass 2026: Alltag, Hochzeit & Schwangerschaft",
+    title: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte",
     description: "Alltagskleid, Brautkleid oder Umstandskleid – Passform, Material und Preisvergleich für Damenkleider.",
     url: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass",
     type: "article",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Kleider für jeden Anlass 2026: Alltag, Hochzeit & Schwangerschaft",
+  headline: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte",
   datePublished: "2026-08-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -44,7 +44,7 @@ export default function KleiderFuerJedenAnlassPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Kleider für jeden Anlass: Der Guide für Alltag, Hochzeit & Schwangerschaft</h1>
+          <h1 className="fw-bold display-6 mb-3">Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte</h1>
           <p className="lead text-muted">
             Ein Kleid ist selten nur ein Kleid – Schnitt, Stoff und Passform entscheiden, ob es für den Büroalltag,
             den großen Tag oder die Schwangerschaft wirklich funktioniert. Wir zeigen, worauf es bei den vier

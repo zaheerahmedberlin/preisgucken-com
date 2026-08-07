@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ohrringe kaufen: Stecker, Creolen & Co. im Vergleich | Preisgucken",
+  title: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir? | Preisgucken",
   description: "Stecker, Creolen oder Dangle-Ohrringe? Materialien, Verschlüsse und Preise im Vergleich – für jeden Anlass das passende Paar.",
   keywords: ["ohrringe kaufen", "ohrstecker damen", "creolen kaufen", "hypoallergene ohrringe", "ohrringe empfindliche ohren", "ohrringe gesichtsform"],
   openGraph: {
-    title: "Ohrringe kaufen: Stecker, Creolen & Co. im Vergleich",
+    title: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?",
     description: "Stecker, Creolen oder Dangle-Ohrringe? Materialien, Verschlüsse und Preise im Vergleich.",
     url: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Ohrringe kaufen: Stecker, Creolen & Co. im Vergleich",
+  headline: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function OhrringeKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Ohrringe kaufen 2026: Stecker, Creolen & Co. im Vergleich</h1>
+          <h1 className="fw-bold display-6 mb-3">Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?</h1>
           <p className="lead text-muted">Vom dezenten Ohrstecker bis zur auffälligen Creole – wir zeigen dir Typen, Materialien und Verschlüsse, damit du die richtige Wahl triffst.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
@@ -111,7 +111,7 @@ export default function OhrringeKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Ohrringe-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Stecker, Creolen und Dangle-Ohrringe aus deutschen Online-Shops – jetzt den günstigsten Preis finden.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Ohrringe-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/schmuck" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Ohrringe-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

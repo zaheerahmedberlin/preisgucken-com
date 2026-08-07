@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Schmuck kaufen: Materialien, Qualität & Kauftipps 2026 | Preisgucken",
+  title: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden | Preisgucken",
   description: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck und findest das passende Stück – mit Preisvergleich.",
   keywords: ["schmuck kaufen", "schmuck online kaufen", "925 sterlingsilber", "hypoallergener schmuck", "hochwertigen schmuck erkennen", "schmuck qualität"],
   openGraph: {
-    title: "Schmuck kaufen: Materialien, Qualität & Kauftipps 2026",
+    title: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden",
     description: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck und findest das passende Stück.",
     url: "https://www.preisgucken.com/blog/schmuck-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Schmuck kaufen: Materialien, Qualität & Kauftipps 2026",
+  headline: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function SchmuckKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Schmuck kaufen 2026: Materialien, Qualität & Kauftipps</h1>
+          <h1 className="fw-bold display-6 mb-3">Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden</h1>
           <p className="lead text-muted">925er Sterlingsilber, hypoallergener Edelstahl oder vergoldet – welches Material hält, was es verspricht? Der Grundlagen-Ratgeber für alle Schmuckstücke.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
@@ -102,7 +102,7 @@ export default function SchmuckKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Schmuck-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Ohrringe, Ketten, Armbänder, Ringe und Sets aus deutschen Online-Shops – jetzt den günstigsten Preis finden.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Schmuck-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/schmuck" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Schmuck-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

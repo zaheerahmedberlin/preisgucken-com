@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ringe kaufen: Ringgröße bestimmen & Stil-Guide 2026 | Preisgucken",
+  title: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft | Preisgucken",
   description: "So findest du die richtige Ringgröße zuhause, welche Materialien halten und welcher Ringstil zu dir passt.",
   keywords: ["ring kaufen", "ringgröße bestimmen", "ring damen silber", "stapelringe", "ring als geschenk", "ringgröße tabelle"],
   openGraph: {
-    title: "Ringe kaufen: Ringgröße bestimmen & Stil-Guide 2026",
+    title: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft",
     description: "So findest du die richtige Ringgröße zuhause, welche Materialien halten und welcher Ringstil zu dir passt.",
     url: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Ringe kaufen: Ringgröße bestimmen & Stil-Guide 2026",
+  headline: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function RingeKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Ringe kaufen 2026: Ringgröße bestimmen & Stil-Guide</h1>
+          <h1 className="fw-bold display-6 mb-3">Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft</h1>
           <p className="lead text-muted">Die häufigste Fehlerquelle beim Ringkauf ist die falsche Größe. Wir zeigen dir, wie du sie zuhause bestimmst – und welcher Stil zu dir passt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
@@ -100,7 +100,7 @@ export default function RingeKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Ringe-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Stapelringe, Statement-Ringe und Sets aus deutschen Online-Shops – jetzt den günstigsten Preis finden.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Ringe-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/schmuck" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Ringe-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

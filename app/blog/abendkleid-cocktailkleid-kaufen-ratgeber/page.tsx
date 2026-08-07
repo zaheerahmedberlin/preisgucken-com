@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Abendkleid & Cocktailkleid kaufen 2026: Der Anlass-Ratgeber | Preisgucken",
+  title: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala | Preisgucken",
   description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass? Der Ratgeber für Schnitt, Länge und Farbe mit Preisvergleich.",
   keywords: ["abendkleid kaufen", "cocktailkleid ratgeber", "kleid für hochzeit als gast", "abendkleid welcher schnitt", "kleid online kaufen 2026", "brautjungfernkleid kaufen"],
   openGraph: {
-    title: "Abendkleid & Cocktailkleid kaufen 2026: Der Anlass-Ratgeber",
+    title: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala",
     description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass?",
     url: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Abendkleid & Cocktailkleid kaufen 2026: Der Anlass-Ratgeber",
+  headline: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala",
   datePublished: "2026-07-29",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function AbendkleidKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Abendkleid &amp; Cocktailkleid kaufen: Das richtige Kleid für jeden Anlass</h1>
+          <h1 className="fw-bold display-6 mb-3">Welches Kleid für welchen Anlass? Cocktailparty bis Gala</h1>
           <p className="lead text-muted">Von der Hochzeit als Gast bis zur Gala – welcher Schnitt, welche Länge und welche Farbe wirklich passen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>
@@ -121,7 +121,7 @@ export default function AbendkleidKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Kleider-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Cocktailkleider, Abendkleider und Alltagskleider im direkten Preisvergleich.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Kleider-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/kleider" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Kleider-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

@@ -159,7 +159,7 @@ export default function LuxusuhrenKaufenPage() {
             Von der Dark Matter 4 bis zu weiteren Sondereditionen – die aktuell teuersten Uhren im Preisvergleich
             findest du auf der Preisgucken-Startseite unter „Premium Highlights".
           </p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">
+          <a href="https://www.preisgucken.de/kategorie/uhren" className="btn btn-brand px-4" target="_blank" rel="noopener">
             Zu den Premium Highlights →
           </a>
         </div>

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Schmucksets kaufen: Der perfekte Look aus einem Guss | Preisgucken",
+  title: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check | Preisgucken",
   description: "Warum ein Schmuckset die einfachste Wahl für ein stimmiges Outfit ist – Vorteile, Stile und Geschenktipps.",
   keywords: ["schmuckset kaufen", "schmuckset geschenk", "set ohrringe kette", "abgestimmter schmuck", "schmuck set damen"],
   openGraph: {
-    title: "Schmucksets kaufen: Der perfekte Look aus einem Guss",
+    title: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check",
     description: "Warum ein Schmuckset die einfachste Wahl für ein stimmiges Outfit ist – Vorteile, Stile und Geschenktipps.",
     url: "https://www.preisgucken.com/blog/schmucksets-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Schmucksets kaufen: Der perfekte Look aus einem Guss",
+  headline: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function SchmucksetsKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Schmucksets kaufen 2026: Der perfekte Look aus einem Guss</h1>
+          <h1 className="fw-bold display-6 mb-3">Lohnt sich ein Schmuckset? Vor- und Nachteile im Check</h1>
           <p className="lead text-muted">Kette, Ohrringe und Armband im selben Design – Schmucksets nehmen dir die Kombinationsarbeit ab. Wir zeigen, wann sich das wirklich lohnt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
@@ -98,7 +98,7 @@ export default function SchmucksetsKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Schmuckset-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Komplette Schmucksets aus deutschen Online-Shops – jetzt den günstigsten Preis finden.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Schmuckset-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/schmuck" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Schmuckset-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

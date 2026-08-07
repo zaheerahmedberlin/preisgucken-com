@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Smartphone kaufen 2026: Speicher, Kamera & Akku im Ratgeber | Preisgucken",
+  title: "Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt | Preisgucken",
   description: "Wie viel Speicher brauchst du wirklich, worauf achten bei der Kamera und wann lohnt sich ein Vorjahresmodell? Der Smartphone-Ratgeber mit Preisvergleich.",
   keywords: ["smartphone kaufen", "handy kaufen ratgeber 2026", "welches smartphone kaufen", "smartphone speicher wieviel gb", "handy kaufberatung", "günstiges smartphone finden"],
   openGraph: {
-    title: "Smartphone kaufen 2026: Speicher, Kamera & Akku im Ratgeber",
+    title: "Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt",
     description: "Wie viel Speicher brauchst du wirklich und wann lohnt sich ein Vorjahresmodell?",
     url: "https://www.preisgucken.com/blog/smartphone-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Smartphone kaufen 2026: Speicher, Kamera & Akku im Ratgeber",
+  headline: "Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt",
   datePublished: "2026-07-29",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function SmartphoneKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Smartphone kaufen 2026: Speicher, Kamera &amp; Akku richtig einschätzen</h1>
+          <h1 className="fw-bold display-6 mb-3">Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt</h1>
           <p className="lead text-muted">Neues Flaggschiff oder Vorjahresmodell? Wir zeigen dir, wo sich Sparen lohnt und worauf du wirklich achten solltest.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>
@@ -107,7 +107,7 @@ export default function SmartphoneKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Smartphone-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Aktuelle Smartphones aller Marken im direkten Preisvergleich.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Smartphone-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/smartphones" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Smartphone-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

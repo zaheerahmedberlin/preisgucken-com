@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Halsketten kaufen: Längen, Materialien & Stil-Guide | Preisgucken",
+  title: "Die richtige Kettenlänge finden: Choker bis Opernkette erklärt | Preisgucken",
   description: "Choker, Layering-Kette oder lange Halskette? So findest du die richtige Länge und das passende Material.",
   keywords: ["halskette kaufen", "kette damen silber", "choker kaufen", "halskette länge tabelle", "anhänger halskette", "layering kette"],
   openGraph: {
-    title: "Halsketten kaufen: Längen, Materialien & Stil-Guide",
+    title: "Die richtige Kettenlänge finden: Choker bis Opernkette erklärt",
     description: "Choker, Layering-Kette oder lange Halskette? So findest du die richtige Länge und das passende Material.",
     url: "https://www.preisgucken.com/blog/halsketten-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Halsketten kaufen: Längen, Materialien & Stil-Guide",
+  headline: "Die richtige Kettenlänge finden: Choker bis Opernkette erklärt",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function HalskettenKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Halsketten kaufen 2026: Längen, Materialien & Stil-Guide</h1>
+          <h1 className="fw-bold display-6 mb-3">Die richtige Kettenlänge finden: Choker bis Opernkette erklärt</h1>
           <p className="lead text-muted">Choker, Princess-Länge oder lange Kette zum Layering – die richtige Länge macht den Unterschied. Unser Ratgeber hilft bei der Wahl.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
@@ -93,7 +93,7 @@ export default function HalskettenKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Halsketten-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Choker, Anhänger und Layering-Sets aus deutschen Online-Shops – jetzt den günstigsten Preis finden.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Halsketten-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/schmuck" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Halsketten-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

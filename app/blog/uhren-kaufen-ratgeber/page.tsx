@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Uhren kaufen 2026: Automatik, Quarz & Material im Ratgeber | Preisgucken",
+  title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt | Preisgucken",
   description: "Automatik oder Quarz? Welches Material hält am längsten? Der Uhren-Ratgeber erklärt Werke, Größen und Preisklassen – mit Preisvergleich.",
   keywords: ["uhren kaufen", "armbanduhr damen kaufen", "herrenuhr online kaufen", "automatikuhr oder quarzuhr", "uhren preisvergleich", "uhrwerk vergleich"],
   openGraph: {
-    title: "Uhren kaufen 2026: Automatik, Quarz & Material im Ratgeber",
+    title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt",
     description: "Automatik oder Quarz? Welches Material hält am längsten? Der komplette Uhren-Ratgeber.",
     url: "https://www.preisgucken.com/blog/uhren-kaufen-ratgeber",
     type: "article",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Uhren kaufen 2026: Automatik, Quarz & Material im Ratgeber",
+  headline: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -34,7 +34,7 @@ export default function UhrenKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Uhren kaufen 2026: Der Ratgeber für Damen & Herren</h1>
+          <h1 className="fw-bold display-6 mb-3">Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt</h1>
           <p className="lead text-muted">Automatik, Quarz oder Solar – und aus welchem Material sollte das Gehäuse sein? Wir erklären, worauf es bei einer guten Uhr wirklich ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
@@ -122,7 +122,7 @@ export default function UhrenKaufenPage() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Uhren-Preise vergleichen</h3>
           <p className="text-muted small mb-3">Automatik-, Quarz- und Sonderedition-Uhren aus deutschen Online-Shops – jetzt den günstigsten Preis finden.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Uhren-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/uhren" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Uhren-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">

@@ -109,7 +109,7 @@ export default function GesundheitsprodukteSeite() {
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Gesundheitsprodukte günstig vergleichen</h3>
           <p className="text-muted small mb-3">Aktuelle Preise für Nahrungsergänzungsmittel, Massagegeräte & Co. aus deutschen Shops.</p>
-          <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Gesundheit-Preisvergleich →</a>
+          <a href="https://www.preisgucken.de/kategorie/gesundheit" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Gesundheit-Preisvergleich →</a>
         </div>
 
         <div className="mt-5 pt-4 border-top">
