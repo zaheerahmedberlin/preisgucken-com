@@ -110,6 +110,15 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     ],
   },
   {
+    slug: "balkonkraftwerke-solar",
+    name: "Balkonkraftwerke & Solar",
+    description: "Leistung, Speicher und Montage – Kaufberatung für Balkonkraftwerke und Solaranlagen.",
+    pgLink: "balkonkraftwerke",
+    posts: [
+      { slug: "balkonkraftwerk-kaufen", title: "Mit oder ohne Speicher? So wählst du das richtige Balkonkraftwerk", excerpt: "800-Watt-Einspeisegrenze, Speicher und Montage im Überblick – mit Indevolt als Praxisbeispiel im Preisvergleich.", date: "8. August 2026", readTime: "7 Min.", featured: true, pgLink: "balkonkraftwerke" },
+    ],
+  },
+  {
     slug: "spartipps-preisvergleich",
     name: "Spartipps & Preisvergleich",
     description: "So nutzt du Preisvergleiche richtig und sparst bei jedem Einkauf.",

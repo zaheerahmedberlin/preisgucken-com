@@ -1,17 +1,17 @@
 const latestPosts = [
   {
+    slug: "/blog/balkonkraftwerk-kaufen",
+    title: "Mit oder ohne Speicher? So wählst du das richtige Balkonkraftwerk",
+    excerpt: "800-Watt-Einspeisegrenze, Speicher & Montage – mit Indevolt als Praxisbeispiel im Preisvergleich.",
+    category: "Kaufberatung",
+    date: "8. August 2026",
+  },
+  {
     slug: "/blog/schokolade-pralinen-kaufen",
     title: "Pralinen, Tafel oder Geschenkbox? So findest du die richtige Schokolade",
     excerpt: "Kakaoanteil, Herkunft & Verarbeitung – mit Venchi als Praxisbeispiel im Preisvergleich.",
     category: "Kaufberatung",
     date: "7. August 2026",
-  },
-  {
-    slug: "/blog/luxusuhren-kaufen",
-    title: "Luxusuhren kaufen 2026: Was den Preis rechtfertigt",
-    excerpt: "Material, Limitierung & Fertigung – mit der Dark Matter 4 von Tsarbomba als Beispiel.",
-    category: "Kaufberatung",
-    date: "4. August 2026",
   },
   {
     slug: "/blog/smartwatch-armband-kaufen-guide",
