@@ -26,6 +26,7 @@ export default function CookieBanner() {
   function save(consent: { necessary: boolean; stats: boolean; marketing: boolean }) {
     try {
       localStorage.setItem(COOKIE_KEY, JSON.stringify({ ...consent, updatedAt: Date.now() }));
+      window.dispatchEvent(new Event("pg-consent-updated"));
     } catch {}
     setVisible(false);
   }
