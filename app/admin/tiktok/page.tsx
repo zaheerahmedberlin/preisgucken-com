@@ -298,11 +298,19 @@ export default function TikTokGenerator() {
     const spokenMain = v.main?.replace(/preisgucken\.de/gi, "Link in Bio") ?? v.main;
     const caption = `${v.cta}\n\n${v.hashtags.map((h: string) => `#${h}`).join(" ")}`;
     const text = [
-      `🎙️ VOICEOVER (CapCut AI liest das vor):`,
+      `🎙️ VOICEOVER (CapCut AI liest das vor — Stimme: Deutsch/Deutschland für den richtigen Akzent auswählen):`,
       v.hook,
       spokenMain,
       spokenCta,
       ``,
+      // Only included when a product image exists — e.g. manual mode has
+      // no image, so this section is skipped rather than pasting an empty/
+      // undefined line into the clipboard text.
+      ...(currentProduct?.image ? [
+        `📸 REFERENCE-BILD (als Vorlage/Hintergrund in CapCut verwenden):`,
+        currentProduct.image,
+        ``,
+      ] : []),
       `📌 TEXT-STICKER auf dem Video platzieren:`,
       `preisgucken.de`,
       ``,
