@@ -56,6 +56,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "schmucksets-kaufen-ratgeber", title: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check", excerpt: "Warum ein Schmuckset die einfachste Wahl für ein stimmiges Outfit ist – Vorteile, Stile und Geschenktipps.", date: "1. August 2026", readTime: "5 Min.", pgLink: "schmuck" },
       { slug: "schmuck-als-geschenk-ratgeber", title: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget", excerpt: "Vom ersten Date bis zum Jahrestag: Welcher Schmuck passt zu welchem Anlass? Geschenkideen für jedes Budget.", date: "1. August 2026", readTime: "6 Min.", pgLink: "schmuck" },
       { slug: "sterlingsilber-vs-edelstahl-schmuck", title: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?", excerpt: "925er Sterlingsilber vs. hypoallergener Edelstahl: Unterschiede bei Preis, Pflege, Allergierisiko und Haltbarkeit.", date: "1. August 2026", readTime: "6 Min.", pgLink: "schmuck" },
+      { slug: "foto-projektionsschmuck-kaufen", title: "Ein Foto im Stein: Wie Projektionsschmuck funktioniert", excerpt: "Wie ein Foto im Inneren eines Steins sichtbar wird und worauf du achten solltest – mit Amazgifts als Praxisbeispiel im Preisvergleich.", date: "11. August 2026", readTime: "6 Min.", featured: true, pgLink: "schmuck" },
     ],
   },
   {
@@ -78,6 +79,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "fernseher-kaufen-ratgeber", title: "Fernseher kaufen 2026: OLED, QLED oder LED?", excerpt: "Welcher TV-Typ lohnt sich wirklich? Wir erklären die Unterschiede zwischen OLED, QLED und LED und zeigen wo du am günstigsten kaufst.", date: "24. Juli 2026", readTime: "8 Min.", pgLink: "fernseher" },
       { slug: "smartphone-kaufen-ratgeber", title: "Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt", excerpt: "Neues Flaggschiff oder Vorjahresmodell? Wo sich Sparen lohnt und worauf du wirklich achten solltest.", date: "29. Juli 2026", readTime: "7 Min.", pgLink: "smartphones" },
       { slug: "kamerastativ-kaufen-ratgeber", title: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck", excerpt: "Reisestativ, Videostativ oder Einbeinstativ? Material, Traglast und der richtige Stativkopf.", date: "29. Juli 2026", readTime: "7 Min.", pgLink: "foto-optik" },
+      { slug: "ueberwachungskamera-kaufen", title: "Akku, Solar oder Stromkabel? Der richtige Kameratyp für jeden Einsatzort", excerpt: "Welcher Kameratyp zu welchem Einsatzort passt und worauf es bei Auflösung und Speicher ankommt – mit Imou als Praxisbeispiel im Preisvergleich.", date: "11. August 2026", readTime: "7 Min.", featured: true, pgLink: "ueberwachungskameras" },
     ],
   },
   {

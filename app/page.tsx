@@ -1,24 +1,24 @@
 const latestPosts = [
   {
+    slug: "/blog/ueberwachungskamera-kaufen",
+    title: "Akku, Solar oder Stromkabel? Der richtige Kameratyp für jeden Einsatzort",
+    excerpt: "Welcher Kameratyp wohin passt – mit Imou als Praxisbeispiel im Preisvergleich.",
+    category: "Kaufberatung",
+    date: "11. August 2026",
+  },
+  {
+    slug: "/blog/foto-projektionsschmuck-kaufen",
+    title: "Ein Foto im Stein: Wie Projektionsschmuck funktioniert",
+    excerpt: "Wie das Foto sichtbar wird & worauf du achten solltest – mit Amazgifts als Praxisbeispiel im Preisvergleich.",
+    category: "Kaufberatung",
+    date: "11. August 2026",
+  },
+  {
     slug: "/blog/balkonkraftwerk-kaufen",
     title: "Mit oder ohne Speicher? So wählst du das richtige Balkonkraftwerk",
     excerpt: "800-Watt-Einspeisegrenze, Speicher & Montage – mit Indevolt als Praxisbeispiel im Preisvergleich.",
     category: "Kaufberatung",
     date: "8. August 2026",
-  },
-  {
-    slug: "/blog/schokolade-pralinen-kaufen",
-    title: "Pralinen, Tafel oder Geschenkbox? So findest du die richtige Schokolade",
-    excerpt: "Kakaoanteil, Herkunft & Verarbeitung – mit Venchi als Praxisbeispiel im Preisvergleich.",
-    category: "Kaufberatung",
-    date: "7. August 2026",
-  },
-  {
-    slug: "/blog/smartwatch-armband-kaufen-guide",
-    title: "Smartwatch Armband kaufen 2026: Material & Größe",
-    excerpt: "Apple Watch, Garmin, Samsung oder Fitbit – welches Ersatzarmband passt?",
-    category: "Kaufberatung",
-    date: "4. August 2026",
   },
 ];
 
