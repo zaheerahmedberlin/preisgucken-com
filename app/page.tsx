@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/werkstatt-ausstattung-was-du-wirklich-brauchst",
+    title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)",
+    excerpt: "Grundausstattung für Heimwerker – mit Contorion im Preisvergleich.",
+    category: "Kaufberatung",
+    date: "14. August 2026",
+  },
+  {
     slug: "/blog/pc-zubehoer-original-oder-kompatibel",
     title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf",
     excerpt: "Worauf es bei Kabeln, Monitoren & Speicher wirklich ankommt.",
@@ -10,13 +17,6 @@ const latestPosts = [
     slug: "/blog/natuerliche-kosmetik-fruchtpigmente",
     title: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt",
     excerpt: "Vegane Kosmetik – mit 100% Pure als Praxisbeispiel im Preisvergleich.",
-    category: "Kaufberatung",
-    date: "14. August 2026",
-  },
-  {
-    slug: "/blog/workwear-trend-painter-pants-chore-jacket",
-    title: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag",
-    excerpt: "Was Workwear von normaler Freizeitmode unterscheidet – mit Stan Ray im Preisvergleich.",
     category: "Kaufberatung",
     date: "14. August 2026",
   },

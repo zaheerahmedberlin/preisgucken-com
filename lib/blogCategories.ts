@@ -123,6 +123,15 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     ],
   },
   {
+    slug: "werkzeug-heimwerken",
+    name: "Werkzeug & Heimwerken",
+    description: "Handwerkzeug, Elektrowerkzeug und Arbeitsschutz im Kaufberatungs-Check.",
+    pgLink: "werkzeug-heimwerken",
+    posts: [
+      { slug: "werkstatt-ausstattung-was-du-wirklich-brauchst", title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)", excerpt: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Contorion als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "werkzeug-heimwerken" },
+    ],
+  },
+  {
     slug: "kosmetik-beauty",
     name: "Kosmetik & Beauty",
     description: "Make-up, Hautpflege und natürliche Kosmetik im Kaufberatungs-Check.",
