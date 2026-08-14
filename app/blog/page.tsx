@@ -1,14 +1,23 @@
 import type { Metadata } from "next";
 import { BLOG_CATEGORIES, getAllPosts } from "@/lib/blogCategories";
 
+// No manual "| Preisgucken" — see the matching comment in
+// app/blog/kategorie/[slug]/page.tsx for why (root layout's title
+// template already appends the brand suffix once).
 export const metadata: Metadata = {
-  title: "Blog: Kaufberatung, Spartipps & Preisvergleich | Preisgucken",
+  title: "Blog: Kaufberatung, Spartipps & Preisvergleich",
   description: "Expertenratgeber rund um Möbel, Elektronik, Schmuck und Sparen: Kaufberatungen, Preisvergleich-Tipps und Schnäppchen-Guides aus Deutschland.",
   alternates: { canonical: "https://www.preisgucken.com/blog" },
   openGraph: {
-    title: "Blog – Kaufberatung & Spartipps | Preisgucken",
+    title: "Blog – Kaufberatung & Spartipps",
     description: "Expertenratgeber rund um Möbel, Elektronik, Schmuck und Sparen.",
     url: "https://www.preisgucken.com/blog",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Preisgucken Blog" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog – Kaufberatung & Spartipps",
+    description: "Expertenratgeber rund um Möbel, Elektronik, Schmuck und Sparen.",
   },
 };
 

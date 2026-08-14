@@ -1,24 +1,24 @@
 const latestPosts = [
   {
-    slug: "/blog/ueberwachungskamera-kaufen",
-    title: "Akku, Solar oder Stromkabel? Der richtige Kameratyp für jeden Einsatzort",
-    excerpt: "Welcher Kameratyp wohin passt – mit Imou als Praxisbeispiel im Preisvergleich.",
+    slug: "/blog/pc-zubehoer-original-oder-kompatibel",
+    title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf",
+    excerpt: "Worauf es bei Kabeln, Monitoren & Speicher wirklich ankommt.",
     category: "Kaufberatung",
-    date: "11. August 2026",
+    date: "14. August 2026",
   },
   {
-    slug: "/blog/foto-projektionsschmuck-kaufen",
-    title: "Ein Foto im Stein: Wie Projektionsschmuck funktioniert",
-    excerpt: "Wie das Foto sichtbar wird & worauf du achten solltest – mit Amazgifts als Praxisbeispiel im Preisvergleich.",
+    slug: "/blog/natuerliche-kosmetik-fruchtpigmente",
+    title: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt",
+    excerpt: "Vegane Kosmetik – mit 100% Pure als Praxisbeispiel im Preisvergleich.",
     category: "Kaufberatung",
-    date: "11. August 2026",
+    date: "14. August 2026",
   },
   {
-    slug: "/blog/balkonkraftwerk-kaufen",
-    title: "Mit oder ohne Speicher? So wählst du das richtige Balkonkraftwerk",
-    excerpt: "800-Watt-Einspeisegrenze, Speicher & Montage – mit Indevolt als Praxisbeispiel im Preisvergleich.",
+    slug: "/blog/workwear-trend-painter-pants-chore-jacket",
+    title: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag",
+    excerpt: "Was Workwear von normaler Freizeitmode unterscheidet – mit Stan Ray im Preisvergleich.",
     category: "Kaufberatung",
-    date: "8. August 2026",
+    date: "14. August 2026",
   },
 ];
 

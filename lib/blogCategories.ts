@@ -67,6 +67,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     posts: [
       { slug: "abendkleid-cocktailkleid-kaufen-ratgeber", title: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala", excerpt: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass? Schnitt, Länge und Farbe richtig wählen.", date: "29. Juli 2026", readTime: "7 Min.", featured: true, pgLink: "kleider" },
       { slug: "kleider-fuer-jeden-anlass", title: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte", excerpt: "Alltagskleid, Brautkleid oder Umstandskleid – welcher Schnitt und Stoff passt zu welchem Anlass? Mit Preisvergleich.", date: "4. August 2026", readTime: "8 Min.", featured: true, pgLink: "kleider" },
+      { slug: "workwear-trend-painter-pants-chore-jacket", title: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag", excerpt: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet – mit Stan Ray als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "herrenmode" },
     ],
   },
   {
@@ -80,6 +81,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "smartphone-kaufen-ratgeber", title: "Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt", excerpt: "Neues Flaggschiff oder Vorjahresmodell? Wo sich Sparen lohnt und worauf du wirklich achten solltest.", date: "29. Juli 2026", readTime: "7 Min.", pgLink: "smartphones" },
       { slug: "kamerastativ-kaufen-ratgeber", title: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck", excerpt: "Reisestativ, Videostativ oder Einbeinstativ? Material, Traglast und der richtige Stativkopf.", date: "29. Juli 2026", readTime: "7 Min.", pgLink: "foto-optik" },
       { slug: "ueberwachungskamera-kaufen", title: "Akku, Solar oder Stromkabel? Der richtige Kameratyp für jeden Einsatzort", excerpt: "Welcher Kameratyp zu welchem Einsatzort passt und worauf es bei Auflösung und Speicher ankommt – mit Imou als Praxisbeispiel im Preisvergleich.", date: "11. August 2026", readTime: "7 Min.", featured: true, pgLink: "ueberwachungskameras" },
+      { slug: "pc-zubehoer-original-oder-kompatibel", title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf", excerpt: "Worauf es bei Kabeln, Monitoren, Speicher und Druckerpatronen wirklich ankommt – mit Preisvergleich für PC-Zubehör.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "pc-it-zubehoer" },
     ],
   },
   {
@@ -118,6 +120,15 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "balkonkraftwerke",
     posts: [
       { slug: "balkonkraftwerk-kaufen", title: "Mit oder ohne Speicher? So wählst du das richtige Balkonkraftwerk", excerpt: "800-Watt-Einspeisegrenze, Speicher und Montage im Überblick – mit Indevolt als Praxisbeispiel im Preisvergleich.", date: "8. August 2026", readTime: "7 Min.", featured: true, pgLink: "balkonkraftwerke" },
+    ],
+  },
+  {
+    slug: "kosmetik-beauty",
+    name: "Kosmetik & Beauty",
+    description: "Make-up, Hautpflege und natürliche Kosmetik im Kaufberatungs-Check.",
+    pgLink: "kosmetik-beauty",
+    posts: [
+      { slug: "natuerliche-kosmetik-fruchtpigmente", title: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt", excerpt: "Vegane Kosmetik, Fruchtpigmente statt synthetischer Farbstoffe – mit 100% Pure als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "6 Min.", featured: true, pgLink: "kosmetik-beauty" },
     ],
   },
   {

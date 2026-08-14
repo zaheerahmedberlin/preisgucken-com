@@ -12,17 +12,32 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const category = getCategory(slug);
   if (!category) return {};
-  const title = `${category.name}: Ratgeber & Kaufberatung 2026 | Preisgucken`;
+  // No manual "| Preisgucken" here — the root layout's title template
+  // already appends "| Preisgucken – Preisvergleich" to every page title,
+  // so adding it here too doubled the brand name in every rendered
+  // <title> tag (found 2026-08-14 while verifying the same bug's fix on
+  // individual blog posts).
+  const title = `${category.name}: Ratgeber & Kaufberatung 2026`;
   const description = `${category.description} ${category.posts.length} Experten-Ratgeber mit direktem Preisvergleich.`;
+  const socialTitle = `${category.name} – Kaufberatung & Preisvergleich`;
   return {
     title,
     description,
     alternates: { canonical: `${BASE}/blog/kategorie/${category.slug}` },
+    // openGraph/twitter fully replace (not merge with) the root layout's
+    // defaults once a page defines its own — image has to be repeated
+    // here or it's silently dropped, same gap found on individual posts.
     openGraph: {
-      title: `${category.name} – Kaufberatung & Preisvergleich`,
+      title: socialTitle,
       description,
       url: `${BASE}/blog/kategorie/${category.slug}`,
       type: "website",
+      images: [{ url: `${BASE}/logo.png`, width: 1536, height: 1024, alt: category.name }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: socialTitle,
+      description,
     },
   };
 }
