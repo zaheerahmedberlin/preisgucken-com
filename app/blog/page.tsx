@@ -107,7 +107,7 @@ export default function BlogPage() {
         {/* CTA */}
         <div className="text-center p-5 card">
           <h4 className="fw-bold mb-2">Preise direkt vergleichen</h4>
-          <p className="text-muted small mb-3">Setze unsere Ratgeber-Tipps sofort um – über 8.000 Produkte im Preisvergleich.</p>
+          <p className="text-muted small mb-3">Setze unsere Ratgeber-Tipps sofort um – hunderttausende Produkte im Preisvergleich.</p>
           <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zu preisgucken.de →</a>
         </div>
       </div>

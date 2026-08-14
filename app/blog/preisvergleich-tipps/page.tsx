@@ -127,7 +127,7 @@ export default function PreisvergleichTippsPage() {
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Jetzt Preisvergleich ausprobieren</h3>
-          <p className="text-muted small mb-3">Über 8.000 Produkte aus deutschen Online-Shops – aktuell, kostenlos, ohne Anmeldung.</p>
+          <p className="text-muted small mb-3">Hunderttausende Produkte aus deutschen Online-Shops – aktuell, kostenlos, ohne Anmeldung.</p>
           <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Preisvergleich →</a>
         </div>
 
