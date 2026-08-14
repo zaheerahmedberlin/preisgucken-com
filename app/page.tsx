@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/haengelampe-oder-stehlampe-design-leuchte",
+    title: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte",
+    excerpt: "Welcher Leuchtentyp für welchen Raum passt – mit Preisvergleich.",
+    category: "Kaufberatung",
+    date: "14. August 2026",
+  },
+  {
     slug: "/blog/werkstatt-ausstattung-was-du-wirklich-brauchst",
     title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)",
     excerpt: "Grundausstattung für Heimwerker – mit Contorion im Preisvergleich.",
@@ -10,13 +17,6 @@ const latestPosts = [
     slug: "/blog/pc-zubehoer-original-oder-kompatibel",
     title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf",
     excerpt: "Worauf es bei Kabeln, Monitoren & Speicher wirklich ankommt.",
-    category: "Kaufberatung",
-    date: "14. August 2026",
-  },
-  {
-    slug: "/blog/natuerliche-kosmetik-fruchtpigmente",
-    title: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt",
-    excerpt: "Vegane Kosmetik – mit 100% Pure als Praxisbeispiel im Preisvergleich.",
     category: "Kaufberatung",
     date: "14. August 2026",
   },

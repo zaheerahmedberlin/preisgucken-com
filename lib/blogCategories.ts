@@ -32,13 +32,14 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     slug: "moebel-wohnen",
     name: "Möbel & Wohnen",
     description: "Betten, Sofas, Matratzen und mehr – Kaufberatung für dein Zuhause.",
-    pgLink: "schlafen,sitzen,gartenmoebel,vorhaenge",
+    pgLink: "schlafen,sitzen,gartenmoebel,vorhaenge,leuchten",
     posts: [
       { slug: "boxspringbett-kaufen-ratgeber", title: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten", excerpt: "Welche Größe, Härtegrad und Qualität lohnt sich wirklich? Unser Experten-Ratgeber mit Preisvergleich – spare bis zu 40% beim Kauf.", date: "20. Juli 2026", readTime: "8 Min.", featured: true, pgLink: "schlafen" },
       { slug: "sofa-kaufen-ratgeber", title: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide", excerpt: "Größe, Form, Stoff – beim Sofakauf gibt es viele Entscheidungen. Wir führen dich Schritt für Schritt zum richtigen Sofa.", date: "17. Juli 2026", readTime: "7 Min.", pgLink: "sitzen" },
       { slug: "matratze-kaufen-ratgeber", title: "Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl", excerpt: "Welcher Härtegrad passt zu dir, welche Größe brauchst du und Federkern oder Schaumstoff? Der komplette Matratzen-Ratgeber.", date: "29. Juli 2026", readTime: "8 Min.", featured: true, pgLink: "schlafen" },
       { slug: "gartenmoebel-kaufen-ratgeber", title: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich", excerpt: "Polyrattan, Aluminium oder Holz? Unser Ratgeber erklärt die Materialien und zeigt, wie du Gartenmöbel günstig kaufst.", date: "24. Juli 2026", readTime: "7 Min.", pgLink: "gartenmoebel" },
       { slug: "vorhaenge-kaufen-ratgeber", title: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt", excerpt: "Nicht jeder Vorhang kann alles – welcher Stoff für welchen Zweck taugt und wie du beim Kauf nichts falsch machst.", date: "29. Juli 2026", readTime: "6 Min.", pgLink: "vorhaenge" },
+      { slug: "haengelampe-oder-stehlampe-design-leuchte", title: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte", excerpt: "Welcher Leuchtentyp für welchen Raum passt – mit Van Tjalle en Jasper als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "6 Min.", featured: true, pgLink: "leuchten" },
     ],
   },
   {
