@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Foto-Projektionsschmuck 2026: Wie funktioniert Schmuck mit Bild im Stein? | Preisgucken",
+  title: "Foto-Projektionsschmuck 2026: Wie funktioniert Schmuck mit Bild im Stein?",
   description: "Ein Foto, versteckt im Stein eines Anhängers – nur bei Licht sichtbar. Wie Foto-Projektionsschmuck funktioniert, worauf du beim Kauf achten solltest, mit Preisvergleich für personalisierte Ketten, Armbänder und Schlüsselanhänger.",
   keywords: [
     "foto projektionsschmuck",

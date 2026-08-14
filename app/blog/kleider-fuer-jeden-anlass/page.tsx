@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte | Preisgucken",
+  title: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte",
   description: "Alltagskleid, Brautkleid oder Umstandskleid – welcher Schnitt und Stoff passt zu welchem Anlass? Der Guide zu Passform, Material und Preisvergleich für Damenkleider.",
   keywords: [
     "kleider kaufen",

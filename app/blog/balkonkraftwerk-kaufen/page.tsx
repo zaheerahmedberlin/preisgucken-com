@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick | Preisgucken",
+  title: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick",
   description: "800-Watt-Einspeisegrenze, Speicher ja oder nein, welche Halterung für welchen Montageort – der Kaufguide für Balkonkraftwerke, mit Preisvergleich für Systeme wie Indevolt.",
   keywords: [
     "balkonkraftwerk kaufen",

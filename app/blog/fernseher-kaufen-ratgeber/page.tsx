@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fernseher kaufen 2026: Ratgeber & Preisvergleich | Preisgucken",
+  title: "Fernseher kaufen 2026: Ratgeber & Preisvergleich",
   description: "Welcher Fernseher lohnt sich 2026? OLED, QLED oder LED? Unser Ratgeber erklärt die Unterschiede und zeigt dir, wo du am günstigsten kaufst.",
   keywords: ["fernseher kaufen", "bester fernseher 2026", "fernseher preisvergleich", "oled vs qled", "tv günstig kaufen deutschland"],
   alternates: { canonical: "https://www.preisgucken.com/blog/fernseher-kaufen-ratgeber" },

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala | Preisgucken",
+  title: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala",
   description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass? Der Ratgeber für Schnitt, Länge und Farbe mit Preisvergleich.",
   keywords: ["abendkleid kaufen", "cocktailkleid ratgeber", "kleid für hochzeit als gast", "abendkleid welcher schnitt", "kleid online kaufen 2026", "brautjungfernkleid kaufen"],
   openGraph: {

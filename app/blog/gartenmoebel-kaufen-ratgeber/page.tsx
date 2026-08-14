@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich | Preisgucken",
+  title: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich",
   description: "Welche Gartenmöbel lohnen sich 2026? Lounge, Essgruppe oder Liegestuhl? Unser Ratgeber zeigt dir die besten Materialien und Schnäppchen.",
   keywords: ["gartenmöbel kaufen", "gartenmöbel günstig", "gartenmöbel 2026", "lounge set garten", "gartenset preisvergleich"],
   alternates: { canonical: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber" },

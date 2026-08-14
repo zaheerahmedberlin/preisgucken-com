@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck | Preisgucken",
+  title: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck",
   description: "Reisestativ, Videostativ oder Einbeinstativ? Der Ratgeber zu Material, Traglast und Stativkopf – mit Preisvergleich für Foto- und Videozubehör.",
   keywords: ["kamerastativ kaufen", "reisestativ ratgeber", "carbon oder aluminium stativ", "kugelkopf kaufen", "videostativ kaufen", "einbeinstativ ratgeber"],
   openGraph: {

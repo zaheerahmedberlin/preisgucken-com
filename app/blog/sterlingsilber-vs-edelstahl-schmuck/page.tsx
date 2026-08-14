@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser? | Preisgucken",
+  title: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?",
   description: "925er Sterlingsilber vs. hypoallergener Edelstahl: Unterschiede bei Preis, Pflege, Allergierisiko und Haltbarkeit.",
   keywords: ["sterlingsilber vs edelstahl", "welcher schmuck läuft nicht an", "hypoallergener schmuck material", "schmuck empfindliche haut", "925 silber pflege"],
   openGraph: {

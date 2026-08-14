@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden | Preisgucken",
+  title: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden",
   description: "Der Sommer-Trend Fußkettchen im Ratgeber: richtige Länge, wasserfeste Materialien und Styling-Tipps.",
   keywords: ["fußkettchen kaufen", "anklet damen", "fußkette sommer", "fußkettchen silber", "fußkette länge"],
   openGraph: {

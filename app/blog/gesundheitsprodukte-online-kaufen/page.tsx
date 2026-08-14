@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gesundheitsprodukte online kaufen: Worauf du achten musst | Preisgucken",
+  title: "Gesundheitsprodukte online kaufen: Worauf du achten musst",
   description: "Nahrungsergänzungsmittel, Massagegeräte & Co. online kaufen – so erkennst du Qualität, vermeidest Fakes und sparst mit Preisvergleich bis zu 35%.",
   keywords: ["gesundheitsprodukte online kaufen", "nahrungsergänzungsmittel kaufen", "massagegerät preisvergleich", "gesundheit online shop", "gesundheitsprodukte ratgeber"],
   openGraph: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide | Preisgucken",
+  title: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide",
   description: "Sofa kaufen: Welche Größe, welcher Stoff und wie viel Budget? Unser Experten-Ratgeber hilft dir, das beste Sofa zum besten Preis zu finden.",
   keywords: ["sofa kaufen", "couch kaufen ratgeber", "sofa kaufberatung 2026", "bestes sofa preisvergleich", "sofa stoff oder leder", "sofa maße"],
   openGraph: {

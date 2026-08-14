@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget | Preisgucken",
+  title: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget",
   description: "Vom ersten Date bis zum Jahrestag: Welcher Schmuck passt zu welchem Anlass? Geschenkideen für jedes Budget.",
   keywords: ["schmuck verschenken", "schmuck geschenkideen damen", "was schenkt man zum geburtstag schmuck", "personalisierter schmuck", "schmuck geschenk anlass"],
   openGraph: {

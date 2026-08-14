@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt | Preisgucken",
+  title: "Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt",
   description: "Wie viel Speicher brauchst du wirklich, worauf achten bei der Kamera und wann lohnt sich ein Vorjahresmodell? Der Smartphone-Ratgeber mit Preisvergleich.",
   keywords: ["smartphone kaufen", "handy kaufen ratgeber 2026", "welches smartphone kaufen", "smartphone speicher wieviel gb", "handy kaufberatung", "günstiges smartphone finden"],
   openGraph: {

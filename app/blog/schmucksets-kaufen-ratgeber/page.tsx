@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check | Preisgucken",
+  title: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check",
   description: "Warum ein Schmuckset die einfachste Wahl für ein stimmiges Outfit ist – Vorteile, Stile und Geschenktipps.",
   keywords: ["schmuckset kaufen", "schmuckset geschenk", "set ohrringe kette", "abgestimmter schmuck", "schmuck set damen"],
   openGraph: {

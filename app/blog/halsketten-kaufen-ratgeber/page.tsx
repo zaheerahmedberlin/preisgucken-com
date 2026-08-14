@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Die richtige Kettenlänge finden: Choker bis Opernkette erklärt | Preisgucken",
+  title: "Die richtige Kettenlänge finden: Choker bis Opernkette erklärt",
   description: "Choker, Layering-Kette oder lange Halskette? So findest du die richtige Länge und das passende Material.",
   keywords: ["halskette kaufen", "kette damen silber", "choker kaufen", "halskette länge tabelle", "anhänger halskette", "layering kette"],
   openGraph: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir? | Preisgucken",
+  title: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?",
   description: "Stecker, Creolen oder Dangle-Ohrringe? Materialien, Verschlüsse und Preise im Vergleich – für jeden Anlass das passende Paar.",
   keywords: ["ohrringe kaufen", "ohrstecker damen", "creolen kaufen", "hypoallergene ohrringe", "ohrringe empfindliche ohren", "ohrringe gesichtsform"],
   openGraph: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Preisvergleich richtig nutzen: So sparst du bis zu 40% | Preisgucken",
+  title: "Preisvergleich richtig nutzen: So sparst du bis zu 40%",
   description: "Preisvergleich-Portale richtig nutzen: Warum gleiche Produkte bis zu 40% günstiger sein können und wie du mit einem Klick den besten Preis findest.",
   keywords: ["preisvergleich", "preisvergleich tipps", "online preisvergleich", "günstigster preis online", "preisvergleich wie funktioniert"],
   openGraph: {

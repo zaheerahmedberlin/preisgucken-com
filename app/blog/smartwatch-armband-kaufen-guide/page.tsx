@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt | Preisgucken",
+  title: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt",
   description: "Ersatzarmband für Apple Watch, Samsung Galaxy Watch, Garmin, Fitbit oder Xiaomi gesucht? Der Guide zu Material, Kompatibilität und Größe – mit Preisvergleich.",
   keywords: [
     "smartwatch armband kaufen",

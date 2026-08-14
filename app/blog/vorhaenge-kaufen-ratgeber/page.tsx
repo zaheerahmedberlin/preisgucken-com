@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt | Preisgucken",
+  title: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt",
   description: "Verdunkelungsvorhang, Schallschutzvorhang oder lichtdurchlässiger Stoff? Der komplette Ratgeber für den richtigen Vorhang – mit Preisvergleich.",
   keywords: ["vorhänge kaufen", "verdunkelungsvorhang ratgeber", "schallschutzvorhang", "gardinen vs vorhänge", "vorhang stoffarten", "vorhänge kaufberatung 2026"],
   openGraph: {

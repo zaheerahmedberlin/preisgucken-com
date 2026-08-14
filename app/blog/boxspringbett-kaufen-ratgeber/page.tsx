@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten | Preisgucken",
+  title: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten",
   description: "Boxspringbett kaufen: Welche Größe, Härtegrad und Qualität lohnt sich wirklich? Unser Experten-Ratgeber mit Preisvergleich – spare bis zu 40% beim Kauf.",
   keywords: ["boxspringbett kaufen", "boxspringbett ratgeber", "bestes boxspringbett 2026", "boxspringbett preisvergleich", "boxspringbett 140x200", "boxspringbett 180x200"],
   openGraph: {

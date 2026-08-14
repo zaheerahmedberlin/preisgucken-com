@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt | Preisgucken",
+  title: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt",
   description: "Welcher Staubsauger lohnt sich 2026? Beutellos, Akku oder Roboter? Unser Ratgeber hilft dir, den besten Staubsauger zum günstigsten Preis zu finden.",
   keywords: ["staubsauger kaufen", "bester staubsauger 2026", "staubsauger preisvergleich", "akkusauger test", "staubsauger roboter günstig"],
   alternates: { canonical: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber" },

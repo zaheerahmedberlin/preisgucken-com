@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Handgelenk richtig messen: So sitzt dein Armband perfekt | Preisgucken",
+  title: "Handgelenk richtig messen: So sitzt dein Armband perfekt",
   description: "Charm-Armband, Armreif oder Kette? Handgelenk richtig messen und das passende Material finden.",
   keywords: ["armband kaufen", "armband damen silber", "charm-armband", "armband größe messen", "armreif vs armband"],
   openGraph: {

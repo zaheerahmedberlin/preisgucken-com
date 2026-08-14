@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt | Preisgucken",
+  title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt",
   description: "Automatik oder Quarz? Welches Material hält am längsten? Der Uhren-Ratgeber erklärt Werke, Größen und Preisklassen – mit Preisvergleich.",
   keywords: ["uhren kaufen", "armbanduhr damen kaufen", "herrenuhr online kaufen", "automatikuhr oder quarzuhr", "uhren preisvergleich", "uhrwerk vergleich"],
   openGraph: {

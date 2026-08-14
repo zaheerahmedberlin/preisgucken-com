@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl | Preisgucken",
+  title: "Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl",
   description: "Welcher Härtegrad passt zu dir, welche Größe brauchst du und Federkern oder Schaumstoff? Der komplette Matratzen-Ratgeber mit Preisvergleich.",
   keywords: ["matratze kaufen", "matratze härtegrad ratgeber", "welche matratze passt zu mir", "matratzengröße tabelle", "federkernmatratze oder schaumstoff", "matratze kaufberatung 2026"],
   openGraph: {

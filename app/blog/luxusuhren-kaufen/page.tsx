@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt | Preisgucken",
+  title: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt",
   description: "Was rechtfertigt einen 5-stelligen Uhrenpreis? Material, Fertigung, Limitierung und Wiederverkaufswert im Überblick – mit Preisvergleich für Premium-Uhren wie die Dark Matter 4 von Tsarbomba.",
   keywords: [
     "luxusuhren kaufen",

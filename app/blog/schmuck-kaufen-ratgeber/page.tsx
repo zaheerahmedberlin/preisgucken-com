@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden | Preisgucken",
+  title: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden",
   description: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck und findest das passende Stück – mit Preisvergleich.",
   keywords: ["schmuck kaufen", "schmuck online kaufen", "925 sterlingsilber", "hypoallergener schmuck", "hochwertigen schmuck erkennen", "schmuck qualität"],
   openGraph: {

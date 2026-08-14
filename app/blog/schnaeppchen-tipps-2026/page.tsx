@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro | Preisgucken",
+  title: "15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro",
   description: "Mit diesen 15 Schnäppchen-Tipps sparst du beim Online-Shopping bis zu 40%. Preisvergleich, beste Zeiten zum Kaufen, Gutscheine & mehr – von Experten erklärt.",
   keywords: ["schnäppchen tipps", "günstig einkaufen online", "sparen beim einkaufen", "preisvergleich tipps", "online shopping tipps 2026"],
   openGraph: {

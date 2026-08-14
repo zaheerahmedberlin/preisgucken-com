@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen | Preisgucken",
+  title: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen",
   description: "Tafel, Praline oder Geschenkbox – worauf es bei hochwertiger Schokolade wirklich ankommt. Kakaoanteil, Herkunft und Haltbarkeit im Überblick, mit Preisvergleich für Premium-Schokolade wie Venchi.",
   keywords: [
     "schokolade kaufen",

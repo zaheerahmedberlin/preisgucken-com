@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft | Preisgucken",
+  title: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft",
   description: "So findest du die richtige Ringgröße zuhause, welche Materialien halten und welcher Ringstil zu dir passt.",
   keywords: ["ring kaufen", "ringgröße bestimmen", "ring damen silber", "stapelringe", "ring als geschenk", "ringgröße tabelle"],
   openGraph: {

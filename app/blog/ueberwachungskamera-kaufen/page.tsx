@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Überwachungskamera kaufen 2026: Akku, Solar oder Stromkabel? | Preisgucken",
+  title: "Überwachungskamera kaufen 2026: Akku, Solar oder Stromkabel?",
   description: "Outdoor, Video-Türklingel oder Innenkamera – welcher Kameratyp zu welchem Einsatzort passt, was Auflösung und Cloud-Speicher wirklich bringen, mit Preisvergleich für smarte Sicherheitstechnik.",
   keywords: [
     "überwachungskamera kaufen",
