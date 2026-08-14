@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/gesundheitsprodukte-online-kaufen",
     type: "article",
     publishedTime: "2026-07-16",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Gesundheitsprodukte online kaufen: Worauf du achten musst" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/gesundheitsprodukte-online-kaufen" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gesundheitsprodukte online kaufen: Worauf du achten musst",
+    description: "Qualität erkennen, Fakes vermeiden und mit Preisvergleich bis zu 35% sparen.",
+  },
 };
 
 const jsonLd = {

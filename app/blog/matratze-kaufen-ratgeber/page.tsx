@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/matratze-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-29",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/matratze-kaufen-ratgeber" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl",
+    description: "Welcher Härtegrad passt zu dir, welche Größe brauchst du und Federkern oder Schaumstoff?",
+  },
 };
 
 const jsonLd = {

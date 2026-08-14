@@ -20,8 +20,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/luxusuhren-kaufen",
     type: "article",
     publishedTime: "2026-08-04",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/luxusuhren-kaufen" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt",
+    description: "Material, Fertigung, Limitierung und Wiederverkaufswert – der Guide zu Premium-Uhren mit Preisvergleich.",
+  },
 };
 
 const jsonLd = {

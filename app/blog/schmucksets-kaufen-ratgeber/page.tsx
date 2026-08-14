@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/schmucksets-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schmucksets-kaufen-ratgeber" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check",
+    description: "Warum ein Schmuckset die einfachste Wahl für ein stimmiges Outfit ist – Vorteile, Stile und Geschenktipps.",
+  },
 };
 
 const jsonLd = {

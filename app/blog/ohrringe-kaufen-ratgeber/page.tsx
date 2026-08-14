@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?",
+    description: "Stecker, Creolen oder Dangle-Ohrringe? Materialien, Verschlüsse und Preise im Vergleich.",
+  },
 };
 
 const jsonLd = {

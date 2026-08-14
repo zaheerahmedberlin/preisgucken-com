@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/schmuck-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schmuck-kaufen-ratgeber" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden",
+    description: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck und findest das passende Stück.",
+  },
 };
 
 const jsonLd = {

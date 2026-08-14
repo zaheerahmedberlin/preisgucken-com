@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-17",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide",
+    description: "Welche Größe, welcher Stoff und wie viel Budget? Unser Experten-Ratgeber für den Sofa-Kauf.",
+  },
 };
 
 const jsonLd = {

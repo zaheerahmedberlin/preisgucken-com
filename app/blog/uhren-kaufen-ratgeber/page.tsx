@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/uhren-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/uhren-kaufen-ratgeber" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt",
+    description: "Automatik oder Quarz? Welches Material hält am längsten? Der komplette Uhren-Ratgeber.",
+  },
 };
 
 const jsonLd = {

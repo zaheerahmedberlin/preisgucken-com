@@ -20,8 +20,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/foto-projektionsschmuck-kaufen",
     type: "article",
     publishedTime: "2026-08-11",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Foto-Projektionsschmuck 2026: Wie funktioniert Schmuck mit Bild im Stein?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/foto-projektionsschmuck-kaufen" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Foto-Projektionsschmuck 2026: Wie funktioniert Schmuck mit Bild im Stein?",
+    description: "Ein Foto, versteckt im Stein eines Anhängers – wie die Technik funktioniert und worauf du beim Kauf achten solltest.",
+  },
 };
 
 const jsonLd = {

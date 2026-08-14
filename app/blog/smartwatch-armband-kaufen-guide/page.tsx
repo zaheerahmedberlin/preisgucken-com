@@ -21,8 +21,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide",
     type: "article",
     publishedTime: "2026-08-04",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt",
+    description: "Ersatzarmband für Apple Watch, Samsung, Garmin, Fitbit oder Xiaomi – der komplette Guide mit Preisvergleich.",
+  },
 };
 
 const jsonLd = {

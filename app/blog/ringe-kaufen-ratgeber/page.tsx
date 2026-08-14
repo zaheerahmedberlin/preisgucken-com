@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft",
+    description: "So findest du die richtige Ringgröße zuhause, welche Materialien halten und welcher Ringstil zu dir passt.",
+  },
 };
 
 const jsonLd = {

@@ -19,8 +19,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/ueberwachungskamera-kaufen",
     type: "article",
     publishedTime: "2026-08-11",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Überwachungskamera kaufen 2026: Akku, Solar oder Stromkabel?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/ueberwachungskamera-kaufen" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Überwachungskamera kaufen 2026: Akku, Solar oder Stromkabel?",
+    description: "Welcher Kameratyp zu welchem Einsatzort passt und worauf du bei Auflösung und Cloud-Speicher achten solltest.",
+  },
 };
 
 const jsonLd = {

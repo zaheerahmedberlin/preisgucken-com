@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/boxspringbett-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-20",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/boxspringbett-kaufen-ratgeber" },
+  twitter: {
+    card: "summary_large_image",
+    title: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten",
+    description: "Welche Größe, Härtegrad und Qualität lohnt sich wirklich? Unser Experten-Ratgeber mit Preisvergleich.",
+  },
 };
 
 const jsonLd = {

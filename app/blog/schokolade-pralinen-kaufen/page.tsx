@@ -20,8 +20,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/schokolade-pralinen-kaufen",
     type: "article",
     publishedTime: "2026-08-07",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schokolade-pralinen-kaufen" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen",
+    description: "Worauf es bei hochwertiger Schokolade wirklich ankommt – mit Preisvergleich für Premium-Schokolade wie Venchi.",
+  },
 };
 
 const jsonLd = {

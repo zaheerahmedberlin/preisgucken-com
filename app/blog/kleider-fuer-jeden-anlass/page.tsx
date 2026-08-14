@@ -20,8 +20,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass",
     type: "article",
     publishedTime: "2026-08-04",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte",
+    description: "Alltagskleid, Brautkleid oder Umstandskleid – Passform, Material und Preisvergleich für Damenkleider.",
+  },
 };
 
 const jsonLd = {

@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/schmuck-als-geschenk-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schmuck-als-geschenk-ratgeber" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget",
+    description: "Vom ersten Date bis zum Jahrestag: Welcher Schmuck passt zu welchem Anlass?",
+  },
 };
 
 const jsonLd = {

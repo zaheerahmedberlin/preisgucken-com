@@ -10,8 +10,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/smartphone-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-29",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/smartphone-kaufen-ratgeber" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt",
+    description: "Wie viel Speicher brauchst du wirklich und wann lohnt sich ein Vorjahresmodell?",
+  },
 };
 
 const jsonLd = {

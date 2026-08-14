@@ -20,8 +20,14 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/balkonkraftwerk-kaufen",
     type: "article",
     publishedTime: "2026-08-08",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/balkonkraftwerk-kaufen" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick",
+    description: "800-Watt-Einspeisegrenze, Speicher ja oder nein, die richtige Halterung – der Kaufguide mit Preisvergleich.",
+  },
 };
 
 const jsonLd = {

@@ -10,6 +10,12 @@ export const metadata: Metadata = {
     description: "OLED, QLED oder LED? Unser Ratgeber hilft dir, den besten Fernseher zum günstigsten Preis zu finden.",
     url: "https://www.preisgucken.com/blog/fernseher-kaufen-ratgeber",
     type: "article",
+    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Fernseher kaufen 2026: Ratgeber & Preisvergleich" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fernseher kaufen 2026: Ratgeber & Preisvergleich",
+    description: "OLED, QLED oder LED? Unser Ratgeber hilft dir, den besten Fernseher zum günstigsten Preis zu finden.",
   },
 };
 
