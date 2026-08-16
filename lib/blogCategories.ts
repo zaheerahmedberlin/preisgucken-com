@@ -69,6 +69,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "abendkleid-cocktailkleid-kaufen-ratgeber", title: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala", excerpt: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass? Schnitt, Länge und Farbe richtig wählen.", date: "29. Juli 2026", readTime: "7 Min.", featured: true, pgLink: "kleider" },
       { slug: "kleider-fuer-jeden-anlass", title: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte", excerpt: "Alltagskleid, Brautkleid oder Umstandskleid – welcher Schnitt und Stoff passt zu welchem Anlass? Mit Preisvergleich.", date: "4. August 2026", readTime: "8 Min.", featured: true, pgLink: "kleider" },
       { slug: "workwear-trend-painter-pants-chore-jacket", title: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag", excerpt: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet – mit Stan Ray als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "herrenmode" },
+      { slug: "schuhe-online-kaufen-groessentabelle", title: "Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe", excerpt: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du bei Material und Rückgaberecht achten solltest.", date: "19. August 2026", readTime: "6 Min.", pgLink: "schuhe" },
     ],
   },
   {
@@ -83,6 +84,9 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "kamerastativ-kaufen-ratgeber", title: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck", excerpt: "Reisestativ, Videostativ oder Einbeinstativ? Material, Traglast und der richtige Stativkopf.", date: "29. Juli 2026", readTime: "7 Min.", pgLink: "foto-optik" },
       { slug: "ueberwachungskamera-kaufen", title: "Akku, Solar oder Stromkabel? Der richtige Kameratyp für jeden Einsatzort", excerpt: "Welcher Kameratyp zu welchem Einsatzort passt und worauf es bei Auflösung und Speicher ankommt – mit Imou als Praxisbeispiel im Preisvergleich.", date: "11. August 2026", readTime: "7 Min.", featured: true, pgLink: "ueberwachungskameras" },
       { slug: "pc-zubehoer-original-oder-kompatibel", title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf", excerpt: "Worauf es bei Kabeln, Monitoren, Speicher und Druckerpatronen wirklich ankommt – mit Preisvergleich für PC-Zubehör.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "pc-it-zubehoer" },
+      { slug: "heimkino-einrichten-guide", title: "Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein", excerpt: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das wirklich überzeugt.", date: "16. August 2026", readTime: "8 Min.", featured: true, pgLink: "heimkino" },
+      { slug: "monitor-oder-beamer-kaufratgeber", title: "Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt", excerpt: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät für welchen Einsatzzweck die bessere Wahl ist.", date: "17. August 2026", readTime: "7 Min.", pgLink: "monitore,beamer" },
+      { slug: "smart-home-nachruesten-guide", title: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich", excerpt: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne bei Kompatibilität oder Datenschutz Fehler zu machen.", date: "18. August 2026", readTime: "7 Min.", pgLink: "smart-home-steuerungstechnik" },
     ],
   },
   {
@@ -139,6 +143,24 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "kosmetik-beauty",
     posts: [
       { slug: "natuerliche-kosmetik-fruchtpigmente", title: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt", excerpt: "Vegane Kosmetik, Fruchtpigmente statt synthetischer Farbstoffe – mit 100% Pure als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "6 Min.", featured: true, pgLink: "kosmetik-beauty" },
+    ],
+  },
+  {
+    slug: "haustiere",
+    name: "Haustiere",
+    description: "Futter, Zubehör und Ausstattung für Hund und Katze im Kaufberatungs-Check.",
+    pgLink: "tierbedarf",
+    posts: [
+      { slug: "haustierbedarf-online-kaufen", title: "Hunde- und Katzenbedarf online kaufen: Der Praxis-Guide", excerpt: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden und worauf du bei Zubehör achten solltest.", date: "18. August 2026", readTime: "6 Min.", featured: true, pgLink: "tierbedarf" },
+    ],
+  },
+  {
+    slug: "auto-fahrzeug",
+    name: "Auto & Fahrzeugzubehör",
+    description: "Dachboxen, Pflegeprodukte und Sicherheitsausstattung fürs Fahrzeug im Kaufberatungs-Check.",
+    pgLink: "auto-fahrzeugzubehoer",
+    posts: [
+      { slug: "auto-zubehoer-kaufratgeber", title: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung", excerpt: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es beim Kauf von Auto-Zubehör wirklich ankommt.", date: "19. August 2026", readTime: "7 Min.", pgLink: "auto-fahrzeugzubehoer" },
     ],
   },
   {
