@@ -22,9 +22,10 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
+  // getAllPosts() already returns newest-first — a single chronological
+  // grid instead of a separate "featured" row, so the newest post always
+  // lands in the top row regardless of its featured flag.
   const posts = getAllPosts();
-  const featured = posts.filter((p) => p.featured);
-  const rest = posts.filter((p) => !p.featured);
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -60,31 +61,9 @@ export default function BlogPage() {
           ))}
         </div>
 
-        {/* Featured Posts */}
+        {/* All posts, newest first */}
         <div className="row g-4 mb-5">
-          {featured.map((post) => (
-            <div className="col-md-6" key={post.slug}>
-              <a href={`/blog/${post.slug}`} className="text-decoration-none text-dark">
-                <div className="card h-100 p-4">
-                  <div className="d-flex align-items-center gap-2 mb-3">
-                    <span className="tag">{post.category.name}</span>
-                    <span className="text-muted small">⏱ {post.readTime}</span>
-                  </div>
-                  <h2 className="h5 fw-bold mb-2">{post.title}</h2>
-                  <p className="text-muted small mb-3">{post.excerpt}</p>
-                  <div className="d-flex justify-content-between align-items-center mt-auto">
-                    <small className="text-muted">{post.date}</small>
-                    <span className="small fw-semibold" style={{ color: "var(--pg-blue)" }}>Lesen →</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          ))}
-        </div>
-
-        {/* Rest of posts */}
-        <div className="row g-4 mb-5">
-          {rest.map((post) => (
+          {posts.map((post) => (
             <div className="col-md-4" key={post.slug}>
               <a href={`/blog/${post.slug}`} className="text-decoration-none text-dark">
                 <div className="card h-100 p-4">

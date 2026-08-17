@@ -176,12 +176,35 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
   },
 ];
 
+// Post dates are hand-authored strings like "17. August 2026" — parse them
+// so posts can sort newest-first instead of relying on source order, which
+// drifts as posts get added to whichever category they belong to.
+const GERMAN_MONTHS: Record<string, number> = {
+  januar: 0, februar: 1, märz: 2, april: 3, mai: 4, juni: 5,
+  juli: 6, august: 7, september: 8, oktober: 9, november: 10, dezember: 11,
+};
+
+function parseGermanDate(date: string): number {
+  const match = date.match(/^(\d{1,2})\.\s*(\w+)\s*(\d{4})$/);
+  if (!match) return 0;
+  const [, day, month, year] = match;
+  const monthIndex = GERMAN_MONTHS[month.toLowerCase()];
+  if (monthIndex === undefined) return 0;
+  return new Date(Number(year), monthIndex, Number(day)).getTime();
+}
+
+function byDateDesc<T extends { date: string }>(a: T, b: T): number {
+  return parseGermanDate(b.date) - parseGermanDate(a.date);
+}
+
 export function getAllPosts(): (BlogPost & { category: BlogCategory })[] {
-  return BLOG_CATEGORIES.flatMap((cat) => cat.posts.map((p) => ({ ...p, category: cat })));
+  return BLOG_CATEGORIES.flatMap((cat) => cat.posts.map((p) => ({ ...p, category: cat }))).sort(byDateDesc);
 }
 
 export function getCategory(slug: string): BlogCategory | undefined {
-  return BLOG_CATEGORIES.find((c) => c.slug === slug);
+  const category = BLOG_CATEGORIES.find((c) => c.slug === slug);
+  if (!category) return undefined;
+  return { ...category, posts: [...category.posts].sort(byDateDesc) };
 }
 
 export function getPost(slug: string): (BlogPost & { category: BlogCategory }) | undefined {
