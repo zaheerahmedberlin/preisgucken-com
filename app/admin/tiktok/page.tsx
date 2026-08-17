@@ -179,6 +179,7 @@ export default function TikTokGenerator() {
   const [generatingVideo, setGeneratingVideo] = useState(false);
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
   const [videoBlob, setVideoBlob] = useState<Blob | null>(null);
+  const [genError, setGenError] = useState<string | null>(null);
 
   useEffect(() => {
     const saved = localStorage.getItem("tiktok_history");
@@ -271,15 +272,19 @@ export default function TikTokGenerator() {
       ? { productName: product.title, price: product.price, oldPrice: product.old_price, vendor: product.vendor, category: product.category, style }
       : { productName: manualName, price: manualPrice, oldPrice: manualOldPrice, vendor: manualVendor, style };
     if (!payload.productName) return;
-    setLoading(true); setVariations([]); setActiveVar(0);
+    setLoading(true); setVariations([]); setActiveVar(0); setGenError(null);
     try {
       const res = await fetch("/api/generate-tiktok", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
       const data = await res.json();
       if (data.variations?.length) {
         setVariations(data.variations);
         saveHistory(payload.productName, payload.price, data.variations);
+      } else {
+        setGenError(data.error || "Keine Scripts erhalten — die KI-Antwort war leer. Bitte erneut versuchen.");
       }
-    } catch {} finally { setLoading(false); }
+    } catch {
+      setGenError("Generierung fehlgeschlagen — Netzwerkfehler. Bitte erneut versuchen.");
+    } finally { setLoading(false); }
   }
 
   function copyScript() {
@@ -462,6 +467,11 @@ export default function TikTokGenerator() {
           >
             {loading ? "⏳ Generiere 3 Varianten..." : "✨ Scripts generieren"}
           </button>
+          {genError && (
+            <div className="alert alert-danger small mb-4" role="alert">
+              ❌ {genError}
+            </div>
+          )}
 
           {/* Output: 3 variations */}
           {variations.length > 0 && (

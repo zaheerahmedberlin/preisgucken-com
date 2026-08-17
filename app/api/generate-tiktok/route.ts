@@ -69,6 +69,10 @@ Antworte NUR mit diesem JSON (kein Text davor/danach):
     });
 
     const data = await res.json();
+    if (!res.ok || data.error) {
+      console.error("Groq API error:", data.error);
+      return NextResponse.json({ error: data.error?.message || "Groq API-Fehler" }, { status: 502 });
+    }
     const raw = data.choices?.[0]?.message?.content || "{}";
     const jsonMatch = raw.match(/\{[\s\S]*\}/);
     const parsed = jsonMatch ? JSON.parse(jsonMatch[0]) : { variations: [] };
