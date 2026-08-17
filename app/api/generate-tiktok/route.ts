@@ -61,10 +61,11 @@ Antworte NUR mit diesem JSON (kein Text davor/danach):
         "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
       },
       body: JSON.stringify({
-        model: "llama-3.3-70b-versatile",
+        model: "openai/gpt-oss-120b",
         messages: [{ role: "user", content: prompt }],
-        max_tokens: 1200,
+        max_tokens: 2000,
         temperature: 0.8,
+        reasoning_effort: "low",
       }),
     });
 

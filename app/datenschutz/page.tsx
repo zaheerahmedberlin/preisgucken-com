@@ -53,10 +53,10 @@ export default function DatenschutzPage() {
       </section>
 
       <section className="mb-4">
-        <h2 className="h5 fw-bold">5. KI-Inhalte (Groq / LLaMA)</h2>
+        <h2 className="h5 fw-bold">5. KI-Inhalte (Groq / GPT-OSS)</h2>
         <p className="small text-muted">
           Der TikTok-Skriptgenerator nutzt die Groq API (Groq Inc., USA) mit dem Modell
-          LLaMA 3.3. Eingaben werden zur Verarbeitung an Groq übermittelt. Es werden keine
+          GPT-OSS 120B. Eingaben werden zur Verarbeitung an Groq übermittelt. Es werden keine
           personenbezogenen Daten eingegeben oder gespeichert. Weitere Informationen:{" "}
           <a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener noreferrer">
             groq.com/privacy-policy

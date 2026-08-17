@@ -33,7 +33,7 @@ export default function AgbPage() {
       <section className="mb-4">
         <h2 className="h5 fw-bold">§ 3 KI-generierte Inhalte</h2>
         <p className="small text-muted">
-          Der TikTok-Skriptgenerator erzeugt Inhalte mithilfe künstlicher Intelligenz (Groq / LLaMA).
+          Der TikTok-Skriptgenerator erzeugt Inhalte mithilfe künstlicher Intelligenz (Groq / GPT-OSS).
           Die generierten Skripte sind Vorschläge und ersetzen keine professionelle Beratung.
           Wir übernehmen keine Haftung für die Richtigkeit, Vollständigkeit oder Eignung der
           generierten Inhalte. Die Nutzung erfolgt auf eigene Verantwortung.
