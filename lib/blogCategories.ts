@@ -70,6 +70,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "kleider-fuer-jeden-anlass", title: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte", excerpt: "Alltagskleid, Brautkleid oder Umstandskleid – welcher Schnitt und Stoff passt zu welchem Anlass? Mit Preisvergleich.", date: "4. August 2026", readTime: "8 Min.", featured: true, pgLink: "kleider" },
       { slug: "workwear-trend-painter-pants-chore-jacket", title: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag", excerpt: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet – mit Stan Ray als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "herrenmode" },
       { slug: "schuhe-online-kaufen-groessentabelle", title: "Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe", excerpt: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du bei Material und Rückgaberecht achten solltest.", date: "19. August 2026", readTime: "6 Min.", pgLink: "schuhe" },
+      { slug: "alltagslook-damenmode-make-up-guide", title: "Alltagslook für Frauen: Damenmode und Make-up richtig kombinieren", excerpt: "Basic-Teile, Layering und Everyday-Make-up im Guide: So baust du dir einen Alltagslook, der zu jedem Anlass passt – mit Preisvergleich für Damenmode und Kosmetik.", date: "19. August 2026", readTime: "7 Min.", featured: true, pgLink: "damenmode,kosmetik-beauty" },
     ],
   },
   {
