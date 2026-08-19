@@ -175,6 +175,15 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "preisvergleich-tipps", title: "Preisvergleich richtig nutzen: So sparst du bis zu 40%", excerpt: "Gleiche Produkte, verschiedene Preise – manchmal bis zu 40% Unterschied. So nutzt du Preisvergleich optimal.", date: "15. Juli 2026", readTime: "5 Min.", pgLink: "" },
     ],
   },
+  {
+    slug: "kueche-haushaltsgeraete",
+    name: "Küche & Haushaltsgeräte",
+    description: "Standmixer, Toaster, Fritteusen und mehr – Kaufberatung für elektrische Küchenhelfer.",
+    pgLink: "kueche",
+    posts: [
+      { slug: "kuechengeraete-vergleich-kaufratgeber", title: "Küchengeräte im Vergleich: Standmixer, Toaster, Fritteuse & Co. richtig wählen", excerpt: "Toaster oder Sandwichmaker? Standmixer oder Küchenmaschine? Kaffeevollautomat oder Kapselmaschine? Der komplette Küchengeräte-Ratgeber mit Preisvergleich.", date: "19. August 2026", readTime: "8 Min.", featured: true, pgLink: "mikrowellen,toaster,standmixer-puerierstaebe,kuechenmaschinen,fritteusen-heissluftfritteusen,kaffeevollautomaten,kochplatten-kochfelder,eierkocher,kleine-kuechengeraete,wasserkocher,kaffeemaschinen" },
+    ],
+  },
 ];
 
 // Post dates are hand-authored strings like "17. August 2026" — parse them
