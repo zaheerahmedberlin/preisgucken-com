@@ -11,9 +11,10 @@ export const metadata: Metadata = {
     default: "Preisgucken – Preisvergleich, Deals & Kaufberatung",
     template: "%s | Preisgucken – Preisvergleich",
   },
-  description: "Preisvergleich-Ratgeber, Schnäppchen-Tipps und Kaufberatung aus Deutschland – von den Preisvergleich-Experten von Preisgucken.de.",
+  description: "Preisvergleich-Ratgeber, Schnäppchen-Tipps und Kaufberatung aus Deutschland – bundesweit, von Berlin bis München.",
   keywords: [
     "Preisvergleich",
+    "Preisvergleich Deutschland",
     "Preisvergleich Ratgeber",
     "Kaufberatung",
     "Ratgeber",
@@ -31,6 +32,26 @@ export const metadata: Metadata = {
     "Abendkleid kaufen",
     "Staubsauger kaufen Ratgeber",
     "Gartenmöbel kaufen Ratgeber",
+
+    // City-level intent, same rationale as preisgucken.de — kept out of
+    // the visible title/description to avoid keyword-stuffing.
+    "Preisvergleich Berlin", "Preisvergleich Hamburg", "Preisvergleich München",
+    "Preisvergleich Köln", "Preisvergleich Frankfurt", "Preisvergleich Stuttgart",
+    "Preisvergleich Düsseldorf", "Preisvergleich Leipzig", "Preisvergleich Dortmund",
+    "Preisvergleich Essen", "Preisvergleich Bremen", "Preisvergleich Dresden",
+    "Preisvergleich Hannover", "Preisvergleich Nürnberg", "Preisvergleich Duisburg",
+    "Preisvergleich Bochum", "Preisvergleich Wuppertal", "Preisvergleich Bielefeld",
+    "Preisvergleich Bonn", "Preisvergleich Münster", "Preisvergleich Mannheim",
+    "Preisvergleich Karlsruhe", "Preisvergleich Augsburg", "Preisvergleich Wiesbaden",
+    "Preisvergleich Mönchengladbach", "Preisvergleich Gelsenkirchen", "Preisvergleich Braunschweig",
+    "Preisvergleich Kiel", "Preisvergleich Aachen", "Preisvergleich Chemnitz",
+    "Preisvergleich Halle", "Preisvergleich Magdeburg", "Preisvergleich Freiburg",
+    "Preisvergleich Krefeld", "Preisvergleich Lübeck", "Preisvergleich Mainz",
+    "Preisvergleich Erfurt", "Preisvergleich Oberhausen", "Preisvergleich Rostock",
+    "Preisvergleich Kassel", "Preisvergleich Hagen", "Preisvergleich Potsdam",
+    "Preisvergleich Saarbrücken", "Preisvergleich Hamm", "Preisvergleich Mülheim an der Ruhr",
+    "Preisvergleich Ludwigshafen", "Preisvergleich Leverkusen", "Preisvergleich Oldenburg",
+    "Preisvergleich Osnabrück", "Preisvergleich Solingen",
   ],
   alternates: { canonical: BASE_URL },
   openGraph: {
