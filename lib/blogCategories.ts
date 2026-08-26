@@ -176,6 +176,15 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     ],
   },
   {
+    slug: "familie-kinder",
+    name: "Familie & Kinder",
+    description: "Schulstart, Kita-Ausstattung und alles rund ums Familienleben im Kaufberatungs-Check.",
+    pgLink: "baby-world",
+    posts: [
+      { slug: "schulstart-kita-ratgeber", title: "Schulanfang Checkliste 2026: Was dein Kind wirklich braucht", excerpt: "Schulranzen, Stifte, Babytrage & mehr: Die komplette Checkliste für Schulanfang und Kita-Start – mit Preisvergleich, damit du nicht zu viel zahlst.", date: "26. August 2026", readTime: "8 Min.", featured: true, pgLink: "taschen-koffer,buero-schreibwaren,laptops,baby-ausstattung" },
+    ],
+  },
+  {
     slug: "kueche-haushaltsgeraete",
     name: "Küche & Haushaltsgeräte",
     description: "Standmixer, Toaster, Fritteusen und mehr – Kaufberatung für elektrische Küchenhelfer.",
