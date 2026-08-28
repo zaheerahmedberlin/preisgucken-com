@@ -130,7 +130,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" async />
         <GoogleAnalytics />
-        <script src="https://analytics.ahrefs.com/analytics.js" data-key="9n9pYPdgw1BL/GNx1YU0HA" async />
       </body>
     </html>
   );
