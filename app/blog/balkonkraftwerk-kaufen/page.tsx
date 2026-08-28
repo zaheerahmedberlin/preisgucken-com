@@ -13,6 +13,11 @@ export const metadata: Metadata = {
     "balkonkraftwerk halterung",
     "solarpanel balkon",
     "balkonkraftwerk preisvergleich",
+    "mini pv anlage",
+    "bifaziale solarmodule",
+    "glas glas module",
+    "balkonkraftwerke test",
+    "marktstammdatenregister bundesnetzagentur",
   ],
   openGraph: {
     title: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick",
@@ -54,7 +59,7 @@ export default function BalkonkraftwerkKaufenPage() {
           <p className="lead text-muted">
             Zwischen dem günstigsten Steckersolargerät und einem System mit Speicher liegen oft mehrere Hundert Euro –
             und nicht jedes Modell passt auf jeden Balkon. Wir zeigen, worauf es bei Leistung, Speicher und Montage
-            wirklich ankommt.
+            wirklich ankommt – egal ob du sie als Balkonkraftwerk oder Mini-PV-Anlage kennst.
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 8. August 2026</span>
@@ -137,24 +142,37 @@ export default function BalkonkraftwerkKaufenPage() {
                 <tr><td>Mit integriertem Speicher</td><td>Puffert Solarstrom für abends, höherer Anschaffungspreis, dafür bessere Eigenverbrauchsquote</td></tr>
                 <tr><td>Mit Erweiterungsakku</td><td>Speicherkapazität lässt sich nachträglich erhöhen – sinnvoll, wenn der Verbrauch später steigt</td></tr>
                 <tr><td>Halbfeste Module (SolidFlex)</td><td>Flexibel und leicht, ideal für unebene oder empfindliche Montageflächen wie Blechdächer</td></tr>
+                <tr><td>Bifaziale Solarmodule</td><td>Nehmen Licht auf Vorder- und Rückseite auf und nutzen so auch diffusem Licht und reflektiertes Umgebungslicht – bringen bei heller Fassade oder heller Balkonbrüstung spürbar mehr Ertrag</td></tr>
+                <tr><td>Glas-Glas-Module</td><td>Solarzellen zwischen zwei Glasscheiben statt Glas und Folie – witterungsbeständiger und langlebiger, dafür etwas schwerer als klassische Glas-Folie-Module</td></tr>
               </tbody>
             </table>
           </div>
+          <p className="small text-muted mt-2">
+            Bifaziale Module lohnen sich besonders in Kombination mit einer reflektierenden Fläche direkt hinter dem
+            Modul – auch bei diffusem Licht an bewölkten Tagen liefern sie so noch einen spürbaren Mehrertrag
+            gegenüber einseitigen Modulen.
+          </p>
         </section>
 
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Worauf du vor dem Kauf achten solltest</h2>
           <ol>
-            <li><strong>Einspeisegrenze prüfen:</strong> Der Wechselrichter darf maximal 800 Watt einspeisen – Systeme mit höherer Modulleistung sind trotzdem zulässig, solange der Wechselrichter das begrenzt.</li>
-            <li><strong>Anmeldung nicht vergessen:</strong> Balkonkraftwerke müssen im Marktstammdatenregister angemeldet werden – seit der vereinfachten Regelung reicht das meist ohne Elektriker-Termin.</li>
-            <li><strong>Montageort vorher klären:</strong> Balkongeländer, Flachdach und Schrägdach brauchen unterschiedliche Halterungen – vor dem Kauf prüfen, ob die passende Halterung im Set enthalten ist.</li>
-            <li><strong>Amortisationszeit realistisch einschätzen:</strong> Bei typischem Verbrauch amortisiert sich ein Balkonkraftwerk je nach Systemgröße und Eigenverbrauch meist innerhalb weniger Jahre.</li>
+            <li><strong>Einspeisegrenze prüfen:</strong> Der Wechselrichter darf maximal 800 Watt in öffentliche Netze einspeisen – Systeme mit höherer Modulleistung sind trotzdem zulässig, solange der Wechselrichter das begrenzt.</li>
+            <li><strong>Anmeldung nicht vergessen:</strong> Balkonkraftwerke müssen im Marktstammdatenregister der Bundesnetzagentur angemeldet werden – seit der vereinfachten Regelung ist die Anmeldung im Marktstammdatenregister meist in wenigen Minuten erledigt, ganz ohne Elektriker-Termin.</li>
+            <li><strong>Montageort vorher klären:</strong> Balkongeländer, Flachdach und Schrägdach brauchen unterschiedliche Halterungen – vor dem Kauf prüfen, ob die passende Halterung im Set enthalten ist und wie einfach die Installation in der Praxis wirklich ist.</li>
+            <li><strong>Erzeugten Strom im Blick behalten:</strong> Ein Smart Meter oder die App des Wechselrichters zeigt, wie viel kWh pro Tag tatsächlich erzeugt und selbst verbraucht werden – wichtig, um die reale Eigenverbrauchsquote einzuschätzen statt nur die Herstellerangabe zu glauben.</li>
+            <li><strong>Amortisationszeit realistisch einschätzen:</strong> Bei typischem Verbrauch amortisiert sich ein Balkonkraftwerk je nach Systemgröße, erzeugten kWh pro Jahr und Eigenverbrauch meist innerhalb weniger Jahre.</li>
           </ol>
           <div className="alert alert-info small">
             💡 <strong>Sparfuchs-Tipp:</strong> Wer bereits eine Halterung oder Solarmodule besitzt, sollte gezielt nach
             einzelnen Komponenten statt Komplettsets suchen – bei modularen Systemen lässt sich so oft mehrere Hundert
             Euro sparen.
           </div>
+          <p className="small text-muted mt-3">
+            Ein gutes Preis-Leistungs-Verhältnis erkennst du nicht allein am Etikettenpreis: Ein aktueller
+            Balkonkraftwerke-Test und Erfahrungsberichte zufriedener Kunden verraten oft mehr über reale Erträge und
+            Verarbeitungsqualität als die technischen Daten allein.
+          </p>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
