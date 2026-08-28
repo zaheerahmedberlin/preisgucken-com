@@ -40,6 +40,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "gartenmoebel-kaufen-ratgeber", title: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich", excerpt: "Polyrattan, Aluminium oder Holz? Unser Ratgeber erklärt die Materialien und zeigt, wie du Gartenmöbel günstig kaufst.", date: "24. Juli 2026", readTime: "7 Min.", pgLink: "gartenmoebel" },
       { slug: "vorhaenge-kaufen-ratgeber", title: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt", excerpt: "Nicht jeder Vorhang kann alles – welcher Stoff für welchen Zweck taugt und wie du beim Kauf nichts falsch machst.", date: "29. Juli 2026", readTime: "6 Min.", pgLink: "vorhaenge" },
       { slug: "haengelampe-oder-stehlampe-design-leuchte", title: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte", excerpt: "Welcher Leuchtentyp für welchen Raum passt – mit Van Tjalle en Jasper als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "6 Min.", featured: true, pgLink: "leuchten" },
+      { slug: "wohnaccessoires-beleuchtung-preisvergleich", title: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf", excerpt: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern – so findest du die besten Preise für dein Zuhause.", date: "27. August 2026", readTime: "6 Min.", featured: true, pgLink: "leuchten,wohnaccessoires" },
     ],
   },
   {
@@ -173,6 +174,8 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     posts: [
       { slug: "schnaeppchen-tipps-2026", title: "15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro", excerpt: "Wie du nie wieder zu viel bezahlst – diese 15 Tricks funktionieren sofort und kosten dich nichts.", date: "19. Juli 2026", readTime: "6 Min.", featured: true, pgLink: "" },
       { slug: "preisvergleich-tipps", title: "Preisvergleich richtig nutzen: So sparst du bis zu 40%", excerpt: "Gleiche Produkte, verschiedene Preise – manchmal bis zu 40% Unterschied. So nutzt du Preisvergleich optimal.", date: "15. Juli 2026", readTime: "5 Min.", pgLink: "" },
+      { slug: "bestes-preis-leistungs-verhaeltnis-finden", title: "Wie finde ich das beste Preis-Leistungs-Verhältnis? 6 Kriterien, die wirklich zählen", excerpt: "Nicht der günstigste Preis, sondern die richtige Bewertung von Qualität, Nutzungsdauer und Ausstattung entscheidet. So gehst du strukturiert vor.", date: "27. August 2026", readTime: "6 Min.", featured: true, pgLink: "" },
+      { slug: "original-oder-kompatibel-zubehoer-kaufen", title: "Original oder kompatibel? So triffst du die richtige Wahl beim Zubehör-Kauf", excerpt: "Druckerpatronen, Autoteile oder Handy-Zubehör: Wo sich das Original lohnt und wo du bei Nachbau-Ware bedenkenlos sparen kannst.", date: "27. August 2026", readTime: "6 Min.", pgLink: "" },
     ],
   },
   {

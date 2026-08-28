@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "werkzeugkoffer grundausstattung",
     "heimwerker werkzeug set",
     "akkuschrauber vergleich",
+    "werkstatt grundausstattung für heimwerker",
   ],
   openGraph: {
     title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)",
@@ -52,8 +53,8 @@ export default function WerkstattAusstattungPage() {
           <h1 className="fw-bold display-6 mb-3">Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)</h1>
           <p className="lead text-muted">
             Ein voller Werkzeugkoffer ist schnell gekauft – aber nicht jedes Teil darin wird auch wirklich
-            gebraucht. Wir zeigen, welche Grundausstattung sich für Heimwerker lohnt und wo du am Anfang
-            getrost sparen kannst.
+            gebraucht. Wir zeigen, welche Werkstatt-Grundausstattung sich für Heimwerker wirklich lohnt und
+            wo du am Anfang getrost sparen kannst.
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 14. August 2026</span>
@@ -119,7 +120,7 @@ export default function WerkstattAusstattungPage() {
         </section>
 
         <section className="mb-5">
-          <h2 className="fw-bold h4 mb-3">Grundausstattung im Überblick</h2>
+          <h2 className="fw-bold h4 mb-3">Werkstatt-Grundausstattung für Heimwerker im Überblick</h2>
           <div className="table-responsive">
             <table className="table table-bordered small">
               <thead className="table-dark">

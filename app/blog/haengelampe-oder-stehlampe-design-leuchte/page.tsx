@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "ausgefallene lampen kaufen",
     "led leuchtmittel dimmbar",
     "designerlampe kaufen",
+    "welche stehlampe passt ins wohnzimmer",
   ],
   openGraph: {
     title: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte",
@@ -79,7 +80,10 @@ export default function HaengelampeStehlampePage() {
                 <h3 className="h6 fw-bold mb-2">🕯️ Stehlampe</h3>
                 <p className="small text-muted mb-0">
                   Flexibel positionierbar und ideal für indirektes Licht in der Wohnzimmerecke oder neben dem
-                  Sofa – ohne dass Bohrlöcher oder feste Anschlüsse nötig sind.
+                  Sofa – ohne dass Bohrlöcher oder feste Anschlüsse nötig sind. Welche Stehlampe ins Wohnzimmer
+                  passt, hängt vor allem von Raumgröße und Deckenhöhe ab: Schlanke Bogenlampen wirken über dem
+                  Sofa, während bodenstehende Stehleuchten mit breiterem Fuß in größeren Räumen besser
+                  proportioniert sind.
                 </p>
               </div>
             </div>
