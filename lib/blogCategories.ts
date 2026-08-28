@@ -90,6 +90,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "heimkino-einrichten-guide", title: "Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein", excerpt: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das wirklich überzeugt.", date: "16. August 2026", readTime: "8 Min.", featured: true, pgLink: "heimkino" },
       { slug: "monitor-oder-beamer-kaufratgeber", title: "Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt", excerpt: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät für welchen Einsatzzweck die bessere Wahl ist.", date: "17. August 2026", readTime: "7 Min.", pgLink: "monitore,beamer" },
       { slug: "smart-home-nachruesten-guide", title: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich", excerpt: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne bei Kompatibilität oder Datenschutz Fehler zu machen.", date: "18. August 2026", readTime: "7 Min.", pgLink: "smart-home-steuerungstechnik" },
+      { slug: "kopfhoerer-typ-in-ear-open-ear-over-ear", title: "In-Ear, Open-Ear oder Over-Ear? So findest du den richtigen Kopfhörer-Typ", excerpt: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – mit EarFun als Praxisbeispiel im Preisvergleich.", date: "28. August 2026", readTime: "7 Min.", featured: true, pgLink: "kopfhoerer-lautsprecher" },
     ],
   },
   {

@@ -1,10 +1,10 @@
 const latestPosts = [
   {
-    slug: "/blog/haengelampe-oder-stehlampe-design-leuchte",
-    title: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte",
-    excerpt: "Welcher Leuchtentyp für welchen Raum passt – mit Preisvergleich.",
+    slug: "/blog/kopfhoerer-typ-in-ear-open-ear-over-ear",
+    title: "In-Ear, Open-Ear oder Over-Ear? So findest du den richtigen Kopfhörer-Typ",
+    excerpt: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – mit EarFun im Preisvergleich.",
     category: "Kaufberatung",
-    date: "14. August 2026",
+    date: "28. August 2026",
   },
   {
     slug: "/blog/werkstatt-ausstattung-was-du-wirklich-brauchst",
