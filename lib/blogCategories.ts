@@ -91,6 +91,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "monitor-oder-beamer-kaufratgeber", title: "Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt", excerpt: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät für welchen Einsatzzweck die bessere Wahl ist.", date: "17. August 2026", readTime: "7 Min.", pgLink: "monitore,beamer" },
       { slug: "smart-home-nachruesten-guide", title: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich", excerpt: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne bei Kompatibilität oder Datenschutz Fehler zu machen.", date: "18. August 2026", readTime: "7 Min.", pgLink: "smart-home-steuerungstechnik" },
       { slug: "kopfhoerer-typ-in-ear-open-ear-over-ear", title: "In-Ear, Open-Ear oder Over-Ear? So findest du den richtigen Kopfhörer-Typ", excerpt: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – mit EarFun als Praxisbeispiel im Preisvergleich.", date: "28. August 2026", readTime: "7 Min.", featured: true, pgLink: "kopfhoerer-lautsprecher" },
+      { slug: "handyhuellen-kaufen-material-schutz", title: "Handyhülle kaufen: Material, Schutzwirkung und Passform im Überblick", excerpt: "Silikon, Hartplastik oder Hybrid — welches Hüllenmaterial wirklich schützt.", date: "30. August 2026", readTime: "6 Min.", pgLink: "handyhuellen" },
     ],
   },
   {
@@ -139,6 +140,9 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     posts: [
       { slug: "werkstatt-ausstattung-was-du-wirklich-brauchst", title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)", excerpt: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Contorion als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "werkzeug-heimwerken" },
       { slug: "elektroinstallation-kaufen", title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick", excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt — worauf es wirklich ankommt.", date: "30. August 2026", readTime: "7 Min.", featured: true, pgLink: "elektroinstallation" },
+      { slug: "arbeitskleidung-arbeitsschutz-kaufen", title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick", excerpt: "Schutzhelm, Knieschoner oder Warnschutz — worauf es bei Arbeitsschutzausrüstung wirklich ankommt.", date: "30. August 2026", readTime: "7 Min.", pgLink: "arbeitskleidung-arbeitsschutz" },
+      { slug: "beschlaege-schloesser-kaufen", title: "Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick", excerpt: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt.", date: "30. August 2026", readTime: "6 Min.", pgLink: "beschlaege-schloesser" },
+      { slug: "materialbearbeitung-fraeser-schleifscheiben-kaufen", title: "Fräser, Trenn- und Schleifscheiben kaufen: Material, Norm und Maschinenkompatibilität", excerpt: "Welche Scheibe für welches Material, worauf bei Durchmesser und Drehzahl zu achten ist.", date: "30. August 2026", readTime: "7 Min.", pgLink: "materialbearbeitung" },
     ],
   },
   {
@@ -187,6 +191,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "baby-world",
     posts: [
       { slug: "schulstart-kita-ratgeber", title: "Schulanfang Checkliste 2026: Was dein Kind wirklich braucht", excerpt: "Schulranzen, Stifte, Babytrage & mehr: Die komplette Checkliste für Schulanfang und Kita-Start – mit Preisvergleich, damit du nicht zu viel zahlst.", date: "26. August 2026", readTime: "8 Min.", featured: true, pgLink: "taschen-koffer,buero-schreibwaren,laptops,baby-ausstattung" },
+      { slug: "spielzeug-kaufen-sicherheit-alter", title: "Spielzeug kaufen: Altersfreigabe, Sicherheit und Prüfzeichen im Überblick", excerpt: "GS-Zeichen, Altersfreigabe und Kleinteile — worauf es beim Spielzeugkauf wirklich ankommt.", date: "30. August 2026", readTime: "6 Min.", pgLink: "spielzeug" },
     ],
   },
   {

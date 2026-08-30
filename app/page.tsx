@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/arbeitskleidung-arbeitsschutz-kaufen",
+    title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick",
+    excerpt: "Schutzhelm, Knieschoner oder Warnschutz – worauf es bei Arbeitsschutzausrüstung ankommt.",
+    category: "Kaufberatung",
+    date: "30. August 2026",
+  },
+  {
     slug: "/blog/elektroinstallation-kaufen",
     title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick",
     excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt – worauf es ankommt.",
@@ -12,13 +19,6 @@ const latestPosts = [
     excerpt: "Windschutzscheibe, Sozius-Rückenpolster oder Chrom-Zubehör – mit Kohl DE im Preisvergleich.",
     category: "Kaufberatung",
     date: "30. August 2026",
-  },
-  {
-    slug: "/blog/kopfhoerer-typ-in-ear-open-ear-over-ear",
-    title: "In-Ear, Open-Ear oder Over-Ear? So findest du den richtigen Kopfhörer-Typ",
-    excerpt: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – mit EarFun im Preisvergleich.",
-    category: "Kaufberatung",
-    date: "28. August 2026",
   },
 ];
 
