@@ -189,6 +189,15 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     ],
   },
   {
+    slug: "motorrad-zubehoer",
+    name: "Motorrad & Zubehör",
+    description: "Passgenauigkeit, Komfort und Optik — Kaufberatung für Motorradzubehör.",
+    pgLink: "motorradzubehoer",
+    posts: [
+      { slug: "motorradzubehoer-kaufen", title: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick", excerpt: "Windschutzscheibe, Sozius-Rückenpolster oder Chrom-Zubehör — mit Kohl DE als Praxisbeispiel im Preisvergleich.", date: "30. August 2026", readTime: "7 Min.", featured: true, pgLink: "motorradzubehoer" },
+    ],
+  },
+  {
     slug: "kueche-haushaltsgeraete",
     name: "Küche & Haushaltsgeräte",
     description: "Standmixer, Toaster, Fritteusen und mehr – Kaufberatung für elektrische Küchenhelfer.",

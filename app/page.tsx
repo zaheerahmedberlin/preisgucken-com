@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/motorradzubehoer-kaufen",
+    title: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick",
+    excerpt: "Windschutzscheibe, Sozius-Rückenpolster oder Chrom-Zubehör – mit Kohl DE im Preisvergleich.",
+    category: "Kaufberatung",
+    date: "30. August 2026",
+  },
+  {
     slug: "/blog/kopfhoerer-typ-in-ear-open-ear-over-ear",
     title: "In-Ear, Open-Ear oder Over-Ear? So findest du den richtigen Kopfhörer-Typ",
     excerpt: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – mit EarFun im Preisvergleich.",
@@ -7,18 +14,11 @@ const latestPosts = [
     date: "28. August 2026",
   },
   {
-    slug: "/blog/werkstatt-ausstattung-was-du-wirklich-brauchst",
-    title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)",
-    excerpt: "Grundausstattung für Heimwerker – mit Contorion im Preisvergleich.",
+    slug: "/blog/wohnaccessoires-beleuchtung-preisvergleich",
+    title: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf",
+    excerpt: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern.",
     category: "Kaufberatung",
-    date: "14. August 2026",
-  },
-  {
-    slug: "/blog/pc-zubehoer-original-oder-kompatibel",
-    title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf",
-    excerpt: "Worauf es bei Kabeln, Monitoren & Speicher wirklich ankommt.",
-    category: "Kaufberatung",
-    date: "14. August 2026",
+    date: "27. August 2026",
   },
 ];
 
