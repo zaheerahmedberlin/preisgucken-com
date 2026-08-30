@@ -138,6 +138,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "werkzeug-heimwerken",
     posts: [
       { slug: "werkstatt-ausstattung-was-du-wirklich-brauchst", title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)", excerpt: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Contorion als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "werkzeug-heimwerken" },
+      { slug: "elektroinstallation-kaufen", title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick", excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt — worauf es wirklich ankommt.", date: "30. August 2026", readTime: "7 Min.", featured: true, pgLink: "elektroinstallation" },
     ],
   },
   {

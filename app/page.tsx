@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/elektroinstallation-kaufen",
+    title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick",
+    excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt – worauf es ankommt.",
+    category: "Kaufberatung",
+    date: "30. August 2026",
+  },
+  {
     slug: "/blog/motorradzubehoer-kaufen",
     title: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick",
     excerpt: "Windschutzscheibe, Sozius-Rückenpolster oder Chrom-Zubehör – mit Kohl DE im Preisvergleich.",
@@ -12,13 +19,6 @@ const latestPosts = [
     excerpt: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – mit EarFun im Preisvergleich.",
     category: "Kaufberatung",
     date: "28. August 2026",
-  },
-  {
-    slug: "/blog/wohnaccessoires-beleuchtung-preisvergleich",
-    title: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf",
-    excerpt: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern.",
-    category: "Kaufberatung",
-    date: "27. August 2026",
   },
 ];
 
