@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass",
     type: "article",
     publishedTime: "2026-08-04",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass" },
   twitter: {

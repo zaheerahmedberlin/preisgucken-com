@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/original-oder-kompatibel-zubehoer-kaufen",
     type: "article",
     publishedTime: "2026-08-27",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Original oder kompatibel? So triffst du die richtige Wahl beim Zubehör-Kauf" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Original oder kompatibel? So triffst du die richtige Wahl beim Zubehör-Kauf" }],
   },
   twitter: {
     card: "summary_large_image",

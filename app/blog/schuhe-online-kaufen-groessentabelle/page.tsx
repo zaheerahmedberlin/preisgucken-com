@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/schuhe-online-kaufen-groessentabelle",
     type: "article",
     publishedTime: "2026-08-19",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schuhe-online-kaufen-groessentabelle" },
   twitter: {

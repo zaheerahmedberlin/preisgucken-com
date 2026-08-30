@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/sterlingsilber-vs-edelstahl-schmuck",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/sterlingsilber-vs-edelstahl-schmuck" },
   twitter: {

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide",
     type: "article",
     publishedTime: "2026-08-04",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide" },
   twitter: {

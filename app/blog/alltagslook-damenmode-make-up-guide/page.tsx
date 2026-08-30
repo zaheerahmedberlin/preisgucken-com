@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/alltagslook-damenmode-make-up-guide",
     type: "article",
     publishedTime: "2026-08-19",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Alltagslook für Frauen: Damenmode und Make-up richtig kombinieren" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Alltagslook für Frauen: Damenmode und Make-up richtig kombinieren" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/alltagslook-damenmode-make-up-guide" },
   twitter: {

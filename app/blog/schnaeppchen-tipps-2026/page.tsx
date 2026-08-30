@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026",
     type: "article",
     publishedTime: "2026-07-19",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026" },
   twitter: {

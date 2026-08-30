@@ -26,9 +26,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
+    { url: `${BASE}/ueber-uns/`,   lastModified: new Date(), changeFrequency: "yearly", priority: 0.4 },
     { url: `${BASE}/impressum/`,   lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE}/datenschutz/`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE}/agb/`,         lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE}/kontakt/`,     lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
+    // cookie-einstellungen deliberately excluded — utility page, no content value for search
   ];
 }

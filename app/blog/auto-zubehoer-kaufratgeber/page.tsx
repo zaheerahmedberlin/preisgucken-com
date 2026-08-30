@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber",
     type: "article",
     publishedTime: "2026-08-19",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber" },
   twitter: {

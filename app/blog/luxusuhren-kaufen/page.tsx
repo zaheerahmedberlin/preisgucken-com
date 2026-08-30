@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/luxusuhren-kaufen",
     type: "article",
     publishedTime: "2026-08-04",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/luxusuhren-kaufen" },
   twitter: {

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/preisvergleich-tipps",
     type: "article",
     publishedTime: "2026-07-15",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Preisvergleich richtig nutzen: So sparst du bis zu 40%" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Preisvergleich richtig nutzen: So sparst du bis zu 40%" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/preisvergleich-tipps" },
   twitter: {

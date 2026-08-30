@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/balkonkraftwerk-kaufen",
     type: "article",
     publishedTime: "2026-08-08",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/balkonkraftwerk-kaufen" },
   twitter: {

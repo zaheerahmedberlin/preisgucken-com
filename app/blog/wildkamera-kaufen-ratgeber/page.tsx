@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/wildkamera-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-17",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Wildkamera kaufen: Auslöserzeit, Reichweite und Stromversorgung im Check" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Wildkamera kaufen: Auslöserzeit, Reichweite und Stromversorgung im Check" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/wildkamera-kaufen-ratgeber" },
   twitter: {

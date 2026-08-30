@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-17",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber" },
   twitter: {

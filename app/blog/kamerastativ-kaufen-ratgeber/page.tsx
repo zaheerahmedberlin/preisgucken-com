@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-29",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber" },
   twitter: {

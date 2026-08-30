@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Beutellos, Akku oder Roboter? Wir helfen dir, den richtigen Staubsauger zum besten Preis zu finden.",
     url: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt" }],
   },
   twitter: {
     card: "summary_large_image",

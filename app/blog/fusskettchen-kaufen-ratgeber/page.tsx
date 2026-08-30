@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber" },
   twitter: {

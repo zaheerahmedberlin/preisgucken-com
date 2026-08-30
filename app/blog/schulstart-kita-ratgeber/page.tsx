@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: "Die komplette Checkliste für Schulanfang und Kita-Start – mit Preisvergleich für Schulranzen, Schulsachen, Babytrage und mehr.",
     url: "https://www.preisgucken.com/blog/schulstart-kita-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Schulanfang Checkliste 2026: Was dein Kind wirklich braucht" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schulanfang Checkliste 2026: Was dein Kind wirklich braucht" }],
   },
   twitter: {
     card: "summary_large_image",

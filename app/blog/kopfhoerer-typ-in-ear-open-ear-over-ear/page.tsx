@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/kopfhoerer-typ-in-ear-open-ear-over-ear",
     type: "article",
     publishedTime: "2026-08-28",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "In-Ear, Open-Ear oder Over-Ear? Der Kopfhörer-Typ-Guide 2026" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "In-Ear, Open-Ear oder Over-Ear? Der Kopfhörer-Typ-Guide 2026" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/kopfhoerer-typ-in-ear-open-ear-over-ear" },
   twitter: {

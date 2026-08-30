@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/wohnaccessoires-beleuchtung-preisvergleich",
     type: "article",
     publishedTime: "2026-08-27",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf" }],
   },
   twitter: {
     card: "summary_large_image",

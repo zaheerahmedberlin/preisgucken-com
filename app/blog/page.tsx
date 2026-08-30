@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "Blog – Kaufberatung & Spartipps",
     description: "Expertenratgeber rund um Möbel, Elektronik, Schmuck und Sparen.",
     url: "https://www.preisgucken.com/blog",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Preisgucken Blog" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Preisgucken Blog" }],
   },
   twitter: {
     card: "summary_large_image",

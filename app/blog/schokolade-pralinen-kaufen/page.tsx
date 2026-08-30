@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/schokolade-pralinen-kaufen",
     type: "article",
     publishedTime: "2026-08-07",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schokolade-pralinen-kaufen" },
   twitter: {

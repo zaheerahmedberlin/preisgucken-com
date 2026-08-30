@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/workwear-trend-painter-pants-chore-jacket",
     type: "article",
     publishedTime: "2026-08-14",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag" }],
   },
   twitter: {
     card: "summary_large_image",

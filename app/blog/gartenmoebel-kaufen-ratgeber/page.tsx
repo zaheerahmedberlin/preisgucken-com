@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Lounge, Essgruppe oder Liegestuhl? Unser Ratgeber hilft dir, die besten Gartenmöbel zum günstigsten Preis zu finden.",
     url: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich" }],
   },
   twitter: {
     card: "summary_large_image",

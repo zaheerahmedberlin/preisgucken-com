@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen",
     type: "article",
     publishedTime: "2026-08-18",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Hunde- und Katzenbedarf online kaufen: Der Praxis-Guide" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Hunde- und Katzenbedarf online kaufen: Der Praxis-Guide" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen" },
   twitter: {

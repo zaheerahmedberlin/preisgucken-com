@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/pc-zubehoer-original-oder-kompatibel",
     type: "article",
     publishedTime: "2026-08-14",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf" }],
   },
   twitter: {
     card: "summary_large_image",

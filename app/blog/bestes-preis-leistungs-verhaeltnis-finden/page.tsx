@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/bestes-preis-leistungs-verhaeltnis-finden",
     type: "article",
     publishedTime: "2026-08-27",
-    images: [{ url: "https://www.preisgucken.com/logo.png", width: 1536, height: 1024, alt: "Wie finde ich das beste Preis-Leistungs-Verhältnis? 6 Kriterien, die wirklich zählen" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Wie finde ich das beste Preis-Leistungs-Verhältnis? 6 Kriterien, die wirklich zählen" }],
   },
   twitter: {
     card: "summary_large_image",

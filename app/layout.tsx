@@ -61,12 +61,13 @@ export const metadata: Metadata = {
     siteName: "Preisgucken",
     title: "Preisgucken – Preisvergleich, Deals & Kaufberatung",
     description: "Preisvergleich-Ratgeber, Schnäppchen-Tipps und Kaufberatung aus Deutschland – von den Preisvergleich-Experten von Preisgucken.de.",
-    // Interim fallback — the raw logo (1536x1024) isn't cropped for social
-    // sharing like a proper 1200x630 banner would be, but it's a real image
-    // instead of nothing. Every page inherits this since none currently
-    // define their own openGraph.images. Replace with a designed banner
-    // when one exists.
-    images: [{ url: "/logo.png", width: 1536, height: 1024, alt: "Preisgucken" }],
+    // Properly-sized 1200x630 card via app/opengraph-image.tsx (Next's
+    // dynamic-OG-image file convention) — replaces the old raw 1536x1024
+    // logo.png, which social platforms cropped awkwardly since it didn't
+    // match their actual card aspect ratio. Static pages without their own
+    // openGraph block (impressum, kontakt, ueber-uns, ...) inherit this;
+    // every blog post defines its own (same /opengraph-image URL, its own alt text).
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Preisgucken" }],
   },
   // Without an explicit twitter block, Next.js falls back to a plain
   // "summary" card (small, no image) rather than "summary_large_image" —
@@ -75,7 +76,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Preisgucken – Preisvergleich, Deals & Kaufberatung",
     description: "Preisvergleich-Ratgeber, Schnäppchen-Tipps und Kaufberatung aus Deutschland – von den Preisvergleich-Experten von Preisgucken.de.",
-    images: ["/logo.png"],
+    images: ["/opengraph-image"],
   },
   robots: {
     index: true,
@@ -117,6 +118,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="py-4 mt-5" style={{ background: "var(--pg-blue)" }}>
           <div className="container text-center small">
             <div className="d-flex flex-wrap justify-content-center gap-3 mb-2">
+              <a href="/ueber-uns" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Über uns</a>
               <a href="/impressum" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Impressum</a>
               <a href="/datenschutz" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Datenschutz</a>
               <a href="/agb" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>AGB</a>
