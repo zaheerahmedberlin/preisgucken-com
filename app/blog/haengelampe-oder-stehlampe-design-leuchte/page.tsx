@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte",
-  description: "Hängelampe, Stehlampe oder Wandlampe: Welcher Leuchtentyp für welchen Raum passt und worauf du bei Design-Lampen achten solltest, mit Preisvergleich für ausgefallene Wohnaccessoires.",
+  title: "Hängelampe oder Stehlampe finden",
+  description: "Hängelampe, Stehlampe oder Wandlampe: Welcher Leuchtentyp für welchen Raum passt – mit Preisvergleich.",
   keywords: [
     "hängelampe kaufen",
     "stehlampe design",
@@ -15,17 +15,17 @@ export const metadata: Metadata = {
     "welche stehlampe passt ins wohnzimmer",
   ],
   openGraph: {
-    title: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte",
-    description: "Welcher Leuchtentyp für welchen Raum passt und worauf du bei Design-Lampen achten solltest.",
+    title: "Hängelampe oder Stehlampe finden",
+    description: "Hängelampe, Stehlampe oder Wandlampe: Welcher Leuchtentyp für welchen Raum passt – mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/haengelampe-oder-stehlampe-design-leuchte",
     type: "article",
     publishedTime: "2026-08-14",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Hängelampe oder Stehlampe finden" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte",
-    description: "Welcher Leuchtentyp für welchen Raum passt und worauf du bei Design-Lampen achten solltest.",
+    title: "Hängelampe oder Stehlampe finden",
+    description: "Hängelampe, Stehlampe oder Wandlampe: Welcher Leuchtentyp für welchen Raum passt – mit Preisvergleich.",
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/haengelampe-oder-stehlampe-design-leuchte" },
 };
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte",
+  headline: "Hängelampe oder Stehlampe finden",
   datePublished: "2026-08-14",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -50,7 +50,7 @@ export default function HaengelampeStehlampePage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte</h1>
+          <h1 className="fw-bold display-6 mb-3">Hängelampe oder Stehlampe finden</h1>
           <p className="lead text-muted">
             Eine gute Lampe verändert einen Raum mehr als fast jedes andere Möbelstück – aber nicht jeder
             Leuchtentyp passt zu jedem Einsatzort. Wir zeigen, welche Leuchte wohin gehört und worauf du bei

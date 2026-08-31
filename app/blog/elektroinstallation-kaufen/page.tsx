@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick",
-  description: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt – worauf es bei Elektroinstallationsmaterial wirklich ankommt, mit Preisvergleich für Schalter, Steckdosen und Smart-Home-Komponenten.",
+  title: "Elektroinstallation kaufen: Was zählt",
+  description: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt – worauf es wirklich ankommt.",
   keywords: [
     "elektroinstallation kaufen",
     "schalter steckdosen kaufen",
@@ -14,25 +14,25 @@ export const metadata: Metadata = {
     "elektroinstallationsmaterial ratgeber",
   ],
   openGraph: {
-    title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick",
-    description: "Worauf es bei Elektroinstallationsmaterial wirklich ankommt – Dosentyp, Schalterprogramm-Kompatibilität und Sicherheit.",
+    title: "Elektroinstallation kaufen: Was zählt",
+    description: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt – worauf es wirklich ankommt.",
     url: "https://www.preisgucken.com/blog/elektroinstallation-kaufen",
     type: "article",
     publishedTime: "2026-08-30",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Elektroinstallation kaufen: Was zählt" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/elektroinstallation-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick",
-    description: "Worauf es bei Elektroinstallationsmaterial wirklich ankommt – Dosentyp, Schalterprogramm-Kompatibilität und Sicherheit.",
+    title: "Elektroinstallation kaufen: Was zählt",
+    description: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt – worauf es wirklich ankommt.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick",
+  headline: "Elektroinstallation kaufen: Was zählt",
   datePublished: "2026-08-30",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -49,7 +49,7 @@ export default function ElektroinstallationKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick</h1>
+          <h1 className="fw-bold display-6 mb-3">Elektroinstallation kaufen: Was zählt</h1>
           <p className="lead text-muted">
             Ob Neubau, Sanierung oder Smart-Home-Nachrüstung: Elektroinstallationsmaterial wirkt austauschbar,
             ist es aber nicht. Wir zeigen, worauf es bei Dosentyp, Schalterprogramm und Sicherheit wirklich ankommt –

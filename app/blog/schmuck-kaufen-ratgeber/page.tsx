@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden",
+  title: "Echt oder Fake? Schmuck erkennen",
   description: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck und findest das passende Stück – mit Preisvergleich.",
   keywords: ["schmuck kaufen", "schmuck online kaufen", "925 sterlingsilber", "hypoallergener schmuck", "hochwertigen schmuck erkennen", "schmuck qualität"],
   openGraph: {
-    title: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden",
+    title: "Echt oder Fake? Schmuck erkennen",
     description: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck und findest das passende Stück.",
     url: "https://www.preisgucken.com/blog/schmuck-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Echt oder Fake? Schmuck erkennen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schmuck-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden",
+    title: "Echt oder Fake? Schmuck erkennen",
     description: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck und findest das passende Stück.",
   },
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden",
+  headline: "Echt oder Fake? Schmuck erkennen",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function SchmuckKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Echt oder Fake? So erkennst du hochwertigen Schmuck in 60 Sekunden</h1>
+          <h1 className="fw-bold display-6 mb-3">Echt oder Fake? Schmuck erkennen</h1>
           <p className="lead text-muted">925er Sterlingsilber, hypoallergener Edelstahl oder vergoldet – welches Material hält, was es verspricht? Der Grundlagen-Ratgeber für alle Schmuckstücke.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

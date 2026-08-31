@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein",
-  description: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das wirklich überzeugt. Der komplette Guide mit Preisvergleich.",
+  title: "Heimkino einrichten: Beamer & Sound",
+  description: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das überzeugt.",
   keywords: ["heimkino einrichten", "beamer kaufen ratgeber", "beamer lumen tabelle", "leinwand oder wand", "heimkino soundsystem", "beamer verdunkelung raum"],
   openGraph: {
-    title: "Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein",
-    description: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das wirklich überzeugt.",
+    title: "Heimkino einrichten: Beamer & Sound",
+    description: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das überzeugt.",
     url: "https://www.preisgucken.com/blog/heimkino-einrichten-guide",
     type: "article",
     publishedTime: "2026-08-16",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Heimkino einrichten: Beamer & Sound" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/heimkino-einrichten-guide" },
   twitter: {
     card: "summary_large_image",
-    title: "Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein",
-    description: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das wirklich überzeugt.",
+    title: "Heimkino einrichten: Beamer & Sound",
+    description: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das überzeugt.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein",
+  headline: "Heimkino einrichten: Beamer & Sound",
   datePublished: "2026-08-16",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function HeimkinoEinrichtenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein</h1>
+          <h1 className="fw-bold display-6 mb-3">Heimkino einrichten: Beamer & Sound</h1>
           <p className="lead text-muted">Ein Heimkino steht und fällt mit drei Entscheidungen: Beamer, Projektionsfläche und Ton. Wir zeigen dir, worauf es bei jeder ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 16. August 2026</span>

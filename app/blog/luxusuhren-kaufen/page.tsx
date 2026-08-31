@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt",
-  description: "Was rechtfertigt einen 5-stelligen Uhrenpreis? Material, Fertigung, Limitierung und Wiederverkaufswert im Überblick – mit Preisvergleich für Premium-Uhren wie die Dark Matter 4 von Tsarbomba.",
+  title: "Luxusuhren kaufen: Worauf achten?",
+  description: "Was rechtfertigt einen 5-stelligen Uhrenpreis? Material, Fertigung, Limitierung und Wiederverkaufswert im Überblick.",
   keywords: [
     "luxusuhren kaufen",
     "teure uhren kaufen",
@@ -15,25 +15,25 @@ export const metadata: Metadata = {
     "uhren über 2000 euro",
   ],
   openGraph: {
-    title: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt",
-    description: "Material, Fertigung, Limitierung und Wiederverkaufswert – der Guide zu Premium-Uhren mit Preisvergleich.",
+    title: "Luxusuhren kaufen: Worauf achten?",
+    description: "Was rechtfertigt einen 5-stelligen Uhrenpreis? Material, Fertigung, Limitierung und Wiederverkaufswert im Überblick.",
     url: "https://www.preisgucken.com/blog/luxusuhren-kaufen",
     type: "article",
     publishedTime: "2026-08-04",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Luxusuhren kaufen: Worauf achten?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/luxusuhren-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt",
-    description: "Material, Fertigung, Limitierung und Wiederverkaufswert – der Guide zu Premium-Uhren mit Preisvergleich.",
+    title: "Luxusuhren kaufen: Worauf achten?",
+    description: "Was rechtfertigt einen 5-stelligen Uhrenpreis? Material, Fertigung, Limitierung und Wiederverkaufswert im Überblick.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Luxusuhren kaufen 2026: Worauf es bei teuren Uhren ankommt",
+  headline: "Luxusuhren kaufen: Worauf achten?",
   datePublished: "2026-08-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },

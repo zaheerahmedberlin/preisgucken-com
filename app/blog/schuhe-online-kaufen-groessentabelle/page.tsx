@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe",
-  description: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du bei Material und Rückgaberecht achten solltest. Mit Preisvergleich.",
+  title: "Schuhgröße online richtig bestimmen",
+  description: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du achten solltest.",
   keywords: ["schuhgröße bestimmen", "eu us uk schuhgrößen tabelle", "schuhe online kaufen ratgeber", "fußlänge messen anleitung", "sportschuhe kaufen tipps", "schuhe passform online"],
   openGraph: {
-    title: "Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe",
-    description: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du bei Material und Rückgaberecht achten solltest.",
+    title: "Schuhgröße online richtig bestimmen",
+    description: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du achten solltest.",
     url: "https://www.preisgucken.com/blog/schuhe-online-kaufen-groessentabelle",
     type: "article",
     publishedTime: "2026-08-19",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schuhgröße online richtig bestimmen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schuhe-online-kaufen-groessentabelle" },
   twitter: {
     card: "summary_large_image",
-    title: "Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe",
-    description: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du bei Material und Rückgaberecht achten solltest.",
+    title: "Schuhgröße online richtig bestimmen",
+    description: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du achten solltest.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe",
+  headline: "Schuhgröße online richtig bestimmen",
   datePublished: "2026-08-19",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function SchuheOnlineKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe</h1>
+          <h1 className="fw-bold display-6 mb-3">Schuhgröße online richtig bestimmen</h1>
           <p className="lead text-muted">Die häufigste Retourenursache beim Schuhkauf ist die falsche Größe. Mit der richtigen Messmethode passt es beim ersten Mal.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. August 2026</span>

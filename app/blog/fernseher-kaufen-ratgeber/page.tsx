@@ -1,28 +1,28 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fernseher kaufen 2026: Ratgeber & Preisvergleich",
-  description: "Welcher Fernseher lohnt sich 2026? OLED, QLED oder LED? Unser Ratgeber erklärt die Unterschiede und zeigt dir, wo du am günstigsten kaufst.",
+  title: "Fernseher kaufen 2026: OLED, QLED oder LED",
+  description: "OLED, QLED oder LED? Der Ratgeber erklärt die Unterschiede und zeigt, wo du am günstigsten kaufst.",
   keywords: ["fernseher kaufen", "bester fernseher 2026", "fernseher preisvergleich", "oled vs qled", "tv günstig kaufen deutschland"],
   alternates: { canonical: "https://www.preisgucken.com/blog/fernseher-kaufen-ratgeber" },
   openGraph: {
-    title: "Fernseher kaufen 2026: Ratgeber & Preisvergleich",
-    description: "OLED, QLED oder LED? Unser Ratgeber hilft dir, den besten Fernseher zum günstigsten Preis zu finden.",
+    title: "Fernseher kaufen 2026: OLED, QLED oder LED",
+    description: "OLED, QLED oder LED? Der Ratgeber erklärt die Unterschiede und zeigt, wo du am günstigsten kaufst.",
     url: "https://www.preisgucken.com/blog/fernseher-kaufen-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Fernseher kaufen 2026: Ratgeber & Preisvergleich" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Fernseher kaufen 2026: OLED, QLED oder LED" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fernseher kaufen 2026: Ratgeber & Preisvergleich",
-    description: "OLED, QLED oder LED? Unser Ratgeber hilft dir, den besten Fernseher zum günstigsten Preis zu finden.",
+    title: "Fernseher kaufen 2026: OLED, QLED oder LED",
+    description: "OLED, QLED oder LED? Der Ratgeber erklärt die Unterschiede und zeigt, wo du am günstigsten kaufst.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Fernseher kaufen 2026: Ratgeber & Preisvergleich",
+  headline: "Fernseher kaufen 2026: OLED, QLED oder LED",
   description: "OLED, QLED oder LED? Wir erklären alle Fernseher-Typen und zeigen dir, wo du 2026 am günstigsten kaufst.",
   datePublished: "2026-07-24",
   author: { "@type": "Organization", name: "Preisgucken" },

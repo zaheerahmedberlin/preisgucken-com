@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Spielzeug kaufen: Altersfreigabe, Sicherheit und Prüfzeichen im Überblick",
-  description: "GS-Zeichen, Altersfreigabe und Kleinteile – worauf es beim Spielzeugkauf wirklich ankommt, mit Preisvergleich für Spielzeug aller Altersstufen.",
+  title: "Spielzeug kaufen: Sicherheit im Blick",
+  description: "GS-Zeichen, Altersfreigabe und Kleinteile – worauf es beim Spielzeugkauf wirklich ankommt.",
   keywords: [
     "spielzeug kaufen",
     "spielzeug sicherheit ratgeber",
@@ -12,25 +12,25 @@ export const metadata: Metadata = {
     "spielzeug schadstoffe",
   ],
   openGraph: {
-    title: "Spielzeug kaufen: Altersfreigabe, Sicherheit und Prüfzeichen im Überblick",
-    description: "Worauf es beim Spielzeugkauf wirklich ankommt – Altersfreigabe, Sicherheit und Prüfzeichen.",
+    title: "Spielzeug kaufen: Sicherheit im Blick",
+    description: "GS-Zeichen, Altersfreigabe und Kleinteile – worauf es beim Spielzeugkauf wirklich ankommt.",
     url: "https://www.preisgucken.com/blog/spielzeug-kaufen-sicherheit-alter",
     type: "article",
     publishedTime: "2026-08-30",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Spielzeug kaufen: Altersfreigabe, Sicherheit und Prüfzeichen im Überblick" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Spielzeug kaufen: Sicherheit im Blick" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/spielzeug-kaufen-sicherheit-alter" },
   twitter: {
     card: "summary_large_image",
-    title: "Spielzeug kaufen: Altersfreigabe, Sicherheit und Prüfzeichen im Überblick",
-    description: "Worauf es beim Spielzeugkauf wirklich ankommt – Altersfreigabe, Sicherheit und Prüfzeichen.",
+    title: "Spielzeug kaufen: Sicherheit im Blick",
+    description: "GS-Zeichen, Altersfreigabe und Kleinteile – worauf es beim Spielzeugkauf wirklich ankommt.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Spielzeug kaufen: Altersfreigabe, Sicherheit und Prüfzeichen im Überblick",
+  headline: "Spielzeug kaufen: Sicherheit im Blick",
   datePublished: "2026-08-30",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -47,7 +47,7 @@ export default function SpielzeugKaufenSicherheitAlterPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Spielzeug kaufen: Altersfreigabe, Sicherheit und Prüfzeichen im Überblick</h1>
+          <h1 className="fw-bold display-6 mb-3">Spielzeug kaufen: Sicherheit im Blick</h1>
           <p className="lead text-muted">
             Buntes Design allein sagt nichts über Sicherheit aus. Wir zeigen, worauf es bei Altersfreigabe,
             Prüfzeichen und Material wirklich ankommt – bevor das nächste Spielzeug im Wagen landet.

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Foto-Projektionsschmuck 2026: Wie funktioniert Schmuck mit Bild im Stein?",
-  description: "Ein Foto, versteckt im Stein eines Anhängers – nur bei Licht sichtbar. Wie Foto-Projektionsschmuck funktioniert, worauf du beim Kauf achten solltest, mit Preisvergleich für personalisierte Ketten, Armbänder und Schlüsselanhänger.",
+  title: "Foto-Projektionsschmuck: Bild im Stein",
+  description: "Ein Foto, versteckt im Stein eines Anhängers – wie die Technik funktioniert und worauf du beim Kauf achten solltest.",
   keywords: [
     "foto projektionsschmuck",
     "kette mit bild im stein",
@@ -15,17 +15,17 @@ export const metadata: Metadata = {
     "geschenk mit foto",
   ],
   openGraph: {
-    title: "Foto-Projektionsschmuck 2026: Wie funktioniert Schmuck mit Bild im Stein?",
+    title: "Foto-Projektionsschmuck: Bild im Stein",
     description: "Ein Foto, versteckt im Stein eines Anhängers – wie die Technik funktioniert und worauf du beim Kauf achten solltest.",
     url: "https://www.preisgucken.com/blog/foto-projektionsschmuck-kaufen",
     type: "article",
     publishedTime: "2026-08-11",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Foto-Projektionsschmuck 2026: Wie funktioniert Schmuck mit Bild im Stein?" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Foto-Projektionsschmuck: Bild im Stein" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/foto-projektionsschmuck-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Foto-Projektionsschmuck 2026: Wie funktioniert Schmuck mit Bild im Stein?",
+    title: "Foto-Projektionsschmuck: Bild im Stein",
     description: "Ein Foto, versteckt im Stein eines Anhängers – wie die Technik funktioniert und worauf du beim Kauf achten solltest.",
   },
 };
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Foto-Projektionsschmuck 2026: Wie funktioniert Schmuck mit Bild im Stein?",
+  headline: "Foto-Projektionsschmuck: Bild im Stein",
   datePublished: "2026-08-11",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },

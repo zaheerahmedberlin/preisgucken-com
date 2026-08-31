@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag",
-  description: "Painter Pants, Chore Jackets und Coverall-Jacken erobern gerade den Alltag: Was Workwear-Kleidung von normaler Freizeitmode unterscheidet und worauf du beim Kauf achten solltest, mit Preisvergleich.",
+  title: "Painter Pant oder Cargo? Workwear-Guide",
+  description: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet und worauf du beim Kauf achten solltest.",
   keywords: [
     "workwear kaufen",
     "painter pants herren",
@@ -14,17 +14,17 @@ export const metadata: Metadata = {
     "vintage workwear kaufen",
   ],
   openGraph: {
-    title: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag",
-    description: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet und worauf du achten solltest.",
+    title: "Painter Pant oder Cargo? Workwear-Guide",
+    description: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet und worauf du beim Kauf achten solltest.",
     url: "https://www.preisgucken.com/blog/workwear-trend-painter-pants-chore-jacket",
     type: "article",
     publishedTime: "2026-08-14",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Painter Pant oder Cargo? Workwear-Guide" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag",
-    description: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet und worauf du achten solltest.",
+    title: "Painter Pant oder Cargo? Workwear-Guide",
+    description: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet und worauf du beim Kauf achten solltest.",
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/workwear-trend-painter-pants-chore-jacket" },
 };
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag",
+  headline: "Painter Pant oder Cargo? Workwear-Guide",
   datePublished: "2026-08-14",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -49,7 +49,7 @@ export default function WorkwearGuidePage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Painter Pant oder Cargo? Der Workwear-Guide für den Alltag</h1>
+          <h1 className="fw-bold display-6 mb-3">Painter Pant oder Cargo? Workwear-Guide</h1>
           <p className="lead text-muted">
             Was früher reine Berufskleidung für Maler und Handwerker war, ist längst im Alltag angekommen:
             Painter Pants, Chore Jackets und Coverall-Jacken kombinieren robuste Verarbeitung mit einem Look,

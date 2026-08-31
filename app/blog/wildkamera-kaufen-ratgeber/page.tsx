@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Wildkamera kaufen: Auslöserzeit, Reichweite und Stromversorgung im Check",
-  description: "Trigger-Geschwindigkeit, PIR-Reichweite, Auflösung und Solarpanel im Vergleich – so findest du die richtige Wildkamera für Jagd, Garten oder Grundstücksschutz.",
+  title: "Wildkamera kaufen: Worauf achten?",
+  description: "Trigger-Geschwindigkeit, PIR-Reichweite, Auflösung und Solarpanel – so findest du die richtige Wildkamera.",
   keywords: ["wildkamera kaufen", "jagdkamera ratgeber", "wildtierkamera vergleich", "wildkamera auslöserzeit", "wildkamera solarpanel", "wildkamera reichweite"],
   openGraph: {
-    title: "Wildkamera kaufen: Auslöserzeit, Reichweite und Stromversorgung im Check",
-    description: "Trigger-Geschwindigkeit, PIR-Reichweite, Auflösung und Solarpanel im Vergleich – so findest du die richtige Wildkamera.",
+    title: "Wildkamera kaufen: Worauf achten?",
+    description: "Trigger-Geschwindigkeit, PIR-Reichweite, Auflösung und Solarpanel – so findest du die richtige Wildkamera.",
     url: "https://www.preisgucken.com/blog/wildkamera-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-17",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Wildkamera kaufen: Auslöserzeit, Reichweite und Stromversorgung im Check" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Wildkamera kaufen: Worauf achten?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/wildkamera-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Wildkamera kaufen: Auslöserzeit, Reichweite und Stromversorgung im Check",
-    description: "Trigger-Geschwindigkeit, PIR-Reichweite, Auflösung und Solarpanel im Vergleich – so findest du die richtige Wildkamera.",
+    title: "Wildkamera kaufen: Worauf achten?",
+    description: "Trigger-Geschwindigkeit, PIR-Reichweite, Auflösung und Solarpanel – so findest du die richtige Wildkamera.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Wildkamera kaufen: Auslöserzeit, Reichweite und Stromversorgung im Check",
+  headline: "Wildkamera kaufen: Worauf achten?",
   datePublished: "2026-08-17",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function WildkameraKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Wildkamera kaufen: Auslöserzeit, Reichweite und Stromversorgung im Check</h1>
+          <h1 className="fw-bold display-6 mb-3">Wildkamera kaufen: Worauf achten?</h1>
           <p className="lead text-muted">Ob Jagdrevier, Gartenüberwachung oder Naturbeobachtung – die richtige Wildkamera hängt stark vom Einsatzzweck ab. Wir zeigen dir, worauf es ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 17. August 2026</span>

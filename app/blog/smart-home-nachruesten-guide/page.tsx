@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich",
-  description: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne bei Kompatibilität oder Datenschutz Fehler zu machen. Mit Preisvergleich.",
+  title: "Smart Home nachrüsten: So geht's",
+  description: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne Kompatibilitätsfehler.",
   keywords: ["smart home nachrüsten", "zigbee oder wlan smart home", "smarte steckdose kaufen", "smart home schalter ratgeber", "matter smart home standard", "smart home einsteiger guide"],
   openGraph: {
-    title: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich",
-    description: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne bei Kompatibilität oder Datenschutz Fehler zu machen.",
+    title: "Smart Home nachrüsten: So geht's",
+    description: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne Kompatibilitätsfehler.",
     url: "https://www.preisgucken.com/blog/smart-home-nachruesten-guide",
     type: "article",
     publishedTime: "2026-08-18",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Smart Home nachrüsten: So geht's" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/smart-home-nachruesten-guide" },
   twitter: {
     card: "summary_large_image",
-    title: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich",
-    description: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne bei Kompatibilität oder Datenschutz Fehler zu machen.",
+    title: "Smart Home nachrüsten: So geht's",
+    description: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne Kompatibilitätsfehler.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich",
+  headline: "Smart Home nachrüsten: So geht's",
   datePublished: "2026-08-18",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function SmartHomeNachruestenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich</h1>
+          <h1 className="fw-bold display-6 mb-3">Smart Home nachrüsten: So geht's</h1>
           <p className="lead text-muted">Kein neues Kabel nötig: Mit den richtigen Geräten wird jede Wohnung smart – wenn Funkstandard und Steuerung zusammenpassen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 18. August 2026</span>

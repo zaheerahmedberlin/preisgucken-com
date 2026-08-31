@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide",
-  description: "Sofa kaufen: Welche Größe, welcher Stoff und wie viel Budget? Unser Experten-Ratgeber hilft dir, das beste Sofa zum besten Preis zu finden.",
+  title: "Welches Sofa passt zu deinem Wohnzimmer?",
+  description: "Sofa kaufen: Welche Größe, welcher Stoff und wie viel Budget? Der Experten-Ratgeber hilft dir.",
   keywords: ["sofa kaufen", "couch kaufen ratgeber", "sofa kaufberatung 2026", "bestes sofa preisvergleich", "sofa stoff oder leder", "sofa maße"],
   openGraph: {
-    title: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide",
-    description: "Welche Größe, welcher Stoff und wie viel Budget? Unser Experten-Ratgeber für den Sofa-Kauf.",
+    title: "Welches Sofa passt zu deinem Wohnzimmer?",
+    description: "Sofa kaufen: Welche Größe, welcher Stoff und wie viel Budget? Der Experten-Ratgeber hilft dir.",
     url: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-17",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Welches Sofa passt zu deinem Wohnzimmer?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide",
-    description: "Welche Größe, welcher Stoff und wie viel Budget? Unser Experten-Ratgeber für den Sofa-Kauf.",
+    title: "Welches Sofa passt zu deinem Wohnzimmer?",
+    description: "Sofa kaufen: Welche Größe, welcher Stoff und wie viel Budget? Der Experten-Ratgeber hilft dir.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide",
+  headline: "Welches Sofa passt zu deinem Wohnzimmer?",
   datePublished: "2026-07-17",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function SofaKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Welches Sofa passt zu deinem Wohnzimmer? Der Entscheidungs-Guide</h1>
+          <h1 className="fw-bold display-6 mb-3">Welches Sofa passt zu deinem Wohnzimmer?</h1>
           <p className="lead text-muted">Größe, Form, Stoff – beim Sofakauf gibt es viele Entscheidungen. Wir führen dich Schritt für Schritt zum richtigen Sofa zum besten Preis.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 17. Juli 2026</span>

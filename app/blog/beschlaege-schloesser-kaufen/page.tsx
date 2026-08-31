@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick",
-  description: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt – mit Preisvergleich für Treppengeländer, Fenstergriffe und Beschläge.",
+  title: "Beschläge & Schlösser kaufen",
+  description: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt.",
   keywords: [
     "beschläge kaufen",
     "möbelbeschläge kaufen ratgeber",
@@ -12,25 +12,25 @@ export const metadata: Metadata = {
     "beschläge edelstahl",
   ],
   openGraph: {
-    title: "Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick",
-    description: "Welches Material und Bohrbild passt, und worauf es bei Belastbarkeit ankommt.",
+    title: "Beschläge & Schlösser kaufen",
+    description: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt.",
     url: "https://www.preisgucken.com/blog/beschlaege-schloesser-kaufen",
     type: "article",
     publishedTime: "2026-08-30",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Beschläge & Schlösser kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/beschlaege-schloesser-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick",
-    description: "Welches Material und Bohrbild passt, und worauf es bei Belastbarkeit ankommt.",
+    title: "Beschläge & Schlösser kaufen",
+    description: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick",
+  headline: "Beschläge & Schlösser kaufen",
   datePublished: "2026-08-30",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -47,7 +47,7 @@ export default function BeschlaegeSchloesserKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick</h1>
+          <h1 className="fw-bold display-6 mb-3">Beschläge & Schlösser kaufen</h1>
           <p className="lead text-muted">
             Ob Fenstergriff, Treppengeländer oder Türbeschlag: Beschläge wirken auf den ersten Blick
             austauschbar, doch Material und Maße entscheiden über Sicherheit und Haltbarkeit. Wir zeigen, worauf es ankommt.

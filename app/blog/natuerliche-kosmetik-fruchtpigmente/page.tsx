@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt",
-  description: "Vegane Kosmetik, Fruchtpigmente statt synthetischer Farbstoffe, Inhaltsstoffe ohne Mineralöl: Worauf du bei natürlicher Kosmetik achten solltest, mit Preisvergleich für Make-up und Pflege.",
+  title: "Fruchtpigmente statt Chemie?",
+  description: "Vegane Kosmetik, Fruchtpigmente statt synthetischer Farbstoffe: Worauf du wirklich achten solltest.",
   keywords: [
     "natürliche kosmetik kaufen",
     "vegane kosmetik",
@@ -14,17 +14,17 @@ export const metadata: Metadata = {
     "natürliches make-up kaufen",
   ],
   openGraph: {
-    title: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt",
-    description: "Worauf du bei veganer, natürlicher Kosmetik wirklich achten solltest.",
+    title: "Fruchtpigmente statt Chemie?",
+    description: "Vegane Kosmetik, Fruchtpigmente statt synthetischer Farbstoffe: Worauf du wirklich achten solltest.",
     url: "https://www.preisgucken.com/blog/natuerliche-kosmetik-fruchtpigmente",
     type: "article",
     publishedTime: "2026-08-14",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Fruchtpigmente statt Chemie?" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt",
-    description: "Worauf du bei veganer, natürlicher Kosmetik wirklich achten solltest.",
+    title: "Fruchtpigmente statt Chemie?",
+    description: "Vegane Kosmetik, Fruchtpigmente statt synthetischer Farbstoffe: Worauf du wirklich achten solltest.",
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/natuerliche-kosmetik-fruchtpigmente" },
 };
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt",
+  headline: "Fruchtpigmente statt Chemie?",
   datePublished: "2026-08-14",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -49,7 +49,7 @@ export default function NatuerlicheKosmetikPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt</h1>
+          <h1 className="fw-bold display-6 mb-3">Fruchtpigmente statt Chemie?</h1>
           <p className="lead text-muted">
             Rouge aus Kirschpulver, Lippenstift mit Kakaobutter statt Mineralöl – natürliche Kosmetik verspricht
             mehr als nur ein gutes Gefühl. Wir erklären, was hinter Fruchtpigmenten wirklich steckt und worauf

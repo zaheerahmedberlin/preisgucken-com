@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Alltagslook für Frauen: Damenmode und Make-up richtig kombinieren",
-  description: "Basic-Teile, Layering und Everyday-Make-up im Guide: So baust du dir einen Alltagslook, der zu jedem Anlass passt – mit Preisvergleich für Damenmode und Kosmetik.",
+  title: "Alltagslook: Mode & Make-up kombinieren",
+  description: "Basic-Teile, Layering und Everyday-Make-up: So baust du dir einen Alltagslook für jeden Tag – mit Preisvergleich.",
   keywords: ["alltagslook damen", "damenmode alltag", "capsule wardrobe frauen", "everyday make-up", "basic outfit damen", "make-up alltag anleitung"],
   openGraph: {
-    title: "Alltagslook für Frauen: Damenmode und Make-up richtig kombinieren",
-    description: "Basic-Teile, Layering und Everyday-Make-up im Guide: So baust du dir einen Alltagslook, der zu jedem Anlass passt.",
+    title: "Alltagslook: Mode & Make-up kombinieren",
+    description: "Basic-Teile, Layering und Everyday-Make-up: So baust du dir einen Alltagslook für jeden Tag – mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/alltagslook-damenmode-make-up-guide",
     type: "article",
     publishedTime: "2026-08-19",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Alltagslook für Frauen: Damenmode und Make-up richtig kombinieren" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Alltagslook: Mode & Make-up kombinieren" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/alltagslook-damenmode-make-up-guide" },
   twitter: {
     card: "summary_large_image",
-    title: "Alltagslook für Frauen: Damenmode und Make-up richtig kombinieren",
-    description: "Basic-Teile, Layering und Everyday-Make-up im Guide: So baust du dir einen Alltagslook, der zu jedem Anlass passt.",
+    title: "Alltagslook: Mode & Make-up kombinieren",
+    description: "Basic-Teile, Layering und Everyday-Make-up: So baust du dir einen Alltagslook für jeden Tag – mit Preisvergleich.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Alltagslook für Frauen: Damenmode und Make-up richtig kombinieren",
+  headline: "Alltagslook: Mode & Make-up kombinieren",
   datePublished: "2026-08-19",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function AlltagslookDamenmodeMakeUpGuidePage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Alltagslook für Frauen: Damenmode und Make-up richtig kombinieren</h1>
+          <h1 className="fw-bold display-6 mb-3">Alltagslook: Mode & Make-up kombinieren</h1>
           <p className="lead text-muted">Ein guter Alltagslook lebt nicht von einzelnen Teilen, sondern vom Zusammenspiel: die richtigen Basics, cleveres Layering und ein Make-up, das im Büro genauso funktioniert wie abends. Wir zeigen dir, wie du beides aufeinander abstimmst, ohne jeden Tag neu zu überlegen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. August 2026</span>

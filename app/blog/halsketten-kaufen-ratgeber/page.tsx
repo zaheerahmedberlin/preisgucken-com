@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Die richtige Kettenlänge finden: Choker bis Opernkette erklärt",
+  title: "Die richtige Kettenlänge finden",
   description: "Choker, Layering-Kette oder lange Halskette? So findest du die richtige Länge und das passende Material.",
   keywords: ["halskette kaufen", "kette damen silber", "choker kaufen", "halskette länge tabelle", "anhänger halskette", "layering kette"],
   openGraph: {
-    title: "Die richtige Kettenlänge finden: Choker bis Opernkette erklärt",
+    title: "Die richtige Kettenlänge finden",
     description: "Choker, Layering-Kette oder lange Halskette? So findest du die richtige Länge und das passende Material.",
     url: "https://www.preisgucken.com/blog/halsketten-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Die richtige Kettenlänge finden: Choker bis Opernkette erklärt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Die richtige Kettenlänge finden" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/halsketten-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Die richtige Kettenlänge finden: Choker bis Opernkette erklärt",
+    title: "Die richtige Kettenlänge finden",
     description: "Choker, Layering-Kette oder lange Halskette? So findest du die richtige Länge und das passende Material.",
   },
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Die richtige Kettenlänge finden: Choker bis Opernkette erklärt",
+  headline: "Die richtige Kettenlänge finden",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function HalskettenKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Die richtige Kettenlänge finden: Choker bis Opernkette erklärt</h1>
+          <h1 className="fw-bold display-6 mb-3">Die richtige Kettenlänge finden</h1>
           <p className="lead text-muted">Choker, Princess-Länge oder lange Kette zum Layering – die richtige Länge macht den Unterschied. Unser Ratgeber hilft bei der Wahl.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fräser, Trenn- und Schleifscheiben kaufen: Material, Norm und Maschinenkompatibilität",
-  description: "Welche Scheibe für welches Material, worauf bei Durchmesser und Drehzahl zu achten ist – mit Preisvergleich für Materialbearbeitungswerkzeug.",
+  title: "Fräser, Trenn- und Schleifscheiben kaufen",
+  description: "Welche Scheibe für welches Material, worauf bei Durchmesser und Drehzahl zu achten ist.",
   keywords: [
     "trennscheiben kaufen",
     "schleifscheiben kaufen ratgeber",
@@ -12,17 +12,17 @@ export const metadata: Metadata = {
     "fräser holzbearbeitung",
   ],
   openGraph: {
-    title: "Fräser, Trenn- und Schleifscheiben kaufen: Material, Norm und Maschinenkompatibilität",
+    title: "Fräser, Trenn- und Schleifscheiben kaufen",
     description: "Welche Scheibe für welches Material, worauf bei Durchmesser und Drehzahl zu achten ist.",
     url: "https://www.preisgucken.com/blog/materialbearbeitung-fraeser-schleifscheiben-kaufen",
     type: "article",
     publishedTime: "2026-08-30",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Fräser, Trenn- und Schleifscheiben kaufen: Material, Norm und Maschinenkompatibilität" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Fräser, Trenn- und Schleifscheiben kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/materialbearbeitung-fraeser-schleifscheiben-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Fräser, Trenn- und Schleifscheiben kaufen: Material, Norm und Maschinenkompatibilität",
+    title: "Fräser, Trenn- und Schleifscheiben kaufen",
     description: "Welche Scheibe für welches Material, worauf bei Durchmesser und Drehzahl zu achten ist.",
   },
 };
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Fräser, Trenn- und Schleifscheiben kaufen: Material, Norm und Maschinenkompatibilität",
+  headline: "Fräser, Trenn- und Schleifscheiben kaufen",
   datePublished: "2026-08-30",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -47,7 +47,7 @@ export default function MaterialbearbeitungKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Fräser, Trenn- und Schleifscheiben kaufen: Material, Norm und Maschinenkompatibilität</h1>
+          <h1 className="fw-bold display-6 mb-3">Fräser, Trenn- und Schleifscheiben kaufen</h1>
           <p className="lead text-muted">
             Eine Trennscheibe für Stahl trennt Beton nur schlecht – und ein Fräser für Holz hat andere
             Anforderungen als einer für Metall. Wir zeigen, worauf es bei Materialbearbeitungswerkzeug wirklich ankommt.

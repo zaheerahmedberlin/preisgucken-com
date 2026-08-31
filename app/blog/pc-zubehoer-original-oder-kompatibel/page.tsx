@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf",
-  description: "Kompatible Druckerpatronen, das richtige USB-Kabel, SSD-Formfaktoren: Worauf es bei PC-Zubehör wirklich ankommt, mit Preisvergleich für Kabel, Monitore, Speicher und mehr.",
+  title: "Original oder kompatibel? PC-Zubehör",
+  description: "Kompatible Druckerpatronen, das richtige USB-Kabel, SSD-Formfaktoren: Worauf es wirklich ankommt.",
   keywords: [
     "pc zubehör kaufen",
     "kompatible druckerpatronen",
@@ -15,17 +15,17 @@ export const metadata: Metadata = {
     "druckerpatronen original oder kompatibel",
   ],
   openGraph: {
-    title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf",
-    description: "Worauf es bei Kabeln, Monitoren, Speicher und Druckerpatronen wirklich ankommt.",
+    title: "Original oder kompatibel? PC-Zubehör",
+    description: "Kompatible Druckerpatronen, das richtige USB-Kabel, SSD-Formfaktoren: Worauf es wirklich ankommt.",
     url: "https://www.preisgucken.com/blog/pc-zubehoer-original-oder-kompatibel",
     type: "article",
     publishedTime: "2026-08-14",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Original oder kompatibel? PC-Zubehör" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf",
-    description: "Worauf es bei Kabeln, Monitoren, Speicher und Druckerpatronen wirklich ankommt.",
+    title: "Original oder kompatibel? PC-Zubehör",
+    description: "Kompatible Druckerpatronen, das richtige USB-Kabel, SSD-Formfaktoren: Worauf es wirklich ankommt.",
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/pc-zubehoer-original-oder-kompatibel" },
 };
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf",
+  headline: "Original oder kompatibel? PC-Zubehör",
   datePublished: "2026-08-14",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -50,7 +50,7 @@ export default function PcZubehoerPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf</h1>
+          <h1 className="fw-bold display-6 mb-3">Original oder kompatibel? PC-Zubehör</h1>
           <p className="lead text-muted">
             Ob Druckerpatrone, USB-Kabel oder SSD – bei PC-Zubehör lohnt sich vor dem Kauf ein zweiter Blick.
             Nicht jedes günstigere Produkt ist automatisch die schlechtere Wahl, aber ein paar technische Details

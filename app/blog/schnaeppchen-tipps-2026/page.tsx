@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro",
-  description: "Mit diesen 15 Schnäppchen-Tipps sparst du beim Online-Shopping bis zu 40%. Preisvergleich, beste Zeiten zum Kaufen, Gutscheine & mehr – von Experten erklärt.",
+  title: "15 Schnäppchen-Tipps 2026",
+  description: "Mit diesen 15 Tipps sparst du beim Online-Shopping bis zu 40% – Preisvergleich, Timing und mehr.",
   keywords: ["schnäppchen tipps", "günstig einkaufen online", "sparen beim einkaufen", "preisvergleich tipps", "online shopping tipps 2026"],
   openGraph: {
-    title: "15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro",
-    description: "Mit diesen 15 Tipps sparst du beim Online-Shopping bis zu 40%.",
+    title: "15 Schnäppchen-Tipps 2026",
+    description: "Mit diesen 15 Tipps sparst du beim Online-Shopping bis zu 40% – Preisvergleich, Timing und mehr.",
     url: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026",
     type: "article",
     publishedTime: "2026-07-19",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "15 Schnäppchen-Tipps 2026" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026" },
   twitter: {
     card: "summary_large_image",
-    title: "15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro",
-    description: "Mit diesen 15 Tipps sparst du beim Online-Shopping bis zu 40%.",
+    title: "15 Schnäppchen-Tipps 2026",
+    description: "Mit diesen 15 Tipps sparst du beim Online-Shopping bis zu 40% – Preisvergleich, Timing und mehr.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro beim Online-Shopping",
+  headline: "15 Schnäppchen-Tipps 2026",
   datePublished: "2026-07-19",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -57,7 +57,7 @@ export default function SchnaeppchentippsPage() {
         </nav>
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Spartipps</span>
-          <h1 className="fw-bold display-6 mb-3">15 Schnäppchen-Tipps 2026: So sparst du hunderte Euro</h1>
+          <h1 className="fw-bold display-6 mb-3">15 Schnäppchen-Tipps 2026</h1>
           <p className="lead text-muted">Wie du nie wieder zu viel bezahlst – diese 15 Tricks funktionieren sofort und kosten dich nichts.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. Juli 2026</span>

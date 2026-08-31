@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Original oder kompatibel? So triffst du die richtige Wahl beim Zubehör-Kauf",
-  description: "Druckerpatronen, Autoteile oder Handy-Zubehör: Original oder kompatibel Zubehör kaufen – wo sich das Original lohnt und wo du bei Nachbau-Ware bedenkenlos sparen kannst.",
+  title: "Original oder kompatibel? Zubehör-Kauf",
+  description: "Druckerpatronen, Autoteile oder Handy-Zubehör: Wo sich das Original lohnt und wo du sparen kannst.",
   keywords: [
     "original oder kompatibel zubehör kaufen",
     "kompatible druckerpatronen",
@@ -12,17 +12,17 @@ export const metadata: Metadata = {
     "kompatibel vs original",
   ],
   openGraph: {
-    title: "Original oder kompatibel? So triffst du die richtige Wahl beim Zubehör-Kauf",
-    description: "Wo sich das Original lohnt und wo du bei kompatiblem Zubehör bedenkenlos sparen kannst.",
+    title: "Original oder kompatibel? Zubehör-Kauf",
+    description: "Druckerpatronen, Autoteile oder Handy-Zubehör: Wo sich das Original lohnt und wo du sparen kannst.",
     url: "https://www.preisgucken.com/blog/original-oder-kompatibel-zubehoer-kaufen",
     type: "article",
     publishedTime: "2026-08-27",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Original oder kompatibel? So triffst du die richtige Wahl beim Zubehör-Kauf" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Original oder kompatibel? Zubehör-Kauf" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Original oder kompatibel? So triffst du die richtige Wahl beim Zubehör-Kauf",
-    description: "Wo sich das Original lohnt und wo du bei kompatiblem Zubehör bedenkenlos sparen kannst.",
+    title: "Original oder kompatibel? Zubehör-Kauf",
+    description: "Druckerpatronen, Autoteile oder Handy-Zubehör: Wo sich das Original lohnt und wo du sparen kannst.",
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/original-oder-kompatibel-zubehoer-kaufen" },
 };
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Original oder kompatibel? So triffst du die richtige Wahl beim Zubehör-Kauf",
+  headline: "Original oder kompatibel? Zubehör-Kauf",
   datePublished: "2026-08-27",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -47,7 +47,7 @@ export default function OriginalOderKompatibelPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Original oder kompatibel? So triffst du die richtige Wahl beim Zubehör-Kauf</h1>
+          <h1 className="fw-bold display-6 mb-3">Original oder kompatibel? Zubehör-Kauf</h1>
           <p className="lead text-muted">
             Ob Druckerpatrone, Autoteil oder Ladekabel – bei fast jedem Zubehör-Kauf stellt sich dieselbe Frage:
             Original oder kompatibel? Wir zeigen, wo der Preisunterschied wirklich gerechtfertigt ist und wo du

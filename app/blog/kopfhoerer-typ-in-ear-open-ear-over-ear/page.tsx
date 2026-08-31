@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "In-Ear, Open-Ear oder Over-Ear? Der Kopfhörer-Typ-Guide 2026",
-  description: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – welcher Kopfhörer-Typ zu deinem Alltag passt, was ANC und Akkulaufzeit wirklich bringen, mit Preisvergleich für kabellose Kopfhörer.",
+  title: "In-Ear, Open-Ear oder Over-Ear?",
+  description: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – welcher Kopfhörer-Typ zu deinem Alltag passt.",
   keywords: [
     "kopfhörer kaufen",
     "in-ear kopfhörer kaufen",
@@ -14,25 +14,25 @@ export const metadata: Metadata = {
     "bluetooth lautsprecher kaufen",
   ],
   openGraph: {
-    title: "In-Ear, Open-Ear oder Over-Ear? Der Kopfhörer-Typ-Guide 2026",
-    description: "Welcher Kopfhörer-Typ zu deinem Alltag passt und worauf du bei ANC, Akkulaufzeit und Passform achten solltest.",
+    title: "In-Ear, Open-Ear oder Over-Ear?",
+    description: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – welcher Kopfhörer-Typ zu deinem Alltag passt.",
     url: "https://www.preisgucken.com/blog/kopfhoerer-typ-in-ear-open-ear-over-ear",
     type: "article",
     publishedTime: "2026-08-28",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "In-Ear, Open-Ear oder Over-Ear? Der Kopfhörer-Typ-Guide 2026" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "In-Ear, Open-Ear oder Over-Ear?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/kopfhoerer-typ-in-ear-open-ear-over-ear" },
   twitter: {
     card: "summary_large_image",
-    title: "In-Ear, Open-Ear oder Over-Ear? Der Kopfhörer-Typ-Guide 2026",
-    description: "Welcher Kopfhörer-Typ zu deinem Alltag passt und worauf du bei ANC, Akkulaufzeit und Passform achten solltest.",
+    title: "In-Ear, Open-Ear oder Over-Ear?",
+    description: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – welcher Kopfhörer-Typ zu deinem Alltag passt.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "In-Ear, Open-Ear oder Over-Ear? Der Kopfhörer-Typ-Guide 2026",
+  headline: "In-Ear, Open-Ear oder Over-Ear?",
   datePublished: "2026-08-28",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },

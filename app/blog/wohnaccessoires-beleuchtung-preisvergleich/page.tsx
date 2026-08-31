@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf",
-  description: "Preisvergleich für Wohnaccessoires und Beleuchtung: Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern – so findest du die besten Preise für dein Zuhause.",
+  title: "Wohnaccessoires & Beleuchtung im Vergleich",
+  description: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern – die besten Preise im Überblick.",
   keywords: [
     "preisvergleich für wohnaccessoires und beleuchtung",
     "wohnaccessoires kaufen",
@@ -12,16 +12,16 @@ export const metadata: Metadata = {
     "leuchten preisvergleich",
   ],
   openGraph: {
-    title: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf",
+    title: "Wohnaccessoires & Beleuchtung im Vergleich",
     description: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern – die besten Preise im Überblick.",
     url: "https://www.preisgucken.com/blog/wohnaccessoires-beleuchtung-preisvergleich",
     type: "article",
     publishedTime: "2026-08-27",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Wohnaccessoires & Beleuchtung im Vergleich" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf",
+    title: "Wohnaccessoires & Beleuchtung im Vergleich",
     description: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern – die besten Preise im Überblick.",
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/wohnaccessoires-beleuchtung-preisvergleich" },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf",
+  headline: "Wohnaccessoires & Beleuchtung im Vergleich",
   datePublished: "2026-08-27",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -47,7 +47,7 @@ export default function WohnaccessoiresBeleuchtungPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf</h1>
+          <h1 className="fw-bold display-6 mb-3">Wohnaccessoires & Beleuchtung im Vergleich</h1>
           <p className="lead text-muted">
             Ein neues Zuhause muss nicht teuer sein – oft sind es die kleinen Dinge, die den größten Unterschied
             machen: die richtige Leuchte, ein guter Bilderrahmen, praktische Wohnhelfer. Wir zeigen, wo sich der

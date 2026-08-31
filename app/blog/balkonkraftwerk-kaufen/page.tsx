@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick",
-  description: "800-Watt-Einspeisegrenze, Speicher ja oder nein, welche Halterung für welchen Montageort – der Kaufguide für Balkonkraftwerke, mit Preisvergleich für Systeme wie Indevolt.",
+  title: "Balkonkraftwerk kaufen: Leistung & Speicher",
+  description: "800-Watt-Grenze, Speicher und die richtige Halterung: Der Kaufguide für Balkonkraftwerke mit Preisvergleich.",
   keywords: [
     "balkonkraftwerk kaufen",
     "balkonkraftwerk mit speicher",
@@ -20,17 +20,17 @@ export const metadata: Metadata = {
     "marktstammdatenregister bundesnetzagentur",
   ],
   openGraph: {
-    title: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick",
+    title: "Balkonkraftwerk kaufen: Leistung & Speicher",
     description: "800-Watt-Einspeisegrenze, Speicher ja oder nein, die richtige Halterung – der Kaufguide mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/balkonkraftwerk-kaufen",
     type: "article",
     publishedTime: "2026-08-08",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Balkonkraftwerk kaufen: Leistung & Speicher" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/balkonkraftwerk-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick",
+    title: "Balkonkraftwerk kaufen: Leistung & Speicher",
     description: "800-Watt-Einspeisegrenze, Speicher ja oder nein, die richtige Halterung – der Kaufguide mit Preisvergleich.",
   },
 };
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Balkonkraftwerk kaufen 2026: Leistung, Speicher & Montage im Überblick",
+  headline: "Balkonkraftwerk kaufen: Leistung & Speicher",
   datePublished: "2026-08-08",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },

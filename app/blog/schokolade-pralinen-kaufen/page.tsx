@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen",
-  description: "Tafel, Praline oder Geschenkbox – worauf es bei hochwertiger Schokolade wirklich ankommt. Kakaoanteil, Herkunft und Haltbarkeit im Überblick, mit Preisvergleich für Premium-Schokolade wie Venchi.",
+  title: "Schokolade & Pralinen kaufen 2026",
+  description: "Tafel, Praline oder Geschenkbox – worauf es bei hochwertiger Schokolade wirklich ankommt.",
   keywords: [
     "schokolade kaufen",
     "pralinen kaufen",
@@ -15,25 +15,25 @@ export const metadata: Metadata = {
     "schokolade preisvergleich",
   ],
   openGraph: {
-    title: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen",
-    description: "Worauf es bei hochwertiger Schokolade wirklich ankommt – mit Preisvergleich für Premium-Schokolade wie Venchi.",
+    title: "Schokolade & Pralinen kaufen 2026",
+    description: "Tafel, Praline oder Geschenkbox – worauf es bei hochwertiger Schokolade wirklich ankommt.",
     url: "https://www.preisgucken.com/blog/schokolade-pralinen-kaufen",
     type: "article",
     publishedTime: "2026-08-07",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schokolade & Pralinen kaufen 2026" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schokolade-pralinen-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen",
-    description: "Worauf es bei hochwertiger Schokolade wirklich ankommt – mit Preisvergleich für Premium-Schokolade wie Venchi.",
+    title: "Schokolade & Pralinen kaufen 2026",
+    description: "Tafel, Praline oder Geschenkbox – worauf es bei hochwertiger Schokolade wirklich ankommt.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Schokolade & Pralinen kaufen 2026: Kakaoanteil, Herkunft & Geschenkideen",
+  headline: "Schokolade & Pralinen kaufen 2026",
   datePublished: "2026-08-07",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },

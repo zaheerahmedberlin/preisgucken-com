@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala",
-  description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass? Der Ratgeber für Schnitt, Länge und Farbe mit Preisvergleich.",
+  title: "Kleid für den Anlass richtig wählen",
+  description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt? Schnitt, Länge und Farbe im Ratgeber mit Preisvergleich.",
   keywords: ["abendkleid kaufen", "cocktailkleid ratgeber", "kleid für hochzeit als gast", "abendkleid welcher schnitt", "kleid online kaufen 2026", "brautjungfernkleid kaufen"],
   openGraph: {
-    title: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala",
-    description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass?",
+    title: "Kleid für den Anlass richtig wählen",
+    description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt? Schnitt, Länge und Farbe im Ratgeber mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-29",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Kleid für den Anlass richtig wählen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala",
-    description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass?",
+    title: "Kleid für den Anlass richtig wählen",
+    description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt? Schnitt, Länge und Farbe im Ratgeber mit Preisvergleich.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala",
+  headline: "Kleid für den Anlass richtig wählen",
   datePublished: "2026-07-29",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function AbendkleidKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Welches Kleid für welchen Anlass? Cocktailparty bis Gala</h1>
+          <h1 className="fw-bold display-6 mb-3">Kleid für den Anlass richtig wählen</h1>
           <p className="lead text-muted">Von der Hochzeit als Gast bis zur Gala – welcher Schnitt, welche Länge und welche Farbe wirklich passen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>

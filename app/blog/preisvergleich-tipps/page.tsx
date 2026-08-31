@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Preisvergleich richtig nutzen: So sparst du bis zu 40%",
-  description: "Preisvergleich-Portale richtig nutzen: Warum gleiche Produkte bis zu 40% günstiger sein können und wie du mit einem Klick den besten Preis findest.",
+  title: "Preisvergleich richtig nutzen",
+  description: "Warum gleiche Produkte bis zu 40% günstiger sein können und wie du den besten Preis findest.",
   keywords: ["preisvergleich", "preisvergleich tipps", "online preisvergleich", "günstigster preis online", "preisvergleich wie funktioniert"],
   openGraph: {
-    title: "Preisvergleich richtig nutzen: So sparst du bis zu 40%",
-    description: "Gleiche Produkte, unterschiedliche Preise – manchmal bis zu 40% Unterschied. So nutzt du Preisvergleiche richtig.",
+    title: "Preisvergleich richtig nutzen",
+    description: "Warum gleiche Produkte bis zu 40% günstiger sein können und wie du den besten Preis findest.",
     url: "https://www.preisgucken.com/blog/preisvergleich-tipps",
     type: "article",
     publishedTime: "2026-07-15",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Preisvergleich richtig nutzen: So sparst du bis zu 40%" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Preisvergleich richtig nutzen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/preisvergleich-tipps" },
   twitter: {
     card: "summary_large_image",
-    title: "Preisvergleich richtig nutzen: So sparst du bis zu 40%",
-    description: "Gleiche Produkte, unterschiedliche Preise – manchmal bis zu 40% Unterschied. So nutzt du Preisvergleiche richtig.",
+    title: "Preisvergleich richtig nutzen",
+    description: "Warum gleiche Produkte bis zu 40% günstiger sein können und wie du den besten Preis findest.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Preisvergleich richtig nutzen: So sparst du bis zu 40%",
+  headline: "Preisvergleich richtig nutzen",
   datePublished: "2026-07-15",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -60,7 +60,7 @@ export default function PreisvergleichTippsPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Ratgeber</span>
-          <h1 className="fw-bold display-6 mb-3">Preisvergleich richtig nutzen: So sparst du bis zu 40%</h1>
+          <h1 className="fw-bold display-6 mb-3">Preisvergleich richtig nutzen</h1>
           <p className="lead text-muted">Gleiche Produkte, verschiedene Preise – manchmal bis zu 40% Unterschied. So funktioniert Preisvergleich und warum es sich bei jedem Online-Kauf lohnt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 15. Juli 2026</span>

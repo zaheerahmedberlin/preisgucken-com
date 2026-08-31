@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten",
-  description: "Boxspringbett kaufen: Welche Größe, Härtegrad und Qualität lohnt sich wirklich? Unser Experten-Ratgeber mit Preisvergleich – spare bis zu 40% beim Kauf.",
+  title: "7 Fehler beim Boxspringbett-Kauf",
+  description: "Welche Größe, welcher Härtegrad und welche Qualität lohnt sich wirklich? Ratgeber mit Preisvergleich.",
   keywords: ["boxspringbett kaufen", "boxspringbett ratgeber", "bestes boxspringbett 2026", "boxspringbett preisvergleich", "boxspringbett 140x200", "boxspringbett 180x200"],
   openGraph: {
-    title: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten",
-    description: "Welche Größe, Härtegrad und Qualität lohnt sich wirklich? Unser Experten-Ratgeber mit Preisvergleich.",
+    title: "7 Fehler beim Boxspringbett-Kauf",
+    description: "Welche Größe, welcher Härtegrad und welche Qualität lohnt sich wirklich? Ratgeber mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/boxspringbett-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-20",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "7 Fehler beim Boxspringbett-Kauf" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/boxspringbett-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten",
-    description: "Welche Größe, Härtegrad und Qualität lohnt sich wirklich? Unser Experten-Ratgeber mit Preisvergleich.",
+    title: "7 Fehler beim Boxspringbett-Kauf",
+    description: "Welche Größe, welcher Härtegrad und welche Qualität lohnt sich wirklich? Ratgeber mit Preisvergleich.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten",
+  headline: "7 Fehler beim Boxspringbett-Kauf",
   description: "Alles was du wissen musst, bevor du ein Boxspringbett kaufst – Größen, Härtegrade, Materialien und Preise im Vergleich.",
   datePublished: "2026-07-20",
   author: { "@type": "Organization", name: "Preisgucken" },
@@ -42,7 +42,7 @@ export default function BoxspringbettRatgeber() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">7 Fehler beim Boxspringbett-Kauf, die dich Geld kosten</h1>
+          <h1 className="fw-bold display-6 mb-3">7 Fehler beim Boxspringbett-Kauf</h1>
           <p className="lead text-muted">Welche Größe, welcher Härtegrad, welches Material – und wo kaufst du am günstigsten? Wir beantworten alle Fragen, damit du nicht zu viel bezahlst.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 20. Juli 2026</span>

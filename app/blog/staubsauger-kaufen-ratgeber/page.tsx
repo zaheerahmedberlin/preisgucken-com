@@ -1,28 +1,28 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt",
-  description: "Welcher Staubsauger lohnt sich 2026? Beutellos, Akku oder Roboter? Unser Ratgeber hilft dir, den besten Staubsauger zum günstigsten Preis zu finden.",
+  title: "Beutellos, Akku oder Roboter?",
+  description: "Beutellos, Akku oder Roboter? Der Ratgeber hilft dir, den besten Staubsauger zu finden.",
   keywords: ["staubsauger kaufen", "bester staubsauger 2026", "staubsauger preisvergleich", "akkusauger test", "staubsauger roboter günstig"],
   alternates: { canonical: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber" },
   openGraph: {
-    title: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt",
-    description: "Beutellos, Akku oder Roboter? Wir helfen dir, den richtigen Staubsauger zum besten Preis zu finden.",
+    title: "Beutellos, Akku oder Roboter?",
+    description: "Beutellos, Akku oder Roboter? Der Ratgeber hilft dir, den besten Staubsauger zu finden.",
     url: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Beutellos, Akku oder Roboter?" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt",
-    description: "Beutellos, Akku oder Roboter? Wir helfen dir, den richtigen Staubsauger zum besten Preis zu finden.",
+    title: "Beutellos, Akku oder Roboter?",
+    description: "Beutellos, Akku oder Roboter? Der Ratgeber hilft dir, den besten Staubsauger zu finden.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt",
+  headline: "Beutellos, Akku oder Roboter?",
   description: "Welcher Staubsauger lohnt sich 2026? Unser Ratgeber erklärt alle Typen und zeigt dir, wo du am günstigsten kaufst.",
   datePublished: "2026-07-24",
   author: { "@type": "Organization", name: "Preisgucken" },

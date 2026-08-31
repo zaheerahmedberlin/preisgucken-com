@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Küchengeräte im Vergleich: Standmixer, Toaster, Fritteuse & Co. richtig wählen",
-  description: "Toaster oder Sandwichmaker? Standmixer oder Küchenmaschine? Kaffeevollautomat oder Kapselmaschine? Der komplette Küchengeräte-Ratgeber mit Preisvergleich.",
+  title: "Küchengeräte im Vergleich",
+  description: "Toaster, Standmixer oder Kaffeevollautomat? Der komplette Küchengeräte-Ratgeber mit Preisvergleich.",
   keywords: ["küchengeräte kaufen", "standmixer vs küchenmaschine", "heißluftfritteuse ratgeber", "kaffeevollautomat oder kapselmaschine", "toaster sandwichmaker vergleich", "elektro küchengeräte guide"],
   openGraph: {
-    title: "Küchengeräte im Vergleich: Standmixer, Toaster, Fritteuse & Co. richtig wählen",
+    title: "Küchengeräte im Vergleich",
     description: "Toaster oder Sandwichmaker? Standmixer oder Küchenmaschine? Kaffeevollautomat oder Kapselmaschine? Der komplette Küchengeräte-Ratgeber.",
     url: "https://www.preisgucken.com/blog/kuechengeraete-vergleich-kaufratgeber",
     type: "article",
     publishedTime: "2026-08-19",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Küchengeräte im Vergleich: Standmixer, Toaster, Fritteuse & Co. richtig wählen" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Küchengeräte im Vergleich" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/kuechengeraete-vergleich-kaufratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Küchengeräte im Vergleich: Standmixer, Toaster, Fritteuse & Co. richtig wählen",
+    title: "Küchengeräte im Vergleich",
     description: "Toaster oder Sandwichmaker? Standmixer oder Küchenmaschine? Kaffeevollautomat oder Kapselmaschine? Der komplette Küchengeräte-Ratgeber.",
   },
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Küchengeräte im Vergleich: Standmixer, Toaster, Fritteuse & Co. richtig wählen",
+  headline: "Küchengeräte im Vergleich",
   datePublished: "2026-08-19",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function KuechengeraeteVergleichPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Küchengeräte im Vergleich: Standmixer, Toaster, Fritteuse & Co. richtig wählen</h1>
+          <h1 className="fw-bold display-6 mb-3">Küchengeräte im Vergleich</h1>
           <p className="lead text-muted">Toaster oder Sandwichmaker? Standmixer oder Küchenmaschine? Bei der Fülle an elektrischen Küchenhelfern ist schnell unklar, was sich wirklich lohnt. Wir ordnen die wichtigsten Gerätetypen nach Einsatzzweck, damit du nur kaufst, was du auch benutzt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. August 2026</span>

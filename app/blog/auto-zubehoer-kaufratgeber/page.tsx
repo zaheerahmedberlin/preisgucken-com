@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung",
-  description: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es beim Kauf von Auto-Zubehör wirklich ankommt. Mit Preisvergleich.",
+  title: "Auto-Zubehör: Dachbox bis Anhängerkupplung",
+  description: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es bei Auto-Zubehör ankommt.",
   keywords: ["auto zubehör kaufen", "dachbox kaufen ratgeber", "anhängerkupplung nachrüsten", "dachträger traglast", "auto pflegeprodukte ratgeber", "warndreieck verbandskasten pflicht"],
   openGraph: {
-    title: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung",
-    description: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es beim Kauf von Auto-Zubehör wirklich ankommt.",
+    title: "Auto-Zubehör: Dachbox bis Anhängerkupplung",
+    description: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es bei Auto-Zubehör ankommt.",
     url: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber",
     type: "article",
     publishedTime: "2026-08-19",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Auto-Zubehör: Dachbox bis Anhängerkupplung" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung",
-    description: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es beim Kauf von Auto-Zubehör wirklich ankommt.",
+    title: "Auto-Zubehör: Dachbox bis Anhängerkupplung",
+    description: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es bei Auto-Zubehör ankommt.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung",
+  headline: "Auto-Zubehör: Dachbox bis Anhängerkupplung",
   datePublished: "2026-08-19",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function AutoZubehoerKaufratgeberPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung</h1>
+          <h1 className="fw-bold display-6 mb-3">Auto-Zubehör: Dachbox bis Anhängerkupplung</h1>
           <p className="lead text-muted">Nicht jedes Zubehörteil passt an jedes Auto. Wir zeigen dir, worauf es bei Kompatibilität und Sicherheit wirklich ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. August 2026</span>

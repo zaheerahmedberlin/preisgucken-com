@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget",
-  description: "Vom ersten Date bis zum Jahrestag: Welcher Schmuck passt zu welchem Anlass? Geschenkideen für jedes Budget.",
+  title: "Schmuck verschenken: Der Geschenkguide",
+  description: "Schmuck als Geschenk: Welches Stück passt zu welchem Anlass? Geschenkideen für jedes Budget.",
   keywords: ["schmuck verschenken", "schmuck geschenkideen damen", "was schenkt man zum geburtstag schmuck", "personalisierter schmuck", "schmuck geschenk anlass"],
   openGraph: {
-    title: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget",
+    title: "Schmuck verschenken: Der Geschenkguide",
     description: "Vom ersten Date bis zum Jahrestag: Welcher Schmuck passt zu welchem Anlass?",
     url: "https://www.preisgucken.com/blog/schmuck-als-geschenk-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schmuck verschenken: Der Geschenkguide" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schmuck-als-geschenk-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget",
+    title: "Schmuck verschenken: Der Geschenkguide",
     description: "Vom ersten Date bis zum Jahrestag: Welcher Schmuck passt zu welchem Anlass?",
   },
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget",
+  headline: "Schmuck verschenken: Der Geschenkguide",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function SchmuckGeschenkPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget</h1>
+          <h1 className="fw-bold display-6 mb-3">Schmuck verschenken: Der Geschenkguide</h1>
           <p className="lead text-muted">Schmuck ist eines der persönlichsten Geschenke – aber auch eines, bei dem man leicht danebengreifen kann. So findest du das passende Stück für jeden Anlass.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

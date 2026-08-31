@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gutscheincodes richtig einlösen: Mindestbestellwert, Ausschlüsse und Ablauf im Überblick",
-  description: "Warum ein Rabattcode manchmal nicht funktioniert: Mindestbestellwert, ausgeschlossene Marken und Ablaufzeiten im Überblick, damit du beim nächsten Einkauf wirklich sparst.",
+  title: "Gutscheincodes richtig einlösen",
+  description: "Warum ein Rabattcode manchmal nicht funktioniert: Mindestbestellwert, Ausschlüsse und Ablaufzeiten im Überblick.",
   keywords: [
     "gutscheincode einlösen",
     "rabattcode gültig",
@@ -11,25 +11,25 @@ export const metadata: Metadata = {
     "aktuelle gutscheine 2026",
   ],
   openGraph: {
-    title: "Gutscheincodes richtig einlösen: Mindestbestellwert, Ausschlüsse und Ablauf im Überblick",
-    description: "Warum ein Rabattcode manchmal nicht funktioniert und worauf du vor dem Einlösen achten solltest.",
+    title: "Gutscheincodes richtig einlösen",
+    description: "Warum ein Rabattcode manchmal nicht funktioniert: Mindestbestellwert, Ausschlüsse und Ablaufzeiten im Überblick.",
     url: "https://www.preisgucken.com/blog/gutscheincodes-richtig-einloesen",
     type: "article",
     publishedTime: "2026-08-31",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Gutscheincodes richtig einlösen: Mindestbestellwert, Ausschlüsse und Ablauf im Überblick" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Gutscheincodes richtig einlösen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/gutscheincodes-richtig-einloesen" },
   twitter: {
     card: "summary_large_image",
-    title: "Gutscheincodes richtig einlösen: Mindestbestellwert, Ausschlüsse und Ablauf im Überblick",
-    description: "Warum ein Rabattcode manchmal nicht funktioniert und worauf du vor dem Einlösen achten solltest.",
+    title: "Gutscheincodes richtig einlösen",
+    description: "Warum ein Rabattcode manchmal nicht funktioniert: Mindestbestellwert, Ausschlüsse und Ablaufzeiten im Überblick.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Gutscheincodes richtig einlösen: Mindestbestellwert, Ausschlüsse und Ablauf im Überblick",
+  headline: "Gutscheincodes richtig einlösen",
   datePublished: "2026-08-31",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -46,7 +46,7 @@ export default function GutscheincodesRichtigEinloesenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Spartipps</span>
-          <h1 className="fw-bold display-6 mb-3">Gutscheincodes richtig einlösen: Mindestbestellwert, Ausschlüsse und Ablauf im Überblick</h1>
+          <h1 className="fw-bold display-6 mb-3">Gutscheincodes richtig einlösen</h1>
           <p className="lead text-muted">
             Code kopiert, im Warenkorb eingefügt — und der Preis ändert sich trotzdem nicht? Meistens liegt es
             nicht am Code selbst, sondern an einer der drei Bedingungen, die fast jeder Gutschein im Kleingedruckten hat.

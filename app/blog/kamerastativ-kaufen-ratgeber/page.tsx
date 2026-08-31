@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck",
-  description: "Reisestativ, Videostativ oder Einbeinstativ? Der Ratgeber zu Material, Traglast und Stativkopf – mit Preisvergleich für Foto- und Videozubehör.",
+  title: "Carbon oder Aluminium? Kamerastativ finden",
+  description: "Reisestativ, Videostativ oder Einbeinstativ? Material, Traglast und Stativkopf im Ratgeber.",
   keywords: ["kamerastativ kaufen", "reisestativ ratgeber", "carbon oder aluminium stativ", "kugelkopf kaufen", "videostativ kaufen", "einbeinstativ ratgeber"],
   openGraph: {
-    title: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck",
-    description: "Reisestativ, Videostativ oder Einbeinstativ? Der Ratgeber zu Material, Traglast und Stativkopf.",
+    title: "Carbon oder Aluminium? Kamerastativ finden",
+    description: "Reisestativ, Videostativ oder Einbeinstativ? Material, Traglast und Stativkopf im Ratgeber.",
     url: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-29",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Carbon oder Aluminium? Kamerastativ finden" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck",
-    description: "Reisestativ, Videostativ oder Einbeinstativ? Der Ratgeber zu Material, Traglast und Stativkopf.",
+    title: "Carbon oder Aluminium? Kamerastativ finden",
+    description: "Reisestativ, Videostativ oder Einbeinstativ? Material, Traglast und Stativkopf im Ratgeber.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck",
+  headline: "Carbon oder Aluminium? Kamerastativ finden",
   datePublished: "2026-07-29",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function KamerastativKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Carbon oder Aluminium? Das richtige Kamerastativ für deinen Einsatzzweck</h1>
+          <h1 className="fw-bold display-6 mb-3">Carbon oder Aluminium? Kamerastativ finden</h1>
           <p className="lead text-muted">Carbon oder Aluminium, Kugelkopf oder Videokopf – welches Stativ wirklich zu deinem Einsatzzweck passt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>

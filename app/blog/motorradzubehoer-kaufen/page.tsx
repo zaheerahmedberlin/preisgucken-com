@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick",
-  description: "Windschutzscheibe, Sozius-Rückenpolster oder Chrom-Zubehör – worauf es bei Passgenauigkeit, Wetterfestigkeit und Komfort wirklich ankommt, mit Preisvergleich für Motorradzubehör.",
+  title: "Motorradzubehör kaufen: Worauf achten?",
+  description: "Windschutzscheibe, Rückenpolster oder Chrom-Zubehör – worauf es bei Passgenauigkeit und Komfort ankommt.",
   keywords: [
     "motorradzubehör kaufen",
     "motorrad zubehör ratgeber",
@@ -14,25 +14,25 @@ export const metadata: Metadata = {
     "motorradzubehör passgenauigkeit",
   ],
   openGraph: {
-    title: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick",
-    description: "Worauf es bei Passgenauigkeit, Wetterfestigkeit und Komfort bei Motorradzubehör wirklich ankommt.",
+    title: "Motorradzubehör kaufen: Worauf achten?",
+    description: "Windschutzscheibe, Rückenpolster oder Chrom-Zubehör – worauf es bei Passgenauigkeit und Komfort ankommt.",
     url: "https://www.preisgucken.com/blog/motorradzubehoer-kaufen",
     type: "article",
     publishedTime: "2026-08-30",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Motorradzubehör kaufen: Worauf achten?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/motorradzubehoer-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick",
-    description: "Worauf es bei Passgenauigkeit, Wetterfestigkeit und Komfort bei Motorradzubehör wirklich ankommt.",
+    title: "Motorradzubehör kaufen: Worauf achten?",
+    description: "Windschutzscheibe, Rückenpolster oder Chrom-Zubehör – worauf es bei Passgenauigkeit und Komfort ankommt.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick",
+  headline: "Motorradzubehör kaufen: Worauf achten?",
   datePublished: "2026-08-30",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -49,7 +49,7 @@ export default function MotorradzubehoerKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick</h1>
+          <h1 className="fw-bold display-6 mb-3">Motorradzubehör kaufen: Worauf achten?</h1>
           <p className="lead text-muted">
             Vom Chrom-Zierteil bis zur Windschutzscheibe – Motorradzubehör ist ein riesiges Feld, und nicht
             jedes Teil passt zu jedem Modell. Wir zeigen, worauf es bei Passgenauigkeit, Wetterfestigkeit und

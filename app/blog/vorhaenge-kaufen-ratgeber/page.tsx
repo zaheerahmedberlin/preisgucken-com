@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt",
-  description: "Verdunkelungsvorhang, Schallschutzvorhang oder lichtdurchlässiger Stoff? Der komplette Ratgeber für den richtigen Vorhang – mit Preisvergleich.",
+  title: "Welcher Vorhang taugt wofür?",
+  description: "Verdunkelung, Schallschutz oder Deko? Der komplette Ratgeber für den richtigen Vorhang.",
   keywords: ["vorhänge kaufen", "verdunkelungsvorhang ratgeber", "schallschutzvorhang", "gardinen vs vorhänge", "vorhang stoffarten", "vorhänge kaufberatung 2026"],
   openGraph: {
-    title: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt",
-    description: "Verdunkelungsvorhang, Schallschutzvorhang oder lichtdurchlässiger Stoff? Der komplette Ratgeber.",
+    title: "Welcher Vorhang taugt wofür?",
+    description: "Verdunkelung, Schallschutz oder Deko? Der komplette Ratgeber für den richtigen Vorhang.",
     url: "https://www.preisgucken.com/blog/vorhaenge-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-29",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Welcher Vorhang taugt wofür?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/vorhaenge-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt",
-    description: "Verdunkelungsvorhang, Schallschutzvorhang oder lichtdurchlässiger Stoff? Der komplette Ratgeber.",
+    title: "Welcher Vorhang taugt wofür?",
+    description: "Verdunkelung, Schallschutz oder Deko? Der komplette Ratgeber für den richtigen Vorhang.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt",
+  headline: "Welcher Vorhang taugt wofür?",
   datePublished: "2026-07-29",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function VorhaengeKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt</h1>
+          <h1 className="fw-bold display-6 mb-3">Welcher Vorhang taugt wofür?</h1>
           <p className="lead text-muted">Nicht jeder Vorhang kann alles – wir zeigen dir, welcher Stoff für welchen Zweck taugt und wie du beim Kauf nichts falsch machst.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>

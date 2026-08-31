@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?",
+  title: "Stecker, Creolen oder Dangle?",
   description: "Stecker, Creolen oder Dangle-Ohrringe? Materialien, Verschlüsse und Preise im Vergleich – für jeden Anlass das passende Paar.",
   keywords: ["ohrringe kaufen", "ohrstecker damen", "creolen kaufen", "hypoallergene ohrringe", "ohrringe empfindliche ohren", "ohrringe gesichtsform"],
   openGraph: {
-    title: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?",
+    title: "Stecker, Creolen oder Dangle?",
     description: "Stecker, Creolen oder Dangle-Ohrringe? Materialien, Verschlüsse und Preise im Vergleich.",
     url: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Stecker, Creolen oder Dangle?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?",
+    title: "Stecker, Creolen oder Dangle?",
     description: "Stecker, Creolen oder Dangle-Ohrringe? Materialien, Verschlüsse und Preise im Vergleich.",
   },
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?",
+  headline: "Stecker, Creolen oder Dangle?",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function OhrringeKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Stecker, Creolen oder Dangle: Welche Ohrringe passen zu dir?</h1>
+          <h1 className="fw-bold display-6 mb-3">Stecker, Creolen oder Dangle?</h1>
           <p className="lead text-muted">Vom dezenten Ohrstecker bis zur auffälligen Creole – wir zeigen dir Typen, Materialien und Verschlüsse, damit du die richtige Wahl triffst.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

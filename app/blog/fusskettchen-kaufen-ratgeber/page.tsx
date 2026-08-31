@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden",
+  title: "Fußkettchen-Trend: Länge & Material",
   description: "Der Sommer-Trend Fußkettchen im Ratgeber: richtige Länge, wasserfeste Materialien und Styling-Tipps.",
   keywords: ["fußkettchen kaufen", "anklet damen", "fußkette sommer", "fußkettchen silber", "fußkette länge"],
   openGraph: {
-    title: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden",
+    title: "Fußkettchen-Trend: Länge & Material",
     description: "Der Sommer-Trend Fußkettchen im Ratgeber: richtige Länge, wasserfeste Materialien und Styling-Tipps.",
     url: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Fußkettchen-Trend: Länge & Material" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden",
+    title: "Fußkettchen-Trend: Länge & Material",
     description: "Der Sommer-Trend Fußkettchen im Ratgeber: richtige Länge, wasserfeste Materialien und Styling-Tipps.",
   },
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden",
+  headline: "Fußkettchen-Trend: Länge & Material",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function FusskettchenKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden</h1>
+          <h1 className="fw-bold display-6 mb-3">Fußkettchen-Trend: Länge & Material</h1>
           <p className="lead text-muted">Ob am Strand oder im Alltag – Fußkettchen sind ein unterschätztes Accessoire. So findest du die richtige Länge und ein Material, das Wasser und Sonne verträgt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

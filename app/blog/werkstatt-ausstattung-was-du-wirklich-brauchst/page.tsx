@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)",
-  description: "Handwerkzeug, Elektrowerkzeug, Arbeitsschutz oder Messwerkzeug: Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Preisvergleich für Bosch, Makita, Wera & Co.",
+  title: "Werkstatt ausstatten: Was du brauchst",
+  description: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Preisvergleich.",
   keywords: [
     "werkstatt ausstatten",
     "werkzeug set kaufen",
@@ -15,17 +15,17 @@ export const metadata: Metadata = {
     "werkstatt grundausstattung für heimwerker",
   ],
   openGraph: {
-    title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)",
-    description: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben.",
+    title: "Werkstatt ausstatten: Was du brauchst",
+    description: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/werkstatt-ausstattung-was-du-wirklich-brauchst",
     type: "article",
     publishedTime: "2026-08-14",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Werkstatt ausstatten: Was du brauchst" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)",
-    description: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben.",
+    title: "Werkstatt ausstatten: Was du brauchst",
+    description: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Preisvergleich.",
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/werkstatt-ausstattung-was-du-wirklich-brauchst" },
 };
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)",
+  headline: "Werkstatt ausstatten: Was du brauchst",
   datePublished: "2026-08-14",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -50,7 +50,7 @@ export default function WerkstattAusstattungPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)</h1>
+          <h1 className="fw-bold display-6 mb-3">Werkstatt ausstatten: Was du brauchst</h1>
           <p className="lead text-muted">
             Ein voller Werkzeugkoffer ist schnell gekauft – aber nicht jedes Teil darin wird auch wirklich
             gebraucht. Wir zeigen, welche Werkstatt-Grundausstattung sich für Heimwerker wirklich lohnt und

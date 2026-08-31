@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Wie finde ich das beste Preis-Leistungs-Verhältnis? 6 Kriterien, die wirklich zählen",
-  description: "Bestes Preis-Leistungs-Verhältnis finden: Nicht der günstigste Preis, sondern die richtige Bewertung von Qualität, Nutzungsdauer und Ausstattung entscheidet. So gehst du strukturiert vor.",
+  title: "Bestes Preis-Leistungs-Verhältnis finden",
+  description: "Nicht der günstigste Preis entscheidet, sondern Qualität, Nutzungsdauer und Ausstattung. So gehst du strukturiert vor.",
   keywords: [
     "wie finde ich das beste preis-leistungs-verhältnis",
     "bestes preis leistungs verhältnis",
@@ -11,17 +11,17 @@ export const metadata: Metadata = {
     "günstig kaufen ohne qualitätsverlust",
   ],
   openGraph: {
-    title: "Wie finde ich das beste Preis-Leistungs-Verhältnis? 6 Kriterien, die wirklich zählen",
-    description: "Nicht der günstigste Preis, sondern die richtige Bewertung von Qualität und Nutzungsdauer entscheidet.",
+    title: "Bestes Preis-Leistungs-Verhältnis finden",
+    description: "Nicht der günstigste Preis entscheidet, sondern Qualität, Nutzungsdauer und Ausstattung. So gehst du strukturiert vor.",
     url: "https://www.preisgucken.com/blog/bestes-preis-leistungs-verhaeltnis-finden",
     type: "article",
     publishedTime: "2026-08-27",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Wie finde ich das beste Preis-Leistungs-Verhältnis? 6 Kriterien, die wirklich zählen" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Bestes Preis-Leistungs-Verhältnis finden" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wie finde ich das beste Preis-Leistungs-Verhältnis? 6 Kriterien, die wirklich zählen",
-    description: "Nicht der günstigste Preis, sondern die richtige Bewertung von Qualität und Nutzungsdauer entscheidet.",
+    title: "Bestes Preis-Leistungs-Verhältnis finden",
+    description: "Nicht der günstigste Preis entscheidet, sondern Qualität, Nutzungsdauer und Ausstattung. So gehst du strukturiert vor.",
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/bestes-preis-leistungs-verhaeltnis-finden" },
 };
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Wie finde ich das beste Preis-Leistungs-Verhältnis? 6 Kriterien, die wirklich zählen",
+  headline: "Bestes Preis-Leistungs-Verhältnis finden",
   datePublished: "2026-08-27",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -46,7 +46,7 @@ export default function PreisLeistungPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Spartipps</span>
-          <h1 className="fw-bold display-6 mb-3">Wie finde ich das beste Preis-Leistungs-Verhältnis? 6 Kriterien, die wirklich zählen</h1>
+          <h1 className="fw-bold display-6 mb-3">Bestes Preis-Leistungs-Verhältnis finden</h1>
           <p className="lead text-muted">
             Der günstigste Preis ist nicht automatisch das beste Angebot – und das teuerste Produkt nicht
             automatisch das hochwertigste. Wir zeigen, wie du systematisch bewertest, was ein wirklich gutes

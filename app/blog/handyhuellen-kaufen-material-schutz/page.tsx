@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Handyhülle kaufen: Material, Schutzwirkung und Passform im Überblick",
-  description: "Silikon, Hartplastik oder Hybrid – welches Hüllenmaterial wirklich schützt und worauf du bei Passform und Sturzschutz achten solltest, mit Preisvergleich für Handyhüllen.",
+  title: "Handyhülle kaufen: Worauf achten?",
+  description: "Silikon, Hartplastik oder Hybrid – welches Hüllenmaterial wirklich schützt und worauf du achten solltest.",
   keywords: [
     "handyhülle kaufen",
     "handyhülle material vergleich",
@@ -12,25 +12,25 @@ export const metadata: Metadata = {
     "handyhülle ratgeber",
   ],
   openGraph: {
-    title: "Handyhülle kaufen: Material, Schutzwirkung und Passform im Überblick",
-    description: "Welches Hüllenmaterial wirklich schützt und worauf du bei Passform und Sturzschutz achten solltest.",
+    title: "Handyhülle kaufen: Worauf achten?",
+    description: "Silikon, Hartplastik oder Hybrid – welches Hüllenmaterial wirklich schützt und worauf du achten solltest.",
     url: "https://www.preisgucken.com/blog/handyhuellen-kaufen-material-schutz",
     type: "article",
     publishedTime: "2026-08-30",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Handyhülle kaufen: Material, Schutzwirkung und Passform im Überblick" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Handyhülle kaufen: Worauf achten?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/handyhuellen-kaufen-material-schutz" },
   twitter: {
     card: "summary_large_image",
-    title: "Handyhülle kaufen: Material, Schutzwirkung und Passform im Überblick",
-    description: "Welches Hüllenmaterial wirklich schützt und worauf du bei Passform und Sturzschutz achten solltest.",
+    title: "Handyhülle kaufen: Worauf achten?",
+    description: "Silikon, Hartplastik oder Hybrid – welches Hüllenmaterial wirklich schützt und worauf du achten solltest.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Handyhülle kaufen: Material, Schutzwirkung und Passform im Überblick",
+  headline: "Handyhülle kaufen: Worauf achten?",
   datePublished: "2026-08-30",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -47,7 +47,7 @@ export default function HandyhuellenKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Handyhülle kaufen: Material, Schutzwirkung und Passform im Überblick</h1>
+          <h1 className="fw-bold display-6 mb-3">Handyhülle kaufen: Worauf achten?</h1>
           <p className="lead text-muted">
             Eine Handyhülle ist mehr als Zubehör – sie entscheidet oft, ob ein Sturz ein Kratzer oder ein
             Displayschaden wird. Wir zeigen, welches Material wirklich schützt und worauf du beim Kauf achten solltest.

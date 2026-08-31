@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt",
-  description: "Automatik oder Quarz? Welches Material hält am längsten? Der Uhren-Ratgeber erklärt Werke, Größen und Preisklassen – mit Preisvergleich.",
+  title: "Automatik oder Quarz? Uhrenkauf",
+  description: "Automatik oder Quarz? Welches Material hält am längsten? Werke, Größen und Preisklassen im Ratgeber.",
   keywords: ["uhren kaufen", "armbanduhr damen kaufen", "herrenuhr online kaufen", "automatikuhr oder quarzuhr", "uhren preisvergleich", "uhrwerk vergleich"],
   openGraph: {
-    title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt",
-    description: "Automatik oder Quarz? Welches Material hält am längsten? Der komplette Uhren-Ratgeber.",
+    title: "Automatik oder Quarz? Uhrenkauf",
+    description: "Automatik oder Quarz? Welches Material hält am längsten? Werke, Größen und Preisklassen im Ratgeber.",
     url: "https://www.preisgucken.com/blog/uhren-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Automatik oder Quarz? Uhrenkauf" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/uhren-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt",
-    description: "Automatik oder Quarz? Welches Material hält am längsten? Der komplette Uhren-Ratgeber.",
+    title: "Automatik oder Quarz? Uhrenkauf",
+    description: "Automatik oder Quarz? Welches Material hält am längsten? Werke, Größen und Preisklassen im Ratgeber.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt",
+  headline: "Automatik oder Quarz? Uhrenkauf",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function UhrenKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt</h1>
+          <h1 className="fw-bold display-6 mb-3">Automatik oder Quarz? Uhrenkauf</h1>
           <p className="lead text-muted">Automatik, Quarz oder Solar – und aus welchem Material sollte das Gehäuse sein? Wir erklären, worauf es bei einer guten Uhr wirklich ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

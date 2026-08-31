@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt",
-  description: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät für welchen Einsatzzweck die bessere Wahl ist. Mit Preisvergleich.",
+  title: "Monitor oder Beamer? Was wirklich passt",
+  description: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät die bessere Wahl ist.",
   keywords: ["monitor oder beamer", "gaming monitor kaufen", "beamer büro", "monitor reaktionszeit ratgeber", "monitorarm kaufen", "beamer zubehör"],
   openGraph: {
-    title: "Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt",
-    description: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät für welchen Einsatzzweck die bessere Wahl ist.",
+    title: "Monitor oder Beamer? Was wirklich passt",
+    description: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät die bessere Wahl ist.",
     url: "https://www.preisgucken.com/blog/monitor-oder-beamer-kaufratgeber",
     type: "article",
     publishedTime: "2026-08-17",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Monitor oder Beamer? Was wirklich passt" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/monitor-oder-beamer-kaufratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt",
-    description: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät für welchen Einsatzzweck die bessere Wahl ist.",
+    title: "Monitor oder Beamer? Was wirklich passt",
+    description: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät die bessere Wahl ist.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt",
+  headline: "Monitor oder Beamer? Was wirklich passt",
   datePublished: "2026-08-17",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function MonitorOderBeamerPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt</h1>
+          <h1 className="fw-bold display-6 mb-3">Monitor oder Beamer? Was wirklich passt</h1>
           <p className="lead text-muted">Beide zeigen ein Bild – aber für ganz unterschiedliche Zwecke gebaut. Wir zeigen dir, wann welches Gerät die bessere Wahl ist.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 17. August 2026</span>

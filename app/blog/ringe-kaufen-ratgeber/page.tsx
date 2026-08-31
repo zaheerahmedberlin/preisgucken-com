@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft",
+  title: "Ringgröße zuhause bestimmen",
   description: "So findest du die richtige Ringgröße zuhause, welche Materialien halten und welcher Ringstil zu dir passt.",
   keywords: ["ring kaufen", "ringgröße bestimmen", "ring damen silber", "stapelringe", "ring als geschenk", "ringgröße tabelle"],
   openGraph: {
-    title: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft",
+    title: "Ringgröße zuhause bestimmen",
     description: "So findest du die richtige Ringgröße zuhause, welche Materialien halten und welcher Ringstil zu dir passt.",
     url: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Ringgröße zuhause bestimmen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft",
+    title: "Ringgröße zuhause bestimmen",
     description: "So findest du die richtige Ringgröße zuhause, welche Materialien halten und welcher Ringstil zu dir passt.",
   },
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft",
+  headline: "Ringgröße zuhause bestimmen",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function RingeKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft</h1>
+          <h1 className="fw-bold display-6 mb-3">Ringgröße zuhause bestimmen</h1>
           <p className="lead text-muted">Die häufigste Fehlerquelle beim Ringkauf ist die falsche Größe. Wir zeigen dir, wie du sie zuhause bestimmst – und welcher Stil zu dir passt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

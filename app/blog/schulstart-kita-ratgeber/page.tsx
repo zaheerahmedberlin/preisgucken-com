@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Schulanfang Checkliste 2026: Was dein Kind wirklich braucht",
-  description: "Schulanfang und Kita-Start 2026: Die komplette Checkliste für Schulranzen, Schulsachen, Babytrage & mehr – inklusive Preisvergleich, damit du nicht zu viel zahlst.",
+  title: "Schulanfang Checkliste 2026",
+  description: "Die komplette Checkliste für Schulranzen, Schulsachen, Babytrage & mehr – mit Preisvergleich.",
   keywords: [
     "schulanfang checkliste 2026", "was braucht mein kind für die schule", "schulranzen kaufen",
     "kita eingewöhnung was braucht mein kind", "schulsachen liste", "babytrage vergleich",
@@ -10,23 +10,23 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.preisgucken.com/blog/schulstart-kita-ratgeber" },
   openGraph: {
-    title: "Schulanfang Checkliste 2026: Was dein Kind wirklich braucht",
-    description: "Die komplette Checkliste für Schulanfang und Kita-Start – mit Preisvergleich für Schulranzen, Schulsachen, Babytrage und mehr.",
+    title: "Schulanfang Checkliste 2026",
+    description: "Die komplette Checkliste für Schulranzen, Schulsachen, Babytrage & mehr – mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/schulstart-kita-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schulanfang Checkliste 2026: Was dein Kind wirklich braucht" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schulanfang Checkliste 2026" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Schulanfang Checkliste 2026: Was dein Kind wirklich braucht",
-    description: "Die komplette Checkliste für Schulanfang und Kita-Start – mit Preisvergleich für Schulranzen, Schulsachen, Babytrage und mehr.",
+    title: "Schulanfang Checkliste 2026",
+    description: "Die komplette Checkliste für Schulranzen, Schulsachen, Babytrage & mehr – mit Preisvergleich.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Schulanfang Checkliste 2026: Was dein Kind wirklich braucht",
+  headline: "Schulanfang Checkliste 2026",
   description: "Die komplette Checkliste für Schulanfang und Kita-Start 2026 – Schulranzen, Schulsachen, Babytrage und mehr im Preisvergleich.",
   datePublished: "2026-08-26",
   author: { "@type": "Organization", name: "Preisgucken" },
@@ -71,7 +71,7 @@ export default function SchulstartKitaRatgeber() {
 
         <span className="badge mb-3" style={{ background: "#1A3A6B", color: "#fff" }}>Ratgeber</span>
         <h1 className="fw-bold mb-3" style={{ color: "#1A3A6B", fontSize: "2rem" }}>
-          Schulanfang Checkliste 2026: Was dein Kind wirklich braucht
+          Schulanfang Checkliste 2026
         </h1>
         <p className="text-muted mb-4">26. August 2026 · 8 Min. Lesezeit</p>
 

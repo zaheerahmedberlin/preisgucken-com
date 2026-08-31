@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl",
-  description: "Welcher Härtegrad passt zu dir, welche Größe brauchst du und Federkern oder Schaumstoff? Der komplette Matratzen-Ratgeber mit Preisvergleich.",
+  title: "Matratze kaufen: Der richtige Härtegrad",
+  description: "Welcher Härtegrad passt zu dir, welche Größe brauchst du? Der komplette Matratzen-Ratgeber.",
   keywords: ["matratze kaufen", "matratze härtegrad ratgeber", "welche matratze passt zu mir", "matratzengröße tabelle", "federkernmatratze oder schaumstoff", "matratze kaufberatung 2026"],
   openGraph: {
-    title: "Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl",
-    description: "Welcher Härtegrad passt zu dir, welche Größe brauchst du und Federkern oder Schaumstoff?",
+    title: "Matratze kaufen: Der richtige Härtegrad",
+    description: "Welcher Härtegrad passt zu dir, welche Größe brauchst du? Der komplette Matratzen-Ratgeber.",
     url: "https://www.preisgucken.com/blog/matratze-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-29",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Matratze kaufen: Der richtige Härtegrad" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/matratze-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl",
-    description: "Welcher Härtegrad passt zu dir, welche Größe brauchst du und Federkern oder Schaumstoff?",
+    title: "Matratze kaufen: Der richtige Härtegrad",
+    description: "Welcher Härtegrad passt zu dir, welche Größe brauchst du? Der komplette Matratzen-Ratgeber.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl",
+  headline: "Matratze kaufen: Der richtige Härtegrad",
   datePublished: "2026-07-29",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function MatratzeKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Falscher Härtegrad, schlechter Schlaf: So triffst du die richtige Wahl</h1>
+          <h1 className="fw-bold display-6 mb-3">Matratze kaufen: Der richtige Härtegrad</h1>
           <p className="lead text-muted">Härtegrad, Größe, Material – die falsche Matratze ruiniert jeden Schlaf. Wir zeigen dir, worauf es wirklich ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>

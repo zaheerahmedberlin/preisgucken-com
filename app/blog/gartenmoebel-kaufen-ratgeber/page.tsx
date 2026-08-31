@@ -1,28 +1,28 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich",
-  description: "Welche Gartenmöbel lohnen sich 2026? Lounge, Essgruppe oder Liegestuhl? Unser Ratgeber zeigt dir die besten Materialien und Schnäppchen.",
+  title: "Polyrattan, Alu oder Holz? Gartenmöbel",
+  description: "Welche Gartenmöbel lohnen sich? Lounge, Essgruppe oder Liegestuhl? Die besten Materialien und Schnäppchen im Ratgeber.",
   keywords: ["gartenmöbel kaufen", "gartenmöbel günstig", "gartenmöbel 2026", "lounge set garten", "gartenset preisvergleich"],
   alternates: { canonical: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber" },
   openGraph: {
-    title: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich",
-    description: "Lounge, Essgruppe oder Liegestuhl? Unser Ratgeber hilft dir, die besten Gartenmöbel zum günstigsten Preis zu finden.",
+    title: "Polyrattan, Alu oder Holz? Gartenmöbel",
+    description: "Welche Gartenmöbel lohnen sich? Lounge, Essgruppe oder Liegestuhl? Die besten Materialien und Schnäppchen im Ratgeber.",
     url: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Polyrattan, Alu oder Holz? Gartenmöbel" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich",
-    description: "Lounge, Essgruppe oder Liegestuhl? Unser Ratgeber hilft dir, die besten Gartenmöbel zum günstigsten Preis zu finden.",
+    title: "Polyrattan, Alu oder Holz? Gartenmöbel",
+    description: "Welche Gartenmöbel lohnen sich? Lounge, Essgruppe oder Liegestuhl? Die besten Materialien und Schnäppchen im Ratgeber.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Polyrattan, Alu oder Holz? Der Gartenmöbel-Materialvergleich",
+  headline: "Polyrattan, Alu oder Holz? Gartenmöbel",
   description: "Welche Gartenmöbel lohnen sich 2026? Wir erklären Materialien, Typen und zeigen wo du am günstigsten kaufst.",
   datePublished: "2026-07-24",
   author: { "@type": "Organization", name: "Preisgucken" },

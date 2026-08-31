@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hunde- und Katzenbedarf online kaufen: Der Praxis-Guide",
-  description: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden und worauf du bei Zubehör achten solltest. Mit Preisvergleich.",
+  title: "Hunde- und Katzenbedarf online kaufen",
+  description: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden – mit Preisvergleich.",
   keywords: ["tierbedarf online kaufen", "hundebedarf ratgeber", "katzenbedarf kaufen", "hundegeschirr größe finden", "katzenkratzbaum kaufen", "tierfutter qualität erkennen"],
   openGraph: {
-    title: "Hunde- und Katzenbedarf online kaufen: Der Praxis-Guide",
-    description: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden und worauf du bei Zubehör achten solltest.",
+    title: "Hunde- und Katzenbedarf online kaufen",
+    description: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden – mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen",
     type: "article",
     publishedTime: "2026-08-18",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Hunde- und Katzenbedarf online kaufen: Der Praxis-Guide" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Hunde- und Katzenbedarf online kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Hunde- und Katzenbedarf online kaufen: Der Praxis-Guide",
-    description: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden und worauf du bei Zubehör achten solltest.",
+    title: "Hunde- und Katzenbedarf online kaufen",
+    description: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden – mit Preisvergleich.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Hunde- und Katzenbedarf online kaufen: Der Praxis-Guide",
+  headline: "Hunde- und Katzenbedarf online kaufen",
   datePublished: "2026-08-18",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function HaustierbedarfOnlineKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Hunde- und Katzenbedarf online kaufen: Der Praxis-Guide</h1>
+          <h1 className="fw-bold display-6 mb-3">Hunde- und Katzenbedarf online kaufen</h1>
           <p className="lead text-muted">Vom Futternapf bis zum Kratzbaum: Worauf es bei Tierbedarf wirklich ankommt und wie du unnötige Fehlkäufe vermeidest.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 18. August 2026</span>

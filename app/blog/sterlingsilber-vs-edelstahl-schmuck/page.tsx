@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?",
+  title: "Sterlingsilber vs. Edelstahl",
   description: "925er Sterlingsilber vs. hypoallergener Edelstahl: Unterschiede bei Preis, Pflege, Allergierisiko und Haltbarkeit.",
   keywords: ["sterlingsilber vs edelstahl", "welcher schmuck läuft nicht an", "hypoallergener schmuck material", "schmuck empfindliche haut", "925 silber pflege"],
   openGraph: {
-    title: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?",
+    title: "Sterlingsilber vs. Edelstahl",
     description: "925er Sterlingsilber vs. hypoallergener Edelstahl: Unterschiede bei Preis, Pflege, Allergierisiko und Haltbarkeit.",
     url: "https://www.preisgucken.com/blog/sterlingsilber-vs-edelstahl-schmuck",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Sterlingsilber vs. Edelstahl" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/sterlingsilber-vs-edelstahl-schmuck" },
   twitter: {
     card: "summary_large_image",
-    title: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?",
+    title: "Sterlingsilber vs. Edelstahl",
     description: "925er Sterlingsilber vs. hypoallergener Edelstahl: Unterschiede bei Preis, Pflege, Allergierisiko und Haltbarkeit.",
   },
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?",
+  headline: "Sterlingsilber vs. Edelstahl",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function SterlingsilberVsEdelstahlPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?</h1>
+          <h1 className="fw-bold display-6 mb-3">Sterlingsilber vs. Edelstahl</h1>
           <p className="lead text-muted">Zwei der beliebtesten Schmuckmaterialien im direkten Vergleich – wir zeigen, wo die Unterschiede bei Preis, Pflege und Verträglichkeit wirklich liegen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

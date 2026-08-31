@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick",
-  description: "Schutzhelm, Knieschoner oder Warnschutz – worauf es bei Arbeitsschutzausrüstung wirklich ankommt, mit Preisvergleich für Arbeitskleidung und Arbeitsschutz.",
+  title: "Arbeitskleidung & Arbeitsschutz kaufen",
+  description: "Schutzhelm, Knieschoner, Warnschutz: Worauf es bei Arbeitsschutzausrüstung ankommt – mit Preisvergleich.",
   keywords: [
     "arbeitskleidung kaufen",
     "arbeitsschutz kaufen ratgeber",
@@ -13,25 +13,25 @@ export const metadata: Metadata = {
     "warnschutzkleidung",
   ],
   openGraph: {
-    title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick",
-    description: "Worauf es bei Arbeitsschutzausrüstung wirklich ankommt – Norm, Passform und Material.",
+    title: "Arbeitskleidung & Arbeitsschutz kaufen",
+    description: "Schutzhelm, Knieschoner, Warnschutz: Worauf es bei Arbeitsschutzausrüstung ankommt – mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/arbeitskleidung-arbeitsschutz-kaufen",
     type: "article",
     publishedTime: "2026-08-30",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Arbeitskleidung & Arbeitsschutz kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/arbeitskleidung-arbeitsschutz-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick",
-    description: "Worauf es bei Arbeitsschutzausrüstung wirklich ankommt – Norm, Passform und Material.",
+    title: "Arbeitskleidung & Arbeitsschutz kaufen",
+    description: "Schutzhelm, Knieschoner, Warnschutz: Worauf es bei Arbeitsschutzausrüstung ankommt – mit Preisvergleich.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick",
+  headline: "Arbeitskleidung & Arbeitsschutz kaufen",
   datePublished: "2026-08-30",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -48,7 +48,7 @@ export default function ArbeitskleidungArbeitsschutzKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick</h1>
+          <h1 className="fw-bold display-6 mb-3">Arbeitskleidung & Arbeitsschutz kaufen</h1>
           <p className="lead text-muted">
             Ob Schutzhelm, Knieschoner oder Warnschutzkleidung: Arbeitsschutz ist kein Bereich, in dem der
             Preis allein entscheiden sollte. Wir zeigen, worauf es bei Norm, Passform und Material wirklich ankommt.

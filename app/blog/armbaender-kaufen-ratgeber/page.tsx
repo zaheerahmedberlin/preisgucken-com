@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Handgelenk richtig messen: So sitzt dein Armband perfekt",
-  description: "Charm-Armband, Armreif oder Kette? Handgelenk richtig messen und das passende Material finden.",
+  title: "Armband kaufen: Handgelenk richtig messen",
+  description: "Charm-Armband, Armreif oder Kette? So misst du dein Handgelenk richtig und findest das passende Material.",
   keywords: ["armband kaufen", "armband damen silber", "charm-armband", "armband größe messen", "armreif vs armband"],
   openGraph: {
-    title: "Handgelenk richtig messen: So sitzt dein Armband perfekt",
-    description: "Charm-Armband, Armreif oder Kette? Handgelenk richtig messen und das passende Material finden.",
+    title: "Armband kaufen: Handgelenk richtig messen",
+    description: "Charm-Armband, Armreif oder Kette? So misst du dein Handgelenk richtig und findest das passende Material.",
     url: "https://www.preisgucken.com/blog/armbaender-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Handgelenk richtig messen: So sitzt dein Armband perfekt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Armband kaufen: Handgelenk richtig messen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/armbaender-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Handgelenk richtig messen: So sitzt dein Armband perfekt",
-    description: "Charm-Armband, Armreif oder Kette? Handgelenk richtig messen und das passende Material finden.",
+    title: "Armband kaufen: Handgelenk richtig messen",
+    description: "Charm-Armband, Armreif oder Kette? So misst du dein Handgelenk richtig und findest das passende Material.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Handgelenk richtig messen: So sitzt dein Armband perfekt",
+  headline: "Armband kaufen: Handgelenk richtig messen",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function ArmbaenderKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Handgelenk richtig messen: So sitzt dein Armband perfekt</h1>
+          <h1 className="fw-bold display-6 mb-3">Armband kaufen: Handgelenk richtig messen</h1>
           <p className="lead text-muted">Charm-Armband, starrer Armreif oder feine Kette – die richtige Passform entscheidet über den Tragekomfort. So triffst du die richtige Wahl.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

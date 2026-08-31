@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check",
+  title: "Lohnt sich ein Schmuckset?",
   description: "Warum ein Schmuckset die einfachste Wahl für ein stimmiges Outfit ist – Vorteile, Stile und Geschenktipps.",
   keywords: ["schmuckset kaufen", "schmuckset geschenk", "set ohrringe kette", "abgestimmter schmuck", "schmuck set damen"],
   openGraph: {
-    title: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check",
+    title: "Lohnt sich ein Schmuckset?",
     description: "Warum ein Schmuckset die einfachste Wahl für ein stimmiges Outfit ist – Vorteile, Stile und Geschenktipps.",
     url: "https://www.preisgucken.com/blog/schmucksets-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Lohnt sich ein Schmuckset?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schmucksets-kaufen-ratgeber" },
   twitter: {
     card: "summary_large_image",
-    title: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check",
+    title: "Lohnt sich ein Schmuckset?",
     description: "Warum ein Schmuckset die einfachste Wahl für ein stimmiges Outfit ist – Vorteile, Stile und Geschenktipps.",
   },
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check",
+  headline: "Lohnt sich ein Schmuckset?",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function SchmucksetsKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Lohnt sich ein Schmuckset? Vor- und Nachteile im Check</h1>
+          <h1 className="fw-bold display-6 mb-3">Lohnt sich ein Schmuckset?</h1>
           <p className="lead text-muted">Kette, Ohrringe und Armband im selben Design – Schmucksets nehmen dir die Kombinationsarbeit ab. Wir zeigen, wann sich das wirklich lohnt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

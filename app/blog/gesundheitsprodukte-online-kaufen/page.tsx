@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gesundheitsprodukte online kaufen: Worauf du achten musst",
-  description: "Nahrungsergänzungsmittel, Massagegeräte & Co. online kaufen – so erkennst du Qualität, vermeidest Fakes und sparst mit Preisvergleich bis zu 35%.",
+  title: "Gesundheitsprodukte online kaufen",
+  description: "Nahrungsergänzungsmittel, Massagegeräte & Co: Qualität erkennen, Fakes vermeiden, bis zu 35% sparen.",
   keywords: ["gesundheitsprodukte online kaufen", "nahrungsergänzungsmittel kaufen", "massagegerät preisvergleich", "gesundheit online shop", "gesundheitsprodukte ratgeber"],
   openGraph: {
-    title: "Gesundheitsprodukte online kaufen: Worauf du achten musst",
-    description: "Qualität erkennen, Fakes vermeiden und mit Preisvergleich bis zu 35% sparen.",
+    title: "Gesundheitsprodukte online kaufen",
+    description: "Nahrungsergänzungsmittel, Massagegeräte & Co: Qualität erkennen, Fakes vermeiden, bis zu 35% sparen.",
     url: "https://www.preisgucken.com/blog/gesundheitsprodukte-online-kaufen",
     type: "article",
     publishedTime: "2026-07-16",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Gesundheitsprodukte online kaufen: Worauf du achten musst" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Gesundheitsprodukte online kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/gesundheitsprodukte-online-kaufen" },
   twitter: {
     card: "summary_large_image",
-    title: "Gesundheitsprodukte online kaufen: Worauf du achten musst",
-    description: "Qualität erkennen, Fakes vermeiden und mit Preisvergleich bis zu 35% sparen.",
+    title: "Gesundheitsprodukte online kaufen",
+    description: "Nahrungsergänzungsmittel, Massagegeräte & Co: Qualität erkennen, Fakes vermeiden, bis zu 35% sparen.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Gesundheitsprodukte online kaufen: Worauf du achten musst",
+  headline: "Gesundheitsprodukte online kaufen",
   datePublished: "2026-07-16",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
@@ -40,7 +40,7 @@ export default function GesundheitsprodukteSeite() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Gesundheit</span>
-          <h1 className="fw-bold display-6 mb-3">Gesundheitsprodukte online kaufen: Worauf du achten musst</h1>
+          <h1 className="fw-bold display-6 mb-3">Gesundheitsprodukte online kaufen</h1>
           <p className="lead text-muted">Nahrungsergänzungsmittel, Massagegeräte und Medizinprodukte online kaufen – so erkennst du Qualität, vermeidest Fakes und sparst gleichzeitig.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 16. Juli 2026</span>
