@@ -182,6 +182,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "preisvergleich-tipps", title: "Preisvergleich richtig nutzen: So sparst du bis zu 40%", excerpt: "Gleiche Produkte, verschiedene Preise – manchmal bis zu 40% Unterschied. So nutzt du Preisvergleich optimal.", date: "15. Juli 2026", readTime: "5 Min.", pgLink: "" },
       { slug: "bestes-preis-leistungs-verhaeltnis-finden", title: "Wie finde ich das beste Preis-Leistungs-Verhältnis? 6 Kriterien, die wirklich zählen", excerpt: "Nicht der günstigste Preis, sondern die richtige Bewertung von Qualität, Nutzungsdauer und Ausstattung entscheidet. So gehst du strukturiert vor.", date: "27. August 2026", readTime: "6 Min.", featured: true, pgLink: "" },
       { slug: "original-oder-kompatibel-zubehoer-kaufen", title: "Original oder kompatibel? So triffst du die richtige Wahl beim Zubehör-Kauf", excerpt: "Druckerpatronen, Autoteile oder Handy-Zubehör: Wo sich das Original lohnt und wo du bei Nachbau-Ware bedenkenlos sparen kannst.", date: "27. August 2026", readTime: "6 Min.", pgLink: "" },
+      { slug: "gutscheincodes-richtig-einloesen", title: "Gutscheincodes richtig einlösen: Mindestbestellwert, Ausschlüsse und Ablauf im Überblick", excerpt: "Warum ein Rabattcode manchmal nicht funktioniert: Mindestbestellwert, ausgeschlossene Marken und Ablaufzeiten im Überblick, damit du beim nächsten Einkauf wirklich sparst.", date: "31. August 2026", readTime: "6 Min.", featured: true, pgLink: "" },
     ],
   },
   {
