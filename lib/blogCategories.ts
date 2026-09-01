@@ -170,6 +170,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "auto-fahrzeugzubehoer",
     posts: [
       { slug: "auto-zubehoer-kaufratgeber", title: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung", excerpt: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es beim Kauf von Auto-Zubehör wirklich ankommt.", date: "19. August 2026", readTime: "7 Min.", pgLink: "auto-fahrzeugzubehoer" },
+      { slug: "e-scooter-kaufen-strassenzulassung", title: "E-Scooter kaufen: ABE und eKFV erklärt", excerpt: "Mit oder ohne Straßenzulassung? ABE, eKFV und Reichweite im Überblick – worauf es beim E-Scooter-Kauf wirklich ankommt.", date: "1. September 2026", readTime: "7 Min.", featured: true, pgLink: "e-scooter" },
     ],
   },
   {
@@ -211,6 +212,17 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "kueche",
     posts: [
       { slug: "kuechengeraete-vergleich-kaufratgeber", title: "Küchengeräte im Vergleich: Standmixer, Toaster, Fritteuse & Co. richtig wählen", excerpt: "Toaster oder Sandwichmaker? Standmixer oder Küchenmaschine? Kaffeevollautomat oder Kapselmaschine? Der komplette Küchengeräte-Ratgeber mit Preisvergleich.", date: "19. August 2026", readTime: "8 Min.", featured: true, pgLink: "mikrowellen,toaster,standmixer-puerierstaebe,kuechenmaschinen,fritteusen-heissluftfritteusen,kaffeevollautomaten,kochplatten-kochfelder,eierkocher,kleine-kuechengeraete,wasserkocher,kaffeemaschinen" },
+    ],
+  },
+  {
+    slug: "anlaesse-geschenke",
+    name: "Anlässe & Geschenke",
+    description: "Muttertag, Ostern, Weihnachten und mehr – Geschenkideen nach Budget für jeden Anlass.",
+    pgLink: "",
+    posts: [
+      { slug: "muttertag-geschenkideen", title: "Muttertag-Geschenke: Ideen nach Budget", excerpt: "Schmuck, Kosmetik oder Schokolade? Geschenkideen für den Muttertag nach Budget – mit Preisvergleich.", date: "1. September 2026", readTime: "6 Min.", featured: true, pgLink: "schmuck,kosmetik-beauty,suesswaren" },
+      { slug: "ostern-geschenkideen-osternest", title: "Osternest füllen: Geschenkideen für jeden", excerpt: "Schokolade, kleines Spielzeug oder beides? So füllst du das Osternest richtig – mit Preisvergleich.", date: "1. September 2026", readTime: "6 Min.", featured: true, pgLink: "suesswaren,spielzeug" },
+      { slug: "weihnachtsgeschenke-ideen-guide", title: "Weihnachtsgeschenke: Ideen nach Budget", excerpt: "Schmuck, Kopfhörer oder Naschereien? Geschenkideen für Weihnachten nach Budget und Empfänger – mit Preisvergleich.", date: "1. September 2026", readTime: "7 Min.", featured: true, pgLink: "schmuck,kopfhoerer-lautsprecher,suesswaren" },
     ],
   },
 ];
