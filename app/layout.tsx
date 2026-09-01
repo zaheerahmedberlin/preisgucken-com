@@ -124,6 +124,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/agb" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>AGB</a>
               <a href="/kontakt" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Kontakt</a>
               <a href="/sitemap.xml" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Sitemap</a>
+              <a href="https://www.preisgucken.de/gutscheine" target="_blank" rel="noopener" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Gutscheine</a>
               <a href="https://www.preisgucken.de" target="_blank" rel="noopener" className="text-decoration-none" style={{ color: "var(--pg-orange)" }}>Preisgucken.de ↗</a>
             </div>
             <div style={{ color: "rgba(255,255,255,0.6)" }}>© {new Date().getFullYear()} Preisgucken<sup style={{ fontSize: "0.7em" }}>™</sup>.com</div>
