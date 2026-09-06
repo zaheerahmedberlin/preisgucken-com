@@ -47,7 +47,7 @@ export default function WohnaccessoiresBeleuchtungPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Wohnaccessoires & Beleuchtung im Vergleich</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Wohnaccessoires & Beleuchtung im Vergleich</h1>
           <p className="lead text-muted">
             Ein neues Zuhause muss nicht teuer sein – oft sind es die kleinen Dinge, die den größten Unterschied
             machen: die richtige Leuchte, ein guter Bilderrahmen, praktische Wohnhelfer. Wir zeigen, wo sich der

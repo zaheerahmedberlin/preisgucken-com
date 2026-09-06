@@ -49,7 +49,7 @@ export default function KopfhoererTypGuidePage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">In-Ear, Open-Ear oder Over-Ear? So findest du den richtigen Kopfhörer-Typ</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">In-Ear, Open-Ear oder Over-Ear? So findest du den richtigen Kopfhörer-Typ</h1>
           <p className="lead text-muted">
             Zwischen klassischen In-Ear-Ohrhörern, offenen Clip-Kopfhörern und ANC-Over-Ear-Modellen liegen oft
             weniger als 50 € Unterschied – aber ein völlig anderes Trageerlebnis. Wir zeigen, welcher Typ zu welchem

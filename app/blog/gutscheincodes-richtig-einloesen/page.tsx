@@ -46,7 +46,7 @@ export default function GutscheincodesRichtigEinloesenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Spartipps</span>
-          <h1 className="fw-bold display-6 mb-3">Gutscheincodes richtig einlösen</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Gutscheincodes richtig einlösen</h1>
           <p className="lead text-muted">
             Code kopiert, im Warenkorb eingefügt — und der Preis ändert sich trotzdem nicht? Meistens liegt es
             nicht am Code selbst, sondern an einer der drei Bedingungen, die fast jeder Gutschein im Kleingedruckten hat.

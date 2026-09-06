@@ -57,7 +57,7 @@ export default function SchnaeppchentippsPage() {
         </nav>
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Spartipps</span>
-          <h1 className="fw-bold display-6 mb-3">15 Schnäppchen-Tipps 2026</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">15 Schnäppchen-Tipps 2026</h1>
           <p className="lead text-muted">Wie du nie wieder zu viel bezahlst – diese 15 Tricks funktionieren sofort und kosten dich nichts.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. Juli 2026</span>

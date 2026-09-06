@@ -40,7 +40,7 @@ export default function SchuheOnlineKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Schuhgröße online richtig bestimmen</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Schuhgröße online richtig bestimmen</h1>
           <p className="lead text-muted">Die häufigste Retourenursache beim Schuhkauf ist die falsche Größe. Mit der richtigen Messmethode passt es beim ersten Mal.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. August 2026</span>

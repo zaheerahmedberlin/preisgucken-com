@@ -6,7 +6,7 @@ export const metadata = {
 export default function KontaktPage() {
   return (
     <main className="container py-5" style={{ maxWidth: 760 }}>
-      <h1 className="fw-bold mb-4">Kontakt</h1>
+      <h1 className="brand-heading fw-bold mb-4">Kontakt</h1>
 
       <section className="mb-4">
         <h2 className="h5 fw-bold">Allgemeine Anfragen</h2>

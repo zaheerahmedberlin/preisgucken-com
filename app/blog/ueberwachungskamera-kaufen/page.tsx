@@ -49,7 +49,7 @@ export default function UeberwachungskameraKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Akku, Solar oder Stromkabel? Der richtige Kameratyp für jeden Einsatzort</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Akku, Solar oder Stromkabel? Der richtige Kameratyp für jeden Einsatzort</h1>
           <p className="lead text-muted">
             Nicht jede Überwachungskamera passt an jeden Ort. Eine Kamera an der Haustür hat andere Anforderungen
             als eine im Garten oder eine im Wohnzimmer. Wir zeigen, welcher Typ wohin gehört und worauf es bei

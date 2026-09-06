@@ -46,7 +46,7 @@ export default function MuttertagGeschenkideenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Geschenkideen</span>
-          <h1 className="fw-bold display-6 mb-3">Muttertag-Geschenke: Ideen nach Budget</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Muttertag-Geschenke: Ideen nach Budget</h1>
           <p className="lead text-muted">
             Es muss nicht das teuerste Geschenk sein — es muss das richtige sein. Ideen für jedes Budget,
             von der kleinen Aufmerksamkeit bis zum besonderen Anlass.

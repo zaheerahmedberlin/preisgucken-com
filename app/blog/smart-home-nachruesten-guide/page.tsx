@@ -40,7 +40,7 @@ export default function SmartHomeNachruestenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Smart Home nachrüsten: So geht's</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Smart Home nachrüsten: So geht's</h1>
           <p className="lead text-muted">Kein neues Kabel nötig: Mit den richtigen Geräten wird jede Wohnung smart – wenn Funkstandard und Steuerung zusammenpassen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 18. August 2026</span>

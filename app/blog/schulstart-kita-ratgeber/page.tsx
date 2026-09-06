@@ -70,7 +70,7 @@ export default function SchulstartKitaRatgeber() {
         </nav>
 
         <span className="badge mb-3" style={{ background: "#1A3A6B", color: "#fff" }}>Ratgeber</span>
-        <h1 className="fw-bold mb-3" style={{ color: "#1A3A6B", fontSize: "2rem" }}>
+        <h1 className="brand-heading fw-bold mb-3" style={{ color: "#1A3A6B", fontSize: "2rem" }}>
           Schulanfang Checkliste 2026
         </h1>
         <p className="text-muted mb-4">26. August 2026 · 8 Min. Lesezeit</p>

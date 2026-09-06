@@ -35,7 +35,7 @@ export default function CookieEinstellungenPage() {
 
   return (
     <main className="container py-5" style={{ maxWidth: 760 }}>
-      <h1 className="fw-bold mb-2">Cookie-Einstellungen</h1>
+      <h1 className="brand-heading fw-bold mb-2">Cookie-Einstellungen</h1>
       <p className="text-muted mb-4">
         Hier können Sie einstellen, welche Cookie-Kategorien Sie zulassen möchten. Notwendige Cookies sind
         für den Betrieb der Seite erforderlich und können nicht deaktiviert werden. Details finden Sie in

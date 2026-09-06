@@ -50,7 +50,7 @@ export default function SchokoladePralinenKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Pralinen, Tafel oder Geschenkbox? So findest du die richtige Schokolade</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Pralinen, Tafel oder Geschenkbox? So findest du die richtige Schokolade</h1>
           <p className="lead text-muted">
             Zwischen Supermarkt-Tafel und Manufaktur-Praline liegen Welten – bei Kakaoanteil, Herkunft und Verarbeitung.
             Wir zeigen, worauf du beim Kauf hochwertiger Schokolade achten solltest und wann sich ein Preisvergleich lohnt.

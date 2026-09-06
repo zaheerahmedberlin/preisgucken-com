@@ -40,7 +40,7 @@ export default function SchmucksetsKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Lohnt sich ein Schmuckset?</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Lohnt sich ein Schmuckset?</h1>
           <p className="lead text-muted">Kette, Ohrringe und Armband im selben Design – Schmucksets nehmen dir die Kombinationsarbeit ab. Wir zeigen, wann sich das wirklich lohnt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

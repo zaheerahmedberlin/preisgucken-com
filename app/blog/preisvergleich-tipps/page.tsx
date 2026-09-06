@@ -60,7 +60,7 @@ export default function PreisvergleichTippsPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Ratgeber</span>
-          <h1 className="fw-bold display-6 mb-3">Preisvergleich richtig nutzen</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Preisvergleich richtig nutzen</h1>
           <p className="lead text-muted">Gleiche Produkte, verschiedene Preise – manchmal bis zu 40% Unterschied. So funktioniert Preisvergleich und warum es sich bei jedem Online-Kauf lohnt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 15. Juli 2026</span>

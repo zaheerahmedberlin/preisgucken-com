@@ -50,7 +50,7 @@ export default function PcZubehoerPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Original oder kompatibel? PC-Zubehör</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Original oder kompatibel? PC-Zubehör</h1>
           <p className="lead text-muted">
             Ob Druckerpatrone, USB-Kabel oder SSD – bei PC-Zubehör lohnt sich vor dem Kauf ein zweiter Blick.
             Nicht jedes günstigere Produkt ist automatisch die schlechtere Wahl, aber ein paar technische Details

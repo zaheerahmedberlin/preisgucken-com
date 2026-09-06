@@ -51,7 +51,7 @@ export default function SmartwatchArmbandKaufenGuidePage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Ersatzarmband für jede Smartwatch?</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Ersatzarmband für jede Smartwatch?</h1>
           <p className="lead text-muted">
             Ob Apple Watch, Samsung Galaxy Watch, Garmin, Fitbit oder Xiaomi – ein neues Armband verändert Tragekomfort
             und Optik deiner Smartwatch komplett, oft für einen Bruchteil des Preises einer neuen Uhr. Der Guide zeigt,

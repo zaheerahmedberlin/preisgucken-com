@@ -47,7 +47,7 @@ export default function SpielzeugKaufenSicherheitAlterPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Spielzeug kaufen: Sicherheit im Blick</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Spielzeug kaufen: Sicherheit im Blick</h1>
           <p className="lead text-muted">
             Buntes Design allein sagt nichts über Sicherheit aus. Wir zeigen, worauf es bei Altersfreigabe,
             Prüfzeichen und Material wirklich ankommt – bevor das nächste Spielzeug im Wagen landet.

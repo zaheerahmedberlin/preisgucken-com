@@ -27,8 +27,8 @@ export default function Home() {
     <>
       <section className="hero text-center">
         <div className="container">
-          <h1 className="display-5 fw-bold mb-3">Preisvergleich, Deals & schlau sparen</h1>
-          <p className="lead mb-4 opacity-75">
+          <h1 className="brand-heading-light display-5 fw-bold mb-3">Preisvergleich, Deals & schlau sparen</h1>
+          <p className="brand-body lead mb-4 opacity-75">
             Kaufberatung, Schnäppchen-Tipps und Preisvergleich-Ratgeber aus Deutschland.
           </p>
           <div className="d-flex justify-content-center gap-3 flex-wrap">

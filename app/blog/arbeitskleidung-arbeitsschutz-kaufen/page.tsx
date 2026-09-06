@@ -48,7 +48,7 @@ export default function ArbeitskleidungArbeitsschutzKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Arbeitskleidung & Arbeitsschutz kaufen</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Arbeitskleidung & Arbeitsschutz kaufen</h1>
           <p className="lead text-muted">
             Ob Schutzhelm, Knieschoner oder Warnschutzkleidung: Arbeitsschutz ist kein Bereich, in dem der
             Preis allein entscheiden sollte. Wir zeigen, worauf es bei Norm, Passform und Material wirklich ankommt.

@@ -46,7 +46,7 @@ export default function PreisLeistungPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Spartipps</span>
-          <h1 className="fw-bold display-6 mb-3">Bestes Preis-Leistungs-Verhältnis finden</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Bestes Preis-Leistungs-Verhältnis finden</h1>
           <p className="lead text-muted">
             Der günstigste Preis ist nicht automatisch das beste Angebot – und das teuerste Produkt nicht
             automatisch das hochwertigste. Wir zeigen, wie du systematisch bewertest, was ein wirklich gutes

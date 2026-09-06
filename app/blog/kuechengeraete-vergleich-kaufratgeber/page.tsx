@@ -40,7 +40,7 @@ export default function KuechengeraeteVergleichPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Küchengeräte im Vergleich</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Küchengeräte im Vergleich</h1>
           <p className="lead text-muted">Toaster oder Sandwichmaker? Standmixer oder Küchenmaschine? Bei der Fülle an elektrischen Küchenhelfern ist schnell unklar, was sich wirklich lohnt. Wir ordnen die wichtigsten Gerätetypen nach Einsatzzweck, damit du nur kaufst, was du auch benutzt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. August 2026</span>

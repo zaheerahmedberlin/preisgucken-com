@@ -40,7 +40,7 @@ export default function KamerastativKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Carbon oder Aluminium? Kamerastativ finden</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Carbon oder Aluminium? Kamerastativ finden</h1>
           <p className="lead text-muted">Carbon oder Aluminium, Kugelkopf oder Videokopf – welches Stativ wirklich zu deinem Einsatzzweck passt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>

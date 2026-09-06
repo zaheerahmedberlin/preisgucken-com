@@ -49,7 +49,7 @@ export default function NatuerlicheKosmetikPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Fruchtpigmente statt Chemie?</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Fruchtpigmente statt Chemie?</h1>
           <p className="lead text-muted">
             Rouge aus Kirschpulver, Lippenstift mit Kakaobutter statt Mineralöl – natürliche Kosmetik verspricht
             mehr als nur ein gutes Gefühl. Wir erklären, was hinter Fruchtpigmenten wirklich steckt und worauf

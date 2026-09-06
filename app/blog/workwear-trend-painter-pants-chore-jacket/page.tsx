@@ -49,7 +49,7 @@ export default function WorkwearGuidePage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Painter Pant oder Cargo? Workwear-Guide</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Painter Pant oder Cargo? Workwear-Guide</h1>
           <p className="lead text-muted">
             Was früher reine Berufskleidung für Maler und Handwerker war, ist längst im Alltag angekommen:
             Painter Pants, Chore Jackets und Coverall-Jacken kombinieren robuste Verarbeitung mit einem Look,

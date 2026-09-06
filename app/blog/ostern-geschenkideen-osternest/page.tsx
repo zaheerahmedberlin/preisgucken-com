@@ -46,7 +46,7 @@ export default function OsternGeschenkideenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Geschenkideen</span>
-          <h1 className="fw-bold display-6 mb-3">Osternest füllen: Geschenkideen für jeden</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Osternest füllen: Geschenkideen für jeden</h1>
           <p className="lead text-muted">
             Zwischen Schokohase und Geschenktipp liegt oft nur die richtige Mischung. Ideen fürs Osternest
             — für Kinder, Erwachsene und alle, die einfach nur Schokolade wollen.

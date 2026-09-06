@@ -40,7 +40,7 @@ export default function SchmuckKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Echt oder Fake? Schmuck erkennen</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Echt oder Fake? Schmuck erkennen</h1>
           <p className="lead text-muted">925er Sterlingsilber, hypoallergener Edelstahl oder vergoldet – welches Material hält, was es verspricht? Der Grundlagen-Ratgeber für alle Schmuckstücke.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

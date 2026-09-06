@@ -40,7 +40,7 @@ export default function VorhaengeKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Welcher Vorhang taugt wofür?</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Welcher Vorhang taugt wofür?</h1>
           <p className="lead text-muted">Nicht jeder Vorhang kann alles – wir zeigen dir, welcher Stoff für welchen Zweck taugt und wie du beim Kauf nichts falsch machst.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>

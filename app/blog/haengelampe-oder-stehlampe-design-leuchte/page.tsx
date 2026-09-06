@@ -50,7 +50,7 @@ export default function HaengelampeStehlampePage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Hängelampe oder Stehlampe finden</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Hängelampe oder Stehlampe finden</h1>
           <p className="lead text-muted">
             Eine gute Lampe verändert einen Raum mehr als fast jedes andere Möbelstück – aber nicht jeder
             Leuchtentyp passt zu jedem Einsatzort. Wir zeigen, welche Leuchte wohin gehört und worauf du bei

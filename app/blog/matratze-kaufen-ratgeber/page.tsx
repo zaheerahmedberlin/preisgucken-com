@@ -40,7 +40,7 @@ export default function MatratzeKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Matratze kaufen: Der richtige Härtegrad</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Matratze kaufen: Der richtige Härtegrad</h1>
           <p className="lead text-muted">Härtegrad, Größe, Material – die falsche Matratze ruiniert jeden Schlaf. Wir zeigen dir, worauf es wirklich ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>

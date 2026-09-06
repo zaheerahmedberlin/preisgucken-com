@@ -47,7 +47,7 @@ export default function OriginalOderKompatibelPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Original oder kompatibel? Zubehör-Kauf</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Original oder kompatibel? Zubehör-Kauf</h1>
           <p className="lead text-muted">
             Ob Druckerpatrone, Autoteil oder Ladekabel – bei fast jedem Zubehör-Kauf stellt sich dieselbe Frage:
             Original oder kompatibel? Wir zeigen, wo der Preisunterschied wirklich gerechtfertigt ist und wo du

@@ -55,7 +55,7 @@ export default function BalkonkraftwerkKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Mit oder ohne Speicher? So wählst du das richtige Balkonkraftwerk</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Mit oder ohne Speicher? So wählst du das richtige Balkonkraftwerk</h1>
           <p className="lead text-muted">
             Zwischen dem günstigsten Steckersolargerät und einem System mit Speicher liegen oft mehrere Hundert Euro –
             und nicht jedes Modell passt auf jeden Balkon. Wir zeigen, worauf es bei Leistung, Speicher und Montage

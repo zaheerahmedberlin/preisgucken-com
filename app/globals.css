@@ -6,11 +6,32 @@
   --pg-blue-light:  #e8eef8;
   --pg-orange:      #F5A623;
   --pg-orange-dark: #d4891a;
+  --pg-font-display: 'Unbounded', 'Arial Black', sans-serif;
+  --pg-font-body: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background: #f8f9fa;
+}
+
+/* Display typeface for headlines only, per docs/brand-guidelines.html
+   (nextjs-app repo) — never for body text or buttons. */
+.brand-heading {
+  font-family: var(--pg-font-display);
+  color: var(--pg-blue);
+}
+
+/* Same display typeface, for headings on a dark/navy background where
+   the forced navy color above would be invisible (e.g. the homepage hero). */
+.brand-heading-light {
+  font-family: var(--pg-font-display);
+  color: #fff;
+}
+
+/* Body typeface, per the same brand guide — for prose/lede text only. */
+.brand-body {
+  font-family: var(--pg-font-body);
 }
 
 /* Navbar */

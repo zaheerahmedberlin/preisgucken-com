@@ -43,7 +43,7 @@ export default function FernseherRatgeber() {
         </nav>
 
         <span className="badge mb-3" style={{ background: "#1A3A6B", color: "#fff" }}>Kaufberatung</span>
-        <h1 className="fw-bold mb-3" style={{ color: "#1A3A6B", fontSize: "2rem" }}>
+        <h1 className="brand-heading fw-bold mb-3" style={{ color: "#1A3A6B", fontSize: "2rem" }}>
           Fernseher kaufen 2026: OLED, QLED oder LED?
         </h1>
         <p className="text-muted mb-4">24. Juli 2026 · 8 Min. Lesezeit</p>

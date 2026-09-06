@@ -40,7 +40,7 @@ export default function AlltagslookDamenmodeMakeUpGuidePage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Alltagslook: Mode & Make-up kombinieren</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Alltagslook: Mode & Make-up kombinieren</h1>
           <p className="lead text-muted">Ein guter Alltagslook lebt nicht von einzelnen Teilen, sondern vom Zusammenspiel: die richtigen Basics, cleveres Layering und ein Make-up, das im Büro genauso funktioniert wie abends. Wir zeigen dir, wie du beides aufeinander abstimmst, ohne jeden Tag neu zu überlegen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. August 2026</span>

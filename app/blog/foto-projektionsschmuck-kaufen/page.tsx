@@ -50,7 +50,7 @@ export default function FotoProjektionsschmuckKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Ein Foto im Stein: Wie Projektionsschmuck funktioniert</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Ein Foto im Stein: Wie Projektionsschmuck funktioniert</h1>
           <p className="lead text-muted">
             Auf den ersten Blick ein ganz normaler Anhänger — hältst du ihn gegen eine Lichtquelle, erscheint ein
             winziges Foto im Inneren des Steins. Wir erklären die Technik dahinter und worauf du beim Kauf achten

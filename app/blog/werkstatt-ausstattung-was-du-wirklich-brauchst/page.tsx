@@ -50,7 +50,7 @@ export default function WerkstattAusstattungPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Werkstatt ausstatten: Was du brauchst</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Werkstatt ausstatten: Was du brauchst</h1>
           <p className="lead text-muted">
             Ein voller Werkzeugkoffer ist schnell gekauft – aber nicht jedes Teil darin wird auch wirklich
             gebraucht. Wir zeigen, welche Werkstatt-Grundausstattung sich für Heimwerker wirklich lohnt und

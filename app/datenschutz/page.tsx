@@ -7,7 +7,7 @@ export const metadata = {
 export default function DatenschutzPage() {
   return (
     <main className="container py-5" style={{ maxWidth: 760 }}>
-      <h1 className="fw-bold mb-2">Datenschutzerklärung</h1>
+      <h1 className="brand-heading fw-bold mb-2">Datenschutzerklärung</h1>
       <p className="text-muted small mb-5">Stand: Juli 2026</p>
 
       <section className="mb-4">

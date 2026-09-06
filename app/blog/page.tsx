@@ -42,7 +42,7 @@ export default function BlogPage() {
 
       <div className="container py-5">
         <div className="text-center mb-4">
-          <h1 className="fw-bold">Kaufberatung & Spartipps</h1>
+          <h1 className="brand-heading fw-bold">Kaufberatung & Spartipps</h1>
           <p className="text-muted">Experten-Ratgeber rund um Möbel, Schmuck, Elektronik und cleveres Sparen</p>
         </div>
 

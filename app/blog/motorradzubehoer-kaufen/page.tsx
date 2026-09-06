@@ -49,7 +49,7 @@ export default function MotorradzubehoerKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Motorradzubehör kaufen: Worauf achten?</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Motorradzubehör kaufen: Worauf achten?</h1>
           <p className="lead text-muted">
             Vom Chrom-Zierteil bis zur Windschutzscheibe – Motorradzubehör ist ein riesiges Feld, und nicht
             jedes Teil passt zu jedem Modell. Wir zeigen, worauf es bei Passgenauigkeit, Wetterfestigkeit und

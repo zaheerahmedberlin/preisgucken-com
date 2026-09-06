@@ -98,7 +98,7 @@ export default async function BlogCategoryPage({ params }: { params: Promise<{ s
         </div>
 
         <div className="mb-5">
-          <h1 className="fw-bold mb-2">{category.name}</h1>
+          <h1 className="brand-heading fw-bold mb-2">{category.name}</h1>
           <p className="text-muted">{category.description}</p>
         </div>
 

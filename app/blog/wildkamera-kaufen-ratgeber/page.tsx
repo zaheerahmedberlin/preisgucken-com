@@ -40,7 +40,7 @@ export default function WildkameraKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Wildkamera kaufen: Worauf achten?</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Wildkamera kaufen: Worauf achten?</h1>
           <p className="lead text-muted">Ob Jagdrevier, Gartenüberwachung oder Naturbeobachtung – die richtige Wildkamera hängt stark vom Einsatzzweck ab. Wir zeigen dir, worauf es ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 17. August 2026</span>

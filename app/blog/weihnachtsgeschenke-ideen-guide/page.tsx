@@ -46,7 +46,7 @@ export default function WeihnachtsgeschenkeIdeenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Geschenkideen</span>
-          <h1 className="fw-bold display-6 mb-3">Weihnachtsgeschenke: Ideen nach Budget</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Weihnachtsgeschenke: Ideen nach Budget</h1>
           <p className="lead text-muted">
             Wer früh plant, hat später weniger Stress und meist auch die besseren Preise. Geschenkideen
             für jedes Budget — sortiert danach, wie viel du ausgeben willst, nicht danach, was gerade im

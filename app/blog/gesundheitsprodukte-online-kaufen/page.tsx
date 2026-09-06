@@ -40,7 +40,7 @@ export default function GesundheitsprodukteSeite() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Gesundheit</span>
-          <h1 className="fw-bold display-6 mb-3">Gesundheitsprodukte online kaufen</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Gesundheitsprodukte online kaufen</h1>
           <p className="lead text-muted">Nahrungsergänzungsmittel, Massagegeräte und Medizinprodukte online kaufen – so erkennst du Qualität, vermeidest Fakes und sparst gleichzeitig.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 16. Juli 2026</span>

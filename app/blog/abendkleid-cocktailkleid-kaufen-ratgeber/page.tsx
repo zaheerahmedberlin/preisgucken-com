@@ -40,7 +40,7 @@ export default function AbendkleidKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Kleid für den Anlass richtig wählen</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Kleid für den Anlass richtig wählen</h1>
           <p className="lead text-muted">Von der Hochzeit als Gast bis zur Gala – welcher Schnitt, welche Länge und welche Farbe wirklich passen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>

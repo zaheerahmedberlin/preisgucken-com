@@ -90,6 +90,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="de">
+      <head>
+        {/* Brand typefaces per docs/brand-guidelines.html on the nextjs-app repo:
+            Unbounded for headings, IBM Plex Sans for body/lede text. */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+      </head>
       <body>
         <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
           <div className="container">

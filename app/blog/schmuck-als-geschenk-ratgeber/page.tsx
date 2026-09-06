@@ -40,7 +40,7 @@ export default function SchmuckGeschenkPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Schmuck verschenken: Der Geschenkguide</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Schmuck verschenken: Der Geschenkguide</h1>
           <p className="lead text-muted">Schmuck ist eines der persönlichsten Geschenke – aber auch eines, bei dem man leicht danebengreifen kann. So findest du das passende Stück für jeden Anlass.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>

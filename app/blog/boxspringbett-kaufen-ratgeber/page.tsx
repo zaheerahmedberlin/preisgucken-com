@@ -42,7 +42,7 @@ export default function BoxspringbettRatgeber() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">7 Fehler beim Boxspringbett-Kauf</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">7 Fehler beim Boxspringbett-Kauf</h1>
           <p className="lead text-muted">Welche Größe, welcher Härtegrad, welches Material – und wo kaufst du am günstigsten? Wir beantworten alle Fragen, damit du nicht zu viel bezahlst.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 20. Juli 2026</span>

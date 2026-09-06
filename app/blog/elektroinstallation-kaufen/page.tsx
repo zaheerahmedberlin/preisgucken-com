@@ -49,7 +49,7 @@ export default function ElektroinstallationKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Elektroinstallation kaufen: Was zählt</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Elektroinstallation kaufen: Was zählt</h1>
           <p className="lead text-muted">
             Ob Neubau, Sanierung oder Smart-Home-Nachrüstung: Elektroinstallationsmaterial wirkt austauschbar,
             ist es aber nicht. Wir zeigen, worauf es bei Dosentyp, Schalterprogramm und Sicherheit wirklich ankommt –

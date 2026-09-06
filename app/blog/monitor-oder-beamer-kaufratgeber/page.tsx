@@ -40,7 +40,7 @@ export default function MonitorOderBeamerPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Monitor oder Beamer? Was wirklich passt</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Monitor oder Beamer? Was wirklich passt</h1>
           <p className="lead text-muted">Beide zeigen ein Bild – aber für ganz unterschiedliche Zwecke gebaut. Wir zeigen dir, wann welches Gerät die bessere Wahl ist.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 17. August 2026</span>

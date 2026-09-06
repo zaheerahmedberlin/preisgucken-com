@@ -40,7 +40,7 @@ export default function HaustierbedarfOnlineKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Hunde- und Katzenbedarf online kaufen</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Hunde- und Katzenbedarf online kaufen</h1>
           <p className="lead text-muted">Vom Futternapf bis zum Kratzbaum: Worauf es bei Tierbedarf wirklich ankommt und wie du unnötige Fehlkäufe vermeidest.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 18. August 2026</span>

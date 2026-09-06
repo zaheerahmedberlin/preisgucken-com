@@ -47,7 +47,7 @@ export default function MaterialbearbeitungKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Fräser, Trenn- und Schleifscheiben kaufen</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Fräser, Trenn- und Schleifscheiben kaufen</h1>
           <p className="lead text-muted">
             Eine Trennscheibe für Stahl trennt Beton nur schlecht – und ein Fräser für Holz hat andere
             Anforderungen als einer für Metall. Wir zeigen, worauf es bei Materialbearbeitungswerkzeug wirklich ankommt.

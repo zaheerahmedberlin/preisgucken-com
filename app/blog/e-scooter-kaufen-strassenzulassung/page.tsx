@@ -47,7 +47,7 @@ export default function EScooterKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">E-Scooter kaufen: ABE und eKFV erklärt</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">E-Scooter kaufen: ABE und eKFV erklärt</h1>
           <p className="lead text-muted">
             Nicht jeder E-Scooter darf einfach auf die Straße. Was ABE und eKFV bedeuten, worauf du bei
             Reichweite und Zulassung achten musst, und wo der Kauf sich wirklich lohnt.

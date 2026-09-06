@@ -40,7 +40,7 @@ export default function SmartphoneKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Neues Flaggschiff oder Vorjahresmodell?</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Neues Flaggschiff oder Vorjahresmodell?</h1>
           <p className="lead text-muted">Neues Flaggschiff oder Vorjahresmodell? Wir zeigen dir, wo sich Sparen lohnt und worauf du wirklich achten solltest.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>

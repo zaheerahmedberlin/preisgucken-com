@@ -50,7 +50,7 @@ export default function LuxusuhrenKaufenPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Luxusuhren kaufen 2026: Was einen hohen Preis wirklich rechtfertigt</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Luxusuhren kaufen 2026: Was einen hohen Preis wirklich rechtfertigt</h1>
           <p className="lead text-muted">
             Ab wann ist eine Uhr ihr Geld wert – und ab wann zahlt man nur für den Namen? Wir zeigen, welche Faktoren
             bei Premium-Uhren jenseits der 2.000-Euro-Marke tatsächlich den Preis rechtfertigen, und wo sich ein

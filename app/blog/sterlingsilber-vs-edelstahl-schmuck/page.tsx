@@ -40,7 +40,7 @@ export default function SterlingsilberVsEdelstahlPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="fw-bold display-6 mb-3">Sterlingsilber vs. Edelstahl</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Sterlingsilber vs. Edelstahl</h1>
           <p className="lead text-muted">Zwei der beliebtesten Schmuckmaterialien im direkten Vergleich – wir zeigen, wo die Unterschiede bei Preis, Pflege und Verträglichkeit wirklich liegen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
