@@ -23,7 +23,7 @@ export default function UeberUnsPage() {
         <h2 className="h5 fw-bold">Wer steckt dahinter?</h2>
         <p className="text-muted">
           Preisgucken wird von <strong>Zaheer Ahmed</strong> in Berlin betrieben (vollständige Angaben in
-          unserem <a href="/impressum">Impressum</a>). Es ist kein großes Redaktionsteam, sondern ein
+          unserem <a href="/impressum/">Impressum</a>). Es ist kein großes Redaktionsteam, sondern ein
           unabhängig geführtes Projekt – das bedeutet auch: keine bezahlten Produktplatzierungen, keine
           gesponserten „Testsieger", keine versteckten Werbepartnerschaften jenseits der offengelegten
           Affiliate-Links.
@@ -49,7 +49,7 @@ export default function UeberUnsPage() {
           erhalten wir gegebenenfalls eine Provision – ohne Mehrkosten für Sie. Das beeinflusst nicht,
           welche Produkte wir in unseren Ratgebern als Beispiel nennen; wir wählen sie danach aus, was
           zum jeweiligen Thema tatsächlich verfügbar ist, nicht danach, welcher Händler die höchste
-          Provision zahlt. Details dazu auch im <a href="/impressum">Impressum</a>.
+          Provision zahlt. Details dazu auch im <a href="/impressum/">Impressum</a>.
         </p>
       </section>
 
@@ -57,7 +57,7 @@ export default function UeberUnsPage() {
         <h2 className="h5 fw-bold">Kontakt</h2>
         <p className="text-muted mb-0">
           Fragen, Feedback oder Kooperationsanfragen? Alle Kontaktmöglichkeiten finden Sie auf unserer{" "}
-          <a href="/kontakt">Kontakt-Seite</a>.
+          <a href="/kontakt/">Kontakt-Seite</a>.
         </p>
       </section>
     </main>

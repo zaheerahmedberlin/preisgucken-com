@@ -56,7 +56,7 @@ export default function CookieBanner() {
               <strong>Wir verwenden Cookies</strong> – notwendige Cookies sind immer aktiv.
               Mit Klick auf „Alle akzeptieren" stimmen Sie auch Statistik- und Marketing-Cookies
               gemäß unserer{" "}
-              <a href="/datenschutz" style={{ color: "#1A3A6B" }}>Datenschutzerklärung</a> zu.
+              <a href="/datenschutz/" style={{ color: "#1A3A6B" }}>Datenschutzerklärung</a> zu.
             </p>
           </div>
           <div className="col-12 col-md-5 d-flex gap-2 flex-wrap justify-content-md-end">
@@ -67,7 +67,7 @@ export default function CookieBanner() {
               Ablehnen
             </button>
             <a
-              href="/cookie-einstellungen"
+              href="/cookie-einstellungen/"
               className="btn btn-sm btn-outline-secondary"
             >
               Einstellungen

@@ -42,7 +42,7 @@ export default function WohnaccessoiresBeleuchtungPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <article className="container py-5" style={{ maxWidth: 820 }}>
         <nav className="mb-4 small text-muted">
-          <a href="/" className="text-muted text-decoration-none">Startseite</a> › <a href="/blog" className="text-muted text-decoration-none">Blog</a> › Wohnaccessoires & Beleuchtung
+          <a href="/" className="text-muted text-decoration-none">Startseite</a> › <a href="/blog/" className="text-muted text-decoration-none">Blog</a> › Wohnaccessoires & Beleuchtung
         </nav>
 
         <header className="mb-5">
@@ -117,7 +117,7 @@ export default function WohnaccessoiresBeleuchtungPage() {
           <p className="text-muted small mb-3">
             Von Design-Leuchten bis Wohnaccessoires – vergleiche direkt auf Preisgucken.de. Mehr zur passenden
             Lampe für jeden Raum findest du in unserem{" "}
-            <a href="/blog/haengelampe-oder-stehlampe-design-leuchte">Leuchten-Guide</a>.
+            <a href="/blog/haengelampe-oder-stehlampe-design-leuchte/">Leuchten-Guide</a>.
           </p>
           <a href="https://www.preisgucken.de/kategorie/leuchten" className="btn btn-brand px-4" target="_blank" rel="noopener">
             Zum Preisvergleich →
@@ -125,7 +125,7 @@ export default function WohnaccessoiresBeleuchtungPage() {
         </div>
 
         <div className="mt-5 pt-4 border-top">
-          <a href="/blog" className="text-muted text-decoration-none small">← Zurück zum Blog</a>
+          <a href="/blog/" className="text-muted text-decoration-none small">← Zurück zum Blog</a>
         </div>
       </article>
     </>

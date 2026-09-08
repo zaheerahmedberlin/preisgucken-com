@@ -76,7 +76,7 @@ export default async function BlogCategoryPage({ params }: { params: Promise<{ s
       <div className="container py-5">
         <nav className="mb-4 small text-muted">
           <a href="/" className="text-muted text-decoration-none">Startseite</a> ›{" "}
-          <a href="/blog" className="text-muted text-decoration-none">Blog</a> › {category.name}
+          <a href="/blog/" className="text-muted text-decoration-none">Blog</a> › {category.name}
         </nav>
 
         {/* Category nav — every hub links to every other, for internal linking depth */}

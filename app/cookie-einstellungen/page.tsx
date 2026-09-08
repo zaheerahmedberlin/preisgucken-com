@@ -39,7 +39,7 @@ export default function CookieEinstellungenPage() {
       <p className="text-muted mb-4">
         Hier können Sie einstellen, welche Cookie-Kategorien Sie zulassen möchten. Notwendige Cookies sind
         für den Betrieb der Seite erforderlich und können nicht deaktiviert werden. Details finden Sie in
-        unserer <a href="/datenschutz">Datenschutzerklärung</a>.
+        unserer <a href="/datenschutz/">Datenschutzerklärung</a>.
       </p>
 
       <div className="card shadow-sm mb-3">

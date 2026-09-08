@@ -35,7 +35,7 @@ export default function MonitorOderBeamerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <article className="container py-5" style={{ maxWidth: 820 }}>
         <nav className="mb-4 small text-muted">
-          <a href="/" className="text-muted text-decoration-none">Startseite</a> › <a href="/blog" className="text-muted text-decoration-none">Blog</a> › Monitor oder Beamer
+          <a href="/" className="text-muted text-decoration-none">Startseite</a> › <a href="/blog/" className="text-muted text-decoration-none">Blog</a> › Monitor oder Beamer
         </nav>
 
         <header className="mb-5">
@@ -79,7 +79,7 @@ export default function MonitorOderBeamerPage() {
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Schritt 3: Worauf es bei Beamern ankommt</h2>
           <ul>
-            <li><strong>Lumen:</strong> Bestimmt, wie hell das Bild bei Umgebungslicht bleibt – siehe unseren <a href="/blog/heimkino-einrichten-guide">Heimkino-Guide</a> für die passende Lumen-Tabelle</li>
+            <li><strong>Lumen:</strong> Bestimmt, wie hell das Bild bei Umgebungslicht bleibt – siehe unseren <a href="/blog/heimkino-einrichten-guide/">Heimkino-Guide</a> für die passende Lumen-Tabelle</li>
             <li><strong>Kontrastverhältnis:</strong> Je höher, desto tiefer wirken Schwarztöne – wichtig für Filmabende</li>
             <li><strong>Wurfverhältnis:</strong> Bestimmt, wie viel Abstand zur Leinwand für welche Bildgröße nötig ist</li>
             <li><strong>Auflösung:</strong> Full HD reicht für die meisten Wohnzimmer, 4K lohnt sich bei großen Leinwänden</li>
@@ -107,7 +107,7 @@ export default function MonitorOderBeamerPage() {
         </div>
 
         <div className="mt-5 pt-4 border-top">
-          <a href="/blog" className="text-muted text-decoration-none small">← Zurück zum Blog</a>
+          <a href="/blog/" className="text-muted text-decoration-none small">← Zurück zum Blog</a>
         </div>
       </article>
     </>

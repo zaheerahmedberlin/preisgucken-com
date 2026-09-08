@@ -35,7 +35,7 @@ export default function SchmuckKaufenPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <article className="container py-5" style={{ maxWidth: 820 }}>
         <nav className="mb-4 small text-muted">
-          <a href="/" className="text-muted text-decoration-none">Startseite</a> › <a href="/blog" className="text-muted text-decoration-none">Blog</a> › Schmuck kaufen Ratgeber
+          <a href="/" className="text-muted text-decoration-none">Startseite</a> › <a href="/blog/" className="text-muted text-decoration-none">Blog</a> › Schmuck kaufen Ratgeber
         </nav>
 
         <header className="mb-5">
@@ -112,7 +112,7 @@ export default function SchmuckKaufenPage() {
         </div>
 
         <div className="mt-5 pt-4 border-top">
-          <a href="/blog" className="text-muted text-decoration-none small">← Zurück zum Blog</a>
+          <a href="/blog/" className="text-muted text-decoration-none small">← Zurück zum Blog</a>
         </div>
       </article>
     </>

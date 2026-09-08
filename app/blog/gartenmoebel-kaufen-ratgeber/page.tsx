@@ -37,7 +37,7 @@ export default function GartenmoebелRatgeber() {
         <nav aria-label="breadcrumb" className="mb-4">
           <ol className="breadcrumb small">
             <li className="breadcrumb-item"><a href="/">Home</a></li>
-            <li className="breadcrumb-item"><a href="/blog">Blog</a></li>
+            <li className="breadcrumb-item"><a href="/blog/">Blog</a></li>
             <li className="breadcrumb-item active">Gartenmöbel kaufen 2026</li>
           </ol>
         </nav>

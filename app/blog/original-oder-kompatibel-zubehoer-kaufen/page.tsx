@@ -42,7 +42,7 @@ export default function OriginalOderKompatibelPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <article className="container py-5" style={{ maxWidth: 820 }}>
         <nav className="mb-4 small text-muted">
-          <a href="/" className="text-muted text-decoration-none">Startseite</a> › <a href="/blog" className="text-muted text-decoration-none">Blog</a> › Original oder kompatibel
+          <a href="/" className="text-muted text-decoration-none">Startseite</a> › <a href="/blog/" className="text-muted text-decoration-none">Blog</a> › Original oder kompatibel
         </nav>
 
         <header className="mb-5">
@@ -124,7 +124,7 @@ export default function OriginalOderKompatibelPage() {
           <p className="text-muted small mb-3">
             Von Druckerpatronen bis Autozubehör – vergleiche Original- und kompatible Produkte direkt auf Preisgucken.de.
             Speziell für PC- und Druckerzubehör gibt es außerdem unseren{" "}
-            <a href="/blog/pc-zubehoer-original-oder-kompatibel">ausführlichen PC-Zubehör-Guide</a>.
+            <a href="/blog/pc-zubehoer-original-oder-kompatibel/">ausführlichen PC-Zubehör-Guide</a>.
           </p>
           <a href="https://www.preisgucken.de" className="btn btn-brand px-4" target="_blank" rel="noopener">
             Zum Preisvergleich →
@@ -132,7 +132,7 @@ export default function OriginalOderKompatibelPage() {
         </div>
 
         <div className="mt-5 pt-4 border-top">
-          <a href="/blog" className="text-muted text-decoration-none small">← Zurück zum Blog</a>
+          <a href="/blog/" className="text-muted text-decoration-none small">← Zurück zum Blog</a>
         </div>
       </article>
     </>

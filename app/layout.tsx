@@ -108,7 +108,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </button>
             <div className="collapse navbar-collapse" id="nav">
               <ul className="navbar-nav ms-auto gap-2 align-items-center">
-                <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
+                <li className="nav-item"><a className="nav-link" href="/blog/">Blog</a></li>
                 <li className="nav-item">
                   <a className="btn btn-brand btn-sm px-3" href="https://www.preisgucken.de" target="_blank" rel="noopener">
                     Preise vergleichen →
@@ -125,11 +125,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="py-4 mt-5" style={{ background: "var(--pg-blue)" }}>
           <div className="container text-center small">
             <div className="d-flex flex-wrap justify-content-center gap-3 mb-2">
-              <a href="/ueber-uns" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Über uns</a>
-              <a href="/impressum" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Impressum</a>
-              <a href="/datenschutz" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Datenschutz</a>
-              <a href="/agb" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>AGB</a>
-              <a href="/kontakt" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Kontakt</a>
+              <a href="/ueber-uns/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Über uns</a>
+              <a href="/impressum/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Impressum</a>
+              <a href="/datenschutz/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Datenschutz</a>
+              <a href="/agb/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>AGB</a>
+              <a href="/kontakt/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Kontakt</a>
               <a href="/sitemap.xml" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Sitemap</a>
               <a href="https://www.preisgucken.de/gutscheine" target="_blank" rel="noopener" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Gutscheine</a>
               <a href="https://www.preisgucken.de" target="_blank" rel="noopener" className="text-decoration-none" style={{ color: "var(--pg-orange)" }}>Preisgucken.de ↗</a>

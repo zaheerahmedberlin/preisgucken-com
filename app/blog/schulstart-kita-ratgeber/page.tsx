@@ -64,7 +64,7 @@ export default function SchulstartKitaRatgeber() {
         <nav aria-label="breadcrumb" className="mb-4">
           <ol className="breadcrumb small">
             <li className="breadcrumb-item"><a href="/">Home</a></li>
-            <li className="breadcrumb-item"><a href="/blog">Blog</a></li>
+            <li className="breadcrumb-item"><a href="/blog/">Blog</a></li>
             <li className="breadcrumb-item active">Schulanfang Checkliste 2026</li>
           </ol>
         </nav>

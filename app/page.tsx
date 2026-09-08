@@ -1,20 +1,20 @@
 const latestPosts = [
   {
-    slug: "/blog/arbeitskleidung-arbeitsschutz-kaufen",
+    slug: "/blog/arbeitskleidung-arbeitsschutz-kaufen/",
     title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick",
     excerpt: "Schutzhelm, Knieschoner oder Warnschutz – worauf es bei Arbeitsschutzausrüstung ankommt.",
     category: "Kaufberatung",
     date: "30. August 2026",
   },
   {
-    slug: "/blog/elektroinstallation-kaufen",
+    slug: "/blog/elektroinstallation-kaufen/",
     title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick",
     excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt – worauf es ankommt.",
     category: "Kaufberatung",
     date: "30. August 2026",
   },
   {
-    slug: "/blog/motorradzubehoer-kaufen",
+    slug: "/blog/motorradzubehoer-kaufen/",
     title: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick",
     excerpt: "Windschutzscheibe, Sozius-Rückenpolster oder Chrom-Zubehör – mit Kohl DE im Preisvergleich.",
     category: "Kaufberatung",
@@ -32,7 +32,7 @@ export default function Home() {
             Kaufberatung, Schnäppchen-Tipps und Preisvergleich-Ratgeber aus Deutschland.
           </p>
           <div className="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="/blog" className="btn btn-light btn-lg px-4 fw-semibold">Zum Blog</a>
+            <a href="/blog/" className="btn btn-light btn-lg px-4 fw-semibold">Zum Blog</a>
             <a href="https://www.preisgucken.de" className="btn btn-outline-light btn-lg px-4" target="_blank" rel="noopener">Preise vergleichen →</a>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function Home() {
       <section className="container py-5">
         <div className="d-flex justify-content-between align-items-center mb-4">
           <h2 className="fw-bold h5 mb-0">Aktuelle Ratgeber & Tipps</h2>
-          <a href="/blog" className="small text-decoration-none" style={{ color: "var(--pg-blue)" }}>Alle Artikel →</a>
+          <a href="/blog/" className="small text-decoration-none" style={{ color: "var(--pg-blue)" }}>Alle Artikel →</a>
         </div>
         <div className="row g-4">
           {latestPosts.map((post, i) => (
@@ -71,7 +71,7 @@ export default function Home() {
               <div className="fs-2 mb-3">📝</div>
               <h3 className="h5 fw-bold">Kaufberatung & Tipps</h3>
               <p className="text-muted small">Welches Produkt lohnt sich wirklich? Unsere Artikel helfen dir, die beste Entscheidung zu treffen.</p>
-              <a href="/blog" className="btn btn-brand btn-sm mt-auto d-inline-block">Alle Artikel lesen →</a>
+              <a href="/blog/" className="btn btn-brand btn-sm mt-auto d-inline-block">Alle Artikel lesen →</a>
             </div>
           </div>
           <div className="col-md-5">

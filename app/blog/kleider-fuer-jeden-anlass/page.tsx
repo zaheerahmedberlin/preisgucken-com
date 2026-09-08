@@ -45,7 +45,7 @@ export default function KleiderFuerJedenAnlassPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <article className="container py-5" style={{ maxWidth: 820 }}>
         <nav className="mb-4 small text-muted">
-          <a href="/" className="text-muted text-decoration-none">Startseite</a> › <a href="/blog" className="text-muted text-decoration-none">Blog</a> › Kleider für jeden Anlass
+          <a href="/" className="text-muted text-decoration-none">Startseite</a> › <a href="/blog/" className="text-muted text-decoration-none">Blog</a> › Kleider für jeden Anlass
         </nav>
 
         <header className="mb-5">
@@ -124,7 +124,7 @@ export default function KleiderFuerJedenAnlassPage() {
           <p>
             Für festliche Anlässe wie Cocktailpartys oder Abendveranstaltungen gelten eigene Regeln bei Länge,
             Stoffwahl und Dresscode-Etikette – dazu haben wir einen eigenen, ausführlichen Guide:{" "}
-            <a href="/blog/abendkleid-cocktailkleid-kaufen-ratgeber">Abendkleid & Cocktailkleid kaufen</a>.
+            <a href="/blog/abendkleid-cocktailkleid-kaufen-ratgeber/">Abendkleid & Cocktailkleid kaufen</a>.
           </p>
         </section>
 
@@ -157,7 +157,7 @@ export default function KleiderFuerJedenAnlassPage() {
         </div>
 
         <div className="mt-5 pt-4 border-top">
-          <a href="/blog" className="text-muted text-decoration-none small">← Zurück zum Blog</a>
+          <a href="/blog/" className="text-muted text-decoration-none small">← Zurück zum Blog</a>
         </div>
       </article>
     </>

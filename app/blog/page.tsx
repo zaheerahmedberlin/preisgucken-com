@@ -52,7 +52,7 @@ export default function BlogPage() {
           {BLOG_CATEGORIES.map((c) => (
             <a
               key={c.slug}
-              href={`/blog/kategorie/${c.slug}`}
+              href={`/blog/kategorie/${c.slug}/`}
               className="small text-decoration-none px-3 py-2 rounded-pill"
               style={{ background: "var(--pg-blue-light)", color: "var(--pg-blue)", fontWeight: 600 }}
             >
