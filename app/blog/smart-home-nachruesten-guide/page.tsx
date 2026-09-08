@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/smart-home-nachruesten-guide",
     type: "article",
     publishedTime: "2026-08-18",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Smart Home nachrüsten: So geht's" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Smart Home nachrüsten: So geht's" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/smart-home-nachruesten-guide" },
   twitter: {
@@ -23,10 +23,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Smart Home nachrüsten: So geht's",
   datePublished: "2026-08-18",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function SmartHomeNachruestenPage() {

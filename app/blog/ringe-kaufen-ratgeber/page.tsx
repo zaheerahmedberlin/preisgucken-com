@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-08-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Ringgröße zuhause bestimmen" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Ringgröße zuhause bestimmen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber" },
   twitter: {
@@ -23,10 +23,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Ringgröße zuhause bestimmen",
   datePublished: "2026-08-01",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function RingeKaufenPage() {

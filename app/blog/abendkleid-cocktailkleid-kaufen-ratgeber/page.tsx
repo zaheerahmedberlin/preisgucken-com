@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber",
     type: "article",
     publishedTime: "2026-07-29",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Kleid für den Anlass richtig wählen" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Kleid für den Anlass richtig wählen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber" },
   twitter: {
@@ -23,10 +23,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Kleid für den Anlass richtig wählen",
   datePublished: "2026-07-29",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function AbendkleidKaufenPage() {

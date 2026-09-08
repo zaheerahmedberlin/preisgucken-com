@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026",
     type: "article",
     publishedTime: "2026-07-19",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "15 Schnäppchen-Tipps 2026" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "15 Schnäppchen-Tipps 2026" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026" },
   twitter: {
@@ -23,10 +23,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "15 Schnäppchen-Tipps 2026",
   datePublished: "2026-07-19",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 const tips = [

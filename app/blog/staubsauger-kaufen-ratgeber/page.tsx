@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Beutellos, Akku oder Roboter? Der Ratgeber hilft dir, den besten Staubsauger zu finden.",
     url: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Beutellos, Akku oder Roboter?" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Beutellos, Akku oder Roboter?" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -22,11 +22,17 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Beutellos, Akku oder Roboter?",
   description: "Welcher Staubsauger lohnt sich 2026? Unser Ratgeber erklärt alle Typen und zeigt dir, wo du am günstigsten kaufst.",
   datePublished: "2026-07-24",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function StaubsaugerRatgeber() {

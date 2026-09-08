@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/werkstatt-ausstattung-was-du-wirklich-brauchst",
     type: "article",
     publishedTime: "2026-08-14",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Werkstatt ausstatten: Was du brauchst" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Werkstatt ausstatten: Was du brauchst" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -33,10 +33,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Werkstatt ausstatten: Was du brauchst",
   datePublished: "2026-08-14",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function WerkstattAusstattungPage() {

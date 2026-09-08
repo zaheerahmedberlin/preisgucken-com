@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Welche Gartenmöbel lohnen sich? Lounge, Essgruppe oder Liegestuhl? Die besten Materialien und Schnäppchen im Ratgeber.",
     url: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Polyrattan, Alu oder Holz? Gartenmöbel" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Polyrattan, Alu oder Holz? Gartenmöbel" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -22,11 +22,17 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Polyrattan, Alu oder Holz? Gartenmöbel",
   description: "Welche Gartenmöbel lohnen sich 2026? Wir erklären Materialien, Typen und zeigen wo du am günstigsten kaufst.",
   datePublished: "2026-07-24",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function GartenmoebелRatgeber() {

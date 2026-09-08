@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "OLED, QLED oder LED? Der Ratgeber erklärt die Unterschiede und zeigt, wo du am günstigsten kaufst.",
     url: "https://www.preisgucken.com/blog/fernseher-kaufen-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Fernseher kaufen 2026: OLED, QLED oder LED" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Fernseher kaufen 2026: OLED, QLED oder LED" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -22,11 +22,17 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Fernseher kaufen 2026: OLED, QLED oder LED",
   description: "OLED, QLED oder LED? Wir erklären alle Fernseher-Typen und zeigen dir, wo du 2026 am günstigsten kaufst.",
   datePublished: "2026-07-24",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function FernseherRatgeber() {

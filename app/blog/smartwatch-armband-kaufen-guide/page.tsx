@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide",
     type: "article",
     publishedTime: "2026-08-04",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Ersatzarmband für jede Smartwatch?" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Ersatzarmband für jede Smartwatch?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide" },
   twitter: {
@@ -34,10 +34,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Ersatzarmband für jede Smartwatch?",
   datePublished: "2026-08-04",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function SmartwatchArmbandKaufenGuidePage() {

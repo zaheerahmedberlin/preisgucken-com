@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     // match their actual card aspect ratio. Static pages without their own
     // openGraph block (impressum, kontakt, ueber-uns, ...) inherit this;
     // every blog post defines its own (same /opengraph-image URL, its own alt text).
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Preisgucken" }],
+    images: [{ url: "/opengraph-image/", width: 1200, height: 630, alt: "Preisgucken" }],
   },
   // Without an explicit twitter block, Next.js falls back to a plain
   // "summary" card (small, no image) rather than "summary_large_image" —

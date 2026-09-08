@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/e-scooter-kaufen-strassenzulassung",
     type: "article",
     publishedTime: "2026-09-01",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "E-Scooter kaufen: ABE und eKFV erklärt" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "E-Scooter kaufen: ABE und eKFV erklärt" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/e-scooter-kaufen-strassenzulassung" },
   twitter: {
@@ -30,10 +30,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "E-Scooter kaufen: ABE und eKFV erklärt",
   datePublished: "2026-09-01",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function EScooterKaufenPage() {

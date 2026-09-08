@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: "Die komplette Checkliste für Schulranzen, Schulsachen, Babytrage & mehr – mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/schulstart-kita-ratgeber",
     type: "article",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Schulanfang Checkliste 2026" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Schulanfang Checkliste 2026" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -26,11 +26,17 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Schulanfang Checkliste 2026",
   description: "Die komplette Checkliste für Schulanfang und Kita-Start 2026 – Schulranzen, Schulsachen, Babytrage und mehr im Preisvergleich.",
   datePublished: "2026-08-26",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 const faqJsonLd = {

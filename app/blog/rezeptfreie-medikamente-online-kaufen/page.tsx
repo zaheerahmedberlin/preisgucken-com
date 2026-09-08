@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Rezeptfreie Medikamente online kaufen: OTC & Homöopathie im Preisvergleich",
-  description: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente, Homöopathie und Nahrungsergänzung.",
+  description: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente und Homöopathie.",
   keywords: [
     "rezeptfreie medikamente online kaufen",
     "otc medikamente kaufen",
@@ -14,27 +14,33 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Rezeptfreie Medikamente online kaufen: OTC & Homöopathie im Preisvergleich",
-    description: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente, Homöopathie und Nahrungsergänzung.",
+    description: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente und Homöopathie.",
     url: "https://www.preisgucken.com/blog/rezeptfreie-medikamente-online-kaufen",
     type: "article",
     publishedTime: "2026-09-08",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Rezeptfreie Medikamente online kaufen" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Rezeptfreie Medikamente online kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/rezeptfreie-medikamente-online-kaufen" },
   twitter: {
     card: "summary_large_image",
     title: "Rezeptfreie Medikamente online kaufen: OTC & Homöopathie im Preisvergleich",
-    description: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente, Homöopathie und Nahrungsergänzung.",
+    description: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente und Homöopathie.",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Rezeptfreie Medikamente online kaufen: OTC & Homöopathie im Preisvergleich",
   datePublished: "2026-09-08",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function RezeptfreieMedikamentePage() {

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/foto-projektionsschmuck-kaufen",
     type: "article",
     publishedTime: "2026-08-11",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Foto-Projektionsschmuck: Bild im Stein" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Foto-Projektionsschmuck: Bild im Stein" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/foto-projektionsschmuck-kaufen" },
   twitter: {
@@ -33,10 +33,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Foto-Projektionsschmuck: Bild im Stein",
   datePublished: "2026-08-11",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function FotoProjektionsschmuckKaufenPage() {

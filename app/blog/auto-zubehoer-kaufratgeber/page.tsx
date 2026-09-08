@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber",
     type: "article",
     publishedTime: "2026-08-19",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Auto-Zubehör: Dachbox bis Anhängerkupplung" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Auto-Zubehör: Dachbox bis Anhängerkupplung" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber" },
   twitter: {
@@ -23,10 +23,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Auto-Zubehör: Dachbox bis Anhängerkupplung",
   datePublished: "2026-08-19",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function AutoZubehoerKaufratgeberPage() {

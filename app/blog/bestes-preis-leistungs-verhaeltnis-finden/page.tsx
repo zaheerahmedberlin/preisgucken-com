@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/bestes-preis-leistungs-verhaeltnis-finden",
     type: "article",
     publishedTime: "2026-08-27",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Bestes Preis-Leistungs-Verhältnis finden" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Bestes Preis-Leistungs-Verhältnis finden" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -29,10 +29,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Bestes Preis-Leistungs-Verhältnis finden",
   datePublished: "2026-08-27",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function PreisLeistungPage() {

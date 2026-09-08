@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass",
     type: "article",
     publishedTime: "2026-08-04",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image", width: 1200, height: 630, alt: "Kleider für jeden Anlass: 3 Schnitte" }],
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Kleider für jeden Anlass: 3 Schnitte" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass" },
   twitter: {
@@ -33,10 +33,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
+  image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Kleider für jeden Anlass: 3 Schnitte",
   datePublished: "2026-08-04",
   author: { "@type": "Organization", name: "Preisgucken" },
-  publisher: { "@type": "Organization", name: "Preisgucken", url: "https://www.preisgucken.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "Preisgucken",
+    url: "https://www.preisgucken.com",
+    logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
+  },
 };
 
 export default function KleiderFuerJedenAnlassPage() {
