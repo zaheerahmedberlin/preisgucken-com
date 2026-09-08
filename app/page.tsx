@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/rezeptfreie-medikamente-online-kaufen/",
+    title: "Rezeptfreie Medikamente online kaufen: OTC & Homöopathie im Preisvergleich",
+    excerpt: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente und Homöopathie.",
+    category: "Gesundheit",
+    date: "8. September 2026",
+  },
+  {
     slug: "/blog/arbeitskleidung-arbeitsschutz-kaufen/",
     title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick",
     excerpt: "Schutzhelm, Knieschoner oder Warnschutz – worauf es bei Arbeitsschutzausrüstung ankommt.",
@@ -10,13 +17,6 @@ const latestPosts = [
     slug: "/blog/elektroinstallation-kaufen/",
     title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick",
     excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt – worauf es ankommt.",
-    category: "Kaufberatung",
-    date: "30. August 2026",
-  },
-  {
-    slug: "/blog/motorradzubehoer-kaufen/",
-    title: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick",
-    excerpt: "Windschutzscheibe, Sozius-Rückenpolster oder Chrom-Zubehör – mit Kohl DE im Preisvergleich.",
     category: "Kaufberatung",
     date: "30. August 2026",
   },

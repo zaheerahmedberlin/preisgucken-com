@@ -112,6 +112,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "gesundheit",
     posts: [
       { slug: "gesundheitsprodukte-online-kaufen", title: "Gesundheitsprodukte online kaufen: Worauf du achten musst", excerpt: "Nahrungsergänzungsmittel, Massagegeräte & Co. sicher kaufen – Qualität erkennen, Fakes vermeiden und bis zu 35% sparen.", date: "16. Juli 2026", readTime: "6 Min.", pgLink: "gesundheit" },
+      { slug: "rezeptfreie-medikamente-online-kaufen", title: "Rezeptfreie Medikamente online kaufen: OTC & Homöopathie im Preisvergleich", excerpt: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente, Homöopathie und Nahrungsergänzung.", date: "8. September 2026", readTime: "7 Min.", featured: true, pgLink: "gesundheit" },
     ],
   },
   {
