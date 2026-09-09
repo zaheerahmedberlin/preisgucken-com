@@ -225,6 +225,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "muttertag-geschenkideen", title: "Muttertag-Geschenke: Ideen nach Budget", excerpt: "Schmuck, Kosmetik oder Schokolade? Geschenkideen für den Muttertag nach Budget – mit Preisvergleich.", date: "1. September 2026", readTime: "6 Min.", featured: true, pgLink: "schmuck,kosmetik-beauty,suesswaren" },
       { slug: "ostern-geschenkideen-osternest", title: "Osternest füllen: Geschenkideen für jeden", excerpt: "Schokolade, kleines Spielzeug oder beides? So füllst du das Osternest richtig – mit Preisvergleich.", date: "1. September 2026", readTime: "6 Min.", featured: true, pgLink: "suesswaren,spielzeug" },
       { slug: "weihnachtsgeschenke-ideen-guide", title: "Weihnachtsgeschenke: Ideen nach Budget", excerpt: "Schmuck, Kopfhörer oder Naschereien? Geschenkideen für Weihnachten nach Budget und Empfänger – mit Preisvergleich.", date: "1. September 2026", readTime: "7 Min.", featured: true, pgLink: "schmuck,kopfhoerer-lautsprecher,suesswaren" },
+      { slug: "hochzeitsgeschenke-brautpaar-gaeste", title: "Hochzeit planen: Brautkleid, Schmuck und Geschenke im Preisvergleich", excerpt: "Vom Brautkleid über Schmucksets bis zu Gastgeschenken – was für Brautpaar, Gäste und Ausstatter wirklich zählt, mit Preisvergleich.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "brautkleider,schmuck,suesswaren" },
     ],
   },
   {

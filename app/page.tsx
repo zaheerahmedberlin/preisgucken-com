@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/hochzeitsgeschenke-brautpaar-gaeste/",
+    title: "Hochzeit planen: Brautkleid, Schmuck und Geschenke im Preisvergleich",
+    excerpt: "Vom Brautkleid über Schmucksets bis zu Gastgeschenken – was für Brautpaar, Gäste und Ausstatter wirklich zählt.",
+    category: "Anlässe & Geschenke",
+    date: "9. September 2026",
+  },
+  {
     slug: "/blog/grill-kaufen-gas-kohle-elektro-guide/",
     title: "Grill kaufen: Gas, Kohle oder Elektro? Der Grilltyp-Guide",
     excerpt: "Rauchgeschmack, Anzündzeit und Balkon-Tauglichkeit im Vergleich – welcher Grilltyp wirklich zu dir passt.",
@@ -12,13 +19,6 @@ const latestPosts = [
     excerpt: "Fester Rasen, Kunstrasen oder weicher Boden – welches Stollenmuster wirklich passt und worauf du beim Kauf achten solltest.",
     category: "Sport & Fitness",
     date: "9. September 2026",
-  },
-  {
-    slug: "/blog/rezeptfreie-medikamente-online-kaufen/",
-    title: "Rezeptfreie Medikamente online kaufen: OTC & Homöopathie im Preisvergleich",
-    excerpt: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente und Homöopathie.",
-    category: "Gesundheit",
-    date: "8. September 2026",
   },
 ];
 
