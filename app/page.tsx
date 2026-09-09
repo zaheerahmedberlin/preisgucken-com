@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/babyschlafsack-tog-wert-guide/",
+    title: "Babyschlafsack kaufen: Welcher TOG-Wert für welche Jahreszeit?",
+    excerpt: "Wie der TOG-Wert mit Raumtemperatur zusammenhängt und wie viele Schlafsäcke du wirklich brauchst.",
+    category: "Familie & Kinder",
+    date: "9. September 2026",
+  },
+  {
     slug: "/blog/umstandsmode-kaufen-guide/",
     title: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen",
     excerpt: "Umstands- und Stillmode, die über die Schwangerschaft hinaus nutzbar bleibt – worauf du achten solltest.",
@@ -11,13 +18,6 @@ const latestPosts = [
     title: "Gesichtspflege-Routine: Die 4 Schritte, die wirklich zählen",
     excerpt: "Reinigung, Serum, Feuchtigkeitscreme und Sonnenschutz – welche Routine für welchen Hauttyp Sinn ergibt.",
     category: "Kosmetik & Beauty",
-    date: "9. September 2026",
-  },
-  {
-    slug: "/blog/kinderwagen-kaufen-typ-guide/",
-    title: "Kinderwagen kaufen: Buggy, Kombikinderwagen oder Geschwisterwagen?",
-    excerpt: "Welcher Kinderwagen-Typ wirklich zu eurem Alltag passt und wo sich ein Trio-Set lohnt.",
-    category: "Familie & Kinder",
     date: "9. September 2026",
   },
 ];
