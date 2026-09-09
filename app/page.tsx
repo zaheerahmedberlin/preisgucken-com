@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/mesh-wlan-router-repeater-guide/",
+    title: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide",
+    excerpt: "Schlechtes WLAN in bestimmten Zimmern? Mesh-System, Repeater oder Powerline-Adapter im Vergleich.",
+    category: "Elektronik & Technik",
+    date: "9. September 2026",
+  },
+  {
     slug: "/blog/babyschlafsack-tog-wert-guide/",
     title: "Babyschlafsack kaufen: Welcher TOG-Wert für welche Jahreszeit?",
     excerpt: "Wie der TOG-Wert mit Raumtemperatur zusammenhängt und wie viele Schlafsäcke du wirklich brauchst.",
@@ -11,13 +18,6 @@ const latestPosts = [
     title: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen",
     excerpt: "Umstands- und Stillmode, die über die Schwangerschaft hinaus nutzbar bleibt – worauf du achten solltest.",
     category: "Mode & Kleidung",
-    date: "9. September 2026",
-  },
-  {
-    slug: "/blog/gesichtspflege-routine-hauttyp-guide/",
-    title: "Gesichtspflege-Routine: Die 4 Schritte, die wirklich zählen",
-    excerpt: "Reinigung, Serum, Feuchtigkeitscreme und Sonnenschutz – welche Routine für welchen Hauttyp Sinn ergibt.",
-    category: "Kosmetik & Beauty",
     date: "9. September 2026",
   },
 ];
