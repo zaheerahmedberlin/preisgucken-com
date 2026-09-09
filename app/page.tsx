@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/grill-kaufen-gas-kohle-elektro-guide/",
+    title: "Grill kaufen: Gas, Kohle oder Elektro? Der Grilltyp-Guide",
+    excerpt: "Rauchgeschmack, Anzündzeit und Balkon-Tauglichkeit im Vergleich – welcher Grilltyp wirklich zu dir passt.",
+    category: "Möbel & Wohnen",
+    date: "9. September 2026",
+  },
+  {
     slug: "/blog/fussballschuhe-kaufen-bodenbelag-guide/",
     title: "Fußballschuhe kaufen: FG, SG oder AG? Der Bodenbelag-Guide",
     excerpt: "Fester Rasen, Kunstrasen oder weicher Boden – welches Stollenmuster wirklich passt und worauf du beim Kauf achten solltest.",
@@ -12,13 +19,6 @@ const latestPosts = [
     excerpt: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente und Homöopathie.",
     category: "Gesundheit",
     date: "8. September 2026",
-  },
-  {
-    slug: "/blog/arbeitskleidung-arbeitsschutz-kaufen/",
-    title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick",
-    excerpt: "Schutzhelm, Knieschoner oder Warnschutz – worauf es bei Arbeitsschutzausrüstung ankommt.",
-    category: "Kaufberatung",
-    date: "30. August 2026",
   },
 ];
 

@@ -41,6 +41,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "vorhaenge-kaufen-ratgeber", title: "Verdunkelung, Schallschutz oder Deko? Welcher Vorhang wofür taugt", excerpt: "Nicht jeder Vorhang kann alles – welcher Stoff für welchen Zweck taugt und wie du beim Kauf nichts falsch machst.", date: "29. Juli 2026", readTime: "6 Min.", pgLink: "vorhaenge" },
       { slug: "haengelampe-oder-stehlampe-design-leuchte", title: "Hängelampe oder Stehlampe? So findest du die richtige Design-Leuchte", excerpt: "Welcher Leuchtentyp für welchen Raum passt – mit Van Tjalle en Jasper als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "6 Min.", featured: true, pgLink: "leuchten" },
       { slug: "wohnaccessoires-beleuchtung-preisvergleich", title: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf", excerpt: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern – so findest du die besten Preise für dein Zuhause.", date: "27. August 2026", readTime: "6 Min.", featured: true, pgLink: "leuchten,wohnaccessoires" },
+      { slug: "grill-kaufen-gas-kohle-elektro-guide", title: "Grill kaufen: Gas, Kohle oder Elektro? Der Grilltyp-Guide", excerpt: "Rauchgeschmack, Anzündzeit und Balkon-Tauglichkeit im Vergleich – welcher Grilltyp wirklich zu dir passt, mit Preisvergleich für die letzte große Grillsaison des Jahres.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "grills-outdoor-kueche" },
     ],
   },
   {
