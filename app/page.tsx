@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/parfuem-kaufen-edt-edp-guide/",
+    title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
+    excerpt: "Eau de Toilette, Eau de Parfum oder Parfum Extrait – was den Preisunterschied wirklich erklärt.",
+    category: "Kosmetik & Beauty",
+    date: "9. September 2026",
+  },
+  {
     slug: "/blog/hochzeitsgeschenke-brautpaar-gaeste/",
     title: "Hochzeit planen: Brautkleid, Schmuck und Geschenke im Preisvergleich",
     excerpt: "Vom Brautkleid über Schmucksets bis zu Gastgeschenken – was für Brautpaar, Gäste und Ausstatter wirklich zählt.",
@@ -11,13 +18,6 @@ const latestPosts = [
     title: "Grill kaufen: Gas, Kohle oder Elektro? Der Grilltyp-Guide",
     excerpt: "Rauchgeschmack, Anzündzeit und Balkon-Tauglichkeit im Vergleich – welcher Grilltyp wirklich zu dir passt.",
     category: "Möbel & Wohnen",
-    date: "9. September 2026",
-  },
-  {
-    slug: "/blog/fussballschuhe-kaufen-bodenbelag-guide/",
-    title: "Fußballschuhe kaufen: FG, SG oder AG? Der Bodenbelag-Guide",
-    excerpt: "Fester Rasen, Kunstrasen oder weicher Boden – welches Stollenmuster wirklich passt und worauf du beim Kauf achten solltest.",
-    category: "Sport & Fitness",
     date: "9. September 2026",
   },
 ];
