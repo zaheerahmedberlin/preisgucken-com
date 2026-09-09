@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/umstandsmode-kaufen-guide/",
+    title: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen",
+    excerpt: "Umstands- und Stillmode, die über die Schwangerschaft hinaus nutzbar bleibt – worauf du achten solltest.",
+    category: "Mode & Kleidung",
+    date: "9. September 2026",
+  },
+  {
     slug: "/blog/gesichtspflege-routine-hauttyp-guide/",
     title: "Gesichtspflege-Routine: Die 4 Schritte, die wirklich zählen",
     excerpt: "Reinigung, Serum, Feuchtigkeitscreme und Sonnenschutz – welche Routine für welchen Hauttyp Sinn ergibt.",
@@ -11,13 +18,6 @@ const latestPosts = [
     title: "Kinderwagen kaufen: Buggy, Kombikinderwagen oder Geschwisterwagen?",
     excerpt: "Welcher Kinderwagen-Typ wirklich zu eurem Alltag passt und wo sich ein Trio-Set lohnt.",
     category: "Familie & Kinder",
-    date: "9. September 2026",
-  },
-  {
-    slug: "/blog/parfuem-kaufen-edt-edp-guide/",
-    title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
-    excerpt: "Eau de Toilette, Eau de Parfum oder Parfum Extrait – was den Preisunterschied wirklich erklärt.",
-    category: "Kosmetik & Beauty",
     date: "9. September 2026",
   },
 ];
