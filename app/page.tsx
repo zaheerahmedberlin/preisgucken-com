@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/fussballschuhe-kaufen-bodenbelag-guide/",
+    title: "Fußballschuhe kaufen: FG, SG oder AG? Der Bodenbelag-Guide",
+    excerpt: "Fester Rasen, Kunstrasen oder weicher Boden – welches Stollenmuster wirklich passt und worauf du beim Kauf achten solltest.",
+    category: "Sport & Fitness",
+    date: "9. September 2026",
+  },
+  {
     slug: "/blog/rezeptfreie-medikamente-online-kaufen/",
     title: "Rezeptfreie Medikamente online kaufen: OTC & Homöopathie im Preisvergleich",
     excerpt: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente und Homöopathie.",
@@ -10,13 +17,6 @@ const latestPosts = [
     slug: "/blog/arbeitskleidung-arbeitsschutz-kaufen/",
     title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick",
     excerpt: "Schutzhelm, Knieschoner oder Warnschutz – worauf es bei Arbeitsschutzausrüstung ankommt.",
-    category: "Kaufberatung",
-    date: "30. August 2026",
-  },
-  {
-    slug: "/blog/elektroinstallation-kaufen/",
-    title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick",
-    excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt – worauf es ankommt.",
     category: "Kaufberatung",
     date: "30. August 2026",
   },

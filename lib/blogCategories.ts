@@ -226,6 +226,15 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "weihnachtsgeschenke-ideen-guide", title: "Weihnachtsgeschenke: Ideen nach Budget", excerpt: "Schmuck, Kopfhörer oder Naschereien? Geschenkideen für Weihnachten nach Budget und Empfänger – mit Preisvergleich.", date: "1. September 2026", readTime: "7 Min.", featured: true, pgLink: "schmuck,kopfhoerer-lautsprecher,suesswaren" },
     ],
   },
+  {
+    slug: "sport-fitness",
+    name: "Sport & Fitness",
+    description: "Fußballschuhe, Trikots und mehr – Kaufberatung für Sport und Bewegung.",
+    pgLink: "sportschuhe",
+    posts: [
+      { slug: "fussballschuhe-kaufen-bodenbelag-guide", title: "Fußballschuhe kaufen: FG, SG oder AG? Der Bodenbelag-Guide", excerpt: "Fester Rasen, Kunstrasen oder weicher Boden – welches Stollenmuster wirklich passt und worauf du beim Kauf achten solltest, mit Preisvergleich.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "sportschuhe" },
+    ],
+  },
 ];
 
 // Post dates are hand-authored strings like "17. August 2026" — parse them
