@@ -155,6 +155,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     posts: [
       { slug: "natuerliche-kosmetik-fruchtpigmente", title: "Fruchtpigmente statt Chemie? Was natürliche Kosmetik wirklich bringt", excerpt: "Vegane Kosmetik, Fruchtpigmente statt synthetischer Farbstoffe – mit 100% Pure als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "6 Min.", featured: true, pgLink: "kosmetik-beauty" },
       { slug: "parfuem-kaufen-edt-edp-guide", title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide", excerpt: "Eau de Toilette, Eau de Parfum oder Parfum Extrait – was den Preisunterschied wirklich erklärt und wie lange ein Duft tatsächlich hält, mit Preisvergleich.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "parfuem" },
+      { slug: "gesichtspflege-routine-hauttyp-guide", title: "Gesichtspflege-Routine: Die 4 Schritte, die wirklich zählen", excerpt: "Reinigung, Serum, Feuchtigkeitscreme und Sonnenschutz – welche Routine für welchen Hauttyp Sinn ergibt, mit Preisvergleich für jedes Budget.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "gesichtspflege" },
     ],
   },
   {

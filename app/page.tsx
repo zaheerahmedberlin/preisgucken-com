@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/gesichtspflege-routine-hauttyp-guide/",
+    title: "Gesichtspflege-Routine: Die 4 Schritte, die wirklich zählen",
+    excerpt: "Reinigung, Serum, Feuchtigkeitscreme und Sonnenschutz – welche Routine für welchen Hauttyp Sinn ergibt.",
+    category: "Kosmetik & Beauty",
+    date: "9. September 2026",
+  },
+  {
     slug: "/blog/kinderwagen-kaufen-typ-guide/",
     title: "Kinderwagen kaufen: Buggy, Kombikinderwagen oder Geschwisterwagen?",
     excerpt: "Welcher Kinderwagen-Typ wirklich zu eurem Alltag passt und wo sich ein Trio-Set lohnt.",
@@ -11,13 +18,6 @@ const latestPosts = [
     title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
     excerpt: "Eau de Toilette, Eau de Parfum oder Parfum Extrait – was den Preisunterschied wirklich erklärt.",
     category: "Kosmetik & Beauty",
-    date: "9. September 2026",
-  },
-  {
-    slug: "/blog/hochzeitsgeschenke-brautpaar-gaeste/",
-    title: "Hochzeit planen: Brautkleid, Schmuck und Geschenke im Preisvergleich",
-    excerpt: "Vom Brautkleid über Schmucksets bis zu Gastgeschenken – was für Brautpaar, Gäste und Ausstatter wirklich zählt.",
-    category: "Anlässe & Geschenke",
     date: "9. September 2026",
   },
 ];
