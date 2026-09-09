@@ -1,5 +1,12 @@
 const latestPosts = [
   {
+    slug: "/blog/kinderwagen-kaufen-typ-guide/",
+    title: "Kinderwagen kaufen: Buggy, Kombikinderwagen oder Geschwisterwagen?",
+    excerpt: "Welcher Kinderwagen-Typ wirklich zu eurem Alltag passt und wo sich ein Trio-Set lohnt.",
+    category: "Familie & Kinder",
+    date: "9. September 2026",
+  },
+  {
     slug: "/blog/parfuem-kaufen-edt-edp-guide/",
     title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
     excerpt: "Eau de Toilette, Eau de Parfum oder Parfum Extrait – was den Preisunterschied wirklich erklärt.",
@@ -11,13 +18,6 @@ const latestPosts = [
     title: "Hochzeit planen: Brautkleid, Schmuck und Geschenke im Preisvergleich",
     excerpt: "Vom Brautkleid über Schmucksets bis zu Gastgeschenken – was für Brautpaar, Gäste und Ausstatter wirklich zählt.",
     category: "Anlässe & Geschenke",
-    date: "9. September 2026",
-  },
-  {
-    slug: "/blog/grill-kaufen-gas-kohle-elektro-guide/",
-    title: "Grill kaufen: Gas, Kohle oder Elektro? Der Grilltyp-Guide",
-    excerpt: "Rauchgeschmack, Anzündzeit und Balkon-Tauglichkeit im Vergleich – welcher Grilltyp wirklich zu dir passt.",
-    category: "Möbel & Wohnen",
     date: "9. September 2026",
   },
 ];

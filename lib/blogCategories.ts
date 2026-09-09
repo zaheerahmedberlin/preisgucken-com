@@ -197,6 +197,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     posts: [
       { slug: "schulstart-kita-ratgeber", title: "Schulanfang Checkliste 2026: Was dein Kind wirklich braucht", excerpt: "Schulranzen, Stifte, Babytrage & mehr: Die komplette Checkliste für Schulanfang und Kita-Start – mit Preisvergleich, damit du nicht zu viel zahlst.", date: "26. August 2026", readTime: "8 Min.", featured: true, pgLink: "taschen-koffer,buero-schreibwaren,laptops,baby-ausstattung" },
       { slug: "spielzeug-kaufen-sicherheit-alter", title: "Spielzeug kaufen: Altersfreigabe, Sicherheit und Prüfzeichen im Überblick", excerpt: "GS-Zeichen, Altersfreigabe und Kleinteile — worauf es beim Spielzeugkauf wirklich ankommt.", date: "30. August 2026", readTime: "6 Min.", pgLink: "spielzeug" },
+      { slug: "kinderwagen-kaufen-typ-guide", title: "Kinderwagen kaufen: Buggy, Kombikinderwagen oder Geschwisterwagen?", excerpt: "Welcher Kinderwagen-Typ wirklich zu eurem Alltag passt, worauf du beim Kauf achten solltest und wo sich ein Trio-Set lohnt, mit Preisvergleich.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "kinderwagen-unterwegs" },
     ],
   },
   {
