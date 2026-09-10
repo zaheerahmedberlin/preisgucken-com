@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gutscheincodes richtig einlösen",
     description: "Warum ein Rabattcode manchmal nicht funktioniert: Mindestbestellwert, Ausschlüsse und Ablaufzeiten im Überblick.",
-    url: "https://www.preisgucken.com/blog/gutscheincodes-richtig-einloesen",
+    url: "https://www.preisgucken.com/blog/gutscheincodes-richtig-einloesen/",
     type: "article",
     publishedTime: "2026-08-31",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Gutscheincodes richtig einlösen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/gutscheincodes-richtig-einloesen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/gutscheincodes-richtig-einloesen/" },
   twitter: {
     card: "summary_large_image",
     title: "Gutscheincodes richtig einlösen",

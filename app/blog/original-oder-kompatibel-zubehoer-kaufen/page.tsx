@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Original oder kompatibel? Zubehör-Kauf",
     description: "Druckerpatronen, Autoteile oder Handy-Zubehör: Wo sich das Original lohnt und wo du sparen kannst.",
-    url: "https://www.preisgucken.com/blog/original-oder-kompatibel-zubehoer-kaufen",
+    url: "https://www.preisgucken.com/blog/original-oder-kompatibel-zubehoer-kaufen/",
     type: "article",
     publishedTime: "2026-08-27",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Original oder kompatibel? Zubehör-Kauf" }],
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Original oder kompatibel? Zubehör-Kauf",
     description: "Druckerpatronen, Autoteile oder Handy-Zubehör: Wo sich das Original lohnt und wo du sparen kannst.",
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/original-oder-kompatibel-zubehoer-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/original-oder-kompatibel-zubehoer-kaufen/" },
 };
 
 const jsonLd = {

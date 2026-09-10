@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hängelampe oder Stehlampe finden",
     description: "Hängelampe, Stehlampe oder Wandlampe: Welcher Leuchtentyp für welchen Raum passt – mit Preisvergleich.",
-    url: "https://www.preisgucken.com/blog/haengelampe-oder-stehlampe-design-leuchte",
+    url: "https://www.preisgucken.com/blog/haengelampe-oder-stehlampe-design-leuchte/",
     type: "article",
     publishedTime: "2026-08-14",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Hängelampe oder Stehlampe finden" }],
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Hängelampe oder Stehlampe finden",
     description: "Hängelampe, Stehlampe oder Wandlampe: Welcher Leuchtentyp für welchen Raum passt – mit Preisvergleich.",
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/haengelampe-oder-stehlampe-design-leuchte" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/haengelampe-oder-stehlampe-design-leuchte/" },
 };
 
 const jsonLd = {

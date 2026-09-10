@@ -16,12 +16,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Motorradzubehör kaufen: Worauf achten?",
     description: "Windschutzscheibe, Rückenpolster oder Chrom-Zubehör – worauf es bei Passgenauigkeit und Komfort ankommt.",
-    url: "https://www.preisgucken.com/blog/motorradzubehoer-kaufen",
+    url: "https://www.preisgucken.com/blog/motorradzubehoer-kaufen/",
     type: "article",
     publishedTime: "2026-08-30",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Motorradzubehör kaufen: Worauf achten?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/motorradzubehoer-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/motorradzubehoer-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Motorradzubehör kaufen: Worauf achten?",

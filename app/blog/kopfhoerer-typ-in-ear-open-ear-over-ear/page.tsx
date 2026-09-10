@@ -16,12 +16,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "In-Ear, Open-Ear oder Over-Ear?",
     description: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – welcher Kopfhörer-Typ zu deinem Alltag passt.",
-    url: "https://www.preisgucken.com/blog/kopfhoerer-typ-in-ear-open-ear-over-ear",
+    url: "https://www.preisgucken.com/blog/kopfhoerer-typ-in-ear-open-ear-over-ear/",
     type: "article",
     publishedTime: "2026-08-28",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "In-Ear, Open-Ear oder Over-Ear?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/kopfhoerer-typ-in-ear-open-ear-over-ear" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/kopfhoerer-typ-in-ear-open-ear-over-ear/" },
   twitter: {
     card: "summary_large_image",
     title: "In-Ear, Open-Ear oder Over-Ear?",

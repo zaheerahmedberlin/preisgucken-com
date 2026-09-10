@@ -15,12 +15,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hochzeit planen: Brautkleid, Schmuck und Geschenke im Preisvergleich",
     description: "Vom Brautkleid über Schmucksets bis zu Gastgeschenken – was für Brautpaar, Gäste und Ausstatter wirklich zählt.",
-    url: "https://www.preisgucken.com/blog/hochzeitsgeschenke-brautpaar-gaeste",
+    url: "https://www.preisgucken.com/blog/hochzeitsgeschenke-brautpaar-gaeste/",
     type: "article",
     publishedTime: "2026-09-09",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Hochzeit planen: Brautkleid, Schmuck und Geschenke im Preisvergleich" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/hochzeitsgeschenke-brautpaar-gaeste" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/hochzeitsgeschenke-brautpaar-gaeste/" },
   twitter: {
     card: "summary_large_image",
     title: "Hochzeit planen: Brautkleid, Schmuck und Geschenke im Preisvergleich",

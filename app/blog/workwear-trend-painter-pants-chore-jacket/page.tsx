@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Painter Pant oder Cargo? Workwear-Guide",
     description: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet und worauf du beim Kauf achten solltest.",
-    url: "https://www.preisgucken.com/blog/workwear-trend-painter-pants-chore-jacket",
+    url: "https://www.preisgucken.com/blog/workwear-trend-painter-pants-chore-jacket/",
     type: "article",
     publishedTime: "2026-08-14",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Painter Pant oder Cargo? Workwear-Guide" }],
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Painter Pant oder Cargo? Workwear-Guide",
     description: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet und worauf du beim Kauf achten solltest.",
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/workwear-trend-painter-pants-chore-jacket" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/workwear-trend-painter-pants-chore-jacket/" },
 };
 
 const jsonLd = {

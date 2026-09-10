@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kleid für den Anlass richtig wählen",
     description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt? Schnitt, Länge und Farbe im Ratgeber mit Preisvergleich.",
-    url: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-29",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Kleid für den Anlass richtig wählen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Kleid für den Anlass richtig wählen",

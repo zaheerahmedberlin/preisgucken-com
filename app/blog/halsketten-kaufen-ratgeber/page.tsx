@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Die richtige Kettenlänge finden",
     description: "Choker, Layering-Kette oder lange Halskette? So findest du die richtige Länge und das passende Material.",
-    url: "https://www.preisgucken.com/blog/halsketten-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/halsketten-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Die richtige Kettenlänge finden" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/halsketten-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/halsketten-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Die richtige Kettenlänge finden",

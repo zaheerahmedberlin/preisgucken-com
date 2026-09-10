@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Fruchtpigmente statt Chemie?",
     description: "Vegane Kosmetik, Fruchtpigmente statt synthetischer Farbstoffe: Worauf du wirklich achten solltest.",
-    url: "https://www.preisgucken.com/blog/natuerliche-kosmetik-fruchtpigmente",
+    url: "https://www.preisgucken.com/blog/natuerliche-kosmetik-fruchtpigmente/",
     type: "article",
     publishedTime: "2026-08-14",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Fruchtpigmente statt Chemie?" }],
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Fruchtpigmente statt Chemie?",
     description: "Vegane Kosmetik, Fruchtpigmente statt synthetischer Farbstoffe: Worauf du wirklich achten solltest.",
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/natuerliche-kosmetik-fruchtpigmente" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/natuerliche-kosmetik-fruchtpigmente/" },
 };
 
 const jsonLd = {

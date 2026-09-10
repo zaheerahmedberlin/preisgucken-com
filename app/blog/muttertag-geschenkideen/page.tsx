@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Muttertag-Geschenke: Ideen nach Budget",
     description: "Geschenkideen für den Muttertag nach Budget – Schmuck, Kosmetik oder Schokolade.",
-    url: "https://www.preisgucken.com/blog/muttertag-geschenkideen",
+    url: "https://www.preisgucken.com/blog/muttertag-geschenkideen/",
     type: "article",
     publishedTime: "2026-09-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Muttertag-Geschenke: Ideen nach Budget" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/muttertag-geschenkideen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/muttertag-geschenkideen/" },
   twitter: {
     card: "summary_large_image",
     title: "Muttertag-Geschenke: Ideen nach Budget",

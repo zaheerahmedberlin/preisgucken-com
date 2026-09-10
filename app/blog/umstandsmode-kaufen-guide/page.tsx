@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen",
     description: "Umstands- und Stillmode, die über die Schwangerschaft hinaus nutzbar bleibt – worauf du beim Kauf achten solltest.",
-    url: "https://www.preisgucken.com/blog/umstandsmode-kaufen-guide",
+    url: "https://www.preisgucken.com/blog/umstandsmode-kaufen-guide/",
     type: "article",
     publishedTime: "2026-09-09",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/umstandsmode-kaufen-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/umstandsmode-kaufen-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen",

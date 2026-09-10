@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
     description: "Eau de Toilette, Eau de Parfum oder Parfum Extrait – was den Preisunterschied wirklich erklärt und wie lange ein Duft tatsächlich hält.",
-    url: "https://www.preisgucken.com/blog/parfuem-kaufen-edt-edp-guide",
+    url: "https://www.preisgucken.com/blog/parfuem-kaufen-edt-edp-guide/",
     type: "article",
     publishedTime: "2026-09-09",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Parfüm kaufen: EDT, EDP oder Parfum?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/parfuem-kaufen-edt-edp-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/parfuem-kaufen-edt-edp-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",

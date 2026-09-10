@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Fußballschuhe kaufen: FG, SG oder AG? Der Bodenbelag-Guide",
     description: "Fester Rasen, Kunstrasen oder weicher Boden – welches Stollenmuster wirklich passt und worauf du beim Kauf achten solltest.",
-    url: "https://www.preisgucken.com/blog/fussballschuhe-kaufen-bodenbelag-guide",
+    url: "https://www.preisgucken.com/blog/fussballschuhe-kaufen-bodenbelag-guide/",
     type: "article",
     publishedTime: "2026-09-09",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Fußballschuhe kaufen: Bodenbelag-Guide" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/fussballschuhe-kaufen-bodenbelag-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/fussballschuhe-kaufen-bodenbelag-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Fußballschuhe kaufen: FG, SG oder AG? Der Bodenbelag-Guide",

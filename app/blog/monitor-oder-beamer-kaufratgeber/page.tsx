@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Monitor oder Beamer? Was wirklich passt",
     description: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät die bessere Wahl ist.",
-    url: "https://www.preisgucken.com/blog/monitor-oder-beamer-kaufratgeber",
+    url: "https://www.preisgucken.com/blog/monitor-oder-beamer-kaufratgeber/",
     type: "article",
     publishedTime: "2026-08-17",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Monitor oder Beamer? Was wirklich passt" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/monitor-oder-beamer-kaufratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/monitor-oder-beamer-kaufratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Monitor oder Beamer? Was wirklich passt",

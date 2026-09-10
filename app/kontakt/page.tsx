@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Kontakt – Preisgucken.com",
   description: "Kontaktmöglichkeiten für Preisgucken.com.",
+  alternates: { canonical: "https://www.preisgucken.com/kontakt/" },
 };
 
 export default function KontaktPage() {

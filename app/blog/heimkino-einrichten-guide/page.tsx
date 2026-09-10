@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Heimkino einrichten: Beamer & Sound",
     description: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das überzeugt.",
-    url: "https://www.preisgucken.com/blog/heimkino-einrichten-guide",
+    url: "https://www.preisgucken.com/blog/heimkino-einrichten-guide/",
     type: "article",
     publishedTime: "2026-08-16",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Heimkino einrichten: Beamer & Sound" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/heimkino-einrichten-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/heimkino-einrichten-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Heimkino einrichten: Beamer & Sound",

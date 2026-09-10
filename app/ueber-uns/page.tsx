@@ -1,6 +1,10 @@
 export const metadata = {
   title: "Über uns – Preisgucken.com",
   description: "Wer hinter Preisgucken.com steht, wie unsere Kaufberatungen entstehen und wie wir uns finanzieren.",
+  // No canonical tag at all previously — with trailingSlash:true in
+  // next.config.ts, an explicit one prevents Google or any inbound link
+  // from anchoring on the bare (redirecting) path instead of this one.
+  alternates: { canonical: "https://www.preisgucken.com/ueber-uns/" },
 };
 
 export default function UeberUnsPage() {

@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Schmuck verschenken: Der Geschenkguide",
     description: "Vom ersten Date bis zum Jahrestag: Welcher Schmuck passt zu welchem Anlass?",
-    url: "https://www.preisgucken.com/blog/schmuck-als-geschenk-ratgeber",
+    url: "https://www.preisgucken.com/blog/schmuck-als-geschenk-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Schmuck verschenken: Der Geschenkguide" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/schmuck-als-geschenk-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/schmuck-als-geschenk-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Schmuck verschenken: Der Geschenkguide",

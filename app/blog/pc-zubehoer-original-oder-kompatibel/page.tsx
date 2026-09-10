@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Original oder kompatibel? PC-Zubehör",
     description: "Kompatible Druckerpatronen, das richtige USB-Kabel, SSD-Formfaktoren: Worauf es wirklich ankommt.",
-    url: "https://www.preisgucken.com/blog/pc-zubehoer-original-oder-kompatibel",
+    url: "https://www.preisgucken.com/blog/pc-zubehoer-original-oder-kompatibel/",
     type: "article",
     publishedTime: "2026-08-14",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Original oder kompatibel? PC-Zubehör" }],
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Original oder kompatibel? PC-Zubehör",
     description: "Kompatible Druckerpatronen, das richtige USB-Kabel, SSD-Formfaktoren: Worauf es wirklich ankommt.",
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/pc-zubehoer-original-oder-kompatibel" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/pc-zubehoer-original-oder-kompatibel/" },
 };
 
 const jsonLd = {

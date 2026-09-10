@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Alltagslook: Mode & Make-up kombinieren",
     description: "Basic-Teile, Layering und Everyday-Make-up: So baust du dir einen Alltagslook für jeden Tag – mit Preisvergleich.",
-    url: "https://www.preisgucken.com/blog/alltagslook-damenmode-make-up-guide",
+    url: "https://www.preisgucken.com/blog/alltagslook-damenmode-make-up-guide/",
     type: "article",
     publishedTime: "2026-08-19",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Alltagslook: Mode & Make-up kombinieren" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/alltagslook-damenmode-make-up-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/alltagslook-damenmode-make-up-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Alltagslook: Mode & Make-up kombinieren",

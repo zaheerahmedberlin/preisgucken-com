@@ -22,12 +22,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Balkonkraftwerk kaufen: Leistung & Speicher",
     description: "800-Watt-Einspeisegrenze, Speicher ja oder nein, die richtige Halterung – der Kaufguide mit Preisvergleich.",
-    url: "https://www.preisgucken.com/blog/balkonkraftwerk-kaufen",
+    url: "https://www.preisgucken.com/blog/balkonkraftwerk-kaufen/",
     type: "article",
     publishedTime: "2026-08-08",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Balkonkraftwerk kaufen: Leistung & Speicher" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/balkonkraftwerk-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/balkonkraftwerk-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Balkonkraftwerk kaufen: Leistung & Speicher",

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Wohnaccessoires & Beleuchtung im Vergleich",
     description: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern – die besten Preise im Überblick.",
-    url: "https://www.preisgucken.com/blog/wohnaccessoires-beleuchtung-preisvergleich",
+    url: "https://www.preisgucken.com/blog/wohnaccessoires-beleuchtung-preisvergleich/",
     type: "article",
     publishedTime: "2026-08-27",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Wohnaccessoires & Beleuchtung im Vergleich" }],
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Wohnaccessoires & Beleuchtung im Vergleich",
     description: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern – die besten Preise im Überblick.",
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/wohnaccessoires-beleuchtung-preisvergleich" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/wohnaccessoires-beleuchtung-preisvergleich/" },
 };
 
 const jsonLd = {

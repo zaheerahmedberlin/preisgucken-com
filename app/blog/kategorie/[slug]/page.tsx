@@ -23,14 +23,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title,
     description,
-    alternates: { canonical: `${BASE}/blog/kategorie/${category.slug}` },
+    alternates: { canonical: `${BASE}/blog/kategorie/${category.slug}/` },
     // openGraph/twitter fully replace (not merge with) the root layout's
     // defaults once a page defines its own — image has to be repeated
     // here or it's silently dropped, same gap found on individual posts.
     openGraph: {
       title: socialTitle,
       description,
-      url: `${BASE}/blog/kategorie/${category.slug}`,
+      url: `${BASE}/blog/kategorie/${category.slug}/`,
       type: "website",
       images: [{ url: `${BASE}/logo.png`, width: 1536, height: 1024, alt: category.name }],
     },
@@ -52,8 +52,8 @@ export default async function BlogCategoryPage({ params }: { params: Promise<{ s
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Startseite", item: BASE },
-      { "@type": "ListItem", position: 2, name: "Blog", item: `${BASE}/blog` },
-      { "@type": "ListItem", position: 3, name: category.name, item: `${BASE}/blog/kategorie/${category.slug}` },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${BASE}/blog/` },
+      { "@type": "ListItem", position: 3, name: category.name, item: `${BASE}/blog/kategorie/${category.slug}/` },
     ],
   };
 
@@ -64,7 +64,7 @@ export default async function BlogCategoryPage({ params }: { params: Promise<{ s
     itemListElement: category.posts.map((p, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      url: `${BASE}/blog/${p.slug}`,
+      url: `${BASE}/blog/${p.slug}/`,
     })),
   };
 
@@ -84,7 +84,7 @@ export default async function BlogCategoryPage({ params }: { params: Promise<{ s
           {BLOG_CATEGORIES.map((c) => (
             <a
               key={c.slug}
-              href={`/blog/kategorie/${c.slug}`}
+              href={`/blog/kategorie/${c.slug}/`}
               className="small text-decoration-none px-3 py-1 rounded-pill"
               style={
                 c.slug === category.slug
@@ -105,7 +105,7 @@ export default async function BlogCategoryPage({ params }: { params: Promise<{ s
         <div className="row g-4 mb-5">
           {category.posts.map((post) => (
             <div className="col-md-6" key={post.slug}>
-              <a href={`/blog/${post.slug}`} className="text-decoration-none text-dark">
+              <a href={`/blog/${post.slug}/`} className="text-decoration-none text-dark">
                 <div className="card h-100 p-4">
                   <div className="d-flex align-items-center gap-2 mb-3">
                     <span className="tag">{category.name}</span>

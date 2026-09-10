@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Küchengeräte im Vergleich",
     description: "Toaster oder Sandwichmaker? Standmixer oder Küchenmaschine? Kaffeevollautomat oder Kapselmaschine? Der komplette Küchengeräte-Ratgeber.",
-    url: "https://www.preisgucken.com/blog/kuechengeraete-vergleich-kaufratgeber",
+    url: "https://www.preisgucken.com/blog/kuechengeraete-vergleich-kaufratgeber/",
     type: "article",
     publishedTime: "2026-08-19",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Küchengeräte im Vergleich" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/kuechengeraete-vergleich-kaufratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/kuechengeraete-vergleich-kaufratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Küchengeräte im Vergleich",

@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "E-Scooter kaufen: ABE und eKFV erklärt",
     description: "ABE, eKFV und Reichweite im Überblick – worauf es beim E-Scooter-Kauf wirklich ankommt.",
-    url: "https://www.preisgucken.com/blog/e-scooter-kaufen-strassenzulassung",
+    url: "https://www.preisgucken.com/blog/e-scooter-kaufen-strassenzulassung/",
     type: "article",
     publishedTime: "2026-09-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "E-Scooter kaufen: ABE und eKFV erklärt" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/e-scooter-kaufen-strassenzulassung" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/e-scooter-kaufen-strassenzulassung/" },
   twitter: {
     card: "summary_large_image",
     title: "E-Scooter kaufen: ABE und eKFV erklärt",

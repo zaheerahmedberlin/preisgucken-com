@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Armband kaufen: Handgelenk richtig messen",
     description: "Charm-Armband, Armreif oder Kette? So misst du dein Handgelenk richtig und findest das passende Material.",
-    url: "https://www.preisgucken.com/blog/armbaender-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/armbaender-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Armband kaufen: Handgelenk richtig messen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/armbaender-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/armbaender-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Armband kaufen: Handgelenk richtig messen",

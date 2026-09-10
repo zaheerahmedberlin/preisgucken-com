@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Stecker, Creolen oder Dangle?",
     description: "Stecker, Creolen oder Dangle-Ohrringe? Materialien, Verschlüsse und Preise im Vergleich.",
-    url: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Stecker, Creolen oder Dangle?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Stecker, Creolen oder Dangle?",

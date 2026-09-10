@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gesundheitsprodukte online kaufen",
     description: "Nahrungsergänzungsmittel, Massagegeräte & Co: Qualität erkennen, Fakes vermeiden, bis zu 35% sparen.",
-    url: "https://www.preisgucken.com/blog/gesundheitsprodukte-online-kaufen",
+    url: "https://www.preisgucken.com/blog/gesundheitsprodukte-online-kaufen/",
     type: "article",
     publishedTime: "2026-07-16",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Gesundheitsprodukte online kaufen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/gesundheitsprodukte-online-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/gesundheitsprodukte-online-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Gesundheitsprodukte online kaufen",

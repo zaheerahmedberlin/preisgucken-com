@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Weihnachtsgeschenke: Ideen nach Budget",
     description: "Geschenkideen für Weihnachten nach Budget und Empfänger – mit Preisvergleich.",
-    url: "https://www.preisgucken.com/blog/weihnachtsgeschenke-ideen-guide",
+    url: "https://www.preisgucken.com/blog/weihnachtsgeschenke-ideen-guide/",
     type: "article",
     publishedTime: "2026-09-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Weihnachtsgeschenke: Ideen nach Budget" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/weihnachtsgeschenke-ideen-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/weihnachtsgeschenke-ideen-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Weihnachtsgeschenke: Ideen nach Budget",

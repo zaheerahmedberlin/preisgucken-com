@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kleider für jeden Anlass: 3 Schnitte",
     description: "Alltagskleid, Brautkleid oder Umstandskleid – welcher Schnitt und Stoff passt zu welchem Anlass?",
-    url: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass",
+    url: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass/",
     type: "article",
     publishedTime: "2026-08-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Kleider für jeden Anlass: 3 Schnitte" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass/" },
   twitter: {
     card: "summary_large_image",
     title: "Kleider für jeden Anlass: 3 Schnitte",

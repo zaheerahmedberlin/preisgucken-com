@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Babyschlafsack kaufen: Welcher TOG-Wert für welche Jahreszeit?",
     description: "0.5, 1.0 oder 2.5 TOG – wie der TOG-Wert mit Raumtemperatur zusammenhängt und wie viele Schlafsäcke du wirklich brauchst.",
-    url: "https://www.preisgucken.com/blog/babyschlafsack-tog-wert-guide",
+    url: "https://www.preisgucken.com/blog/babyschlafsack-tog-wert-guide/",
     type: "article",
     publishedTime: "2026-09-09",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Babyschlafsack kaufen: Welcher TOG-Wert für welche Jahreszeit?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/babyschlafsack-tog-wert-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/babyschlafsack-tog-wert-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Babyschlafsack kaufen: Welcher TOG-Wert für welche Jahreszeit?",

@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Smart Home nachrüsten: So geht's",
     description: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne Kompatibilitätsfehler.",
-    url: "https://www.preisgucken.com/blog/smart-home-nachruesten-guide",
+    url: "https://www.preisgucken.com/blog/smart-home-nachruesten-guide/",
     type: "article",
     publishedTime: "2026-08-18",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Smart Home nachrüsten: So geht's" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/smart-home-nachruesten-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/smart-home-nachruesten-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Smart Home nachrüsten: So geht's",

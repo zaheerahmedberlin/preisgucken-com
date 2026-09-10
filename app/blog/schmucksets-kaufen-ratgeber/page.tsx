@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Lohnt sich ein Schmuckset?",
     description: "Warum ein Schmuckset die einfachste Wahl für ein stimmiges Outfit ist – Vorteile, Stile und Geschenktipps.",
-    url: "https://www.preisgucken.com/blog/schmucksets-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/schmucksets-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Lohnt sich ein Schmuckset?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/schmucksets-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/schmucksets-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Lohnt sich ein Schmuckset?",

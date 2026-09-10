@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Welcher Vorhang taugt wofür?",
     description: "Verdunkelung, Schallschutz oder Deko? Der komplette Ratgeber für den richtigen Vorhang.",
-    url: "https://www.preisgucken.com/blog/vorhaenge-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/vorhaenge-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-29",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Welcher Vorhang taugt wofür?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/vorhaenge-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/vorhaenge-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Welcher Vorhang taugt wofür?",

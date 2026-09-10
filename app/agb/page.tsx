@@ -2,6 +2,7 @@ export const metadata = {
   title: "AGB – Preisgucken.com",
   description: "Allgemeine Geschäftsbedingungen von Preisgucken.com.",
   robots: { index: true, follow: false },
+  alternates: { canonical: "https://www.preisgucken.com/agb/" },
 };
 
 export default function AgbPage() {

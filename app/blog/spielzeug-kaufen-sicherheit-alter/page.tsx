@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Spielzeug kaufen: Sicherheit im Blick",
     description: "GS-Zeichen, Altersfreigabe und Kleinteile – worauf es beim Spielzeugkauf wirklich ankommt.",
-    url: "https://www.preisgucken.com/blog/spielzeug-kaufen-sicherheit-alter",
+    url: "https://www.preisgucken.com/blog/spielzeug-kaufen-sicherheit-alter/",
     type: "article",
     publishedTime: "2026-08-30",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Spielzeug kaufen: Sicherheit im Blick" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/spielzeug-kaufen-sicherheit-alter" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/spielzeug-kaufen-sicherheit-alter/" },
   twitter: {
     card: "summary_large_image",
     title: "Spielzeug kaufen: Sicherheit im Blick",

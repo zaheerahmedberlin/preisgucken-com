@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Luxusuhren kaufen: Worauf achten?",
     description: "Was rechtfertigt einen 5-stelligen Uhrenpreis? Material, Fertigung, Limitierung und Wiederverkaufswert im Überblick.",
-    url: "https://www.preisgucken.com/blog/luxusuhren-kaufen",
+    url: "https://www.preisgucken.com/blog/luxusuhren-kaufen/",
     type: "article",
     publishedTime: "2026-08-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Luxusuhren kaufen: Worauf achten?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/luxusuhren-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/luxusuhren-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Luxusuhren kaufen: Worauf achten?",

@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ersatzarmband für jede Smartwatch?",
     description: "Ersatzarmband für Apple Watch, Samsung, Garmin, Fitbit oder Xiaomi? Material, Kompatibilität und Größe im Guide.",
-    url: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide",
+    url: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide/",
     type: "article",
     publishedTime: "2026-08-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Ersatzarmband für jede Smartwatch?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/smartwatch-armband-kaufen-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Ersatzarmband für jede Smartwatch?",

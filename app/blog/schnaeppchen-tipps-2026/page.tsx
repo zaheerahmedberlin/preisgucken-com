@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "15 Schnäppchen-Tipps 2026",
     description: "Mit diesen 15 Tipps sparst du beim Online-Shopping bis zu 40% – Preisvergleich, Timing und mehr.",
-    url: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026",
+    url: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026/",
     type: "article",
     publishedTime: "2026-07-19",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "15 Schnäppchen-Tipps 2026" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026/" },
   twitter: {
     card: "summary_large_image",
     title: "15 Schnäppchen-Tipps 2026",

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Werkstatt ausstatten: Was du brauchst",
     description: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Preisvergleich.",
-    url: "https://www.preisgucken.com/blog/werkstatt-ausstattung-was-du-wirklich-brauchst",
+    url: "https://www.preisgucken.com/blog/werkstatt-ausstattung-was-du-wirklich-brauchst/",
     type: "article",
     publishedTime: "2026-08-14",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Werkstatt ausstatten: Was du brauchst" }],
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Werkstatt ausstatten: Was du brauchst",
     description: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Preisvergleich.",
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/werkstatt-ausstattung-was-du-wirklich-brauchst" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/werkstatt-ausstattung-was-du-wirklich-brauchst/" },
 };
 
 const jsonLd = {

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Bestes Preis-Leistungs-Verhältnis finden",
     description: "Nicht der günstigste Preis entscheidet, sondern Qualität, Nutzungsdauer und Ausstattung. So gehst du strukturiert vor.",
-    url: "https://www.preisgucken.com/blog/bestes-preis-leistungs-verhaeltnis-finden",
+    url: "https://www.preisgucken.com/blog/bestes-preis-leistungs-verhaeltnis-finden/",
     type: "article",
     publishedTime: "2026-08-27",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Bestes Preis-Leistungs-Verhältnis finden" }],
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "Bestes Preis-Leistungs-Verhältnis finden",
     description: "Nicht der günstigste Preis entscheidet, sondern Qualität, Nutzungsdauer und Ausstattung. So gehst du strukturiert vor.",
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/bestes-preis-leistungs-verhaeltnis-finden" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/bestes-preis-leistungs-verhaeltnis-finden/" },
 };
 
 const jsonLd = {

@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Handyhülle kaufen: Worauf achten?",
     description: "Silikon, Hartplastik oder Hybrid – welches Hüllenmaterial wirklich schützt und worauf du achten solltest.",
-    url: "https://www.preisgucken.com/blog/handyhuellen-kaufen-material-schutz",
+    url: "https://www.preisgucken.com/blog/handyhuellen-kaufen-material-schutz/",
     type: "article",
     publishedTime: "2026-08-30",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Handyhülle kaufen: Worauf achten?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/handyhuellen-kaufen-material-schutz" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/handyhuellen-kaufen-material-schutz/" },
   twitter: {
     card: "summary_large_image",
     title: "Handyhülle kaufen: Worauf achten?",

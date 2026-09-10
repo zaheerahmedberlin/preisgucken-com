@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kinderwagen kaufen: Buggy, Kombikinderwagen oder Geschwisterwagen?",
     description: "Welcher Kinderwagen-Typ wirklich zu eurem Alltag passt, worauf du beim Kauf achten solltest und wo sich ein Trio-Set lohnt.",
-    url: "https://www.preisgucken.com/blog/kinderwagen-kaufen-typ-guide",
+    url: "https://www.preisgucken.com/blog/kinderwagen-kaufen-typ-guide/",
     type: "article",
     publishedTime: "2026-09-09",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Kinderwagen kaufen: Buggy, Kombikinderwagen oder Geschwisterwagen?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/kinderwagen-kaufen-typ-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/kinderwagen-kaufen-typ-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Kinderwagen kaufen: Buggy, Kombikinderwagen oder Geschwisterwagen?",

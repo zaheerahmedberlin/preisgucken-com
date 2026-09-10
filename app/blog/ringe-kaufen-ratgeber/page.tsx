@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ringgröße zuhause bestimmen",
     description: "So findest du die richtige Ringgröße zuhause, welche Materialien halten und welcher Ringstil zu dir passt.",
-    url: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Ringgröße zuhause bestimmen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/ringe-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Ringgröße zuhause bestimmen",

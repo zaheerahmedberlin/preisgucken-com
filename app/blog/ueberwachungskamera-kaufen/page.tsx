@@ -16,12 +16,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Überwachungskamera kaufen: Akku oder Solar?",
     description: "Outdoor, Video-Türklingel oder Innenkamera – welcher Kameratyp zu welchem Einsatzort passt.",
-    url: "https://www.preisgucken.com/blog/ueberwachungskamera-kaufen",
+    url: "https://www.preisgucken.com/blog/ueberwachungskamera-kaufen/",
     type: "article",
     publishedTime: "2026-08-11",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Überwachungskamera kaufen: Akku oder Solar?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/ueberwachungskamera-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/ueberwachungskamera-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Überwachungskamera kaufen: Akku oder Solar?",

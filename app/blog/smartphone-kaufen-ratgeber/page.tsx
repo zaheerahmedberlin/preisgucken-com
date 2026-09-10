@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Neues Flaggschiff oder Vorjahresmodell?",
     description: "Wie viel Speicher brauchst du wirklich und wann lohnt sich ein Vorjahresmodell? Ratgeber mit Preisvergleich.",
-    url: "https://www.preisgucken.com/blog/smartphone-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/smartphone-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-29",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Neues Flaggschiff oder Vorjahresmodell?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/smartphone-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/smartphone-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Neues Flaggschiff oder Vorjahresmodell?",

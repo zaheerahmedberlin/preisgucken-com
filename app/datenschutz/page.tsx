@@ -2,6 +2,7 @@ export const metadata = {
   title: "Datenschutzerklärung – Preisgucken.com",
   description: "Datenschutzerklärung von Preisgucken.com gemäß DSGVO / GDPR.",
   robots: { index: true, follow: false },
+  alternates: { canonical: "https://www.preisgucken.com/datenschutz/" },
 };
 
 export default function DatenschutzPage() {

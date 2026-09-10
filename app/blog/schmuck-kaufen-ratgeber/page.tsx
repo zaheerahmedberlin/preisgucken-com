@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Echt oder Fake? Schmuck erkennen",
     description: "925er Silber, Edelstahl oder Gold? So erkennst du hochwertigen Schmuck und findest das passende Stück.",
-    url: "https://www.preisgucken.com/blog/schmuck-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/schmuck-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Echt oder Fake? Schmuck erkennen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/schmuck-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/schmuck-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Echt oder Fake? Schmuck erkennen",

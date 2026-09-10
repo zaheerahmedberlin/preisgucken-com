@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Fußkettchen-Trend: Länge & Material",
     description: "Der Sommer-Trend Fußkettchen im Ratgeber: richtige Länge, wasserfeste Materialien und Styling-Tipps.",
-    url: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Fußkettchen-Trend: Länge & Material" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Fußkettchen-Trend: Länge & Material",

@@ -4,11 +4,11 @@ export const metadata: Metadata = {
   title: "Beutellos, Akku oder Roboter?",
   description: "Beutellos, Akku oder Roboter? Der Ratgeber hilft dir, den besten Staubsauger zu finden.",
   keywords: ["staubsauger kaufen", "bester staubsauger 2026", "staubsauger preisvergleich", "akkusauger test", "staubsauger roboter günstig"],
-  alternates: { canonical: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber/" },
   openGraph: {
     title: "Beutellos, Akku oder Roboter?",
     description: "Beutellos, Akku oder Roboter? Der Ratgeber hilft dir, den besten Staubsauger zu finden.",
-    url: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/staubsauger-kaufen-ratgeber/",
     type: "article",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Beutellos, Akku oder Roboter?" }],
   },

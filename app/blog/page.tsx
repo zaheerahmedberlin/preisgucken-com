@@ -7,11 +7,11 @@ import { BLOG_CATEGORIES, getAllPosts } from "@/lib/blogCategories";
 export const metadata: Metadata = {
   title: "Blog: Kaufberatung, Spartipps & Preisvergleich",
   description: "Expertenratgeber rund um Möbel, Elektronik, Schmuck und Sparen: Kaufberatungen, Preisvergleich-Tipps und Schnäppchen-Guides aus Deutschland.",
-  alternates: { canonical: "https://www.preisgucken.com/blog" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/" },
   openGraph: {
     title: "Blog – Kaufberatung & Spartipps",
     description: "Expertenratgeber rund um Möbel, Elektronik, Schmuck und Sparen.",
-    url: "https://www.preisgucken.com/blog",
+    url: "https://www.preisgucken.com/blog/",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Preisgucken Blog" }],
   },
   twitter: {
@@ -32,7 +32,7 @@ export default function BlogPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Startseite", item: "https://www.preisgucken.com" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.preisgucken.com/blog" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.preisgucken.com/blog/" },
     ],
   };
 
@@ -65,7 +65,7 @@ export default function BlogPage() {
         <div className="row g-4 mb-5">
           {posts.map((post) => (
             <div className="col-md-4" key={post.slug}>
-              <a href={`/blog/${post.slug}`} className="text-decoration-none text-dark">
+              <a href={`/blog/${post.slug}/`} className="text-decoration-none text-dark">
                 <div className="card h-100 p-4">
                   <div className="d-flex align-items-center gap-2 mb-2">
                     <span className="tag">{post.category.name}</span>

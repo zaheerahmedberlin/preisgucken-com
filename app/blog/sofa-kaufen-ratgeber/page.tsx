@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Welches Sofa passt zu deinem Wohnzimmer?",
     description: "Sofa kaufen: Welche Größe, welcher Stoff und wie viel Budget? Der Experten-Ratgeber hilft dir.",
-    url: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-17",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Welches Sofa passt zu deinem Wohnzimmer?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Welches Sofa passt zu deinem Wohnzimmer?",

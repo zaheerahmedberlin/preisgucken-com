@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Matratze kaufen: Der richtige Härtegrad",
     description: "Welcher Härtegrad passt zu dir, welche Größe brauchst du? Der komplette Matratzen-Ratgeber.",
-    url: "https://www.preisgucken.com/blog/matratze-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/matratze-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-29",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Matratze kaufen: Der richtige Härtegrad" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/matratze-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/matratze-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Matratze kaufen: Der richtige Härtegrad",

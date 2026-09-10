@@ -8,11 +8,11 @@ export const metadata: Metadata = {
     "kita eingewöhnung was braucht mein kind", "schulsachen liste", "babytrage vergleich",
     "einschulung checkliste", "zurück in die schule 2026",
   ],
-  alternates: { canonical: "https://www.preisgucken.com/blog/schulstart-kita-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/schulstart-kita-ratgeber/" },
   openGraph: {
     title: "Schulanfang Checkliste 2026",
     description: "Die komplette Checkliste für Schulranzen, Schulsachen, Babytrage & mehr – mit Preisvergleich.",
-    url: "https://www.preisgucken.com/blog/schulstart-kita-ratgeber",
+    url: "https://www.preisgucken.com/blog/schulstart-kita-ratgeber/",
     type: "article",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Schulanfang Checkliste 2026" }],
   },

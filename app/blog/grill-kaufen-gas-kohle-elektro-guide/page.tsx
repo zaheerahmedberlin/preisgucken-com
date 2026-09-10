@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Grill kaufen: Gas, Kohle oder Elektro? Der Grilltyp-Guide",
     description: "Rauchgeschmack, Anzündzeit und Balkon-Tauglichkeit im Vergleich – welcher Grilltyp wirklich zu dir passt.",
-    url: "https://www.preisgucken.com/blog/grill-kaufen-gas-kohle-elektro-guide",
+    url: "https://www.preisgucken.com/blog/grill-kaufen-gas-kohle-elektro-guide/",
     type: "article",
     publishedTime: "2026-09-09",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Grill kaufen: Gas, Kohle oder Elektro?" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/grill-kaufen-gas-kohle-elektro-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/grill-kaufen-gas-kohle-elektro-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Grill kaufen: Gas, Kohle oder Elektro? Der Grilltyp-Guide",

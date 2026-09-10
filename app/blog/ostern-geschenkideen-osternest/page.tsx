@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Osternest füllen: Geschenkideen für jeden",
     description: "So füllst du das Osternest richtig – Schokolade, kleines Spielzeug oder beides.",
-    url: "https://www.preisgucken.com/blog/ostern-geschenkideen-osternest",
+    url: "https://www.preisgucken.com/blog/ostern-geschenkideen-osternest/",
     type: "article",
     publishedTime: "2026-09-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Osternest füllen: Geschenkideen für jeden" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/ostern-geschenkideen-osternest" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/ostern-geschenkideen-osternest/" },
   twitter: {
     card: "summary_large_image",
     title: "Osternest füllen: Geschenkideen für jeden",

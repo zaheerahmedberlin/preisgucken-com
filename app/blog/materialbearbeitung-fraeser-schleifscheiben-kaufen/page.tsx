@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Fräser, Trenn- und Schleifscheiben kaufen",
     description: "Welche Scheibe für welches Material, worauf bei Durchmesser und Drehzahl zu achten ist.",
-    url: "https://www.preisgucken.com/blog/materialbearbeitung-fraeser-schleifscheiben-kaufen",
+    url: "https://www.preisgucken.com/blog/materialbearbeitung-fraeser-schleifscheiben-kaufen/",
     type: "article",
     publishedTime: "2026-08-30",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Fräser, Trenn- und Schleifscheiben kaufen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/materialbearbeitung-fraeser-schleifscheiben-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/materialbearbeitung-fraeser-schleifscheiben-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Fräser, Trenn- und Schleifscheiben kaufen",

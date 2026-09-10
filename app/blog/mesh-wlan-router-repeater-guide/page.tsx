@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide",
     description: "Schlechtes WLAN in bestimmten Zimmern? Mesh-System, Repeater oder Powerline-Adapter im Vergleich – welche Lösung wirklich zu deiner Wohnung passt.",
-    url: "https://www.preisgucken.com/blog/mesh-wlan-router-repeater-guide",
+    url: "https://www.preisgucken.com/blog/mesh-wlan-router-repeater-guide/",
     type: "article",
     publishedTime: "2026-09-09",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/mesh-wlan-router-repeater-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/mesh-wlan-router-repeater-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide",

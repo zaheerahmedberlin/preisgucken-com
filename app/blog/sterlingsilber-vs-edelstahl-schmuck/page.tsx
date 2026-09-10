@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sterlingsilber vs. Edelstahl",
     description: "925er Sterlingsilber vs. hypoallergener Edelstahl: Unterschiede bei Preis, Pflege, Allergierisiko und Haltbarkeit.",
-    url: "https://www.preisgucken.com/blog/sterlingsilber-vs-edelstahl-schmuck",
+    url: "https://www.preisgucken.com/blog/sterlingsilber-vs-edelstahl-schmuck/",
     type: "article",
     publishedTime: "2026-08-01",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Sterlingsilber vs. Edelstahl" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/sterlingsilber-vs-edelstahl-schmuck" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/sterlingsilber-vs-edelstahl-schmuck/" },
   twitter: {
     card: "summary_large_image",
     title: "Sterlingsilber vs. Edelstahl",

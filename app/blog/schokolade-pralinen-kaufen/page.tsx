@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Schokolade & Pralinen kaufen 2026",
     description: "Tafel, Praline oder Geschenkbox – worauf es bei hochwertiger Schokolade wirklich ankommt.",
-    url: "https://www.preisgucken.com/blog/schokolade-pralinen-kaufen",
+    url: "https://www.preisgucken.com/blog/schokolade-pralinen-kaufen/",
     type: "article",
     publishedTime: "2026-08-07",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Schokolade & Pralinen kaufen 2026" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/schokolade-pralinen-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/schokolade-pralinen-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Schokolade & Pralinen kaufen 2026",

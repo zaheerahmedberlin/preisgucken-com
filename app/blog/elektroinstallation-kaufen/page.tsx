@@ -16,12 +16,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Elektroinstallation kaufen: Was zählt",
     description: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt – worauf es wirklich ankommt.",
-    url: "https://www.preisgucken.com/blog/elektroinstallation-kaufen",
+    url: "https://www.preisgucken.com/blog/elektroinstallation-kaufen/",
     type: "article",
     publishedTime: "2026-08-30",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Elektroinstallation kaufen: Was zählt" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/elektroinstallation-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/elektroinstallation-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Elektroinstallation kaufen: Was zählt",

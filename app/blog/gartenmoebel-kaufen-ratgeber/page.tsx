@@ -4,11 +4,11 @@ export const metadata: Metadata = {
   title: "Polyrattan, Alu oder Holz? Gartenmöbel",
   description: "Welche Gartenmöbel lohnen sich? Lounge, Essgruppe oder Liegestuhl? Die besten Materialien und Schnäppchen im Ratgeber.",
   keywords: ["gartenmöbel kaufen", "gartenmöbel günstig", "gartenmöbel 2026", "lounge set garten", "gartenset preisvergleich"],
-  alternates: { canonical: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber/" },
   openGraph: {
     title: "Polyrattan, Alu oder Holz? Gartenmöbel",
     description: "Welche Gartenmöbel lohnen sich? Lounge, Essgruppe oder Liegestuhl? Die besten Materialien und Schnäppchen im Ratgeber.",
-    url: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/gartenmoebel-kaufen-ratgeber/",
     type: "article",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Polyrattan, Alu oder Holz? Gartenmöbel" }],
   },

@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Beschläge & Schlösser kaufen",
     description: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt.",
-    url: "https://www.preisgucken.com/blog/beschlaege-schloesser-kaufen",
+    url: "https://www.preisgucken.com/blog/beschlaege-schloesser-kaufen/",
     type: "article",
     publishedTime: "2026-08-30",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Beschläge & Schlösser kaufen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/beschlaege-schloesser-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/beschlaege-schloesser-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Beschläge & Schlösser kaufen",

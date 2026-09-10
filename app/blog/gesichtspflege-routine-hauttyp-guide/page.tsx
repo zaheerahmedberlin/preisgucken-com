@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gesichtspflege-Routine: Die 4 Schritte, die wirklich zählen",
     description: "Reinigung, Serum, Feuchtigkeitscreme und Sonnenschutz – welche Routine für welchen Hauttyp Sinn ergibt.",
-    url: "https://www.preisgucken.com/blog/gesichtspflege-routine-hauttyp-guide",
+    url: "https://www.preisgucken.com/blog/gesichtspflege-routine-hauttyp-guide/",
     type: "article",
     publishedTime: "2026-09-09",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Gesichtspflege-Routine: Die 4 Schritte, die wirklich zählen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/gesichtspflege-routine-hauttyp-guide" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/gesichtspflege-routine-hauttyp-guide/" },
   twitter: {
     card: "summary_large_image",
     title: "Gesichtspflege-Routine: Die 4 Schritte, die wirklich zählen",

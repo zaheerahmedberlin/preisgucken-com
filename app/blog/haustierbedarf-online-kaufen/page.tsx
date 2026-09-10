@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hunde- und Katzenbedarf online kaufen",
     description: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden – mit Preisvergleich.",
-    url: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen",
+    url: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen/",
     type: "article",
     publishedTime: "2026-08-18",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Hunde- und Katzenbedarf online kaufen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Hunde- und Katzenbedarf online kaufen",

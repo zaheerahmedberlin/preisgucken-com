@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Preisvergleich richtig nutzen",
     description: "Warum gleiche Produkte bis zu 40% günstiger sein können und wie du den besten Preis findest.",
-    url: "https://www.preisgucken.com/blog/preisvergleich-tipps",
+    url: "https://www.preisgucken.com/blog/preisvergleich-tipps/",
     type: "article",
     publishedTime: "2026-07-15",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Preisvergleich richtig nutzen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/preisvergleich-tipps" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/preisvergleich-tipps/" },
   twitter: {
     card: "summary_large_image",
     title: "Preisvergleich richtig nutzen",
@@ -33,7 +33,7 @@ const jsonLd = {
     url: "https://www.preisgucken.com",
     logo: { "@type": "ImageObject", url: "https://www.preisgucken.com/logo.png" },
   },
-  mainEntityOfPage: "https://www.preisgucken.com/blog/preisvergleich-tipps",
+  mainEntityOfPage: "https://www.preisgucken.com/blog/preisvergleich-tipps/",
 };
 
 const faq = [

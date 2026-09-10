@@ -4,11 +4,11 @@ export const metadata: Metadata = {
   title: "Fernseher kaufen 2026: OLED, QLED oder LED",
   description: "OLED, QLED oder LED? Der Ratgeber erklärt die Unterschiede und zeigt, wo du am günstigsten kaufst.",
   keywords: ["fernseher kaufen", "bester fernseher 2026", "fernseher preisvergleich", "oled vs qled", "tv günstig kaufen deutschland"],
-  alternates: { canonical: "https://www.preisgucken.com/blog/fernseher-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/fernseher-kaufen-ratgeber/" },
   openGraph: {
     title: "Fernseher kaufen 2026: OLED, QLED oder LED",
     description: "OLED, QLED oder LED? Der Ratgeber erklärt die Unterschiede und zeigt, wo du am günstigsten kaufst.",
-    url: "https://www.preisgucken.com/blog/fernseher-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/fernseher-kaufen-ratgeber/",
     type: "article",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Fernseher kaufen 2026: OLED, QLED oder LED" }],
   },

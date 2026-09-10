@@ -15,12 +15,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Arbeitskleidung & Arbeitsschutz kaufen",
     description: "Schutzhelm, Knieschoner, Warnschutz: Worauf es bei Arbeitsschutzausrüstung ankommt – mit Preisvergleich.",
-    url: "https://www.preisgucken.com/blog/arbeitskleidung-arbeitsschutz-kaufen",
+    url: "https://www.preisgucken.com/blog/arbeitskleidung-arbeitsschutz-kaufen/",
     type: "article",
     publishedTime: "2026-08-30",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Arbeitskleidung & Arbeitsschutz kaufen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/arbeitskleidung-arbeitsschutz-kaufen" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/arbeitskleidung-arbeitsschutz-kaufen/" },
   twitter: {
     card: "summary_large_image",
     title: "Arbeitskleidung & Arbeitsschutz kaufen",

@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Auto-Zubehör: Dachbox bis Anhängerkupplung",
     description: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es bei Auto-Zubehör ankommt.",
-    url: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber",
+    url: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber/",
     type: "article",
     publishedTime: "2026-08-19",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Auto-Zubehör: Dachbox bis Anhängerkupplung" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Auto-Zubehör: Dachbox bis Anhängerkupplung",

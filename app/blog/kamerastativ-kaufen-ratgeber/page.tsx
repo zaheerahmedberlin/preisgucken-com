@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Carbon oder Aluminium? Kamerastativ finden",
     description: "Reisestativ, Videostativ oder Einbeinstativ? Material, Traglast und Stativkopf im Ratgeber.",
-    url: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber",
+    url: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-29",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Carbon oder Aluminium? Kamerastativ finden" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber/" },
   twitter: {
     card: "summary_large_image",
     title: "Carbon oder Aluminium? Kamerastativ finden",

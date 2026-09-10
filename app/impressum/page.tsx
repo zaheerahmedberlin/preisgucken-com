@@ -2,6 +2,7 @@ export const metadata = {
   title: "Impressum – Preisgucken.com",
   description: "Impressum und Anbieterkennzeichnung von Preisgucken.com gemäß § 5 TMG.",
   robots: { index: true, follow: false },
+  alternates: { canonical: "https://www.preisgucken.com/impressum/" },
 };
 
 export default function ImpressumPage() {

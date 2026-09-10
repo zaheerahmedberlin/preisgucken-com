@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Schuhgröße online richtig bestimmen",
     description: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du achten solltest.",
-    url: "https://www.preisgucken.com/blog/schuhe-online-kaufen-groessentabelle",
+    url: "https://www.preisgucken.com/blog/schuhe-online-kaufen-groessentabelle/",
     type: "article",
     publishedTime: "2026-08-19",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Schuhgröße online richtig bestimmen" }],
   },
-  alternates: { canonical: "https://www.preisgucken.com/blog/schuhe-online-kaufen-groessentabelle" },
+  alternates: { canonical: "https://www.preisgucken.com/blog/schuhe-online-kaufen-groessentabelle/" },
   twitter: {
     card: "summary_large_image",
     title: "Schuhgröße online richtig bestimmen",
