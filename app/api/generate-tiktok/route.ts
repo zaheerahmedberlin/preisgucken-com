@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { isAdminRequest } from "@/lib/adminAuth";
 
 const GROQ_API = "https://api.groq.com/openai/v1/chat/completions";
 
@@ -9,6 +10,12 @@ const STYLE_PROMPTS: Record<string, string> = {
 };
 
 export async function POST(req: NextRequest) {
+  // Was completely open — any anonymous request spent real GROQ_API_KEY
+  // quota with zero auth or rate limiting, an easy cost-drain vector.
+  if (!isAdminRequest(req)) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   const { productName, price, oldPrice, vendor, category, style = "energetisch" } = await req.json();
 
   if (!productName) return NextResponse.json({ error: "Produktname fehlt" }, { status: 400 });

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 const PREISGUCKEN_API = "/api/products";
 
@@ -154,6 +155,12 @@ function TikTokMockup({ variation, productName, price, image }: {
 }
 
 export default function TikTokGenerator() {
+  const router = useRouter();
+  // This page had no auth check at all — reachable directly by anyone who
+  // knew/guessed the URL, despite a login page existing elsewhere. The
+  // underlying API routes are now gated server-side (the real fix); this
+  // just keeps the UI from being usable without a session too.
+  const [authorized, setAuthorized] = useState<boolean | null>(null);
   const [mode, setMode] = useState<"search" | "manual" | "autopilot">("search");
   const [style, setStyle] = useState("energetisch");
   const [query, setQuery] = useState("");
@@ -180,6 +187,19 @@ export default function TikTokGenerator() {
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
   const [videoBlob, setVideoBlob] = useState<Blob | null>(null);
   const [genError, setGenError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch("/api/admin/verify")
+      .then(r => r.json())
+      .then(data => {
+        if (!data.authenticated) {
+          router.replace("/admin/login");
+        } else {
+          setAuthorized(true);
+        }
+      })
+      .catch(() => router.replace("/admin/login"));
+  }, [router]);
 
   useEffect(() => {
     const saved = localStorage.getItem("tiktok_history");
@@ -331,6 +351,10 @@ export default function TikTokGenerator() {
 
   const currentProduct = selected || (mode === "manual" ? { title: manualName, price: manualPrice, image: null } : null);
   const fmt = (p?: string) => p ? `€${parseFloat(p).toLocaleString("de-DE", { minimumFractionDigits: 2 })}` : "";
+
+  if (!authorized) {
+    return null;
+  }
 
   return (
     <div className="container-fluid py-5 px-4" style={{ maxWidth: 1200 }}>
