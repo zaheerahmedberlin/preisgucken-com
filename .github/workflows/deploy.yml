@@ -31,4 +31,11 @@ jobs:
           HOST: ${{ secrets.NETCUP_HOST }}
         run: |
           echo "$SSH_KEY" > key.pem && chmod 600 key.pem
-          ssh -i key.pem -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new deploy@$HOST "deploy-com"
+          # ServerAlive* keeps the SSH connection alive during npm run build,
+          # which produces little/no output for several minutes — without
+          # this, something in the network path treats the session as idle
+          # and drops it ("client_loop: send disconnect: Broken pipe"),
+          # aborting the deploy mid-build. Confirmed live 2026-09-14 on the
+          # sibling nextjs-app deploy (same server, same script family) —
+          # applying the same fix here before it hits this site too.
+          ssh -i key.pem -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o ServerAliveInterval=30 -o ServerAliveCountMax=10 deploy@$HOST "deploy-com"
