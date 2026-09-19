@@ -43,6 +43,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "wohnaccessoires-beleuchtung-preisvergleich", title: "Wohnaccessoires und Beleuchtung im Preisvergleich: So wertest du dein Zuhause auf", excerpt: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern – so findest du die besten Preise für dein Zuhause.", date: "27. August 2026", readTime: "6 Min.", featured: true, pgLink: "leuchten,wohnaccessoires" },
       { slug: "grill-kaufen-gas-kohle-elektro-guide", title: "Grill kaufen: Gas, Kohle oder Elektro? Der Grilltyp-Guide", excerpt: "Rauchgeschmack, Anzündzeit und Balkon-Tauglichkeit im Vergleich – welcher Grilltyp wirklich zu dir passt, mit Preisvergleich für die letzte große Grillsaison des Jahres.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "grills-outdoor-kueche" },
       { slug: "maehroboter-kaufen-ohne-begrenzungskabel", title: "Mähroboter ohne Begrenzungskabel kaufen: Der RTK-Guide", excerpt: "Kein Kabel vergraben, keine Signalstörung: Wie RTK-Mähroboter ohne Begrenzungskabel funktionieren und worauf du beim Kauf achten solltest – mit Preisvergleich.", date: "19. September 2026", readTime: "7 Min.", featured: true, pgLink: "maehroboter" },
+      { slug: "gaming-stuhl-kaufen-ratgeber", title: "Gaming Stuhl kaufen: Material, Ergonomie & Massage-Funktion", excerpt: "Racing-Optik oder Ergonomie? Stoff, PU-Leder oder Wildleder-Optik im Vergleich – worauf es beim Gaming-Stuhl-Kauf wirklich ankommt, mit Preisvergleich.", date: "19. September 2026", readTime: "6 Min.", featured: true, pgLink: "sessel" },
     ],
   },
   {
@@ -178,6 +179,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     posts: [
       { slug: "auto-zubehoer-kaufratgeber", title: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung", excerpt: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es beim Kauf von Auto-Zubehör wirklich ankommt.", date: "19. August 2026", readTime: "7 Min.", pgLink: "auto-fahrzeugzubehoer" },
       { slug: "e-scooter-kaufen-strassenzulassung", title: "E-Scooter kaufen: ABE und eKFV erklärt", excerpt: "Mit oder ohne Straßenzulassung? ABE, eKFV und Reichweite im Überblick – worauf es beim E-Scooter-Kauf wirklich ankommt.", date: "1. September 2026", readTime: "7 Min.", featured: true, pgLink: "e-scooter" },
+      { slug: "hoverboard-kaufen-ratgeber", title: "Hoverboard kaufen: Zollgröße, Sicherheit & Kart-Umbau erklärt", excerpt: "6,5\" oder 8,5\" Zoll, mit oder ohne Sitz? Worauf es beim Hoverboard-Kauf wirklich ankommt – Sicherheitszertifikat, Geländetauglichkeit und Preisvergleich.", date: "19. September 2026", readTime: "6 Min.", featured: true, pgLink: "hoverboards" },
     ],
   },
   {
