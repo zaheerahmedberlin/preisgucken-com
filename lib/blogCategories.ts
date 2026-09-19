@@ -221,6 +221,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "kueche",
     posts: [
       { slug: "kuechengeraete-vergleich-kaufratgeber", title: "Küchengeräte im Vergleich: Standmixer, Toaster, Fritteuse & Co. richtig wählen", excerpt: "Toaster oder Sandwichmaker? Standmixer oder Küchenmaschine? Kaffeevollautomat oder Kapselmaschine? Der komplette Küchengeräte-Ratgeber mit Preisvergleich.", date: "19. August 2026", readTime: "8 Min.", featured: true, pgLink: "mikrowellen,toaster,standmixer-puerierstaebe,kuechenmaschinen,fritteusen-heissluftfritteusen,kaffeevollautomaten,kochplatten-kochfelder,eierkocher,kleine-kuechengeraete,wasserkocher,kaffeemaschinen" },
+      { slug: "tragbare-espressomaschine-kaufen", title: "Tragbare Espressomaschine kaufen: Der Reise-Guide", excerpt: "Ohne Steckdose, ohne Kompromiss: Wie tragbare Espressomaschinen für Camping, Van Life und Büro funktionieren und worauf du beim Kauf achten solltest – mit Preisvergleich.", date: "19. September 2026", readTime: "6 Min.", featured: true, pgLink: "kaffeemaschinen" },
     ],
   },
   {
@@ -242,6 +243,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "sportschuhe",
     posts: [
       { slug: "fussballschuhe-kaufen-bodenbelag-guide", title: "Fußballschuhe kaufen: FG, SG oder AG? Der Bodenbelag-Guide", excerpt: "Fester Rasen, Kunstrasen oder weicher Boden – welches Stollenmuster wirklich passt und worauf du beim Kauf achten solltest, mit Preisvergleich.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "sportschuhe" },
+      { slug: "walking-pad-kaufen-under-desk-treadmill", title: "Walking Pad kaufen: Der Under-Desk-Treadmill-Guide", excerpt: "Gehen statt sitzen im Homeoffice: Wie du das richtige Walking Pad für unter den Schreibtisch findest – Lautstärke, Geschwindigkeit und Platzbedarf im Vergleich.", date: "19. September 2026", readTime: "6 Min.", featured: true, pgLink: "laufbaender" },
     ],
   },
 ];
