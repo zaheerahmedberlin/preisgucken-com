@@ -97,6 +97,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "mesh-wlan-router-repeater-guide", title: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide", excerpt: "Schlechtes WLAN in bestimmten Zimmern? Mesh-System, Repeater oder Powerline-Adapter im Vergleich – welche Lösung wirklich zu deiner Wohnung passt, mit Preisvergleich.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "wlan-router-mesh" },
       { slug: "kopfhoerer-typ-in-ear-open-ear-over-ear", title: "In-Ear, Open-Ear oder Over-Ear? So findest du den richtigen Kopfhörer-Typ", excerpt: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – mit EarFun als Praxisbeispiel im Preisvergleich.", date: "28. August 2026", readTime: "7 Min.", featured: true, pgLink: "kopfhoerer-lautsprecher" },
       { slug: "handyhuellen-kaufen-material-schutz", title: "Handyhülle kaufen: Material, Schutzwirkung und Passform im Überblick", excerpt: "Silikon, Hartplastik oder Hybrid — welches Hüllenmaterial wirklich schützt.", date: "30. August 2026", readTime: "6 Min.", pgLink: "handyhuellen" },
+      { slug: "elektroheizung-kaufen-heizluefter-konvektor-oelradiator", title: "Elektroheizung kaufen: Heizlüfter, Konvektor oder Ölradiator?", excerpt: "Heizlüfter, Heizstrahler, Konvektor oder Ölradiator – welcher Typ für welchen Einsatzzweck taugt und was er im Betrieb wirklich kostet, mit Preisvergleich.", date: "22. September 2026", readTime: "7 Min.", featured: true, pgLink: "heizung" },
     ],
   },
   {
@@ -118,6 +119,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     posts: [
       { slug: "gesundheitsprodukte-online-kaufen", title: "Gesundheitsprodukte online kaufen: Worauf du achten musst", excerpt: "Nahrungsergänzungsmittel, Massagegeräte & Co. sicher kaufen – Qualität erkennen, Fakes vermeiden und bis zu 35% sparen.", date: "16. Juli 2026", readTime: "6 Min.", pgLink: "gesundheit" },
       { slug: "rezeptfreie-medikamente-online-kaufen", title: "Rezeptfreie Medikamente online kaufen: OTC & Homöopathie im Preisvergleich", excerpt: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente, Homöopathie und Nahrungsergänzung.", date: "8. September 2026", readTime: "7 Min.", featured: true, pgLink: "gesundheit" },
+      { slug: "vitamin-d-mangel-herbst-winter", title: "Vitamin D Mangel im Winter: Symptome, Dosierung & Preisvergleich", excerpt: "Warum die Vitamin-D-Bildung ab Oktober in Deutschland fast zum Stillstand kommt, welche Dosierung sinnvoll ist und was Vitamin D3 im Preisvergleich wirklich kostet.", date: "22. September 2026", readTime: "6 Min.", featured: true, pgLink: "nahrungsergaenzung-vitamine" },
     ],
   },
   {
