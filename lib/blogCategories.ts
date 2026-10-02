@@ -132,6 +132,15 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     ],
   },
   {
+    slug: "buero-schreibwaren",
+    name: "Büro & Schreibwaren",
+    description: "Ordner, Schreibgeräte und Schreibtisch-Zubehör im Kaufberatungs-Check.",
+    pgLink: "buero-schreibwaren",
+    posts: [
+      { slug: "buero-grundausstattung-was-du-wirklich-brauchst", title: "Büro-Grundausstattung: Was du wirklich brauchst (und was nicht)", excerpt: "Ordner, Schreibgeräte, Klebeband und Schreibtisch-Zubehör: Womit du dein Homeoffice sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Preisvergleich.", date: "25. September 2026", readTime: "6 Min.", featured: true, pgLink: "buero-schreibwaren" },
+    ],
+  },
+  {
     slug: "balkonkraftwerke-solar",
     name: "Balkonkraftwerke & Solar",
     description: "Leistung, Speicher und Montage – Kaufberatung für Balkonkraftwerke und Solaranlagen.",
