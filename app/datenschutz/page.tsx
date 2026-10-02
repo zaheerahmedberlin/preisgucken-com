@@ -42,13 +42,12 @@ export default function DatenschutzPage() {
       </section>
 
       <section className="mb-4">
-        <h2 className="h5 fw-bold">4. Hosting (Vercel)</h2>
+        <h2 className="h5 fw-bold">4. Hosting (netcup)</h2>
         <p className="small text-muted">
-          Diese Website wird von Vercel Inc. (USA) gehostet. Die Datenübertragung in die USA erfolgt
-          auf Grundlage von Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO). Weitere
-          Informationen:{" "}
-          <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
-            vercel.com/legal/privacy-policy
+          Diese Website wird bei der netcup GmbH (Daimlerstraße 25, 76185 Karlsruhe, Deutschland)
+          auf Servern in Deutschland gehostet. Weitere Informationen:{" "}
+          <a href="https://www.netcup.de/kontakt/datenschutzerklaerung.php" target="_blank" rel="noopener noreferrer">
+            netcup.de/kontakt/datenschutzerklaerung.php
           </a>
         </p>
       </section>
