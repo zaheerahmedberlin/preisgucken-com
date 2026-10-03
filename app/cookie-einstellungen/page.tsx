@@ -10,7 +10,7 @@ function readConsent(): Consent {
     const stored = localStorage.getItem(COOKIE_KEY);
     if (!stored) return { necessary: true, stats: false, marketing: false };
     const parsed = JSON.parse(stored);
-    return { necessary: true, stats: !!parsed.stats, marketing: !!parsed.marketing };
+    return { necessary: true, stats: !!parsed.stats, marketing: false };
   } catch {
     return { necessary: true, stats: false, marketing: false };
   }
@@ -57,7 +57,7 @@ export default function CookieEinstellungenPage() {
         </div>
       </div>
 
-      <div className="card shadow-sm mb-3">
+      <div className="card shadow-sm mb-4">
         <div className="card-body">
           <div className="form-check form-switch">
             <input
@@ -73,27 +73,8 @@ export default function CookieEinstellungenPage() {
           </div>
           <p className="small text-muted mb-0 mt-1">
             Helfen uns zu verstehen, wie Besucher die Website nutzen (Google Analytics), damit wir Inhalte
-            verbessern können. Anonymisierte Auswertung.
-          </p>
-        </div>
-      </div>
-
-      <div className="card shadow-sm mb-4">
-        <div className="card-body">
-          <div className="form-check form-switch">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              checked={consent.marketing}
-              onChange={(e) => setConsent((c) => ({ ...c, marketing: e.target.checked }))}
-              id="marketingCheck"
-            />
-            <label className="form-check-label fw-semibold" htmlFor="marketingCheck">
-              Marketing-Cookies
-            </label>
-          </div>
-          <p className="small text-muted mb-0 mt-1">
-            Derzeit nicht aktiv genutzt, für zukünftige Funktionen reserviert.
+            verbessern können. Dabei werden pseudonymisierte Nutzungsdaten an Google übermittelt (ggf. auch
+            in die USA). Ihre Einwilligung können Sie hier jederzeit widerrufen.
           </p>
         </div>
       </div>

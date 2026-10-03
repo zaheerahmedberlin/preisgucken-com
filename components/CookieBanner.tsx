@@ -3,6 +3,10 @@ import { useState, useEffect } from "react";
 
 const COOKIE_KEY = "pg_cookie_consent";
 
+// "Ablehnen" and "Alle akzeptieren" share one style on purpose: declining must
+// be as easy and as visible as accepting (DSK guidance on cookie banners).
+const choiceButtonStyle = { background: "#1A3A6B", borderColor: "#1A3A6B", minWidth: "9.5rem" };
+
 export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
@@ -16,7 +20,7 @@ export default function CookieBanner() {
   }, []);
 
   function accept() {
-    save({ necessary: true, stats: true, marketing: true });
+    save({ necessary: true, stats: true, marketing: false });
   }
 
   function reject() {
@@ -54,17 +58,25 @@ export default function CookieBanner() {
           <div className="col-12 col-md-7">
             <p className="mb-0 small">
               <strong>Wir verwenden Cookies</strong> – notwendige Cookies sind immer aktiv.
-              Mit Klick auf „Alle akzeptieren" stimmen Sie auch Statistik- und Marketing-Cookies
-              gemäß unserer{" "}
+              Mit Klick auf „Alle akzeptieren" stimmen Sie dem Einsatz von Statistik-Cookies
+              (Google Analytics) gemäß unserer{" "}
               <a href="/datenschutz/" style={{ color: "#1A3A6B" }}>Datenschutzerklärung</a> zu.
             </p>
           </div>
           <div className="col-12 col-md-5 d-flex gap-2 flex-wrap justify-content-md-end">
             <button
-              className="btn btn-sm btn-outline-secondary"
+              className="btn btn-sm btn-primary"
               onClick={reject}
+              style={choiceButtonStyle}
             >
               Ablehnen
+            </button>
+            <button
+              className="btn btn-sm btn-primary"
+              onClick={accept}
+              style={choiceButtonStyle}
+            >
+              Alle akzeptieren
             </button>
             <a
               href="/cookie-einstellungen/"
@@ -72,13 +84,6 @@ export default function CookieBanner() {
             >
               Einstellungen
             </a>
-            <button
-              className="btn btn-sm btn-primary"
-              onClick={accept}
-              style={{ background: "#1A3A6B", borderColor: "#1A3A6B" }}
-            >
-              Alle akzeptieren
-            </button>
           </div>
         </div>
       </div>

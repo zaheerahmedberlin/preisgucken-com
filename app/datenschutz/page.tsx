@@ -36,8 +36,12 @@ export default function DatenschutzPage() {
       <section className="mb-4">
         <h2 className="h5 fw-bold">3. Cookies</h2>
         <p className="small text-muted">
-          Wir verwenden ausschließlich technisch notwendige Cookies (z. B. für die Admin-Authentifizierung).
-          Statistik- oder Marketing-Cookies werden nicht eingesetzt.
+          Wir verwenden technisch notwendige Cookies (z. B. für die Admin-Authentifizierung).
+          Statistik-Cookies (Google Analytics 4, Google Ireland Limited) setzen wir nur ein, wenn Sie
+          in unserem Cookie-Banner ausdrücklich zustimmen (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1
+          TDDDG). Ihre Einwilligung können Sie jederzeit unter{" "}
+          <a href="/cookie-einstellungen/">„Cookie-Einstellungen"</a> widerrufen.
+          Marketing-Cookies werden nicht eingesetzt.
         </p>
       </section>
 
