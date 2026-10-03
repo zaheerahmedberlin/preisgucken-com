@@ -20,7 +20,7 @@ export default function CookieBanner() {
   }, []);
 
   function accept() {
-    save({ necessary: true, stats: true, marketing: true });
+    save({ necessary: true, stats: true, marketing: false });
   }
 
   function reject() {
@@ -58,8 +58,8 @@ export default function CookieBanner() {
           <div className="col-12 col-md-7">
             <p className="mb-0 small">
               <strong>Wir verwenden Cookies</strong> – notwendige Cookies sind immer aktiv.
-              Mit Klick auf „Alle akzeptieren" stimmen Sie auch Statistik- und Marketing-Cookies
-              gemäß unserer{" "}
+              Mit Klick auf „Alle akzeptieren" stimmen Sie dem Einsatz von Statistik-Cookies
+              (Google Analytics) gemäß unserer{" "}
               <a href="/datenschutz/" style={{ color: "#1A3A6B" }}>Datenschutzerklärung</a> zu.
             </p>
           </div>
