@@ -1,16 +1,33 @@
 import type { Metadata } from "next";
-import { Unbounded, IBM_Plex_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import CookieBanner from "@/components/CookieBanner";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import BootstrapJs from "@/components/BootstrapJs";
 
-// Self-hosted at build time by next/font — visitors' browsers never contact
-// Google Fonts (a DSGVO issue: LG München I, 20.01.2022). Brand typefaces per
-// docs/brand-guidelines.html on the nextjs-app repo: Unbounded for headings,
-// IBM Plex Sans for body/lede text. Consumed via CSS vars in globals.css.
-const unbounded = Unbounded({ subsets: ["latin"], weight: ["700", "900"], display: "swap", variable: "--font-unbounded" });
-const plexSans = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600"], display: "swap", variable: "--font-plex-sans" });
+// Fonts are bundled in app/fonts (latin subset, OFL-1.1, from @fontsource) —
+// no request to Google Fonts from visitors' browsers (a DSGVO issue: LG
+// München I, 20.01.2022) and no Google download during `next build`. Brand
+// typefaces per docs/brand-guidelines.html on the nextjs-app repo: Unbounded
+// for headings, IBM Plex Sans for body/lede text. Consumed via CSS vars in
+// globals.css.
+const unbounded = localFont({
+  src: [
+    { path: "./fonts/unbounded-latin-700-normal.woff2", weight: "700", style: "normal" },
+    { path: "./fonts/unbounded-latin-900-normal.woff2", weight: "900", style: "normal" },
+  ],
+  display: "swap",
+  variable: "--font-unbounded",
+});
+const plexSans = localFont({
+  src: [
+    { path: "./fonts/ibm-plex-sans-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/ibm-plex-sans-latin-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/ibm-plex-sans-latin-600-normal.woff2", weight: "600", style: "normal" },
+  ],
+  display: "swap",
+  variable: "--font-plex-sans",
+});
 
 const BASE_URL = "https://www.preisgucken.com";
 
