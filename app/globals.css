@@ -6,8 +6,8 @@
   --pg-blue-light:  #e8eef8;
   --pg-orange:      #F5A623;
   --pg-orange-dark: #d4891a;
-  --pg-font-display: 'Unbounded', 'Arial Black', sans-serif;
-  --pg-font-body: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --pg-font-display: var(--font-unbounded), 'Unbounded', 'Arial Black', sans-serif;
+  --pg-font-body: var(--font-plex-sans), 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
 }
 
 body {
