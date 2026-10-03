@@ -1,7 +1,16 @@
 import type { Metadata } from "next";
+import { Unbounded, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import CookieBanner from "@/components/CookieBanner";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import BootstrapJs from "@/components/BootstrapJs";
+
+// Self-hosted at build time by next/font — visitors' browsers never contact
+// Google Fonts (a DSGVO issue: LG München I, 20.01.2022). Brand typefaces per
+// docs/brand-guidelines.html on the nextjs-app repo: Unbounded for headings,
+// IBM Plex Sans for body/lede text. Consumed via CSS vars in globals.css.
+const unbounded = Unbounded({ subsets: ["latin"], weight: ["700", "900"], display: "swap", variable: "--font-unbounded" });
+const plexSans = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600"], display: "swap", variable: "--font-plex-sans" });
 
 const BASE_URL = "https://www.preisgucken.com";
 
@@ -89,14 +98,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="de">
-      <head>
-        {/* Brand typefaces per docs/brand-guidelines.html on the nextjs-app repo:
-            Unbounded for headings, IBM Plex Sans for body/lede text. */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-      </head>
+    <html lang="de" className={`${unbounded.variable} ${plexSans.variable}`}>
       <body>
         <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
           <div className="container">
@@ -138,7 +140,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" async />
+        <BootstrapJs />
         <GoogleAnalytics />
       </body>
     </html>
