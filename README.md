@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# preisgucken.com
 
-## Getting Started
+SEO blog ("Ratgeber") for [preisgucken.de](https://www.preisgucken.de). Next.js 16 (App Router, TypeScript).
 
-First, run the development server:
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev     # http://localhost:3000
+npm run build   # production build — run before pushing
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Adding a blog post
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Create `app/blog/{slug}/page.tsx` (copy an existing post).
+2. Add the post to the right category in `lib/blogCategories.ts` — the blog index, category hubs and sitemap update from it.
+3. Optional: add FAQs for the post in `lib/blogFaqs.ts`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The "Passende Angebote" and FAQ blocks are rendered for every post by `app/blog/layout.tsx`.
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Production runs on a netcup VPS. Push feature work to `develop`; merging into `main` triggers `.github/workflows/deploy.yml`, which deploys over SSH and restarts the `preisgucken-com` systemd service.
