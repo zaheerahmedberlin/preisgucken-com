@@ -130,6 +130,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/ueber-uns/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Über uns</a>
               <a href="/impressum/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Impressum</a>
               <a href="/datenschutz/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Datenschutz</a>
+              <a href="/cookie-einstellungen/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Cookie-Einstellungen</a>
               <a href="/agb/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>AGB</a>
               <a href="/kontakt/" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Kontakt</a>
               <a href="/sitemap.xml" className="text-decoration-none" style={{ color: "rgba(255,255,255,0.85)" }}>Sitemap</a>
