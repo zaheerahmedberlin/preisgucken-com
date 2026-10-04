@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "heimkino-einrichten-guide": [
+    { q: "Was brauche ich, um ein Heimkino einzurichten?", a: "Du brauchst einen Beamer, eine Projektionsfläche (Leinwand oder Wand), ein Tonsystem wie eine Soundbar oder Lautsprecher, einen Zuspieler wie Streaming-Stick oder Konsole sowie einen abdunkelbaren Raum und passende Kabel." },
+    { q: "Wie weit muss der Beamer von der Leinwand entfernt stehen?", a: "Das hängt vom Wurfverhältnis im Datenblatt ab: Projektionsabstand = Wurfverhältnis × Bildbreite. Bei einem Wurfverhältnis von 1,2 und 2 Metern Bildbreite sind es etwa 2,4 Meter. Kurzdistanz-Beamer brauchen deutlich weniger Platz." },
+    { q: "Wie viele Lumen braucht ein Beamer fürs Wohnzimmer?", a: "Für ein abgedunkeltes Wohnzimmer reichen meist 2.000 bis 3.000 ANSI-Lumen. Bei Tageslicht oder Dämmerlicht brauchst du mehr, mehr Helligkeit bedeutet aber vor allem einen höheren Preis." },
+    { q: "Leinwand oder weiße Wand – was ist besser?", a: "Eine echte Leinwand reflektiert das Licht besser und liefert mehr Kontrast. Eine glatte weiße Wand ist kostenlos, erreicht diese Bildqualität aber nicht. Bei nicht ganz abdunkelbaren Räumen kann eine graue Leinwand den Kontrast erhöhen." },
+    { q: "Soundbar oder Surround-System fürs Heimkino?", a: "Eine Soundbar ist platzsparend und schnell aufgebaut, lässt sich aber kaum aufrüsten. Ein modulares Lautsprecher-Set oder 5.1-System wächst mit, braucht aber mehr Platz und Verkabelung." },
+  ],
   "smart-home-nachruesten-guide": [
     { q: "Was brauche ich, um mein Zuhause smart nachzurüsten?", a: "Für den Einstieg reichen meist ein Starter-Set mit Hub (bei Zigbee) oder nur WLAN-Geräte, eine Steuerungs-App wie Apple Home, Google Home oder Alexa und ein bis zwei Geräte für einen Bereich, zum Beispiel smarte Steckdosen oder Heizkörperthermostate." },
     { q: "Kann ich Smart Home in einer Mietwohnung nachrüsten?", a: "Ja, mit Lösungen ohne Eingriff in die Installation: Zwischenstecker, smarte Leuchtmittel, batteriebetriebene Heizkörperthermostate und Klebe-Sensoren. Für Wandschalter oder Aktoren in der Elektroinstallation brauchst du in der Regel die Zustimmung des Vermieters." },
