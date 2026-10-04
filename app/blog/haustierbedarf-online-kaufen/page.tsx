@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Hunde- und Katzenbedarf online kaufen",
-  description: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden – mit Preisvergleich.",
-  keywords: ["tierbedarf online kaufen", "hundebedarf ratgeber", "katzenbedarf kaufen", "hundegeschirr größe finden", "katzenkratzbaum kaufen", "tierfutter qualität erkennen"],
+  description: "Haustierbedarf online kaufen: Futterqualität erkennen, Futter umstellen, Größe bei Geschirr und Bett, Transport im Auto, Zubehör und Spielzeug im Überblick.",
+  keywords: ["tierbedarf online kaufen", "hundebedarf ratgeber", "katzenbedarf kaufen", "hundegeschirr größe finden", "katzenkratzbaum kaufen", "tierfutter qualität erkennen", "haustierbedarf online kaufen", "hundefutter qualität erkennen", "hundegeschirr größe messen", "transportbox auto hund", "futter umstellen"],
   openGraph: {
     title: "Hunde- und Katzenbedarf online kaufen",
     description: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden – mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen/",
     type: "article",
     publishedTime: "2026-08-18",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Hunde- und Katzenbedarf online kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Hunde- und Katzenbedarf online kaufen",
   datePublished: "2026-08-18",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function HaustierbedarfOnlineKaufenPage() {
           <p className="lead text-muted">Vom Futternapf bis zum Kratzbaum: Worauf es bei Tierbedarf wirklich ankommt und wie du unnötige Fehlkäufe vermeidest.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 18. August 2026</span>
-            <span>⏱ 6 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 8 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -117,6 +120,46 @@ export default function HaustierbedarfOnlineKaufenPage() {
           <div className="alert alert-info small">
             💡 <strong>Sparfuchs-Tipp:</strong> Größere Futtergebinde sind pro Kilo meist deutlich günstiger als kleine Packungen – lohnt sich bei Futter, das dein Tier bereits gut verträgt.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Futter umstellen und Sorten testen</h2>
+          <ul>
+            <li>Stelle neues Futter schrittweise über mehrere Tage um und mische es anfangs mit dem bisherigen.</li>
+            <li>Teures Spezialfutter ist nicht automatisch besser. Entscheidend sind Zusammensetzung und die Bedürfnisse deines Tiers.</li>
+            <li>Kaufe von einer neuen Sorte zuerst eine kleine Packung, bis du weißt, ob dein Tier sie verträgt und mag.</li>
+            <li>Bei Verdauungsproblemen oder Verdacht auf Unverträglichkeit sprich mit dem Tierarzt.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Sicherheit unterwegs: Transportbox und Hundegurt</h2>
+          <ul>
+            <li>Eine Transportbox sollte stabil, gut belüftet und im Auto sicher fixierbar sein.</li>
+            <li>Hundegurte und Boxen für das Auto gibt es mit Crashtest und Prüfsiegeln. Wähle möglichst geprüfte Modelle.</li>
+            <li>Die Größe zählt: Das Tier soll sich darin drehen und hinlegen können.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Spielzeug und Zubehör: Material prüfen</h2>
+          <ul>
+            <li>Achte auf schadstofffreie, robuste Materialien ohne Kleinteile, die verschluckt werden können.</li>
+            <li>Prüfe Spielzeug regelmäßig und tausche beschädigte Stücke aus.</li>
+            <li>Näpfe aus Edelstahl oder Keramik sind pflegeleicht und lassen sich gut reinigen.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Haustierbedarf-Kauf</h2>
+          <ol>
+            <li><strong>Die Größe schätzen:</strong> Miss Brustumfang, Halsumfang und Körperlänge, statt nur auf die Rasse zu achten.</li>
+            <li><strong>Futter abrupt wechseln:</strong> Das kann den Magen reizen.</li>
+            <li><strong>Nur nach dem Preis kaufen:</strong> Gerade bei Futter, Gurten und Boxen zählt Qualität.</li>
+            <li><strong>Sicherheit unterwegs ignorieren:</strong> Ein Tier im Auto sollte gesichert sein.</li>
+            <li><strong>Zu große Vorräte:</strong> Probiere neue Futtersorten erst in kleinen Mengen.</li>
+          </ol>
+          <p className="small text-muted">Für Garten und Terrasse mit Tieren hilft der Ratgeber <a href="/blog/gartengeraete-kaufen-ratgeber/">Gartengeräte kaufen</a>.</p>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Auto-Zubehör: Dachbox bis Anhängerkupplung",
-  description: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es bei Auto-Zubehör ankommt.",
-  keywords: ["auto zubehör kaufen", "dachbox kaufen ratgeber", "anhängerkupplung nachrüsten", "dachträger traglast", "auto pflegeprodukte ratgeber", "warndreieck verbandskasten pflicht"],
+  description: "Autozubehör kaufen: Dachbox und Dachträger, Anhängerkupplung, Pflegeprodukte, Handyhalterung, Kfz-Ladegerät, Dashcam, Fußmatten und Pflicht-Zubehör.",
+  keywords: ["auto zubehör kaufen", "dachbox kaufen ratgeber", "anhängerkupplung nachrüsten", "dachträger traglast", "auto pflegeprodukte ratgeber", "warndreieck verbandskasten pflicht", "handyhalterung auto", "dashcam datenschutz", "kfz ladegerät", "autofußmatten passgenau", "kindersitz ece"],
   openGraph: {
     title: "Auto-Zubehör: Dachbox bis Anhängerkupplung",
     description: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es bei Auto-Zubehör ankommt.",
     url: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber/",
     type: "article",
     publishedTime: "2026-08-19",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Auto-Zubehör: Dachbox bis Anhängerkupplung" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/auto-zubehoer-kaufratgeber/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Auto-Zubehör: Dachbox bis Anhängerkupplung",
   datePublished: "2026-08-19",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function AutoZubehoerKaufratgeberPage() {
           <p className="lead text-muted">Nicht jedes Zubehörteil passt an jedes Auto. Wir zeigen dir, worauf es bei Kompatibilität und Sicherheit wirklich ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. August 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 9 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -115,6 +118,44 @@ export default function AutoZubehoerKaufratgeberPage() {
           <div className="alert alert-info small">
             💡 <strong>Sparfuchs-Tipp:</strong> Sicherheits-Sets mit Warndreieck, Weste und Verbandskasten sind im Bundle meist günstiger als der Einzelkauf der drei Pflichtartikel.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Handyhalterung: Befestigung und Regeln</h2>
+          <ul>
+            <li><strong>Befestigung:</strong> Üblich sind Windschutzscheibe, Armaturenbrett und Lüftungsgitter. Wähle den Platz, an dem die Halterung das Sichtfeld nicht einschränkt und fest hält.</li>
+            <li><strong>Regeln:</strong> Während der Fahrt darfst du das Smartphone nicht in der Hand halten. Eine Halterung erlaubt Navigation per Sprache, die Bedienung sollte kurz bleiben.</li>
+            <li><strong>Laden:</strong> Viele Halterungen laden kabellos, andere brauchen ein Kabel. Prüfe die Ladeleistung des Auto-Anschlusses.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Kfz-Ladegerät und Kabel</h2>
+          <p>Für schnelles Laden brauchst du ein Ladegerät mit ausreichender Leistung und ein passendes Kabel. Welche USB-C-Kabel Daten und Leistung übertragen, erklärt der Ratgeber <a href="/blog/kabel-und-adapter-kaufen-ratgeber/">Kabel und Adapter kaufen</a>.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Dashcam: Datenschutz beachten</h2>
+          <p>Dauerhaftes, anlassloses Aufzeichnen des Straßenverkehrs ist in Deutschland datenschutzrechtlich problematisch. Informiere dich vor dem Kauf und Einsatz über die geltenden Regeln und achte auf Funktionen wie Aufzeichnung nur bei Auslösung oder automatisches Überschreiben. Das ist keine Rechtsberatung.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Fußmatten und Kindersitze</h2>
+          <ul>
+            <li><strong>Fußmatten:</strong> Passgenaue Matten schützen den Boden und rutschen nicht. Sie müssen sicher fixiert sein und dürfen das Pedal nicht blockieren.</li>
+            <li><strong>Kindersitze:</strong> Sie brauchen ein ECE-Prüfzeichen und müssen zu Gewicht und Größe des Kindes passen. Prüfe außerdem, ob der Sitz zu deinem Fahrzeug passt.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Autozubehör-Kauf</h2>
+          <ol>
+            <li><strong>Kompatibilität nicht prüfen:</strong> Dachträger, Kupplung und Matten gibt es fahrzeugspezifisch.</li>
+            <li><strong>Dachlast ignorieren:</strong> Die maximale Dachlast steht im Fahrzeugschein.</li>
+            <li><strong>Halterung am falschen Platz:</strong> Sie darf das Sichtfeld nicht einschränken.</li>
+            <li><strong>Pflicht-Zubehör vergessen:</strong> Warnweste, Warndreieck und Verbandkasten gehören ins Auto.</li>
+            <li><strong>Nur auf den Preis schauen:</strong> Bei sicherheitsrelevantem Zubehör zählt Qualität.</li>
+          </ol>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

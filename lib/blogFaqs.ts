@@ -6,6 +6,42 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "smartphone-kaufen-ratgeber": [
+    { q: "Wie viel Speicher braucht ein Smartphone?", a: "128 GB reichen bei normaler Nutzung, 256 GB sind für die meisten Nutzer eine gute Wahl, 512 GB oder mehr brauchst du bei vielen Videos und Fotos ohne Cloud." },
+    { q: "Wie wichtig sind Software-Updates?", a: "Sehr, denn sie schließen Sicherheitslücken. Prüfe vor dem Kauf, für wie viele Jahre der Hersteller Updates verspricht." },
+    { q: "Lohnt sich ein Vorjahresmodell oder ein generalüberholtes Smartphone?", a: "Oft ja: Vorjahresmodelle sind meist deutlich günstiger und fast gleichwertig, generalüberholte Geräte gibt es mit Händlergarantie. Prüfe Zustand, Akku und Garantiedauer." },
+    { q: "Brauche ich 5G?", a: "Nur wenn dein Netz es gut abdeckt und du es nutzt. Für Alltag und Streaming reicht oft auch gutes LTE." },
+  ],
+  "haustierbedarf-online-kaufen": [
+    { q: "Woran erkenne ich gutes Hunde- oder Katzenfutter?", a: "An deklarierten Fleischanteilen statt nur „tierischen Nebenerzeugnissen“, wenigen künstlichen Zusätzen und einer ausgewogenen Zusammensetzung. Getreidefrei ist nicht automatisch besser." },
+    { q: "Wie stelle ich das Futter richtig um?", a: "Schrittweise über mehrere Tage: Mische das neue Futter zunehmend unter das alte, damit sich der Magen daran gewöhnt." },
+    { q: "Wie finde ich die richtige Größe bei Geschirr und Bett?", a: "Miss beim Geschirr den Brustumfang hinter den Vorderbeinen und beim Bett die Körperlänge plus etwas Puffer. Die Rassenangabe ist nur eine grobe Orientierung." },
+    { q: "Wie transportiere ich mein Haustier sicher im Auto?", a: "In einer stabilen, gut belüfteten und fixierten Transportbox oder mit einem geprüften Sicherheitsgurt für Hunde." },
+  ],
+  "auto-zubehoer-kaufratgeber": [
+    { q: "Welche Handyhalterung ist für das Auto am besten?", a: "Sie sollte fest halten, das Sichtfeld nicht einschränken und zum Fahrzeug passen. Gängig sind Befestigungen an der Scheibe, am Armaturenbrett oder am Lüftungsgitter." },
+    { q: "Ist eine Dashcam in Deutschland erlaubt?", a: "Der Besitz ist erlaubt, dauerhaftes anlassloses Aufzeichnen ist aber datenschutzrechtlich problematisch. Informiere dich vor dem Einsatz über die Regeln, das ist keine Rechtsberatung." },
+    { q: "Worauf achte ich beim Kfz-Ladegerät?", a: "Auf ausreichende Leistung, einen passenden Anschluss und ein Kabel, das die Ladeleistung übertragen kann." },
+    { q: "Welche Kindersitze sind erlaubt?", a: "Kindersitze brauchen ein ECE-Prüfzeichen und müssen zu Gewicht und Größe des Kindes sowie zum Fahrzeug passen." },
+  ],
+  "kamerastativ-kaufen-ratgeber": [
+    { q: "Carbon oder Aluminium bei Stativen?", a: "Carbon ist leichter und dämpft Vibrationen besser, kostet aber mehr. Aluminium ist günstiger und robust, dafür schwerer." },
+    { q: "Wie viel Traglast braucht ein Stativ?", a: "Die Traglast sollte mindestens das 1,5-Fache deiner schwersten Kamera-Objektiv-Kombination betragen. Für Systemkameras sind meist mehr als ein Kilogramm Reserve sinnvoll." },
+    { q: "Kugelkopf oder Neiger?", a: "Ein Kugelkopf ist schnell in alle Richtungen ausgerichtet und ideal für Fotos. Ein Neiger erlaubt präzises Ausrichten in einzelnen Achsen, etwa für Architektur und Produktfotos." },
+    { q: "Wofür braucht man eine Schnellwechselplatte?", a: "Mit ihr befestigst und löst du die Kamera mit einem Handgriff. Achte auf einen verbreiteten Standard wie Arca-Swiss, damit Zubehör passt." },
+  ],
+  "vorhaenge-kaufen-ratgeber": [
+    { q: "Wie viel Stoff brauche ich für einen Vorhang?", a: "Für eine schlichte Optik etwa das 1,5- bis 2-Fache der Fensterbreite, für üppigen Faltenwurf das 2- bis 3-Fache." },
+    { q: "Wie dunkel wird es mit einem Verdunkelungsvorhang?", a: "Mehrlagige Verdunkelungsvorhänge halten den Großteil des Lichts ab. Für beste Wirkung sollte der Vorhang seitlich überlappen und möglichst nah an der Decke hängen." },
+    { q: "Gardinenstange oder Schiene?", a: "Eine Gardinenstange ist der Klassiker für Ösen- und Schlaufenschals. Eine Deckenschiene wirkt dezenter und schließt oben besser ab." },
+    { q: "Wie wasche ich Vorhänge richtig?", a: "Meist reicht ein Feinwaschprogramm bei 30 Grad. Nicht in den Trockner geben, sondern nass aufhängen, und die Pflegehinweise des Herstellers beachten." },
+  ],
+  "gartenmoebel-kaufen-ratgeber": [
+    { q: "Welches Material ist für Gartenmöbel am besten?", a: "Polyrattan ist leicht und pflegeleicht, Aluminium rostet nicht und ist langlebig, Teak ist von Natur aus wetterfest, braucht aber Pflege, wenn es nicht vergrauen soll. Welches passt, hängt von Platz, Budget und Pflegeaufwand ab." },
+    { q: "Wie viel Platz brauche ich für ein Lounge-Set?", a: "Für vier Personen reicht meist ein Sofa, zwei Sessel und ein Tisch. Plane rund herum etwa 60 bis 80 cm Platz zum Durchgehen ein." },
+    { q: "Wie überwintere ich Gartenmöbel richtig?", a: "Polster trocken lagern und die Möbel mit einer Abdeckhaube schützen oder einlagern. Ob sie draußen bleiben dürfen, steht in der Herstellerangabe." },
+    { q: "Wie reinige ich Polyrattan?", a: "Meist genügt ein feuchtes Tuch mit etwas milder Seife. Starke Reinigungsmittel und Hochdruckreiniger auf kurzem Abstand können das Geflecht beschädigen." },
+  ],
   "sterlingsilber-vs-edelstahl-schmuck": [
     { q: "Was ist besser: Sterlingsilber oder Edelstahl?", a: "Edelstahl ist robust, läuft nicht an und verträgt Wasser, ist also ideal für den Alltag. Sterlingsilber hat einen warmen, klassischen Glanz, braucht aber mehr Pflege." },
     { q: "Ist Edelstahl nickelfrei?", a: "Nein, Edelstahl wie 316L enthält Nickel, gibt aber nur sehr wenig davon ab und ist deshalb für viele gut verträglich. Bei ausgeprägter Nickelallergie ist Titan eine Alternative." },

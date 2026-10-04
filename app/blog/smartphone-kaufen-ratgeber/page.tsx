@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Neues Flaggschiff oder Vorjahresmodell?",
-  description: "Wie viel Speicher brauchst du wirklich und wann lohnt sich ein Vorjahresmodell? Ratgeber mit Preisvergleich. Ratgeber mit Preisvergleich.",
-  keywords: ["smartphone kaufen", "handy kaufen ratgeber 2026", "welches smartphone kaufen", "smartphone speicher wieviel gb", "handy kaufberatung", "günstiges smartphone finden"],
+  description: "Smartphone kaufen: Speicher, Kamera, Akku, Display, Updates, Neu oder generalüberholt, 5G und Wasserschutz – worauf es wirklich ankommt und typische Fehler.",
+  keywords: ["smartphone kaufen", "handy kaufen ratgeber 2026", "welches smartphone kaufen", "smartphone speicher wieviel gb", "handy kaufberatung", "günstiges smartphone finden", "smartphone display 120 hertz", "smartphone updates jahre", "handy refurbished kaufen", "smartphone speicher 128 oder 256", "5g brauche ich das"],
   openGraph: {
     title: "Neues Flaggschiff oder Vorjahresmodell?",
     description: "Wie viel Speicher brauchst du wirklich und wann lohnt sich ein Vorjahresmodell? Ratgeber mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/smartphone-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-29",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Neues Flaggschiff oder Vorjahresmodell?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/smartphone-kaufen-ratgeber/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Neues Flaggschiff oder Vorjahresmodell?",
   datePublished: "2026-07-29",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function SmartphoneKaufenPage() {
           <p className="lead text-muted">Neues Flaggschiff oder Vorjahresmodell? Wir zeigen dir, wo sich Sparen lohnt und worauf du wirklich achten solltest.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -114,6 +117,51 @@ export default function SmartphoneKaufenPage() {
           <div className="alert alert-info small">
             💡 <strong>Sparfuchs-Tipp:</strong> Die Preise für ein Modell fallen oft stark, sobald der Nachfolger angekündigt wird. Ein Preisvergleich zwischen Händlern spart zusätzlich oft 50–150 €. Vergleiche jetzt auf <a href="https://www.preisgucken.de" target="_blank" rel="noopener">preisgucken.de</a> unter Elektronik &amp; Smartphones.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Display: Was ist Marketing, was bringt Mehrwert?</h2>
+          <ul>
+            <li><strong>OLED und LCD:</strong> OLED-Displays zeigen tiefes Schwarz und kräftige Farben, LCD ist oft günstiger.</li>
+            <li><strong>120 Hertz:</strong> Eine hohe Bildwiederholrate macht Scrollen flüssiger, kostet aber Akku. Für viele Nutzer reicht 60 bis 90 Hertz.</li>
+            <li><strong>Helligkeit:</strong> Wichtig für die Ablesbarkeit in der Sonne.</li>
+          </ul>
+          <p className="small text-muted">Viele Hersteller werben mit langen Funktionslisten. Prüfe, was du im Alltag wirklich nutzt.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Updates und Sicherheit</h2>
+          <p>Wie lange ein Hersteller Software- und Sicherheitsupdates liefert, entscheidet über die sinnvolle Nutzungsdauer. Prüfe vor dem Kauf, für wie viele Jahre Updates versprochen werden. Ein günstiges Gerät mit kurzer Update-Zeit ist am Ende nicht immer die bessere Wahl.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Neu, Vorjahresmodell oder generalüberholt?</h2>
+          <ul>
+            <li><strong>Neu:</strong> Volle Gewährleistung und aktuelle Technik.</li>
+            <li><strong>Vorjahresmodell:</strong> Oft deutlich günstiger und für die meisten Nutzer fast gleichwertig.</li>
+            <li><strong>Generalüberholt (Refurbished):</strong> Günstiger, mit Garantie vom Händler. Achte auf Zustandsangabe, Akku-Zustand und Garantiedauer.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">5G, Wasserschutz und weitere Merkmale</h2>
+          <ul>
+            <li><strong>5G:</strong> Nützlich, wenn dein Netz es gut abdeckt. Für Alltag und Streaming reicht oft auch gutes LTE.</li>
+            <li><strong>Wasserschutz:</strong> IP67 oder IP68 schützen vor Spritzwasser und kurzem Untertauchen, sind aber kein Freibrief für Schwimmen und Duschen.</li>
+            <li><strong>SIM und eSIM:</strong> Prüfe, ob du Dual-SIM oder eSIM brauchst.</li>
+          </ul>
+          <p className="small text-muted">Zum Zubehör passen die Ratgeber <a href="/blog/handyhuellen-kaufen-material-schutz/">Handyhülle kaufen</a>, <a href="/blog/kabel-und-adapter-kaufen-ratgeber/">Kabel und Adapter</a> und <a href="/blog/kopfhoerer-typ-in-ear-open-ear-over-ear/">Kopfhörer</a>.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Smartphone-Kauf</h2>
+          <ol>
+            <li><strong>Nur auf Megapixel achten:</strong> Sensor, Software und Stabilisierung entscheiden über die Bildqualität.</li>
+            <li><strong>Zu wenig Speicher kaufen:</strong> Er lässt sich später nicht erweitern.</li>
+            <li><strong>Updates ignorieren:</strong> Ohne Updates sinkt die Sicherheit.</li>
+            <li><strong>Marketing-Werte überbewerten:</strong> 120 Hertz oder viele Kameras sind nicht für jeden relevant.</li>
+            <li><strong>Zubehör vergessen:</strong> Hülle, Ladegerät und Schutzfolie gehören ins Budget.</li>
+          </ol>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
