@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "monitor-oder-beamer-kaufratgeber": [
+    { q: "Ist ein Beamer als Monitor fürs Homeoffice geeignet?", a: "Meist nicht für die tägliche Arbeit: Die Textschärfe ist geringer als bei einem Monitor, und das Bild braucht einen abgedunkelten Raum. Für Präsentationen und Meetings mit mehreren Personen ist ein Beamer dagegen gut geeignet." },
+    { q: "Was ist besser zum Gaming: Monitor oder Beamer?", a: "Für schnelle Spiele ist ein Monitor besser, weil er kurze Reaktionszeiten und hohe Bildwiederholraten bietet. Ein Beamer punktet bei der Bildgröße, hat aber meist mehr Verzögerung." },
+    { q: "Welche Monitorgröße passt zum Schreibtisch?", a: "Für den Schreibtisch sind 24 bis 27 Zoll üblich, für Gaming auch 27 bis 32 Zoll. Größere Monitore lohnen sich nur bei ausreichendem Sitzabstand." },
+    { q: "Lohnt sich ein Beamer anstelle eines Fernsehers?", a: "Das hängt vom Raum ab: Ein Beamer liefert ein sehr großes Bild, braucht aber einen abgedunkelten Raum und Platz. Ein Fernseher ist auch bei Tageslicht hell und schneller eingerichtet." },
+  ],
   "sofa-kaufen-ratgeber": [
     { q: "Wie viel Platz brauche ich vor und neben dem Sofa?", a: "Plane vor dem Sofa mindestens 90 bis 120 cm bis zum Couchtisch oder Fernseher ein und lasse für Durchgänge mindestens 60 cm frei. Das Sofa sollte maximal zwei Drittel der Wandbreite einnehmen." },
     { q: "Welche Sitzhöhe ist bei einem Sofa üblich?", a: "Bei den meisten Modellen liegt die Sitzhöhe zwischen 42 und 45 cm. Wer Knieprobleme hat oder leichter aufstehen möchte, wählt oft 46 bis 48 cm." },
