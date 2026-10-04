@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "schmuck-als-geschenk-ratgeber": [
+    { q: "Welchen Schmuck kann ich verschenken, ohne die Größe zu kennen?", a: "Ohrringe und Halsketten sind am risikoärmsten, weil sie kaum größenabhängig sind. Bei Ketten ist eine mittlere Länge von 40 bis 45 cm für die meisten passend, bei Armbändern helfen verstellbare Modelle." },
+    { q: "Was ist ein gutes Schmuckgeschenk für die Freundin oder Partnerin?", a: "Beliebt sind eine Kette mit Herz- oder Initial-Anhänger, Gravur-Schmuck zum Jahrestag oder ein Set aus Kette und Ohrringen. Wichtig ist, dass das Stück zu ihrem Alltagsstil passt." },
+    { q: "Kann ich personalisierten Schmuck zurückgeben?", a: "Für Schmuck, der nach deinen Angaben angefertigt wird, etwa mit Gravur, gilt das 14-tägige Widerrufsrecht bei Online-Käufen meist nicht. Prüfe deshalb Schreibweise und Details genau und lies die Bedingungen des Händlers." },
+    { q: "Welcher Schmuck ist bei Nickelallergie geeignet?", a: "Achte auf die Kennzeichnung „nickelfrei“ oder „nickelarm“ und frage im Zweifel nach, welche Metalle die Person verträgt." },
+    { q: "Wie bestimme ich die Ringgröße heimlich?", a: "Leihe dir einen Ring der Person aus, miss den Innendurchmesser in Millimetern und multipliziere ihn mit 3,14. Das Ergebnis ist der Umfang, der der Ringgröße entspricht, zum Beispiel 17,2 mm × 3,14 ≈ 54 mm, also Größe 54." },
+  ],
   "heimkino-einrichten-guide": [
     { q: "Was brauche ich, um ein Heimkino einzurichten?", a: "Du brauchst einen Beamer, eine Projektionsfläche (Leinwand oder Wand), ein Tonsystem wie eine Soundbar oder Lautsprecher, einen Zuspieler wie Streaming-Stick oder Konsole sowie einen abdunkelbaren Raum und passende Kabel." },
     { q: "Wie weit muss der Beamer von der Leinwand entfernt stehen?", a: "Das hängt vom Wurfverhältnis im Datenblatt ab: Projektionsabstand = Wurfverhältnis × Bildbreite. Bei einem Wurfverhältnis von 1,2 und 2 Metern Bildbreite sind es etwa 2,4 Meter. Kurzdistanz-Beamer brauchen deutlich weniger Platz." },
