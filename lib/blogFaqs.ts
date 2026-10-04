@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "gartengeraete-kaufen-ratgeber": [
+    { q: "Akku, Kabel oder Benzin – was ist für den Garten am besten?", a: "Akku-Geräte sind kabellos und leise und passen für kleine bis mittlere Gärten. Kabelgeräte liefern konstante Leistung nahe der Steckdose, Benzin-Geräte sind unabhängig vom Stromnetz und eignen sich für große Flächen, sind aber lauter." },
+    { q: "Worauf kommt es bei einer Heckenschere an?", a: "Wichtig sind der Antrieb, die Messerlänge und der Zahnabstand, der bestimmt, wie dicke Zweige die Schere schneidet. Akku-Modelle sind praktisch für Randbereiche, Kabelmodelle liefern dauerhaft Leistung." },
+    { q: "Welcher Schlauchdurchmesser ist für den Garten üblich?", a: "Üblich sind ½ Zoll, ⅝ Zoll und ¾ Zoll. Je dicker der Schlauch und je kürzer die Strecke, desto mehr Wasser kommt am Ende an." },
+    { q: "Wie lagere ich Garten-Akkus im Winter?", a: "Kühl und trocken, am besten nicht komplett leer. Das schont die Zellen. Details stehen in der Anleitung des Herstellers." },
+    { q: "Kann ich Akkus verschiedener Marken mischen?", a: "In der Regel nicht. Jeder Hersteller baut eine eigene Akku-Plattform, ein Akku passt nur in Geräte desselben Systems." },
+  ],
   "messwerkzeuge-kaufen-ratgeber": [
     { q: "Welches Messwerkzeug brauche ich für den Haushalt?", a: "Für die meisten Aufgaben reichen ein Bandmaß, eine Wasserwaage und bei größeren Räumen ein Laser-Entfernungsmesser. Ein Messschieber lohnt sich, wenn du kleine Teile genau messen möchtest." },
     { q: "Wie genau ist ein Laser-Entfernungsmesser?", a: "Übliche Geräte messen bis zu etwa 50 Metern mit einer Genauigkeit von wenigen Millimetern. Die genauen Werte stehen im Datenblatt, und sehr günstige Geräte können ungenauer sein." },
