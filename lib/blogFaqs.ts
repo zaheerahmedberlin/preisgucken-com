@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "werkstatt-ausstattung-was-du-wirklich-brauchst": [
+    { q: "Was gehört zum Werkstattbedarf?", a: "Zum Werkstattbedarf zählen Werkzeug und Maschinen, Verbrauchsmaterial wie Schrauben, Dübel, Schleifpapier und Kleber, die Ausstattung mit Werkbank und Aufbewahrung sowie Arbeitsschutz wie Schutzbrille, Handschuhe, Gehörschutz und Staubmaske." },
+    { q: "Was braucht man für eine Werkstatt zu Hause mindestens?", a: "Eine stabile Werkbank, ein Grundsortiment aus Handwerkzeug, ein Akku-Bohrschrauber, Messwerkzeuge, Verbrauchsmaterial wie Schrauben und Kleber, Arbeitsschutz und eine Aufbewahrung für Werkzeug und Kleinteile." },
+    { q: "Welche Schleifpapier-Körnung brauche ich wofür?", a: "Grobe Körnungen von etwa 40 bis 80 tragen Material ab, mittlere von etwa 100 bis 150 schleifen vor und feine von etwa 180 bis 240 sind für den Feinschliff gedacht." },
+    { q: "Welcher Raum eignet sich für eine Werkstatt?", a: "Garage, Keller oder Gartenhaus eignen sich gut, wenn der Raum trocken ist, genug Platz zum Arbeiten bietet und ausreichend hell und belüftet ist." },
+  ],
   "schmuck-als-geschenk-ratgeber": [
     { q: "Welchen Schmuck kann ich verschenken, ohne die Größe zu kennen?", a: "Ohrringe und Halsketten sind am risikoärmsten, weil sie kaum größenabhängig sind. Bei Ketten ist eine mittlere Länge von 40 bis 45 cm für die meisten passend, bei Armbändern helfen verstellbare Modelle." },
     { q: "Was ist ein gutes Schmuckgeschenk für die Freundin oder Partnerin?", a: "Beliebt sind eine Kette mit Herz- oder Initial-Anhänger, Gravur-Schmuck zum Jahrestag oder ein Set aus Kette und Ohrringen. Wichtig ist, dass das Stück zu ihrem Alltagsstil passt." },
