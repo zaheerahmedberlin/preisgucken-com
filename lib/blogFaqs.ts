@@ -6,6 +6,32 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "werkstatt-ausstattung-was-du-wirklich-brauchst": [
+    { q: "Was gehört zum Werkstattbedarf?", a: "Zum Werkstattbedarf zählen Werkzeug und Maschinen, Verbrauchsmaterial wie Schrauben, Dübel, Schleifpapier und Kleber, die Ausstattung mit Werkbank und Aufbewahrung sowie Arbeitsschutz wie Schutzbrille, Handschuhe, Gehörschutz und Staubmaske." },
+    { q: "Was braucht man für eine Werkstatt zu Hause mindestens?", a: "Eine stabile Werkbank, ein Grundsortiment aus Handwerkzeug, ein Akku-Bohrschrauber, Messwerkzeuge, Verbrauchsmaterial wie Schrauben und Kleber, Arbeitsschutz und eine Aufbewahrung für Werkzeug und Kleinteile." },
+    { q: "Welche Schleifpapier-Körnung brauche ich wofür?", a: "Grobe Körnungen von etwa 40 bis 80 tragen Material ab, mittlere von etwa 100 bis 150 schleifen vor und feine von etwa 180 bis 240 sind für den Feinschliff gedacht." },
+    { q: "Welcher Raum eignet sich für eine Werkstatt?", a: "Garage, Keller oder Gartenhaus eignen sich gut, wenn der Raum trocken ist, genug Platz zum Arbeiten bietet und ausreichend hell und belüftet ist." },
+  ],
+  "schmuck-als-geschenk-ratgeber": [
+    { q: "Welchen Schmuck kann ich verschenken, ohne die Größe zu kennen?", a: "Ohrringe und Halsketten sind am risikoärmsten, weil sie kaum größenabhängig sind. Bei Ketten ist eine mittlere Länge von 40 bis 45 cm für die meisten passend, bei Armbändern helfen verstellbare Modelle." },
+    { q: "Was ist ein gutes Schmuckgeschenk für die Freundin oder Partnerin?", a: "Beliebt sind eine Kette mit Herz- oder Initial-Anhänger, Gravur-Schmuck zum Jahrestag oder ein Set aus Kette und Ohrringen. Wichtig ist, dass das Stück zu ihrem Alltagsstil passt." },
+    { q: "Kann ich personalisierten Schmuck zurückgeben?", a: "Für Schmuck, der nach deinen Angaben angefertigt wird, etwa mit Gravur, gilt das 14-tägige Widerrufsrecht bei Online-Käufen meist nicht. Prüfe deshalb Schreibweise und Details genau und lies die Bedingungen des Händlers." },
+    { q: "Welcher Schmuck ist bei Nickelallergie geeignet?", a: "Achte auf die Kennzeichnung „nickelfrei“ oder „nickelarm“ und frage im Zweifel nach, welche Metalle die Person verträgt." },
+    { q: "Wie bestimme ich die Ringgröße heimlich?", a: "Leihe dir einen Ring der Person aus, miss den Innendurchmesser in Millimetern und multipliziere ihn mit 3,14. Das Ergebnis ist der Umfang, der der Ringgröße entspricht, zum Beispiel 17,2 mm × 3,14 ≈ 54 mm, also Größe 54." },
+  ],
+  "heimkino-einrichten-guide": [
+    { q: "Was brauche ich, um ein Heimkino einzurichten?", a: "Du brauchst einen Beamer, eine Projektionsfläche (Leinwand oder Wand), ein Tonsystem wie eine Soundbar oder Lautsprecher, einen Zuspieler wie Streaming-Stick oder Konsole sowie einen abdunkelbaren Raum und passende Kabel." },
+    { q: "Wie weit muss der Beamer von der Leinwand entfernt stehen?", a: "Das hängt vom Wurfverhältnis im Datenblatt ab: Projektionsabstand = Wurfverhältnis × Bildbreite. Bei einem Wurfverhältnis von 1,2 und 2 Metern Bildbreite sind es etwa 2,4 Meter. Kurzdistanz-Beamer brauchen deutlich weniger Platz." },
+    { q: "Wie viele Lumen braucht ein Beamer fürs Wohnzimmer?", a: "Für ein abgedunkeltes Wohnzimmer reichen meist 2.000 bis 3.000 ANSI-Lumen. Bei Tageslicht oder Dämmerlicht brauchst du mehr, mehr Helligkeit bedeutet aber vor allem einen höheren Preis." },
+    { q: "Leinwand oder weiße Wand – was ist besser?", a: "Eine echte Leinwand reflektiert das Licht besser und liefert mehr Kontrast. Eine glatte weiße Wand ist kostenlos, erreicht diese Bildqualität aber nicht. Bei nicht ganz abdunkelbaren Räumen kann eine graue Leinwand den Kontrast erhöhen." },
+    { q: "Soundbar oder Surround-System fürs Heimkino?", a: "Eine Soundbar ist platzsparend und schnell aufgebaut, lässt sich aber kaum aufrüsten. Ein modulares Lautsprecher-Set oder 5.1-System wächst mit, braucht aber mehr Platz und Verkabelung." },
+  ],
+  "smart-home-nachruesten-guide": [
+    { q: "Was brauche ich, um mein Zuhause smart nachzurüsten?", a: "Für den Einstieg reichen meist ein Starter-Set mit Hub (bei Zigbee) oder nur WLAN-Geräte, eine Steuerungs-App wie Apple Home, Google Home oder Alexa und ein bis zwei Geräte für einen Bereich, zum Beispiel smarte Steckdosen oder Heizkörperthermostate." },
+    { q: "Kann ich Smart Home in einer Mietwohnung nachrüsten?", a: "Ja, mit Lösungen ohne Eingriff in die Installation: Zwischenstecker, smarte Leuchtmittel, batteriebetriebene Heizkörperthermostate und Klebe-Sensoren. Für Wandschalter oder Aktoren in der Elektroinstallation brauchst du in der Regel die Zustimmung des Vermieters." },
+    { q: "Zigbee, WLAN oder Matter – was ist für Einsteiger am besten?", a: "Wer nur wenige Geräte smart machen will, kommt mit WLAN am schnellsten ans Ziel. Wer langfristig plant, sollte auf Zigbee oder Matter setzen, weil sie das Heimnetz weniger belasten beziehungsweise herstellerübergreifend funktionieren." },
+    { q: "Brauche ich für smarte Wandschalter einen Elektriker?", a: "Smarte Wandschalter greifen in die feste 230-Volt-Installation ein und brauchen oft einen Nulleiter in der Dose. Arbeiten daran gehören in die Hände einer Elektrofachkraft; die einfachste Nachrüstung ohne Elektriker sind smarte Steckdosen-Adapter." },
+  ],
   "buero-grundausstattung-was-du-wirklich-brauchst": [
     { q: "Wie viele Aktenordner brauche ich für ein Homeoffice?", a: "Rechne grob mit einem Ordner pro laufendem Projekt oder Jahr, nicht pro Aktenberg. Zu wenige Ordner lassen alles lose herumliegen, ein ganzer Karton endet oft halb leer im Regal." },
     { q: "Lohnt sich ein Marken-Kugelschreiber im Büro?", a: "Bei einem Stift, den du täglich mehrere Stunden benutzt, ja: Griffzone, Tintenfluss und Minenverbrauch unterscheiden sich spürbar. Für Ersatzstifte, die ohnehin nur im Becher liegen, lohnt sich der Aufpreis kaum." },

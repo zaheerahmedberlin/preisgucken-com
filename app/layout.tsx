@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
     default: "Preisgucken – Preisvergleich, Deals & Kaufberatung",
-    template: "%s | Preisgucken – Preisvergleich",
+    template: "%s | Preisgucken Preisvergleich",
   },
   description: "Preisvergleich-Ratgeber, Schnäppchen-Tipps und Kaufberatung aus Deutschland – bundesweit, von Berlin bis München.",
   keywords: [

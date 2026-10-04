@@ -16,6 +16,7 @@ export type BlogPost = {
   date: string;
   readTime: string;
   featured?: boolean;
+  updated?: string; // set when the post is substantially revised; used for sitemap <lastmod>
   pgLink: string; // preisgucken.de category slug(s) for this post's own CTA
 };
 
@@ -59,7 +60,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "ringe-kaufen-ratgeber", title: "Ringgröße zuhause bestimmen: 3 Methoden ohne Schmuckgeschäft", excerpt: "So findest du die richtige Ringgröße zuhause, welche Materialien halten und welcher Ringstil zu dir passt.", date: "1. August 2026", readTime: "7 Min.", pgLink: "schmuck" },
       { slug: "fusskettchen-kaufen-ratgeber", title: "Fußkettchen-Trend 2026: Länge, Material und Styling-Fehler vermeiden", excerpt: "Der Sommer-Trend Fußkettchen im Ratgeber: richtige Länge, wasserfeste Materialien und Styling-Tipps.", date: "1. August 2026", readTime: "5 Min.", pgLink: "schmuck" },
       { slug: "schmucksets-kaufen-ratgeber", title: "Lohnt sich ein Schmuckset? Vor- und Nachteile im Check", excerpt: "Warum ein Schmuckset die einfachste Wahl für ein stimmiges Outfit ist – Vorteile, Stile und Geschenktipps.", date: "1. August 2026", readTime: "5 Min.", pgLink: "schmuck" },
-      { slug: "schmuck-als-geschenk-ratgeber", title: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget", excerpt: "Vom ersten Date bis zum Jahrestag: Welcher Schmuck passt zu welchem Anlass? Geschenkideen für jedes Budget.", date: "1. August 2026", readTime: "6 Min.", pgLink: "schmuck" },
+      { slug: "schmuck-als-geschenk-ratgeber", title: "Schmuck verschenken ohne Fehlgriff: Guide für jeden Anlass und jedes Budget", excerpt: "Vom ersten Date bis zum Jahrestag: Welcher Schmuck passt zu welchem Anlass? Geschenkideen für jedes Budget.", date: "1. August 2026", readTime: "10 Min.", updated: "4. Oktober 2026", pgLink: "schmuck" },
       { slug: "sterlingsilber-vs-edelstahl-schmuck", title: "Sterlingsilber vs. Edelstahl: Was hält länger, was verträgt die Haut besser?", excerpt: "925er Sterlingsilber vs. hypoallergener Edelstahl: Unterschiede bei Preis, Pflege, Allergierisiko und Haltbarkeit.", date: "1. August 2026", readTime: "6 Min.", pgLink: "schmuck" },
       { slug: "foto-projektionsschmuck-kaufen", title: "Ein Foto im Stein: Wie Projektionsschmuck funktioniert", excerpt: "Wie ein Foto im Inneren eines Steins sichtbar wird und worauf du achten solltest – mit Amazgifts als Praxisbeispiel im Preisvergleich.", date: "11. August 2026", readTime: "6 Min.", featured: true, pgLink: "schmuck" },
     ],
@@ -91,9 +92,9 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "ueberwachungskamera-kaufen", title: "Akku, Solar oder Stromkabel? Der richtige Kameratyp für jeden Einsatzort", excerpt: "Welcher Kameratyp zu welchem Einsatzort passt und worauf es bei Auflösung und Speicher ankommt – mit Imou als Praxisbeispiel im Preisvergleich.", date: "11. August 2026", readTime: "7 Min.", featured: true, pgLink: "ueberwachungskameras" },
       { slug: "wildkamera-kaufen-ratgeber", title: "Wildkamera kaufen: Auslöserzeit, Reichweite und Stromversorgung im Check", excerpt: "Trigger-Geschwindigkeit, PIR-Reichweite, Auflösung und Solarpanel im Vergleich – so findest du die richtige Wildkamera für Jagd, Garten oder Grundstücksschutz.", date: "17. August 2026", readTime: "7 Min.", pgLink: "ueberwachungskameras" },
       { slug: "pc-zubehoer-original-oder-kompatibel", title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf", excerpt: "Worauf es bei Kabeln, Monitoren, Speicher und Druckerpatronen wirklich ankommt – mit Preisvergleich für PC-Zubehör.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "pc-it-zubehoer" },
-      { slug: "heimkino-einrichten-guide", title: "Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein", excerpt: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das wirklich überzeugt.", date: "16. August 2026", readTime: "8 Min.", featured: true, pgLink: "heimkino" },
+      { slug: "heimkino-einrichten-guide", title: "Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein", excerpt: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das wirklich überzeugt.", date: "16. August 2026", readTime: "11 Min.", updated: "4. Oktober 2026", featured: true, pgLink: "heimkino" },
       { slug: "monitor-oder-beamer-kaufratgeber", title: "Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt", excerpt: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät für welchen Einsatzzweck die bessere Wahl ist.", date: "17. August 2026", readTime: "7 Min.", pgLink: "monitore,beamer" },
-      { slug: "smart-home-nachruesten-guide", title: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich", excerpt: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne bei Kompatibilität oder Datenschutz Fehler zu machen.", date: "18. August 2026", readTime: "7 Min.", pgLink: "smart-home-steuerungstechnik" },
+      { slug: "smart-home-nachruesten-guide", title: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich", excerpt: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne bei Kompatibilität oder Datenschutz Fehler zu machen.", date: "18. August 2026", readTime: "9 Min.", updated: "4. Oktober 2026", pgLink: "smart-home-steuerungstechnik" },
       { slug: "mesh-wlan-router-repeater-guide", title: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide", excerpt: "Schlechtes WLAN in bestimmten Zimmern? Mesh-System, Repeater oder Powerline-Adapter im Vergleich – welche Lösung wirklich zu deiner Wohnung passt, mit Preisvergleich.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "wlan-router-mesh" },
       { slug: "kopfhoerer-typ-in-ear-open-ear-over-ear", title: "In-Ear, Open-Ear oder Over-Ear? So findest du den richtigen Kopfhörer-Typ", excerpt: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – mit EarFun als Praxisbeispiel im Preisvergleich.", date: "28. August 2026", readTime: "7 Min.", featured: true, pgLink: "kopfhoerer-lautsprecher" },
       { slug: "handyhuellen-kaufen-material-schutz", title: "Handyhülle kaufen: Material, Schutzwirkung und Passform im Überblick", excerpt: "Silikon, Hartplastik oder Hybrid — welches Hüllenmaterial wirklich schützt.", date: "30. August 2026", readTime: "6 Min.", pgLink: "handyhuellen" },
@@ -155,7 +156,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     description: "Handwerkzeug, Elektrowerkzeug und Arbeitsschutz im Kaufberatungs-Check.",
     pgLink: "werkzeug-heimwerken",
     posts: [
-      { slug: "werkstatt-ausstattung-was-du-wirklich-brauchst", title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)", excerpt: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Contorion als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "werkzeug-heimwerken" },
+      { slug: "werkstatt-ausstattung-was-du-wirklich-brauchst", title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)", excerpt: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Contorion als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "10 Min.", updated: "4. Oktober 2026", featured: true, pgLink: "werkzeug-heimwerken" },
       { slug: "elektroinstallation-kaufen", title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick", excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt — worauf es wirklich ankommt.", date: "30. August 2026", readTime: "7 Min.", featured: true, pgLink: "elektroinstallation" },
       { slug: "arbeitskleidung-arbeitsschutz-kaufen", title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick", excerpt: "Schutzhelm, Knieschoner oder Warnschutz — worauf es bei Arbeitsschutzausrüstung wirklich ankommt.", date: "30. August 2026", readTime: "7 Min.", pgLink: "arbeitskleidung-arbeitsschutz" },
       { slug: "beschlaege-schloesser-kaufen", title: "Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick", excerpt: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt.", date: "30. August 2026", readTime: "6 Min.", pgLink: "beschlaege-schloesser" },
@@ -269,7 +270,7 @@ const GERMAN_MONTHS: Record<string, number> = {
   juli: 6, august: 7, september: 8, oktober: 9, november: 10, dezember: 11,
 };
 
-function parseGermanDate(date: string): number {
+export function parseGermanDate(date: string): number {
   const match = date.match(/^(\d{1,2})\.\s*(\w+)\s*(\d{4})$/);
   if (!match) return 0;
   const [, day, month, year] = match;

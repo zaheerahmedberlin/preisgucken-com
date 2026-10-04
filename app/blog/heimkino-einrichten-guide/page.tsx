@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Heimkino einrichten: Beamer & Sound",
-  description: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das überzeugt.",
-  keywords: ["heimkino einrichten", "beamer kaufen ratgeber", "beamer lumen tabelle", "leinwand oder wand", "heimkino soundsystem", "beamer verdunkelung raum"],
+  description: "Heimkino einrichten im Wohnzimmer: Beamer, Leinwand, Ton, Abstand und Verkabelung Schritt für Schritt – mit Tabelle zu Bildgröße und Projektionsabstand.",
+  keywords: ["heimkino einrichten", "beamer kaufen ratgeber", "beamer lumen tabelle", "leinwand oder wand", "heimkino soundsystem", "beamer verdunkelung raum", "heimkino installation", "beamer abstand leinwand", "heimkino wohnzimmer", "beamer verkabelung", "soundbar oder surround"],
   openGraph: {
     title: "Heimkino einrichten: Beamer & Sound",
     description: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das überzeugt.",
     url: "https://www.preisgucken.com/blog/heimkino-einrichten-guide/",
     type: "article",
     publishedTime: "2026-08-16",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Heimkino einrichten: Beamer & Sound" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/heimkino-einrichten-guide/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Heimkino einrichten: Beamer & Sound",
   datePublished: "2026-08-16",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,10 +52,24 @@ export default function HeimkinoEinrichtenPage() {
           <p className="lead text-muted">Ein Heimkino steht und fällt mit drei Entscheidungen: Beamer, Projektionsfläche und Ton. Wir zeigen dir, worauf es bei jeder ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 16. August 2026</span>
-            <span>⏱ 8 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 11 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Heimkino einrichten: Das brauchst du</h2>
+          <p>Für ein Heimkino brauchst du längst keinen eigenen Kellerraum mehr – moderne Beamer funktionieren auch im Wohnzimmer. Damit am Ende wirklich Kino-Stimmung aufkommt, gehören fünf Bausteine zusammen:</p>
+          <ol>
+            <li><strong>Beamer:</strong> Er bestimmt Helligkeit, Schärfe und die mögliche Bildgröße.</li>
+            <li><strong>Projektionsfläche:</strong> Leinwand oder Wand – sie entscheidet über Kontrast und Farben.</li>
+            <li><strong>Ton:</strong> Soundbar oder Lautsprecher-Set, denn die Lautsprecher im Beamer reichen selten aus.</li>
+            <li><strong>Zuspieler:</strong> Streaming-Stick, Konsole, Blu-ray-Player oder Laptop.</li>
+            <li><strong>Raum und Aufbau:</strong> Abdunkelung, Abstand, Sitzplatz und Verkabelung – oft der unterschätzte Teil der Heimkino-Installation.</li>
+          </ol>
+          <p className="small text-muted">Bist du noch unsicher, ob ein Beamer überhaupt das Richtige ist? Dann hilft der Vergleich <a href="/blog/monitor-oder-beamer-kaufratgeber/">Monitor oder Beamer</a> oder unser <a href="/blog/fernseher-kaufen-ratgeber/">Fernseher-Ratgeber</a> bei der Entscheidung.</p>
+        </section>
 
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Schritt 1: Lumen und Kontrast richtig einschätzen</h2>
@@ -115,10 +131,11 @@ export default function HeimkinoEinrichtenPage() {
           <h2 className="fw-bold h4 mb-3">Schritt 4: Der Ton macht das Kino-Gefühl</h2>
           <p>Die eingebauten Lautsprecher der meisten Beamer reichen für echtes Kino-Feeling nicht aus. Sinnvolle Optionen:</p>
           <ol>
-            <li><strong>Soundbar:</strong> Einfachster Einstieg, deutliche Verbesserung gegenüber Beamer-Lautsprechern</li>
-            <li><strong>2.1-System:</strong> Stereo-Lautsprecher plus Subwoofer für spürbaren Bass</li>
-            <li><strong>5.1/7.1-Surround:</strong> Echtes Raumklang-Erlebnis, erfordert mehr Verkabelung und Planung</li>
+            <li><strong>Soundbar:</strong> Einfachster Einstieg, wenig Platz und wenig Kabel – eine deutliche Verbesserung gegenüber Beamer-Lautsprechern. Dafür lässt sich eine Soundbar später kaum aufrüsten.</li>
+            <li><strong>2.1-System:</strong> Stereo-Lautsprecher plus Subwoofer für spürbaren Bass. Du kannst es später um Center und Rear-Boxen erweitern, das System wächst also mit.</li>
+            <li><strong>5.1/7.1-Surround:</strong> Zwei Lautsprecher vorn links und rechts, ein Center, zwei Boxen hinten und ein Subwoofer – das typische Heimkino-Setup. Es braucht einen AV-Receiver sowie mehr Verkabelung und Planung.</li>
           </ol>
+          <p className="small text-muted">Gerade in Mietwohnungen oder bei dünnen Wänden zählt auch die Lautstärke: Ein kräftiger Subwoofer ist im Mehrfamilienhaus schneller ein Thema als im Haus.</p>
         </section>
 
         <section className="mb-5">
@@ -131,10 +148,67 @@ export default function HeimkinoEinrichtenPage() {
           </ul>
         </section>
 
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Full HD oder 4K?</h2>
+          <p>Für scharfe Bilder solltest du mindestens auf Full HD setzen, noch besser ist 4K. Besonders bei großen Bildern ab etwa zwei Metern Breite sind einzelne Bildpunkte bei niedriger Auflösung eher sichtbar. Wichtig: Die Auflösung allein macht kein gutes Bild – Helligkeit, Kontrast und ein abgedunkelter Raum entscheiden mindestens genauso mit.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Abstand und Bildgröße: So planst du den Aufbau</h2>
+          <p>Bevor du kaufst, miss deinen Raum aus. Zwei Werte entscheiden, ob der Beamer passt: der Projektionsabstand und die gewünschte Bildgröße.</p>
+          <p><strong>Projektionsabstand berechnen:</strong> Im Datenblatt steht das Wurfverhältnis (zum Beispiel 1,2). Multipliziere es mit der Bildbreite, die du haben möchtest. Bei einem Wurfverhältnis von 1,2 und einer Bildbreite von 2 Metern steht der Beamer also rund 2,4 Meter von der Wand entfernt. Bei vielen Standard-Beamern liegt der Abstand etwa beim 1,2- bis 2-Fachen der Bildbreite. Kurzdistanz-Beamer brauchen deutlich weniger Platz, Ultrakurzdistanz-Modelle stehen direkt vor der Wand.</p>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th>Bildbreite (16:9)</th><th>Bilddiagonale</th><th>Entspricht etwa</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>1,6 m</td><td>1,84 m</td><td>72 Zoll</td></tr>
+                <tr><td>2,0 m</td><td>2,29 m</td><td>90 Zoll</td></tr>
+                <tr><td>2,4 m</td><td>2,75 m</td><td>108 Zoll</td></tr>
+                <tr><td>3,0 m</td><td>3,44 m</td><td>135 Zoll</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="small text-muted">Passt der Abstand im Wohnzimmer nicht, wähle ein kleineres Bild oder einen Beamer mit kürzerem Wurfverhältnis, statt den Aufbau zu erzwingen.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Sitzplatz und Raumlicht</h2>
+          <ul>
+            <li><strong>Bequem sitzen:</strong> Ein guter Sitzplatz gehört zum Heimkino dazu. Plane ihn so, dass du die ganze Leinwand ohne Kopfdrehen überblickst.</li>
+            <li><strong>Licht dimmbar machen:</strong> Indirektes, dimmbares Licht hinter oder neben der Leinwand wirkt angenehm und schont die Augen. Direktes Licht auf der Leinwand wäscht das Bild aus.</li>
+            <li><strong>Raum abdunkeln:</strong> Verdunkelungsvorhänge oder Rollos sind oft die wirksamste Einzelmaßnahme. Dunkle Wände und eine dunkle Decke verbessern den wahrgenommenen Kontrast zusätzlich.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Installation und Verkabelung</h2>
+          <ul>
+            <li><strong>Standort:</strong> Tisch oder Regal sind flexibel, eine Deckenhalterung hält Kabel und Lüftergeräusch aus dem Blickfeld und sorgt für eine stabile Ausrichtung. Lass rund um den Beamer Platz, damit er nicht überhitzt.</li>
+            <li><strong>Bild ausrichten:</strong> Ein Lens-Shift (mechanische Objektivverschiebung) richtet das Bild ohne Qualitätsverlust aus. Die digitale Trapezkorrektur ist praktisch, kann aber die Schärfe etwas verringern – stelle den Beamer deshalb möglichst gerade zur Leinwand.</li>
+            <li><strong>Kabel:</strong> HDMI ist der Standard für Bild und Ton. Bei längeren Strecken lohnen sich hochwertige oder aktive HDMI-Kabel. Möchtest du den Ton über eine Soundbar ausgeben, nutze den HDMI-ARC- oder eARC-Anschluss, falls dein Gerät ihn bietet.</li>
+            <li><strong>Kabel verstecken:</strong> Bei einer Renovierung lohnt es sich, ein Leerrohr oder einen Kabelkanal für die HDMI-Leitung einzuplanen. Ohne Umbau helfen Kabelkanäle an der Wand oder Leisten. Arbeiten an Stromleitungen gehören in die Hände einer Elektrofachkraft.</li>
+            <li><strong>Funk statt Kabel:</strong> Drahtlose Übertragung ist bequem, kann aber Verzögerungen verursachen – bei Spielen und schnellen Szenen fällt das auf.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Heimkino-Aufbau</h2>
+          <ol>
+            <li><strong>Raum nicht ausgemessen:</strong> Passt der Projektionsabstand nicht zum Wurfverhältnis, wird das Bild zu klein oder zu groß.</li>
+            <li><strong>Ton vergessen:</strong> Ein gutes Bild mit blechernen Lautsprechern wirkt nicht nach Kino. Plane den Ton von Anfang an mit ein.</li>
+            <li><strong>Lüftergeräusch ignorieren:</strong> Die Lautstärke des Beamers steht im Datenblatt. Bei leisen Filmszenen kann ein lauter Lüfter stören.</li>
+            <li><strong>Folgekosten übersehen:</strong> Bei Lampen-Beamern kommen Ersatzlampen dazu, bei jedem Gerät Halterung, Kabel und Leinwand.</li>
+            <li><strong>Zu viele Lumen für zu wenig Verdunkelung:</strong> Mehr Helligkeit ersetzt keinen abgedunkelten Raum, sie macht das Gerät nur teurer.</li>
+          </ol>
+        </section>
+
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Heimkino-Ausstattung im Preisvergleich</h3>
           <p className="text-muted small mb-3">Beamer, Leinwände und Soundsysteme aus deutschen Online-Shops – jetzt den günstigsten Preis finden.</p>
           <a href="https://www.preisgucken.de/kategorie/heimkino" className="btn btn-brand px-4" target="_blank" rel="noopener">Zum Heimkino-Preisvergleich →</a>
+          <p className="small text-muted mt-3 mb-0">Nur den Beamer vergleichen? <a href="https://www.preisgucken.de/kategorie/beamer" target="_blank" rel="noopener">Beamer im Preisvergleich</a></p>
         </div>
 
         <div className="mt-5 pt-4 border-top">
