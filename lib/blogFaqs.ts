@@ -6,6 +6,30 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "armbaender-kaufen-ratgeber": [
+    { q: "Wie messe ich mein Handgelenk für ein Armband?", a: "Lege ein weiches Maßband oder einen Papierstreifen locker um das Handgelenk, dort wo das Armband sitzen soll, und miss den Umfang in Zentimetern. Für Kettenarmbänder rechnest du 1 bis 2 cm für einen lockeren Sitz dazu." },
+    { q: "Welche Armbandgröße habe ich bei einem Handgelenk zwischen zwei Größen?", a: "Wähle die größere Größe. Ein Armband mit etwas Spielraum sitzt bequemer als eines, das zu eng ist." },
+    { q: "Karabiner- oder Magnetverschluss – was ist besser?", a: "Der Karabiner sitzt sicherer, besonders bei schweren Armbändern. Der Magnetverschluss lässt sich leichter und einhändig schließen." },
+    { q: "Darf ich ein Armband beim Duschen tragen?", a: "Nur wenn es ausdrücklich wasserfest ist, zum Beispiel aus beschichtetem Edelstahl. Silber und Vermeil laufen bei Wasser, Schweiß und Kosmetik schneller an." },
+  ],
+  "ringe-kaufen-ratgeber": [
+    { q: "Wie bestimme ich meine Ringgröße zuhause?", a: "Wickle einen schmalen Papierstreifen um die Basis des Fingers, markiere die Überlappung und miss die Länge in Millimetern. Das ist der Innenumfang, der der deutschen Ringgröße entspricht." },
+    { q: "Was ist der Unterschied zwischen Umfang und Durchmesser bei Ringen?", a: "Der Umfang ist die Länge um den Finger, der Durchmesser die Weite des Rings. Es gilt Umfang ÷ 3,14 = Durchmesser. Ein Umfang von 54 mm entspricht etwa 17,2 mm Durchmesser." },
+    { q: "Wann sollte ich einen Ring eine Größe größer kaufen?", a: "Bei breiten Ringen oder wenn du zwischen zwei Größen liegst, denn ein breiter Ring fühlt sich enger an als ein schmaler." },
+    { q: "Kann ich einen Ring aus Edelstahl oder Titan ändern lassen?", a: "Meist nicht oder nur eingeschränkt. Gold- und Silberringe kann ein Goldschmied in der Regel weiten oder verengen." },
+  ],
+  "halsketten-kaufen-ratgeber": [
+    { q: "Welche Kettenlänge ist die richtige?", a: "Für jeden Tag passt etwa 45 cm (Princess) zu den meisten Ausschnitten. Ein Choker misst 35 bis 40 cm, eine Matinee-Kette 50 bis 60 cm und eine Opera-Kette 60 bis 90 cm." },
+    { q: "Wie messe ich die Länge einer Halskette?", a: "Miss die Kette von Ende zu Ende inklusive Verschluss. Für die passende Länge am Hals legst du eine Schnur um den Hals und misst sie nach." },
+    { q: "Was ist der Unterschied zwischen Anker- und Panzerkette?", a: "Eine Ankerkette hat ovale, ineinander greifende Glieder, eine Panzerkette flache, eng anliegende Glieder und wirkt kräftiger." },
+    { q: "Wie verhindere ich, dass sich Ketten verknoten?", a: "Lege oder hänge jede Kette einzeln ab, zum Beispiel in einer Schmuckbox mit Fächern oder an einem Schmuckständer." },
+  ],
+  "ohrringe-kaufen-ratgeber": [
+    { q: "Welches Material ist für empfindliche Ohren am besten?", a: "Titan gilt als besonders gut verträglich, auch bei einer Ohrringallergie. Chirurgischer Edelstahl, Echtgold und Sterlingsilber sind weitere hautfreundliche Optionen." },
+    { q: "Was sind Ohrclips?", a: "Ohrclips werden ohne Ohrloch getragen und mit leichtem Druck am Ohrläppchen gehalten. Sie eignen sich für alle, die keine Ohrlöcher haben." },
+    { q: "Welche Ohrringe trage ich bei frisch gestochenen Ohrlöchern?", a: "Medizinische Erststecker aus Titan oder Chirurgenstahl mit stiftförmigem Innenteil. Wechsle erst nach der Heilung, die mehrere Monate dauern kann." },
+    { q: "Stecker oder Creolen für den Alltag?", a: "Stecker sind dezent und praktisch für Büro und Alltag. Kleine Creolen sind eine auffälligere, aber ebenso alltagstaugliche Alternative." },
+  ],
   "gartengeraete-kaufen-ratgeber": [
     { q: "Akku, Kabel oder Benzin – was ist für den Garten am besten?", a: "Akku-Geräte sind kabellos und leise und passen für kleine bis mittlere Gärten. Kabelgeräte liefern konstante Leistung nahe der Steckdose, Benzin-Geräte sind unabhängig vom Stromnetz und eignen sich für große Flächen, sind aber lauter." },
     { q: "Worauf kommt es bei einer Heckenschere an?", a: "Wichtig sind der Antrieb, die Messerlänge und der Zahnabstand, der bestimmt, wie dicke Zweige die Schere schneidet. Akku-Modelle sind praktisch für Randbereiche, Kabelmodelle liefern dauerhaft Leistung." },
