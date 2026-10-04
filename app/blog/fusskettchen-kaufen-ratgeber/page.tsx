@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Fußkettchen-Trend: Länge & Material",
-  description: "Der Sommer-Trend Fußkettchen im Ratgeber: richtige Länge, wasserfeste Materialien und Styling-Tipps.",
-  keywords: ["fußkettchen kaufen", "anklet damen", "fußkette sommer", "fußkettchen silber", "fußkette länge"],
+  description: "Fußkettchen kaufen: Länge richtig messen, wasserfeste Materialien für Strand und Pool, Verschluss, Styling und Pflege – mit Längentabelle und Tipps.",
+  keywords: ["fußkettchen kaufen", "anklet damen", "fußkette sommer", "fußkettchen silber", "fußkette länge", "fußkettchen länge", "fußkettchen wasserfest", "fußkettchen verschluss", "fußkettchen silber meer", "fußkettchen knöchel messen"],
   openGraph: {
     title: "Fußkettchen-Trend: Länge & Material",
     description: "Der Sommer-Trend Fußkettchen im Ratgeber: richtige Länge, wasserfeste Materialien und Styling-Tipps.",
     url: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Fußkettchen-Trend: Länge & Material" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/fusskettchen-kaufen-ratgeber/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Fußkettchen-Trend: Länge & Material",
   datePublished: "2026-08-01",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function FusskettchenKaufenPage() {
           <p className="lead text-muted">Ob am Strand oder im Alltag – Fußkettchen sind ein unterschätztes Accessoire. So findest du die richtige Länge und ein Material, das Wasser und Sonne verträgt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
-            <span>⏱ 5 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 8 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -97,7 +100,56 @@ export default function FusskettchenKaufenPage() {
 
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Schritt 4: Material & Hautverträglichkeit</h2>
-          <p>Da der Knöchelbereich häufig Reibung durch Schuhe ausgesetzt ist, empfiehlt sich hypoallergener, nickelfreier Edelstahl – besonders bei empfindlicher Haut oder während der warmen Jahreszeit, wenn vermehrt geschwitzt wird.</p>
+          <p>Da der Knöchelbereich häufig Reibung durch Schuhe ausgesetzt ist, empfiehlt sich nickelarmer Edelstahl (gibt nur sehr wenig Nickel ab) – besonders bei empfindlicher Haut oder während der warmen Jahreszeit, wenn vermehrt geschwitzt wird.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Richtig messen und die Länge wählen</h2>
+          <ul>
+            <li>Miss den Knöchelumfang mit einem weichen Maßband an der Stelle, wo das Fußkettchen sitzen soll.</li>
+            <li>Gib 1 bis 2 cm für einen bequemen Sitz dazu. Ein zu enges Kettchen drückt und scheuert.</li>
+            <li>Mit einer Verlängerungskette passt sich das Fußkettchen an Zwischengrößen und an Schwellungen im Sommer an.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Strand, Meer und Pool: Was hält Wasser aus?</h2>
+          <ul>
+            <li><strong>Salzwasser:</strong> 925er Silber sollte nicht dauerhaft im Meer getragen werden, denn Salz greift Silber und Vergoldung an. Spüle es nach dem Strand mit klarem Wasser ab und trockne es.</li>
+            <li><strong>Beschichteter Edelstahl:</strong> Er läuft nicht so schnell an und ist für Wasser am besten geeignet.</li>
+            <li><strong>Vergoldet:</strong> Die Schicht kann sich bei Dauerkontakt mit Wasser, Sonnencreme und Reibung abnutzen.</li>
+            <li><strong>Nach dem Baden:</strong> Immer abtrocknen, damit sich keine Feuchtigkeit hinter dem Verschluss sammelt.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Verschluss und Sicherheit</h2>
+          <ul>
+            <li>Ein Karabinerverschluss sitzt sicherer als ein einfacher Federring, besonders bei Bewegung.</li>
+            <li>Feine Ketten können an Socken, Teppichen oder Schuhen hängen bleiben und reißen. Wähle bei viel Bewegung eine etwas kräftigere Kette.</li>
+            <li>Prüfe den Verschluss regelmäßig, damit du das Kettchen nicht unterwegs verlierst.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Pflege</h2>
+          <ul>
+            <li>Reinige das Fußkettchen mit einem weichen Tuch und etwas milder Seifenlauge.</li>
+            <li>Lagere es trocken, am besten getrennt von anderem Schmuck.</li>
+            <li>Silber poliere regelmäßig mit einem Silberputztuch.</li>
+          </ul>
+          <p className="small text-muted">Passende Ergänzungen sind <a href="/blog/armbaender-kaufen-ratgeber/">Armbänder</a> im gleichen Material und eine <a href="/blog/halsketten-kaufen-ratgeber/">Halskette</a>. Welche Materialien Wasser aushalten, vergleicht der Artikel <a href="/blog/sterlingsilber-vs-edelstahl-schmuck/">Sterlingsilber vs. Edelstahl</a>.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Fußkettchen-Kauf</h2>
+          <ol>
+            <li><strong>Zu eng kaufen:</strong> Im Sommer schwellen Füße an, plane Spielraum ein.</li>
+            <li><strong>Silber im Meer tragen:</strong> Salzwasser greift Silber an.</li>
+            <li><strong>Zu feine Kette bei viel Bewegung:</strong> Sie reißt leicht.</li>
+            <li><strong>Verschluss vergessen:</strong> Ein schwacher Verschluss bedeutet ein verlorenes Kettchen.</li>
+            <li><strong>Nur nach der Optik wählen:</strong> Material und Verschluss entscheiden über die Haltbarkeit.</li>
+          </ol>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

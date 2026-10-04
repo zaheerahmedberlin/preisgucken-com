@@ -6,6 +6,30 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "sterlingsilber-vs-edelstahl-schmuck": [
+    { q: "Was ist besser: Sterlingsilber oder Edelstahl?", a: "Edelstahl ist robust, läuft nicht an und verträgt Wasser, ist also ideal für den Alltag. Sterlingsilber hat einen warmen, klassischen Glanz, braucht aber mehr Pflege." },
+    { q: "Ist Edelstahl nickelfrei?", a: "Nein, Edelstahl wie 316L enthält Nickel, gibt aber nur sehr wenig davon ab und ist deshalb für viele gut verträglich. Bei ausgeprägter Nickelallergie ist Titan eine Alternative." },
+    { q: "Warum läuft Silber an?", a: "Silber reagiert mit Spuren von Schwefelverbindungen in der Luft zu dunklem Silbersulfid. Mit einem Silberputztuch lässt sich die Schicht leicht entfernen." },
+    { q: "Kann ich Silberschmuck im Meer tragen?", a: "Besser nicht dauerhaft. Salzwasser greift Silber und Vergoldung an. Spüle den Schmuck danach mit klarem Wasser ab und trockne ihn." },
+  ],
+  "schmuck-kaufen-ratgeber": [
+    { q: "Was bedeutet der Feingehalt 585 bei Gold?", a: "585 bedeutet 58,5 Prozent Goldanteil, das entspricht 14 Karat. 333 sind 8 Karat, 750 sind 18 Karat." },
+    { q: "Wie lange hält vergoldeter Schmuck?", a: "Bei häufigem Tragen nutzt sich die dünne Goldschicht oft nach ein bis zwei Jahren ab. Vermeil hat eine dickere Schicht und hält meist länger. Sanfte Pflege verlängert die Haltbarkeit." },
+    { q: "Woran erkenne ich echtes Silber?", a: "Echtes Sterlingsilber trägt meist einen „925“-Stempel. Seriöse Händler nennen außerdem Material und Gewicht in der Produktbeschreibung." },
+    { q: "Wie pflege ich Schmuck richtig?", a: "Reinige Silber mit einem weichen Tuch, vergoldeten Schmuck sanft mit lauwarmer Seifenlauge und lagere alles trocken und getrennt. Nimm Schmuck zum Duschen, Schwimmen und Sport ab." },
+  ],
+  "schmucksets-kaufen-ratgeber": [
+    { q: "Lohnt sich ein Schmuckset?", a: "Meist ist das Set günstiger als die Einzelstücke und stilistisch abgestimmt. Vergleiche trotzdem den Setpreis mit den Einzelpreisen, denn nicht immer ist das Set günstiger." },
+    { q: "Welche Teile gehören typischerweise in ein Schmuckset?", a: "Meist Kette und Ohrringe, oft auch ein Armband oder ein Ring. Sets mit Ring brauchen eine passende Größe oder ein verstellbares Modell." },
+    { q: "Ist ein Schmuckset ein gutes Geschenk?", a: "Ja, weil es sofort vollständig wirkt und außer bei Ringen keine Größenangaben braucht. Frage nach Geschenkbox und Rückgabebedingungen." },
+    { q: "Worauf achte ich bei Material im Set?", a: "Alle Teile sollten möglichst aus demselben Material bestehen. Bei empfindlicher Haut sind verträgliche Ohrringe aus Titan oder gutem Edelstahl wichtig." },
+  ],
+  "fusskettchen-kaufen-ratgeber": [
+    { q: "Welche Länge hat ein Fußkettchen?", a: "Üblich sind 20 bis 28 cm. Miss den Knöchelumfang und rechne 1 bis 2 cm für einen bequemen Sitz dazu." },
+    { q: "Kann ich ein Fußkettchen im Meer tragen?", a: "Beschichteter Edelstahl verträgt Wasser am besten. Silber und Vergoldung greift Salzwasser an, spüle sie nach dem Baden ab und trockne sie." },
+    { q: "Wie verhindere ich, dass ich mein Fußkettchen verliere?", a: "Wähle einen sicheren Verschluss wie einen Karabiner, prüfe ihn regelmäßig und nimm bei viel Bewegung eine etwas kräftigere Kette." },
+    { q: "Welches Material ist für Fußkettchen am besten?", a: "Für Dauertragen im Alltag und am Strand eignet sich beschichteter Edelstahl, der nicht schnell anläuft. Silber und Vergoldung brauchen mehr Pflege." },
+  ],
   "armbaender-kaufen-ratgeber": [
     { q: "Wie messe ich mein Handgelenk für ein Armband?", a: "Lege ein weiches Maßband oder einen Papierstreifen locker um das Handgelenk, dort wo das Armband sitzen soll, und miss den Umfang in Zentimetern. Für Kettenarmbänder rechnest du 1 bis 2 cm für einen lockeren Sitz dazu." },
     { q: "Welche Armbandgröße habe ich bei einem Handgelenk zwischen zwei Größen?", a: "Wähle die größere Größe. Ein Armband mit etwas Spielraum sitzt bequemer als eines, das zu eng ist." },
