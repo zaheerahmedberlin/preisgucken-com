@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Tragbare Espressomaschine kaufen: Der Reise-Guide",
-  description: "Ohne Steckdose, ohne Kompromiss: Wie tragbare Espressomaschinen für Camping, Van Life und Büro funktionieren und worauf du beim Kauf achten solltest – mit Preisvergleich.",
+  description: "Ohne Steckdose, ohne Kompromiss: Wie tragbare Espressomaschinen für Camping, Van Life und Büro funktionieren und worauf du beim Kauf achten solltest.",
   keywords: [
     "tragbare espressomaschine",
     "espressomaschine für unterwegs",

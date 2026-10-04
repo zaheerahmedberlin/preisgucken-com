@@ -46,17 +46,17 @@ const faqJsonLd = {
     {
       "@type": "Question",
       name: "Was braucht ein Kind wirklich zum Schulanfang?",
-      acceptedAnswer: { "@type": "Answer", text: "Die Grundausstattung besteht aus Schulranzen, Schuhen in der aktuellen Größe, Schulmaterial (Hefte, Stifte, Mäppchen, Ordner) und je nach Schulstufe einem Taschenrechner oder Laptop. Nicht jedes Jahr muss alles neu gekauft werden – meist reicht es, das zu ersetzen, was durch Wachstum oder Abnutzung wirklich nicht mehr passt." },
+      acceptedAnswer: { "@type": "Answer", text: "Die Grundausstattung besteht aus Schulranzen, Schuhen in der aktuellen Größe, Schulmaterial (Hefte, Stifte, Mäppchen, Ordner) und je nach Schulstufe einem Taschenrechner oder Laptop. Nicht jedes Jahr muss alles neu gekauft werden." },
     },
     {
       "@type": "Question",
       name: "Was braucht mein Kind für die Kita-Eingewöhnung?",
-      acceptedAnswer: { "@type": "Answer", text: "Wichtig sind eine Wechselkleidung-Tasche, robuste Matschkleidung, eine Trinkflasche und Brotdose sowie ein vertrautes Kuscheltier oder Spielzeug von zuhause, das die Eingewöhnung erleichtert. Eine Babytrage kann in dieser Phase helfen, das Kind auch außerhalb des Kinderwagens nah bei sich zu haben." },
+      acceptedAnswer: { "@type": "Answer", text: "Wichtig sind eine Wechselkleidung-Tasche, robuste Matschkleidung, Trinkflasche, Brotdose und ein vertrautes Kuscheltier von zuhause. Eine Babytrage hilft, das Kind auch außerhalb des Kinderwagens nah bei sich zu haben." },
     },
     {
       "@type": "Question",
       name: "Wann sollte man Schulsachen kaufen, um Geld zu sparen?",
-      acceptedAnswer: { "@type": "Answer", text: "Am günstigsten ist meist der Kauf schon im August, vor dem eigentlichen Ansturm zur ersten Schulwoche – dann ist die Auswahl größer und beliebte Modelle sind noch nicht ausverkauft. Ein täglicher Preisvergleich zeigt zusätzlich, bei welchem Händler ein Produkt aktuell am günstigsten ist." },
+      acceptedAnswer: { "@type": "Answer", text: "Am günstigsten ist meist der Kauf schon im August, vor dem Ansturm zur ersten Schulwoche – dann ist die Auswahl größer und beliebte Modelle sind noch nicht ausverkauft." },
     },
   ],
 };
