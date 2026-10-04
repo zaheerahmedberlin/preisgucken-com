@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-
-const COOKIE_KEY = "pg_cookie_consent";
+import { COOKIE_KEY, getValidConsent } from "@/lib/consent";
 
 // "Ablehnen" and "Alle akzeptieren" share one style on purpose: declining must
 // be as easy and as visible as accepting (DSK guidance on cookie banners).
@@ -11,12 +10,8 @@ export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    try {
-      const stored = localStorage.getItem(COOKIE_KEY);
-      if (!stored) setVisible(true);
-    } catch {
-      setVisible(true);
-    }
+    // No choice yet, an unreadable one, or one older than 12 months: ask (again).
+    if (!getValidConsent()) setVisible(true);
   }, []);
 
   function accept() {
