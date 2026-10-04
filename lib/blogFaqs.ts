@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "parfuem-kaufen-edt-edp-guide": [
+    { q: "Was ist der Unterschied zwischen Eau de Toilette und Eau de Parfum?", a: "Der Unterschied liegt in der Konzentration des Parfümöls: Eau de Toilette enthält etwa 5 bis 15 Prozent, Eau de Parfum etwa 15 bis 20 Prozent. Ein Eau de Parfum duftet intensiver, hält länger und kostet meist mehr." },
+    { q: "Wie lange hält ein Parfüm auf der Haut?", a: "Das hängt von der Konzentration ab: Eau de Cologne hält etwa 1 bis 2 Stunden, Eau de Toilette 3 bis 5 Stunden, Eau de Parfum 5 bis 8 Stunden und Parfum Extrait 8 Stunden oder länger. Haut, Duft und Anwendung beeinflussen das Ergebnis." },
+    { q: "Wie bewahre ich Parfüm richtig auf?", a: "Kühl, dunkel und trocken, am besten nicht im Badezimmer. Wärme, Licht und Feuchtigkeit lassen den Duft schneller altern." },
+    { q: "Kann ich Parfüm online kaufen, ohne es vorher zu riechen?", a: "Das ist möglich, aber riskant, weil ein Duft auf jeder Haut anders wirkt. Probiergrößen oder Miniaturen sind eine günstige Möglichkeit, einen Duft vor dem Kauf eines großen Flakons zu testen." },
+  ],
   "bestes-preis-leistungs-verhaeltnis-finden": [
     { q: "Was bedeutet Preis-Leistungs-Verhältnis?", a: "Das Preis-Leistungs-Verhältnis beschreibt, wie viel Nutzen du für dein Geld bekommst. Es entsteht erst, wenn du Preis, Qualität, Lebensdauer, Folgekosten und Garantie gemeinsam bewertest." },
     { q: "Wie berechne ich den Preis pro Nutzungsjahr?", a: "Teile den Kaufpreis durch die erwartete Lebensdauer in Jahren. Ein Gerät für 100 €, das 5 Jahre hält, kostet 20 € pro Jahr, ein Gerät für 60 € mit 1,5 Jahren Lebensdauer dagegen 40 € pro Jahr." },
