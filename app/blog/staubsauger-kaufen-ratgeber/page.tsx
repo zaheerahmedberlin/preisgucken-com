@@ -64,22 +64,22 @@ export default function StaubsaugerRatgeber() {
         <h2 className="h4 fw-bold mt-5 mb-3" style={{ color: "#1A3A6B" }}>Die 4 wichtigsten Staubsauger-Typen</h2>
 
         <h3 className="h5 fw-bold mt-4">1. Bodenstaubsauger (mit Beutel)</h3>
-        <p>Der Klassiker – zuverlässig, leistungsstark und wartungsarm. Ideal für große Wohnungen mit viel Teppich. Preis: <strong>40–300 €</strong>.</p>
+        <p>Der Klassiker – zuverlässig, leistungsstark und wartungsarm. Ideal für große Wohnungen mit viel Teppich. Preis (Richtwert): <strong>40–300 €</strong>.</p>
         <p><strong>Vorteile:</strong> Hohe Saugleistung, hygienische Beutelentsorgung, langlebig<br />
         <strong>Nachteile:</strong> Beutel kosten laufend Geld, Kabel schränkt Bewegungsfreiheit ein</p>
 
         <h3 className="h5 fw-bold mt-4">2. Beutellose Staubsauger</h3>
-        <p>Kein Beutelkauf nötig – der Behälter wird einfach ausgeleert. Beliebt bei Dyson & Miele. Preis: <strong>60–600 €</strong>.</p>
+        <p>Kein Beutelkauf nötig – der Behälter wird einfach ausgeleert. Beliebt bei Dyson & Miele. Preis (Richtwert): <strong>60–600 €</strong>.</p>
         <p><strong>Vorteile:</strong> Keine laufenden Beutelkosten, gute Saugleistung<br />
         <strong>Nachteile:</strong> Filterreinigung nötig, Feinstaub kann beim Entleeren aufwirbeln</p>
 
         <h3 className="h5 fw-bold mt-4">3. Akkusauger / Handstaubsauger</h3>
-        <p>Kabellos und flexibel – perfekt für schnelle Zwischenreinigungen. Preis: <strong>50–700 €</strong>.</p>
+        <p>Kabellos und flexibel – perfekt für schnelle Zwischenreinigungen. Preis (Richtwert): <strong>50–700 €</strong>.</p>
         <p><strong>Vorteile:</strong> Keine Kabel, leicht und wendig, auch für Treppen und Auto geeignet<br />
         <strong>Nachteile:</strong> Begrenzte Akkulaufzeit (20–60 Min.), kleinerer Behälter</p>
 
         <h3 className="h5 fw-bold mt-4">4. Saugroboter</h3>
-        <p>Der Staubsauger der Zukunft – fährt vollautomatisch durch die Wohnung. Preis: <strong>100–1.200 €</strong>.</p>
+        <p>Der Staubsauger der Zukunft – fährt vollautomatisch durch die Wohnung. Preis (Richtwert): <strong>100–1.200 €</strong>.</p>
         <p><strong>Vorteile:</strong> Vollautomatisch, programmierbar, auch im Urlaub nutzbar<br />
         <strong>Nachteile:</strong> Kommt nicht in alle Ecken, braucht aufgeräumte Böden</p>
 
@@ -96,7 +96,7 @@ export default function StaubsaugerRatgeber() {
         <ol>
           <li><strong>Preisvergleich nutzen:</strong> Auf <a href="https://www.preisgucken.de" target="_blank" rel="noopener">preisgucken.de</a> siehst du tagesaktuelle Preise aus deutschen Shops.</li>
           <li><strong>Preisalarm setzen:</strong> Warte auf den nächsten Sale – Staubsauger werden häufig bei Amazon-Tagen und Black Friday stark reduziert.</li>
-          <li><strong>Vorgängermodelle prüfen:</strong> Das Vorgängermodell eines beliebten Staubsaugers ist oft 30–40% günstiger und fast gleichwertig.</li>
+          <li><strong>Vorgängermodelle prüfen:</strong> Das Vorgängermodell eines beliebten Staubsaugers ist oft deutlich günstiger und in vielen Fällen fast gleichwertig.</li>
           <li><strong>Zubehörkosten einkalkulieren:</strong> Beutel und Filter kosten über die Jahre mehr als der Staubsauger selbst.</li>
         </ol>
 

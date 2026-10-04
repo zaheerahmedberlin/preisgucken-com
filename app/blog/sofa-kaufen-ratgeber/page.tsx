@@ -133,7 +133,7 @@ export default function SofaKaufenPage() {
             <li><strong>Über 2.000 €:</strong> Designer- und Premiumsofas mit Garantien bis zu 25 Jahren</li>
           </ul>
           <div className="alert alert-info small">
-            💡 <strong>Sparfuchs-Tipp:</strong> Outletmöbel, Musterverkäufe und Preisvergleich-Portale können beim gleichen Qualitätsniveau bis zu 35% sparen. Schau regelmäßig auf <a href="https://www.preisgucken.de" target="_blank" rel="noopener">preisgucken.de</a> unter Sofas & Couches.
+            💡 <strong>Sparfuchs-Tipp:</strong> Outletmöbel, Musterverkäufe und Preisvergleich-Portale können beim gleichen Qualitätsniveau deutlich Geld sparen. Schau regelmäßig auf <a href="https://www.preisgucken.de" target="_blank" rel="noopener">preisgucken.de</a> unter Sofas & Couches.
           </div>
         </section>
 

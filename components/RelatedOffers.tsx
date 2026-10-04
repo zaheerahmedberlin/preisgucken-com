@@ -51,6 +51,11 @@ export default function RelatedOffers() {
           </ul>
         </div>
       )}
+      <p className="small text-muted mt-4 mb-0">
+        <strong>Transparenzhinweis (Werbung):</strong> Dieser Ratgeber enthält Links zu Preisgucken.de. Dort führen einige
+        Händler-Links zu Partnern, bei denen wir bei einem Kauf gegebenenfalls eine Provision erhalten (Affiliate-Links).
+        Für dich entstehen dadurch keine Mehrkosten.
+      </p>
     </aside>
   );
 }

@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import CouponHint from "@/components/CouponHint";
 
 export const metadata: Metadata = {
   title: "15 Schnäppchen-Tipps 2026",
-  description: "Mit diesen 15 Tipps sparst du beim Online-Shopping bis zu 40% – Preisvergleich, Timing und mehr.",
+  description: "15 Tipps für günstigeres Online-Shopping: Preisvergleich, Preisverlauf, Timing, Gutscheine und mehr – so erkennst du echte Angebote.",
   keywords: ["schnäppchen tipps", "günstig einkaufen online", "sparen beim einkaufen", "preisvergleich tipps", "online shopping tipps 2026"],
   openGraph: {
     title: "15 Schnäppchen-Tipps 2026",
-    description: "Mit diesen 15 Tipps sparst du beim Online-Shopping bis zu 40% – Preisvergleich, Timing und mehr.",
+    description: "15 Tipps für günstigeres Online-Shopping: Preisvergleich, Preisverlauf, Timing, Gutscheine und mehr – so erkennst du echte Angebote.",
     url: "https://www.preisgucken.com/blog/schnaeppchen-tipps-2026/",
     type: "article",
     publishedTime: "2026-07-19",
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "15 Schnäppchen-Tipps 2026",
-    description: "Mit diesen 15 Tipps sparst du beim Online-Shopping bis zu 40% – Preisvergleich, Timing und mehr.",
+    description: "15 Tipps für günstigeres Online-Shopping: Preisvergleich, Preisverlauf, Timing, Gutscheine und mehr – so erkennst du echte Angebote.",
   },
 };
 
@@ -38,18 +39,18 @@ const jsonLd = {
 const tips = [
   { n: 1, title: "Preisvergleich vor jedem Kauf", text: "Identische Produkte kosten in verschiedenen Shops oft 20–40% mehr oder weniger. Nutze preisgucken.de für einen schnellen Überblick." },
   { n: 2, title: "Warenkorb stehen lassen", text: "Viele Shops schicken dir nach 24–48 Stunden einen Gutscheincode, wenn du den Warenkorb nicht leerst. Funktioniert überraschend oft." },
-  { n: 3, title: "Inkognito-Modus nutzen", text: "Preise können sich je nach Browser-Verlauf erhöhen (Dynamic Pricing). Im Inkognito-Modus siehst du oft günstigere Preise." },
+  { n: 3, title: "Inkognito-Modus nutzen", text: "Manche Shops passen Preise dynamisch an (Dynamic Pricing). Ein Blick im privaten Fenster oder über einen Preisvergleich zeigt dir, ob sich der Preis ändert." },
   { n: 4, title: "Preisverlauf prüfen", text: 'Der aktuelle Preis ist oft kein „Angebot". Prüfe den historischen Preisverlauf – echter Tiefstpreis oder aufgeblasener Streichpreis?' },
-  { n: 5, title: "Newsletter mit Rabatt abonnieren", text: "Fast alle großen Shops bieten 5–15% Rabatt auf die erste Bestellung, wenn du den Newsletter abonnierst. Nach dem Kauf abmelden." },
-  { n: 6, title: "Cashback-Portale nutzen", text: "Über Portale wie Shoop oder Payback bekommst du 1–8% des Kaufpreises zurück – ohne Mehraufwand." },
-  { n: 7, title: "Zum richtigen Zeitpunkt kaufen", text: "Januar (Winterschlussverkauf), Oktober (Pre-Black Friday) und direkt nach Weihnachten sind die günstigsten Kaufzeitpunkte des Jahres." },
+  { n: 5, title: "Newsletter mit Rabatt abonnieren", text: "Viele Shops geben Neukunden einen Rabatt auf die erste Bestellung, wenn sie den Newsletter abonnieren. Höhe und Bedingungen unterscheiden sich; nach dem Kauf kannst du dich wieder abmelden." },
+  { n: 6, title: "Cashback-Portale nutzen", text: "Cashback-Portale zahlen dir einen Teil des Kaufpreises zurück. Die Höhe hängt vom Shop ab, und nicht jeder Gutschein lässt sich mit Cashback kombinieren. Lies vorher die Bedingungen." },
+  { n: 7, title: "Zum richtigen Zeitpunkt kaufen", text: "Der Januar (Winterschlussverkauf), die Wochen vor dem Black Friday und die Zeit nach Weihnachten bieten oft gute Preise. Vergleiche trotzdem, denn nicht jeder Rabatt ist echt." },
   { n: 8, title: "Versandkostenfrei-Schwelle kennen", text: "Viele Shops haben Mindestbestellwerte für kostenlosen Versand. Stimme Bestellungen mit Freunden oder Familie ab." },
-  { n: 9, title: "Gebrauchte & generalüberholte Artikel", text: 'Amazon Warehouse, eBay Refurbished oder Backmarket bieten geprüfte B-Ware mit bis zu 70% Rabatt – oft mit Garantie.' },
+  { n: 9, title: "Gebrauchte & generalüberholte Artikel", text: 'Geprüfte B-Ware und generalüberholte Artikel sind oft deutlich günstiger als Neuware, meist mit Garantie. Prüfe Zustand und Garantiebedingungen vor dem Kauf.' },
   { n: 10, title: "Student-Rabatte & Berufsgruppen", text: "Viele Shops bieten Sonderpreise für Schüler, Studenten, Lehrer oder Mitglieder bestimmter Organisationen. Immer fragen!" },
-  { n: 11, title: "App statt Browser kaufen", text: "Viele Shops bieten App-exklusive Rabatte von 5–10% oder zusätzliche Gutscheine für Neukunden in der App." },
+  { n: 11, title: "App statt Browser kaufen", text: "Manche Shops bieten App-exklusive Rabatte oder zusätzliche Gutscheine für Neukunden. Ein Blick in die App lohnt sich, wenn du ohnehin dort kaufst." },
   { n: 12, title: "Preisalarm einrichten", text: "Lege deinen Wunschpreis fest und lass dich benachrichtigen, wenn er erreicht wird. Perfekt für größere Anschaffungen." },
   { n: 13, title: "Versandkosten in Preisvergleich einrechnen", text: "Ein Produkt für 89 € + 5,99 € Versand ist teurer als 92 € mit kostenlosem Versand. Immer den Gesamtpreis vergleichen." },
-  { n: 14, title: "Saisonale Rabatte kennen", text: "Gartenmöbel im Herbst, Winterjacken im März, Klimaanlagen im Oktober – Gegensaison-Käufe sparen bis zu 50%." },
+  { n: 14, title: "Saisonale Rabatte kennen", text: "Gartenmöbel im Herbst, Winterjacken im Frühjahr, Klimageräte im Herbst – Käufe in der Gegensaison sind oft günstiger." },
   { n: 15, title: "Bewertungen vor Kauf lesen", text: "Günstig ist nicht gut, wenn das Produkt nach 3 Monaten kaputt ist. Investiere 5 Minuten in Bewertungen auf mehreren Plattformen." },
 ];
 
@@ -72,7 +73,8 @@ export default function SchnaeppchentippsPage() {
           </div>
         </header>
 
-        <p className="mb-5">Laut einer Studie des Digitalverbands Bitkom zahlen 68% der deutschen Online-Shopper regelmäßig mehr als nötig – oft aus Bequemlichkeit oder weil ihnen einfache Tricks unbekannt sind. Wir haben die 15 effektivsten Methoden zusammengestellt, mit denen Experten beim Online-Shopping sparen.</p>
+        <p className="mb-5">Viele Online-Shopper zahlen mehr als nötig – oft aus Bequemlichkeit oder weil ihnen einfache Tricks unbekannt sind. Wir haben 15 Methoden zusammengestellt, mit denen du beim Online-Shopping Geld sparen kannst. Wie viel du sparst, hängt vom Produkt, vom Shop und vom Zeitpunkt ab. Aktuelle Gutscheincodes unserer Partner-Shops findest du auf <a href="https://www.preisgucken.de/gutscheine" target="_blank" rel="noopener">Preisgucken.de/gutscheine</a>.</p>
+        <CouponHint />
 
         <div className="row g-4 mb-5">
           {tips.map(tip => (

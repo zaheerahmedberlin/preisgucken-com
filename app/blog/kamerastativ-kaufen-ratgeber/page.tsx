@@ -62,7 +62,7 @@ export default function KamerastativKaufenPage() {
               <div className="card p-4 h-100">
                 <h3 className="h6 fw-bold mb-3">🪶 Carbon</h3>
                 <ul className="small text-muted mb-0">
-                  <li>Bis zu 30% leichter als Aluminium</li>
+                  <li>Meist deutlich leichter als Aluminium</li>
                   <li>Dämpft Vibrationen besser</li>
                   <li>Unempfindlich gegen Korrosion</li>
                   <li>Deutlich teurer in der Anschaffung</li>

@@ -65,17 +65,17 @@ export default function FernseherRatgeber() {
         <h2 className="h4 fw-bold mt-5 mb-3" style={{ color: "#1A3A6B" }}>Die 3 wichtigsten Display-Technologien</h2>
 
         <h3 className="h5 fw-bold mt-4">1. LED / LCD (günstigste Option)</h3>
-        <p>Die verbreitetste Technologie. Preis: <strong>150–800 €</strong>.</p>
+        <p>Die verbreitetste Technologie. Preis (Richtwert): <strong>150–800 €</strong>.</p>
         <p><strong>Gut für:</strong> Helle Wohnzimmer, tageslichthelle Räume, preisbewusste Käufer<br />
         <strong>Schwächen:</strong> Kontrast und Schwarzwerte schlechter als OLED</p>
 
         <h3 className="h5 fw-bold mt-4">2. QLED (Samsung-Technologie)</h3>
-        <p>LED mit Quantum-Dot-Filter für brillantere Farben. Preis: <strong>400–2.000 €</strong>.</p>
+        <p>LED mit Quantum-Dot-Filter für brillantere Farben. Preis (Richtwert): <strong>400–2.000 €</strong>.</p>
         <p><strong>Gut für:</strong> Helle Räume, HDR-Inhalte, lebendige Farben<br />
         <strong>Schwächen:</strong> Schwarzwerte immer noch schlechter als OLED</p>
 
         <h3 className="h5 fw-bold mt-4">3. OLED (beste Bildqualität)</h3>
-        <p>Jeder Pixel leuchtet selbst – perfekte Schwarzwerte und unendlicher Kontrast. Preis: <strong>700–3.500 €</strong>.</p>
+        <p>Jeder Pixel leuchtet selbst – perfekte Schwarzwerte und unendlicher Kontrast. Preis (Richtwert): <strong>700–3.500 €</strong>.</p>
         <p><strong>Gut für:</strong> Dunkle Räume, Filmgenuss, Gaming<br />
         <strong>Schwächen:</strong> Teurer, möglicher Einbrand bei Standbildern</p>
 
@@ -144,9 +144,9 @@ export default function FernseherRatgeber() {
         <h2 className="h4 fw-bold mt-5 mb-3" style={{ color: "#1A3A6B" }}>Fernseher günstig kaufen – so sparst du</h2>
         <ol>
           <li><strong>Preisvergleich nutzen:</strong> Auf <a href="https://www.preisgucken.de" target="_blank" rel="noopener">preisgucken.de</a> siehst du tagesaktuelle Preise aus deutschen Shops.</li>
-          <li><strong>Vorjahresmodelle kaufen:</strong> Ein TV aus 2025 ist identisch gut, aber 25–40% günstiger als das 2026er-Modell.</li>
-          <li><strong>Black Friday abwarten:</strong> Fernseher gehören zu den am stärksten reduzierten Produkten beim Black Friday.</li>
-          <li><strong>55 Zoll statt 50 Zoll:</strong> Der Preissprung zwischen 50 und 55 Zoll ist oft nur 30–50 Euro – lohnt sich fast immer.</li>
+          <li><strong>Vorjahresmodelle kaufen:</strong> Ein Vorjahresmodell ist oft deutlich günstiger und technisch meist nur wenig schlechter als das neue Modell.</li>
+          <li><strong>Black Friday abwarten:</strong> Fernseher werden beim Black Friday häufig reduziert – vergleiche trotzdem, ob der Rabatt echt ist.</li>
+          <li><strong>55 Zoll statt 50 Zoll:</strong> Der Preisunterschied zwischen 50 und 55 Zoll ist oft gering – ein Preisvergleich zeigt, ob sich die größere Variante lohnt.</li>
         </ol>
 
         <div className="mt-5 p-4 rounded" style={{ background: "#f0f4fa", border: "1px solid #d0daea" }}>

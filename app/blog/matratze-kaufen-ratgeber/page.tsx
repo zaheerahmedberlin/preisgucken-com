@@ -119,7 +119,7 @@ export default function MatratzeKaufenPage() {
             <li><strong>Über 1.000 €:</strong> Premium-Matratzen mit Spezialschäumen und Langzeitgarantien</li>
           </ul>
           <div className="alert alert-info small">
-            💡 <strong>Sparfuchs-Tipp:</strong> Matratzen werden häufig mit 30–50% Rabatt verkauft, besonders bei Modellwechseln. Ein Preisvergleich lohnt sich fast immer – schau auf <a href="https://www.preisgucken.de" target="_blank" rel="noopener">preisgucken.de</a> unter Schlafen &amp; Matratzen.
+            💡 <strong>Sparfuchs-Tipp:</strong> Matratzen werden häufig mit Rabatt verkauft, besonders bei Modellwechseln. Ein Preisvergleich lohnt sich fast immer – schau auf <a href="https://www.preisgucken.de" target="_blank" rel="noopener">preisgucken.de</a> unter Schlafen &amp; Matratzen.
           </div>
         </section>
 

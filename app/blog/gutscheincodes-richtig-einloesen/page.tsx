@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CouponHint from "@/components/CouponHint";
 
 export const metadata: Metadata = {
   title: "Gutscheincodes richtig einlösen",
@@ -57,6 +58,7 @@ export default function GutscheincodesRichtigEinloesenPage() {
             Code kopiert, im Warenkorb eingefügt — und der Preis ändert sich trotzdem nicht? Meistens liegt es
             nicht am Code selbst, sondern an einer der drei Bedingungen, die fast jeder Gutschein im Kleingedruckten hat.
           </p>
+          <CouponHint />
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 31. August 2026</span>
             <span>⏱ 6 Min. Lesezeit</span>
@@ -111,10 +113,9 @@ export default function GutscheincodesRichtigEinloesenPage() {
         </section>
 
         <section className="mb-5">
-          <h2 className="fw-bold h4 mb-3">Beispiel aus dem aktuellen Gutschein-Feed</h2>
+          <h2 className="fw-bold h4 mb-3">Beispiele aus dem Gutschein-Feed</h2>
           <p>
-            Wie unterschiedlich Gutscheine in der Praxis aufgebaut sind, zeigen aktuelle Aktionen bei
-            Partnern auf Preisgucken.de: Bei <strong>babymarkt.de</strong> laufen zeitgleich mehrere
+            Wie unterschiedlich Gutscheine in der Praxis aufgebaut sind, zeigen Beispiele für Aktionen bei Partnern auf Preisgucken.de (Konditionen und Laufzeiten ändern sich laufend, prüfe sie vor dem Kauf direkt im Shop): Bei <strong>babymarkt.de</strong> laufen zeitgleich mehrere
             gestaffelte Codes — etwa <strong>10% Rabatt ab 24€</strong> und <strong>15% Rabatt ab 49€</strong>{" "}
             Einkaufswert, jeweils mit einer längeren Liste ausgeschlossener Premium-Marken wie Bugaboo,
             Stokke oder Cybex Platinum. Bei <strong>Peter Hahn</strong> gab es zuletzt einen Code, der

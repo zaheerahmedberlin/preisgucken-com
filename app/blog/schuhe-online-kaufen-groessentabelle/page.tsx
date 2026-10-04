@@ -123,7 +123,7 @@ export default function SchuheOnlineKaufenPage() {
             <li><strong>Breite beachten:</strong> Manche Hersteller bieten schmale, normale und weite Passformen an – besonders bei Sportschuhen relevant</li>
           </ul>
           <div className="alert alert-info small">
-            💡 <strong>Sparfuchs-Tipp:</strong> Auslaufende Kollektionen und Vorjahresmodelle unterscheiden sich meist nur in der Farbe – hier lässt sich oft 30–50% sparen, ohne bei der Qualität Abstriche zu machen.
+            💡 <strong>Sparfuchs-Tipp:</strong> Auslaufende Kollektionen und Vorjahresmodelle unterscheiden sich meist nur in der Farbe – hier lässt sich oft deutlich sparen, ohne bei der Qualität Abstriche zu machen.
           </div>
         </section>
 
