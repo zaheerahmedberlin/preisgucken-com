@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hoverboard kaufen: Zollgröße, Sicherheit & Kart-Umbau erklärt",
+  title: "Hoverboard kaufen: Zollgröße & Sicherheit",
   description: "6,5\" oder 8,5\" Zoll, mit oder ohne Sitz? Worauf es beim Hoverboard-Kauf wirklich ankommt – Sicherheitszertifikat, Geländetauglichkeit und Preisvergleich.",
   keywords: [
     "hoverboard kaufen",

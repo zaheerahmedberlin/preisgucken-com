@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
+  title: "Parfüm kaufen: EDT, EDP oder Parfum?",
   description: "Parfüm kaufen: Eau de Toilette, Eau de Parfum und Extrait im Vergleich, Duftnoten und Duftfamilien, Haltbarkeit, Lagerung und Preis pro 100 ml.",
   keywords: [
     "parfüm kaufen",

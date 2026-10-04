@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen",
+  title: "Umstandsmode kaufen: Was sich wirklich lohnt",
   description: "Umstands- und Stillmode, die über die Schwangerschaft hinaus nutzbar bleibt – worauf du beim Kauf achten solltest, mit Preisvergleich.",
   keywords: [
     "umstandsmode kaufen",

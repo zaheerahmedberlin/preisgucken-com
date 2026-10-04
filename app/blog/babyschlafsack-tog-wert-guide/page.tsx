@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Babyschlafsack kaufen: Welcher TOG-Wert für welche Jahreszeit?",
+  title: "Babyschlafsack kaufen: Welcher TOG-Wert?",
   description: "0.5, 1.0 oder 2.5 TOG – wie der TOG-Wert mit Raumtemperatur zusammenhängt und wie viele Schlafsäcke du wirklich brauchst, mit Preisvergleich.",
   keywords: [
     "babyschlafsack tog wert",

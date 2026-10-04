@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Rezeptfreie Medikamente online kaufen: OTC & Homöopathie im Preisvergleich",
+  title: "Rezeptfreie Medikamente online kaufen",
   description: "Apothekenpflichtig, freiverkäuflich oder verschreibungspflichtig? Der Unterschied erklärt – plus Preisvergleich für OTC-Medikamente und Homöopathie.",
   keywords: [
     "rezeptfreie medikamente online kaufen",

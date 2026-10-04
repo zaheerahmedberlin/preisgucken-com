@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fußballschuhe kaufen: FG, SG oder AG? Der Bodenbelag-Guide",
+  title: "Fußballschuhe kaufen: FG, SG oder AG?",
   description: "Fester Rasen, Kunstrasen oder weicher Boden – welches Stollenmuster wirklich passt und worauf du beim Kauf achten solltest, mit Preisvergleich.",
   keywords: [
     "fußballschuhe kaufen",

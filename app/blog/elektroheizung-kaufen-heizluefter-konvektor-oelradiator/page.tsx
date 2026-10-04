@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Elektroheizung kaufen: Heizlüfter, Konvektor oder Ölradiator?",
+  title: "Elektroheizung: Heizlüfter, Konvektor, Ölradiator",
   description: "Heizlüfter, Heizstrahler, Konvektor oder Ölradiator – welcher Typ für welchen Einsatzzweck taugt, was er im Betrieb wirklich kostet, mit Preisvergleich.",
   keywords: [
     "heizlüfter kaufen",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { MeshDiagram } from "@/components/PostDiagrams";
 
 export const metadata: Metadata = {
-  title: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide",
+  title: "Mesh-WLAN oder Repeater? Der Ausbau-Guide",
   description: "Mesh-WLAN, Repeater oder Powerline? Entscheidungshilfe nach Wohnung, Unterschied Repeater und Mesh-Repeater, Aufstellung, Backhaul und typische Fehler.",
   keywords: [
     "mesh wlan kaufen",

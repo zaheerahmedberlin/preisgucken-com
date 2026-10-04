@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kinderwagen kaufen: Buggy, Kombikinderwagen oder Geschwisterwagen?",
+  title: "Kinderwagen kaufen: Welcher Typ passt?",
   description: "Welcher Kinderwagen-Typ wirklich zu eurem Alltag passt, worauf du beim Kauf achten solltest und wo sich ein Trio-Set lohnt – mit Preisvergleich.",
   keywords: [
     "kinderwagen kaufen",

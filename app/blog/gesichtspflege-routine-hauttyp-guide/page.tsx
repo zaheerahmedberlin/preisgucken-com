@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gesichtspflege-Routine: Die 4 Schritte, die wirklich zählen",
+  title: "Gesichtspflege-Routine: 4 Schritte nach Hauttyp",
   description: "Reinigung, Serum, Feuchtigkeitscreme und Sonnenschutz – welche Routine für welchen Hauttyp Sinn ergibt, mit Preisvergleich für jedes Budget.",
   keywords: [
     "gesichtspflege routine",

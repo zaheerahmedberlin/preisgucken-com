@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hochzeit planen: Brautkleid, Schmuck und Geschenke im Preisvergleich",
+  title: "Hochzeit planen: Brautkleid, Schmuck, Geschenke",
   description: "Vom Brautkleid über Schmucksets bis zu Gastgeschenken – was für Brautpaar, Gäste und Ausstatter wirklich zählt, mit Preisvergleich.",
   keywords: [
     "brautkleid kaufen",

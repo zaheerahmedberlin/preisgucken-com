@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Büro-Grundausstattung: Was du wirklich brauchst (und was nicht)",
+  title: "Büro-Grundausstattung: Was du wirklich brauchst",
   description: "Ordner, Schreibgeräte, Klebeband und Schreibtisch-Zubehör: Womit du dein Homeoffice oder kleines Büro sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Preisvergleich.",
   keywords: [
     "büro grundausstattung",
