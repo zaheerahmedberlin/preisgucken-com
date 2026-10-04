@@ -1,0 +1,41 @@
+name: SEO audit
+
+# Builds the site and crawls every sitemap URL (tools/seo/audit.mjs).
+# Fails the PR only on ERRORs (broken internal links, duplicate titles, schema
+# that does not match the visible text, images without alt, soft 404, ...).
+# Warnings (thin content, long titles, missing FAQ, ...) are listed in the log
+# and in the uploaded report but never block a merge.
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Start the site
+        run: |
+          (npm start -- -p 3000 > server.log 2>&1 &)
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:3000/sitemap.xml > /dev/null && exit 0
+            sleep 2
+          done
+          echo "site did not start"; cat server.log; exit 1
+      - name: Run the SEO audit
+        run: node tools/seo/audit.mjs --base http://localhost:3000 --ci --json seo-report.json
+      - name: Upload the full report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-report
+          path: seo-report.json

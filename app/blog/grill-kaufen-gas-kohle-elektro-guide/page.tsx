@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Grill kaufen: Gas, Kohle oder Elektro?",
-  description: "Rauchgeschmack, Anzündzeit und Balkon-Tauglichkeit im Vergleich – welcher Grilltyp wirklich zu dir passt, mit Preisvergleich für die letzte große Grillsaison des Jahres.",
+  description: "Rauchgeschmack, Anzündzeit und Balkon-Tauglichkeit im Vergleich: Welcher Grilltyp zu dir passt – mit Preisvergleich für die letzte Grillsaison des Jahres.",
   keywords: [
     "grill kaufen",
     "gasgrill oder holzkohlegrill",

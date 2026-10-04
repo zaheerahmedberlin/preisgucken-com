@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# SEO tooling cache (preisgucken.de category snapshot)
+tools/seo/.cache/

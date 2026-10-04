@@ -6,6 +6,26 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "gartengeraete-kaufen-ratgeber": [
+    { q: "Akku, Kabel oder Benzin – was ist für den Garten am besten?", a: "Akku-Geräte sind kabellos und leise und passen für kleine bis mittlere Gärten. Kabelgeräte liefern konstante Leistung nahe der Steckdose, Benzin-Geräte sind unabhängig vom Stromnetz und eignen sich für große Flächen, sind aber lauter." },
+    { q: "Worauf kommt es bei einer Heckenschere an?", a: "Wichtig sind der Antrieb, die Messerlänge und der Zahnabstand, der bestimmt, wie dicke Zweige die Schere schneidet. Akku-Modelle sind praktisch für Randbereiche, Kabelmodelle liefern dauerhaft Leistung." },
+    { q: "Welcher Schlauchdurchmesser ist für den Garten üblich?", a: "Üblich sind ½ Zoll, ⅝ Zoll und ¾ Zoll. Je dicker der Schlauch und je kürzer die Strecke, desto mehr Wasser kommt am Ende an." },
+    { q: "Wie lagere ich Garten-Akkus im Winter?", a: "Kühl und trocken, am besten nicht komplett leer. Das schont die Zellen. Details stehen in der Anleitung des Herstellers." },
+    { q: "Kann ich Akkus verschiedener Marken mischen?", a: "In der Regel nicht. Jeder Hersteller baut eine eigene Akku-Plattform, ein Akku passt nur in Geräte desselben Systems." },
+  ],
+  "messwerkzeuge-kaufen-ratgeber": [
+    { q: "Welches Messwerkzeug brauche ich für den Haushalt?", a: "Für die meisten Aufgaben reichen ein Bandmaß, eine Wasserwaage und bei größeren Räumen ein Laser-Entfernungsmesser. Ein Messschieber lohnt sich, wenn du kleine Teile genau messen möchtest." },
+    { q: "Wie genau ist ein Laser-Entfernungsmesser?", a: "Übliche Geräte messen bis zu etwa 50 Metern mit einer Genauigkeit von wenigen Millimetern. Die genauen Werte stehen im Datenblatt, und sehr günstige Geräte können ungenauer sein." },
+    { q: "Wofür steht die Genauigkeitsklasse beim Maßband?", a: "Maßbänder werden in die Genauigkeitsklassen I bis III eingeteilt. Die Klasse steht am Anfang der Skala, Klasse I ist die genaueste." },
+    { q: "Was ist der Unterschied zwischen einpoligem und zweipoligem Spannungsprüfer?", a: "Ein zweipoliger Spannungsprüfer gilt als Standard, um Spannungsfreiheit festzustellen. Ein einpoliger Phasenprüfer ist nur ein Hinweisgeber. Arbeiten an der Elektroinstallation gehören in die Hände einer Elektrofachkraft." },
+  ],
+  "kabel-und-adapter-kaufen-ratgeber": [
+    { q: "Warum lädt mein USB-C-Kabel, überträgt aber keine Daten?", a: "Viele USB-C-Kabel sind reine Ladekabel und haben nicht die Leitungen für schnelle Datenübertragung. Achte beim Kauf auf die Angabe der Datenrate, zum Beispiel USB 3.2 oder USB4." },
+    { q: "Welches HDMI-Kabel brauche ich für 4K mit 120 Hz?", a: "Dafür brauchst du ein als Ultra High Speed zertifiziertes HDMI-Kabel und einen Anschluss mit HDMI 2.1 am Gerät. Für 4K mit 60 Hz reicht in der Regel ein High-Speed-Kabel." },
+    { q: "Wofür brauche ich ein USB-C-Kabel mit E-Marker?", a: "Für hohe Ladeleistungen über 60 Watt muss das Kabel einen E-Marker-Chip haben, der die zulässige Leistung meldet. Ohne ihn lädt das Gerät langsamer oder gar nicht." },
+    { q: "Reicht Cat5e für mein Heimnetz?", a: "Für Gigabit-Netzwerke reicht Cat5e in der Regel. Cat6 und Cat6a bieten Reserve für schnellere Netze mit bis zu 10 Gbit/s." },
+    { q: "Kann ich HDMI mit einem Adapter auf VGA umstellen?", a: "Ein bloßer Steckeradapter reicht nicht, weil das digitale Signal in ein analoges umgewandelt werden muss. Dafür brauchst du einen aktiven HDMI-VGA-Konverter." },
+  ],
   "staubsauger-kaufen-ratgeber": [
     { q: "Beutel oder beutellos – was ist besser?", a: "Beutel sind hygienischer beim Entleeren, verursachen aber laufende Kosten. Beutellose Geräte sparen die Beutel, brauchen aber regelmäßige Filterreinigung. Allergiker fahren mit Beutel und gutem Filter oft besser." },
     { q: "Sagt die Wattzahl etwas über die Saugkraft aus?", a: "Nein, die Wattzahl zeigt vor allem die Stromaufnahme. Bodendüse, Bürste und Abdichtung beeinflussen die Reinigung ebenso stark." },
