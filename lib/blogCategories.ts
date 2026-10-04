@@ -269,7 +269,7 @@ const GERMAN_MONTHS: Record<string, number> = {
   juli: 6, august: 7, september: 8, oktober: 9, november: 10, dezember: 11,
 };
 
-function parseGermanDate(date: string): number {
+export function parseGermanDate(date: string): number {
   const match = date.match(/^(\d{1,2})\.\s*(\w+)\s*(\d{4})$/);
   if (!match) return 0;
   const [, day, month, year] = match;
