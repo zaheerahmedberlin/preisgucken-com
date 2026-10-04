@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "seo:audit": "node tools/seo/audit.mjs"
+    "seo:audit": "node tools/seo/audit.mjs",
+    "seo:gaps": "node tools/seo/gaps.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.112.3",
