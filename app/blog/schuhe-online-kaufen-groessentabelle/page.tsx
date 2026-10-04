@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Schuhgröße online richtig bestimmen",
-  description: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du achten solltest.",
-  keywords: ["schuhgröße bestimmen", "eu us uk schuhgrößen tabelle", "schuhe online kaufen ratgeber", "fußlänge messen anleitung", "sportschuhe kaufen tipps", "schuhe passform online"],
+  description: "Schuhe online kaufen: Fußlänge messen, Schuhgröße berechnen, EU-, US- und UK-Größen vergleichen, Passform nach Schuhart und Rückgabe-Checkliste.",
+  keywords: ["schuhgröße bestimmen", "eu us uk schuhgrößen tabelle", "schuhe online kaufen ratgeber", "fußlänge messen anleitung", "sportschuhe kaufen tipps", "schuhe passform online", "schuhgröße berechnen", "schuhgröße fußlänge cm", "pariser stich", "sportschuhe größer kaufen", "schuhe online zurückschicken"],
   openGraph: {
     title: "Schuhgröße online richtig bestimmen",
     description: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du achten solltest.",
     url: "https://www.preisgucken.com/blog/schuhe-online-kaufen-groessentabelle/",
     type: "article",
     publishedTime: "2026-08-19",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Schuhgröße online richtig bestimmen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/schuhe-online-kaufen-groessentabelle/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Schuhgröße online richtig bestimmen",
   datePublished: "2026-08-19",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function SchuheOnlineKaufenPage() {
           <p className="lead text-muted">Die häufigste Retourenursache beim Schuhkauf ist die falsche Größe. Mit der richtigen Messmethode passt es beim ersten Mal.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. August 2026</span>
-            <span>⏱ 6 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 9 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -120,6 +123,48 @@ export default function SchuheOnlineKaufenPage() {
           <div className="alert alert-info small">
             💡 <strong>Sparfuchs-Tipp:</strong> Auslaufende Kollektionen und Vorjahresmodelle unterscheiden sich meist nur in der Farbe – hier lässt sich oft 30–50% sparen, ohne bei der Qualität Abstriche zu machen.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Schuhgröße berechnen: die Faustformel</h2>
+          <p>Wenn die Größentabelle eines Shops fehlt, hilft eine einfache Rechnung. Die europäische Schuhgröße (Pariser Stich) steigt mit jeder Nummer um etwa zwei Drittel eines Zentimeters:</p>
+          <p><strong>Schuhgröße = (Fußlänge in cm + 1 bis 1,5 cm Zugabe) × 1,5</strong></p>
+          <p>Die Zugabe sorgt dafür, dass deine Zehen im Schuh Platz haben. Beispiel: Bei einer Fußlänge von 25 cm rechnest du (25 + 1,5) × 1,5 und kommst auf etwa 39,75, also Größe 40. Bei 26,7 cm ergibt (26,7 + 1) × 1,5 rund 41,5 und damit Größe 42, so wie in der Tabelle oben.</p>
+          <p className="small text-muted">Auch das ist eine Orientierung: Je nach Hersteller und Leisten (Passform des Schuhs) fällt dieselbe Größe unterschiedlich aus.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Passform nach Schuhart</h2>
+          <ul>
+            <li><strong>Sport- und Laufschuhe:</strong> Der Fuß schwillt beim Laufen an und die Zehen brauchen Spielraum. Viele Läufer wählen deshalb eine halbe bis eine Nummer größer als bei Alltagsschuhen.</li>
+            <li><strong>Sneaker und Alltagsschuhe:</strong> Hier gilt meist die gemessene Größe plus Zugabe, genauer Sitz an Ferse und Mittelfuß ist wichtiger als Länge allein.</li>
+            <li><strong>Lederschuhe und Stiefel:</strong> Leder gibt mit der Zeit nach. Bei Stiefeln solltest du an die Socken denken, die du darin trägst.</li>
+            <li><strong>Sandalen und Hausschuhe:</strong> Die Ferse sollte nicht überstehen, die Zehen nicht über den Rand ragen.</li>
+            <li><strong>Kinderschuhe:</strong> Kinderfüße wachsen schnell. Plane etwa einen Daumen breit Platz vor den Zehen ein und miss die Füße regelmäßig nach.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Checkliste vor dem Bestellen</h2>
+          <ol>
+            <li>Fußlänge abends gemessen, beide Füße, der größere Wert zählt.</li>
+            <li>Größentabelle des Herstellers geprüft, nicht nur die allgemeine EU-Größe.</li>
+            <li>Kundenbewertungen zur Passform gelesen: fällt das Modell eher klein oder groß aus?</li>
+            <li>Rückgabebedingungen geklärt: Wer trägt die Rücksendekosten, und wie lange hast du Zeit?</li>
+            <li>Bei Unsicherheit zwei Größen bestellt und die nicht passende zurückgeschickt.</li>
+          </ol>
+          <p className="small text-muted">Schuhe nur drinnen und auf sauberem Boden anprobieren und die Originalverpackung aufheben, damit die Rückgabe problemlos klappt.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Schuhkauf im Internet</h2>
+          <ol>
+            <li><strong>Die Größe vom alten Schuh übernehmen:</strong> Marken und Modelle fallen unterschiedlich aus. Verlasse dich lieber auf deine gemessene Fußlänge.</li>
+            <li><strong>Morgens messen:</strong> Am Abend sind die Füße leicht geschwollen. Das entspricht der Belastung im Alltag.</li>
+            <li><strong>Die Breite ignorieren:</strong> Ein zu enger Schuh drückt auch dann, wenn die Länge stimmt.</li>
+            <li><strong>Rückgabebedingungen nicht lesen:</strong> Frist und Rücksendekosten unterscheiden sich von Shop zu Shop.</li>
+            <li><strong>Nur nach dem Preis entscheiden:</strong> Ein günstiger Schuh, der nicht passt, ist am Ende teurer als ein passender.</li>
+          </ol>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

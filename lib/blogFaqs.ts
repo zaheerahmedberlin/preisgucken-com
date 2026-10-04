@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "schuhe-online-kaufen-groessentabelle": [
+    { q: "Wie messe ich meine Fußlänge richtig?", a: "Stelle den Fuß auf ein Blatt Papier, die Ferse an die Wand, markiere die längste Stelle und miss den Abstand in Zentimetern. Miss am besten abends und beide Füße einzeln, der größere Wert zählt." },
+    { q: "Wie berechne ich meine Schuhgröße aus der Fußlänge?", a: "Rechne (Fußlänge in cm + 1 bis 1,5 cm Zugabe) × 1,5. Bei 25 cm Fußlänge ergibt das etwa Größe 40. Prüfe zusätzlich immer die Größentabelle des Herstellers." },
+    { q: "Sollte ich Sportschuhe eine Nummer größer kaufen?", a: "Viele Läufer wählen eine halbe bis eine Nummer größer, weil der Fuß beim Laufen anschwillt und die Zehen Spielraum brauchen. Probiere im Zweifel zwei Größen." },
+    { q: "Wie lange kann ich Schuhe online zurückgeben?", a: "Bei Online-Käufen gilt in Deutschland in der Regel ein 14-tägiges Widerrufsrecht. Viele Händler gewähren mehr Zeit. Prüfe vor dem Kauf auch, wer die Rücksendekosten trägt." },
+  ],
   "parfuem-kaufen-edt-edp-guide": [
     { q: "Was ist der Unterschied zwischen Eau de Toilette und Eau de Parfum?", a: "Der Unterschied liegt in der Konzentration des Parfümöls: Eau de Toilette enthält etwa 5 bis 15 Prozent, Eau de Parfum etwa 15 bis 20 Prozent. Ein Eau de Parfum duftet intensiver, hält länger und kostet meist mehr." },
     { q: "Wie lange hält ein Parfüm auf der Haut?", a: "Das hängt von der Konzentration ab: Eau de Cologne hält etwa 1 bis 2 Stunden, Eau de Toilette 3 bis 5 Stunden, Eau de Parfum 5 bis 8 Stunden und Parfum Extrait 8 Stunden oder länger. Haut, Duft und Anwendung beeinflussen das Ergebnis." },
