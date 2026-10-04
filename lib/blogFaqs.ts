@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "bestes-preis-leistungs-verhaeltnis-finden": [
+    { q: "Was bedeutet Preis-Leistungs-Verhältnis?", a: "Das Preis-Leistungs-Verhältnis beschreibt, wie viel Nutzen du für dein Geld bekommst. Es entsteht erst, wenn du Preis, Qualität, Lebensdauer, Folgekosten und Garantie gemeinsam bewertest." },
+    { q: "Wie berechne ich den Preis pro Nutzungsjahr?", a: "Teile den Kaufpreis durch die erwartete Lebensdauer in Jahren. Ein Gerät für 100 €, das 5 Jahre hält, kostet 20 € pro Jahr, ein Gerät für 60 € mit 1,5 Jahren Lebensdauer dagegen 40 € pro Jahr." },
+    { q: "Woran erkenne ich, ob ein Rabatt echt ist?", a: "Vergleiche den Preis mit dem Marktpreis mehrerer Händler und dem Preisverlauf, nicht mit der UVP. Händler müssen bei einer Preisermäßigung in der Regel den niedrigsten Preis der letzten 30 Tage angeben." },
+    { q: "Sollte ich immer das günstigste Produkt kaufen?", a: "Nicht unbedingt. Ein niedriger Preis kann auf kurze Lebensdauer, hohe Folgekosten oder fehlende Garantie hinweisen. Rechne die Gesamtkosten über die Nutzungsdauer." },
+  ],
   "fernseher-kaufen-ratgeber": [
     { q: "Welche Fernseher-Größe passt zu meinem Sitzabstand?", a: "Teile den Sitzabstand in Zentimetern durch 4: Das Ergebnis ist die ungefähre Größe in Zoll. Bei 2,2 Metern sind das etwa 55 Zoll, bei 3 Metern etwa 75 Zoll." },
     { q: "OLED, QLED oder Mini-LED – was ist besser?", a: "OLED bietet die besten Schwarzwerte und den höchsten Kontrast, ideal für abgedunkelte Räume. QLED und Mini-LED sind heller und eignen sich besser für Tageslicht, Mini-LED mit besserem Kontrast als einfache LED-Modelle." },
