@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "mesh-wlan-router-repeater-guide": [
+    { q: "Mesh-WLAN oder Repeater – was ist besser?", a: "Ein Repeater ist die günstige Lösung für ein einzelnes Problemzimmer. Ein Mesh-System bildet ein gemeinsames Netz mit einem WLAN-Namen und eignet sich besser für größere Wohnungen oder mehrere Etagen mit vielen Geräten." },
+    { q: "Was ist der Unterschied zwischen Repeater und Mesh-Repeater?", a: "Ein einfacher Repeater sendet ein eigenes Netz unter anderem Namen. Ein Mesh-Repeater bildet mit dem Router ein gemeinsames Netz, übernimmt dessen Einstellungen und verbindet Geräte automatisch mit dem besten Zugangspunkt." },
+    { q: "Wo platziere ich einen WLAN-Repeater?", a: "Auf halber Strecke zwischen Router und Funkloch, an einer Stelle mit noch gutem Empfang, erhöht und frei, mit Abstand zu Heizkörpern, Metallflächen und Mikrowellen." },
+    { q: "Brauche ich für Mesh-WLAN die gleiche Marke wie beim Router?", a: "Am zuverlässigsten funktionieren Mesh-Systeme, wenn sie vom selben Hersteller stammen oder ausdrücklich zum Router kompatibel sind." },
+    { q: "Was ist Backhaul beim Mesh-WLAN?", a: "Backhaul ist die Verbindung zwischen den Mesh-Knoten und dem Router. Ein LAN-Kabel oder ein eigenes Funkband für diese Verbindung macht das Netz meist schneller und stabiler." },
+  ],
   "schuhe-online-kaufen-groessentabelle": [
     { q: "Wie messe ich meine Fußlänge richtig?", a: "Stelle den Fuß auf ein Blatt Papier, die Ferse an die Wand, markiere die längste Stelle und miss den Abstand in Zentimetern. Miss am besten abends und beide Füße einzeln, der größere Wert zählt." },
     { q: "Wie berechne ich meine Schuhgröße aus der Fußlänge?", a: "Rechne (Fußlänge in cm + 1 bis 1,5 cm Zugabe) × 1,5. Bei 25 cm Fußlänge ergibt das etwa Größe 40. Prüfe zusätzlich immer die Größentabelle des Herstellers." },
