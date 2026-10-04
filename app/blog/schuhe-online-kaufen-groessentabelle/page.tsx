@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ShoeMeasureDiagram } from "@/components/PostDiagrams";
 
 export const metadata: Metadata = {
   title: "Schuhgröße online richtig bestimmen",
@@ -67,6 +68,7 @@ export default function SchuheOnlineKaufenPage() {
             <li>Miss am besten abends, wenn der Fuß leicht angeschwollen ist – das entspricht der realen Belastung</li>
           </ol>
           <p className="small text-muted">Miss beide Füße einzeln: Die meisten Menschen haben leicht unterschiedlich große Füße. Orientiere dich beim Kauf am größeren Wert.</p>
+        <ShoeMeasureDiagram />
         </section>
 
         <section className="mb-5">

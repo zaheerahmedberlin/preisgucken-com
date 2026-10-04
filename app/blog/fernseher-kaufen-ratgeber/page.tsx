@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SeatingDistanceDiagram } from "@/components/PostDiagrams";
 
 export const metadata: Metadata = {
   title: "Fernseher kaufen 2026: OLED, QLED oder LED",
@@ -106,6 +107,7 @@ export default function FernseherRatgeber() {
             <tr><td>3,0 m</td><td>300 ÷ 4</td><td>ca. 75 Zoll</td></tr>
           </tbody>
         </table>
+        <SeatingDistanceDiagram />
         <p className="small text-muted mt-2">Das ist eine Faustregel, kein Gesetz: Wer gern nah und groß sitzt, darf eine Stufe größer wählen. Miss vor dem Kauf auch Platz und Breite – ein 65-Zoll-Gerät ist knapp 1,45 Meter breit.</p>
 
         <h2 className="h4 fw-bold mt-5 mb-3" style={{ color: "#1A3A6B" }}>Auflösung, HDR und Helligkeit</h2>

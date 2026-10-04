@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MeshDiagram } from "@/components/PostDiagrams";
 
 export const metadata: Metadata = {
   title: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide",
@@ -158,6 +159,7 @@ export default function MeshWlanGuidePage() {
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Repeater oder Mesh-Repeater: der wichtige Unterschied</h2>
           <p>Ein einfacher Repeater sendet sein Funknetz unter einem eigenen Namen und arbeitet weitgehend unabhängig vom Router. Du musst dich beim Wechsel zwischen den Räumen oft selbst mit dem passenden Netz verbinden. Ein Mesh-Repeater bildet dagegen mit dem Router ein gemeinsames Netz, übernimmt dessen Einstellungen und gibt deine Geräte automatisch an den besten Zugangspunkt weiter. Änderungen am WLAN-Namen oder Passwort im Router gelten dann für alle Geräte im Netz.</p>
+        <MeshDiagram />
         </section>
 
         <section className="mb-5">
