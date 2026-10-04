@@ -85,6 +85,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     description: "TVs, Smartphones, Staubsauger und Kamerazubehör im Kaufberatungs-Check.",
     pgLink: "elektronik",
     posts: [
+      { slug: "kabel-und-adapter-kaufen-ratgeber", title: "Kabel und Adapter kaufen: USB-C, HDMI & Netzwerk richtig wählen", excerpt: "Datenrate, Ladeleistung, Zertifizierung: So findest du das passende USB-C-, HDMI- oder Netzwerkkabel und vermeidest typische Fehlkäufe.", date: "4. Oktober 2026", readTime: "8 Min.", pgLink: "kabel-adapter" },
       { slug: "staubsauger-kaufen-ratgeber", title: "Beutellos, Akku oder Roboter? Welcher Staubsauger-Typ zu dir passt", excerpt: "Beutellos, Akku oder Roboter? Wir erklären alle Typen und zeigen dir, wo du den besten Staubsauger zum günstigsten Preis findest.", date: "24. Juli 2026", readTime: "10 Min.", updated: "4. Oktober 2026", pgLink: "elektronik" },
       { slug: "fernseher-kaufen-ratgeber", title: "Fernseher kaufen 2026: OLED, QLED oder LED?", excerpt: "Welcher TV-Typ lohnt sich wirklich? Wir erklären die Unterschiede zwischen OLED, QLED und LED und zeigen wo du am günstigsten kaufst.", date: "24. Juli 2026", readTime: "11 Min.", updated: "4. Oktober 2026", pgLink: "fernseher" },
       { slug: "smartphone-kaufen-ratgeber", title: "Neues Flaggschiff oder Vorjahresmodell? Wann sich Sparen lohnt", excerpt: "Neues Flaggschiff oder Vorjahresmodell? Wo sich Sparen lohnt und worauf du wirklich achten solltest.", date: "29. Juli 2026", readTime: "7 Min.", pgLink: "smartphones" },

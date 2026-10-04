@@ -81,6 +81,42 @@ async function loadCategories() {
   return rows;
 }
 
+// ------------------------------------------------------------ inventory mix (what is really in a category?)
+// Product counts alone mislead: a category can be mostly professional parts. Sample three pages
+// (first, middle, last) from the public products API and report vendor share + frequent title words.
+const MIX_CACHE = join(ROOT, "tools/seo/.cache/mix.json");
+const mixCache = existsSync(MIX_CACHE) ? JSON.parse(readFileSync(MIX_CACHE, "utf8")) : {};
+async function api(slug, page) {
+  const r = await fetch(`${DE}/api/products?category=${slug}&limit=100&page=${page}`, { headers: { "user-agent": "Mozilla/5.0 (compatible; seo-gaps)" }, signal: AbortSignal.timeout(40000) });
+  return r.json();
+}
+async function mixOf(slug) {
+  const hit = mixCache[slug];
+  if (hit && Date.now() - hit.at < 24 * 3600 * 1000) return hit.text;
+  let text = "n/a";
+  try {
+    const first = await api(slug, 1);
+    const pc = first.pageCount || 1;
+    const pages = [...new Set([1, Math.ceil(pc / 2), pc])];
+    const items = [...first.products];
+    for (const p of pages.slice(1)) items.push(...(await api(slug, p)).products);
+    const vendors = new Map();
+    const words = new Map();
+    for (const it of items) {
+      const v = it.vendor || it.vendorName || "?";
+      vendors.set(v, (vendors.get(v) || 0) + 1);
+      for (const w of new Set(tokens(it.title || ""))) words.set(w, (words.get(w) || 0) + 1);
+    }
+    const [vTop, vN] = [...vendors].sort((a, b) => b[1] - a[1])[0];
+    const top = [...words].sort((a, b) => b[1] - a[1]).slice(0, 4).map((x) => x[0]);
+    text = `${vTop} ${Math.round((vN / items.length) * 100)}% · ${top.join(", ")}`;
+  } catch {}
+  mixCache[slug] = { at: Date.now(), text };
+  mkdirSync(dirname(MIX_CACHE), { recursive: true });
+  writeFileSync(MIX_CACHE, JSON.stringify(mixCache));
+  return text;
+}
+
 // ------------------------------------------------------------ GSC csv
 function readCsv(dir, name) {
   if (!dir) return [];
@@ -124,13 +160,13 @@ out.push(`# Content-gap report\n`);
 out.push(`${cats.length} preisgucken.de categories, ${posts.length} blog posts, ${gaps.length} categories with products but no post.\n`);
 
 out.push(`## 1. Categories without a blog post (most products first)\n`);
-out.push(`| # | Category | Products | Parent | Working title | Related posts to link |`);
+out.push(`| # | Category | Products | Inventory sample (main vendor share · frequent words) | Parent | Related posts to link |`);
 out.push(`|---|---|---|---|---|---|`);
-gaps.slice(0, TOP).forEach((c, i) => {
+for (const [i, c] of gaps.slice(0, TOP).entries()) {
   const rel = related(c).map((p) => `[${p.slug}](/blog/${p.slug}/)`).join(", ") || "–";
-  out.push(`| ${i + 1} | [${c.name}](${DE}/kategorie/${c.slug}) | ${c.count.toLocaleString("de-DE")} | ${c.parent || "–"} | ${c.name}: Kaufberatung – worauf achten? | ${rel} |`);
-});
-out.push(`\n**Brief template for each** (fill from a real SERP check before writing): search intent; 5–7 sections (types, key criteria, budget tiers, common mistakes, care/usage); FAQ with 4–5 questions that also appear visibly on the page; link to the .de category and 2–3 related posts; no prices or statistics without a linked source.\n`);
+  out.push(`| ${i + 1} | [${c.name}](${DE}/kategorie/${c.slug}) | ${c.count.toLocaleString("de-DE")} | ${await mixOf(c.slug)} | ${c.parent || "–"} | ${rel} |`);
+}
+out.push(`\n**Check the inventory column first:** if one professional supplier (e.g. Contorion) dominates, write for tradespeople/DIY, not for a generic consumer topic. **Brief template for each** (fill from a real SERP check before writing): search intent; 5–7 sections (types, key criteria, budget tiers, common mistakes, care/usage); FAQ with 4–5 questions that also appear visibly on the page; link to the .de category and 2–3 related posts; no prices or statistics without a linked source.\n`);
 
 if (AUDIT && existsSync(AUDIT)) {
   const rep = JSON.parse(readFileSync(AUDIT, "utf8"));
