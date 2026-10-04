@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "staubsauger-kaufen-ratgeber": [
+    { q: "Beutel oder beutellos – was ist besser?", a: "Beutel sind hygienischer beim Entleeren, verursachen aber laufende Kosten. Beutellose Geräte sparen die Beutel, brauchen aber regelmäßige Filterreinigung. Allergiker fahren mit Beutel und gutem Filter oft besser." },
+    { q: "Sagt die Wattzahl etwas über die Saugkraft aus?", a: "Nein, die Wattzahl zeigt vor allem die Stromaufnahme. Bodendüse, Bürste und Abdichtung beeinflussen die Reinigung ebenso stark." },
+    { q: "Welcher Staubsauger ist für Allergiker geeignet?", a: "Ein Gerät mit HEPA-Filter und dichtem Gehäuse, das Staub und Pollen zurückhält. Beutelsauger sind beim Entleeren hygienischer." },
+    { q: "Welcher Staubsauger ist für Tierhaare am besten?", a: "Geräte mit rotierender Bürste oder Turbodüse lösen Tierhaare besonders gut. Akku-Sauger mit Bürstenwalze sind bei Haustierbesitzern beliebt." },
+  ],
   "monitor-oder-beamer-kaufratgeber": [
     { q: "Ist ein Beamer als Monitor fürs Homeoffice geeignet?", a: "Meist nicht für die tägliche Arbeit: Die Textschärfe ist geringer als bei einem Monitor, und das Bild braucht einen abgedunkelten Raum. Für Präsentationen und Meetings mit mehreren Personen ist ein Beamer dagegen gut geeignet." },
     { q: "Was ist besser zum Gaming: Monitor oder Beamer?", a: "Für schnelle Spiele ist ein Monitor besser, weil er kurze Reaktionszeiten und hohe Bildwiederholraten bietet. Ein Beamer punktet bei der Bildgröße, hat aber meist mehr Verzögerung." },
