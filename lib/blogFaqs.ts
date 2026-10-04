@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "fernseher-kaufen-ratgeber": [
+    { q: "Welche Fernseher-Größe passt zu meinem Sitzabstand?", a: "Teile den Sitzabstand in Zentimetern durch 4: Das Ergebnis ist die ungefähre Größe in Zoll. Bei 2,2 Metern sind das etwa 55 Zoll, bei 3 Metern etwa 75 Zoll." },
+    { q: "OLED, QLED oder Mini-LED – was ist besser?", a: "OLED bietet die besten Schwarzwerte und den höchsten Kontrast, ideal für abgedunkelte Räume. QLED und Mini-LED sind heller und eignen sich besser für Tageslicht, Mini-LED mit besserem Kontrast als einfache LED-Modelle." },
+    { q: "Brauche ich 120 Hz und HDMI 2.1?", a: "Wer mit der Konsole spielt oder viel Sport schaut, profitiert von 120 Hz. Für 4K bei 120 Bildern pro Sekunde ist HDMI 2.1 nötig – prüfe, wie viele Anschlüsse den vollen Standard unterstützen." },
+    { q: "Lohnt sich ein 8K-Fernseher?", a: "Für die meisten nicht: Es gibt bisher kaum natives 8K-Material, 4K reicht in fast allen Wohnzimmern aus." },
+    { q: "Was sagt das Energielabel beim Fernseher aus?", a: "Es zeigt die Effizienzklasse von A bis G und oft zwei Verbrauchswerte, einen für normales Bild und einen für HDR. Im HDR-Betrieb verbraucht ein Fernseher meist mehr Strom." },
+  ],
   "werkstatt-ausstattung-was-du-wirklich-brauchst": [
     { q: "Was gehört zum Werkstattbedarf?", a: "Zum Werkstattbedarf zählen Werkzeug und Maschinen, Verbrauchsmaterial wie Schrauben, Dübel, Schleifpapier und Kleber, die Ausstattung mit Werkbank und Aufbewahrung sowie Arbeitsschutz wie Schutzbrille, Handschuhe, Gehörschutz und Staubmaske." },
     { q: "Was braucht man für eine Werkstatt zu Hause mindestens?", a: "Eine stabile Werkbank, ein Grundsortiment aus Handwerkzeug, ein Akku-Bohrschrauber, Messwerkzeuge, Verbrauchsmaterial wie Schrauben und Kleber, Arbeitsschutz und eine Aufbewahrung für Werkzeug und Kleinteile." },
