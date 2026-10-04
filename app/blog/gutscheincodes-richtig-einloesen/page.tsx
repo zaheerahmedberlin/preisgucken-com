@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CouponHint from "@/components/CouponHint";
 
 export const metadata: Metadata = {
   title: "Gutscheincodes richtig einlösen",
@@ -57,6 +58,7 @@ export default function GutscheincodesRichtigEinloesenPage() {
             Code kopiert, im Warenkorb eingefügt — und der Preis ändert sich trotzdem nicht? Meistens liegt es
             nicht am Code selbst, sondern an einer der drei Bedingungen, die fast jeder Gutschein im Kleingedruckten hat.
           </p>
+          <CouponHint />
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 31. August 2026</span>
             <span>⏱ 6 Min. Lesezeit</span>

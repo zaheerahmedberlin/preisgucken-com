@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CouponHint from "@/components/CouponHint";
 
 export const metadata: Metadata = {
   title: "Preisvergleich richtig nutzen",
@@ -68,6 +69,7 @@ export default function PreisvergleichTippsPage() {
           <span className="tag mb-3 d-inline-block">Ratgeber</span>
           <h1 className="brand-heading fw-bold display-6 mb-3">Preisvergleich richtig nutzen</h1>
           <p className="lead text-muted">Gleiche Produkte, verschiedene Preise – je nach Shop können sich die Preise deutlich unterscheiden. So funktioniert Preisvergleich und warum es sich bei jedem Online-Kauf lohnt.</p>
+        <CouponHint />
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 15. Juli 2026</span>
             <span>⏱ 5 Min. Lesezeit</span>

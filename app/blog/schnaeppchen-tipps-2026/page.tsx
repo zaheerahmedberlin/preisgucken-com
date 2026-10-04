@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CouponHint from "@/components/CouponHint";
 
 export const metadata: Metadata = {
   title: "15 Schnäppchen-Tipps 2026",
@@ -73,6 +74,7 @@ export default function SchnaeppchentippsPage() {
         </header>
 
         <p className="mb-5">Viele Online-Shopper zahlen mehr als nötig – oft aus Bequemlichkeit oder weil ihnen einfache Tricks unbekannt sind. Wir haben 15 Methoden zusammengestellt, mit denen du beim Online-Shopping Geld sparen kannst. Wie viel du sparst, hängt vom Produkt, vom Shop und vom Zeitpunkt ab. Aktuelle Gutscheincodes unserer Partner-Shops findest du auf <a href="https://www.preisgucken.de/gutscheine" target="_blank" rel="noopener">Preisgucken.de/gutscheine</a>.</p>
+        <CouponHint />
 
         <div className="row g-4 mb-5">
           {tips.map(tip => (
