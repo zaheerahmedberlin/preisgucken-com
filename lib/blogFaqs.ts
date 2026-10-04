@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "smart-home-nachruesten-guide": [
+    { q: "Was brauche ich, um mein Zuhause smart nachzurüsten?", a: "Für den Einstieg reichen meist ein Starter-Set mit Hub (bei Zigbee) oder nur WLAN-Geräte, eine Steuerungs-App wie Apple Home, Google Home oder Alexa und ein bis zwei Geräte für einen Bereich, zum Beispiel smarte Steckdosen oder Heizkörperthermostate." },
+    { q: "Kann ich Smart Home in einer Mietwohnung nachrüsten?", a: "Ja, mit Lösungen ohne Eingriff in die Installation: Zwischenstecker, smarte Leuchtmittel, batteriebetriebene Heizkörperthermostate und Klebe-Sensoren. Für Wandschalter oder Aktoren in der Elektroinstallation brauchst du in der Regel die Zustimmung des Vermieters." },
+    { q: "Zigbee, WLAN oder Matter – was ist für Einsteiger am besten?", a: "Wer nur wenige Geräte smart machen will, kommt mit WLAN am schnellsten ans Ziel. Wer langfristig plant, sollte auf Zigbee oder Matter setzen, weil sie das Heimnetz weniger belasten beziehungsweise herstellerübergreifend funktionieren." },
+    { q: "Brauche ich für smarte Wandschalter einen Elektriker?", a: "Smarte Wandschalter greifen in die feste 230-Volt-Installation ein und brauchen oft einen Nulleiter in der Dose. Arbeiten daran gehören in die Hände einer Elektrofachkraft; die einfachste Nachrüstung ohne Elektriker sind smarte Steckdosen-Adapter." },
+  ],
   "buero-grundausstattung-was-du-wirklich-brauchst": [
     { q: "Wie viele Aktenordner brauche ich für ein Homeoffice?", a: "Rechne grob mit einem Ordner pro laufendem Projekt oder Jahr, nicht pro Aktenberg. Zu wenige Ordner lassen alles lose herumliegen, ein ganzer Karton endet oft halb leer im Regal." },
     { q: "Lohnt sich ein Marken-Kugelschreiber im Büro?", a: "Bei einem Stift, den du täglich mehrere Stunden benutzt, ja: Griffzone, Tintenfluss und Minenverbrauch unterscheiden sich spürbar. Für Ersatzstifte, die ohnehin nur im Becher liegen, lohnt sich der Aufpreis kaum." },

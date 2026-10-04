@@ -16,6 +16,7 @@ export type BlogPost = {
   date: string;
   readTime: string;
   featured?: boolean;
+  updated?: string; // set when the post is substantially revised; used for sitemap <lastmod>
   pgLink: string; // preisgucken.de category slug(s) for this post's own CTA
 };
 
@@ -93,7 +94,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "pc-zubehoer-original-oder-kompatibel", title: "Original oder kompatibel? Die wichtigsten Fragen beim PC-Zubehör-Kauf", excerpt: "Worauf es bei Kabeln, Monitoren, Speicher und Druckerpatronen wirklich ankommt – mit Preisvergleich für PC-Zubehör.", date: "14. August 2026", readTime: "7 Min.", featured: true, pgLink: "pc-it-zubehoer" },
       { slug: "heimkino-einrichten-guide", title: "Beamer, Leinwand & Sound: So richtest du dein Heimkino richtig ein", excerpt: "Lumen, Kontrast, Leinwandtyp und Soundsystem im Überblick – so baust du dir ein Heimkino, das wirklich überzeugt.", date: "16. August 2026", readTime: "8 Min.", featured: true, pgLink: "heimkino" },
       { slug: "monitor-oder-beamer-kaufratgeber", title: "Monitor oder Beamer? Was für Büro, Gaming und Heimkino wirklich passt", excerpt: "Reaktionszeit, Bildschirmdiagonale und Lumen im Vergleich – welches Gerät für welchen Einsatzzweck die bessere Wahl ist.", date: "17. August 2026", readTime: "7 Min.", pgLink: "monitore,beamer" },
-      { slug: "smart-home-nachruesten-guide", title: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich", excerpt: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne bei Kompatibilität oder Datenschutz Fehler zu machen.", date: "18. August 2026", readTime: "7 Min.", pgLink: "smart-home-steuerungstechnik" },
+      { slug: "smart-home-nachruesten-guide", title: "Smart Home nachrüsten: Schalter, Steckdosen & Steuerung im Vergleich", excerpt: "Zigbee, WLAN oder Matter? So rüstest du dein Zuhause smart nach, ohne bei Kompatibilität oder Datenschutz Fehler zu machen.", date: "18. August 2026", readTime: "9 Min.", updated: "4. Oktober 2026", pgLink: "smart-home-steuerungstechnik" },
       { slug: "mesh-wlan-router-repeater-guide", title: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide", excerpt: "Schlechtes WLAN in bestimmten Zimmern? Mesh-System, Repeater oder Powerline-Adapter im Vergleich – welche Lösung wirklich zu deiner Wohnung passt, mit Preisvergleich.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "wlan-router-mesh" },
       { slug: "kopfhoerer-typ-in-ear-open-ear-over-ear", title: "In-Ear, Open-Ear oder Over-Ear? So findest du den richtigen Kopfhörer-Typ", excerpt: "True Wireless, Open-Ear-Clips oder ANC-Over-Ear – mit EarFun als Praxisbeispiel im Preisvergleich.", date: "28. August 2026", readTime: "7 Min.", featured: true, pgLink: "kopfhoerer-lautsprecher" },
       { slug: "handyhuellen-kaufen-material-schutz", title: "Handyhülle kaufen: Material, Schutzwirkung und Passform im Überblick", excerpt: "Silikon, Hartplastik oder Hybrid — welches Hüllenmaterial wirklich schützt.", date: "30. August 2026", readTime: "6 Min.", pgLink: "handyhuellen" },

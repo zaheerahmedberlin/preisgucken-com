@@ -43,7 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...posts.map((p) => ({
       url: `${BASE}/blog/${p.slug}/`,
-      lastModified: isoDay(parseGermanDate(p.date)),
+      lastModified: isoDay(parseGermanDate(p.updated ?? p.date)),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
