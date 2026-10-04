@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "messwerkzeuge-kaufen-ratgeber": [
+    { q: "Welches Messwerkzeug brauche ich für den Haushalt?", a: "Für die meisten Aufgaben reichen ein Bandmaß, eine Wasserwaage und bei größeren Räumen ein Laser-Entfernungsmesser. Ein Messschieber lohnt sich, wenn du kleine Teile genau messen möchtest." },
+    { q: "Wie genau ist ein Laser-Entfernungsmesser?", a: "Übliche Geräte messen bis zu etwa 50 Metern mit einer Genauigkeit von wenigen Millimetern. Die genauen Werte stehen im Datenblatt, und sehr günstige Geräte können ungenauer sein." },
+    { q: "Wofür steht die Genauigkeitsklasse beim Maßband?", a: "Maßbänder werden in die Genauigkeitsklassen I bis III eingeteilt. Die Klasse steht am Anfang der Skala, Klasse I ist die genaueste." },
+    { q: "Was ist der Unterschied zwischen einpoligem und zweipoligem Spannungsprüfer?", a: "Ein zweipoliger Spannungsprüfer gilt als Standard, um Spannungsfreiheit festzustellen. Ein einpoliger Phasenprüfer ist nur ein Hinweisgeber. Arbeiten an der Elektroinstallation gehören in die Hände einer Elektrofachkraft." },
+  ],
   "kabel-und-adapter-kaufen-ratgeber": [
     { q: "Warum lädt mein USB-C-Kabel, überträgt aber keine Daten?", a: "Viele USB-C-Kabel sind reine Ladekabel und haben nicht die Leitungen für schnelle Datenübertragung. Achte beim Kauf auf die Angabe der Datenrate, zum Beispiel USB 3.2 oder USB4." },
     { q: "Welches HDMI-Kabel brauche ich für 4K mit 120 Hz?", a: "Dafür brauchst du ein als Ultra High Speed zertifiziertes HDMI-Kabel und einen Anschluss mit HDMI 2.1 am Gerät. Für 4K mit 60 Hz reicht in der Regel ein High-Speed-Kabel." },

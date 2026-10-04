@@ -1,6 +1,7 @@
 // Display names of the preisgucken.de categories referenced by `pgLink` in
 // lib/blogCategories.ts. Used for the keyword anchor text in <RelatedOffers>.
 export const PG_CATEGORY_NAMES: Record<string, string> = {
+  "messwerkzeuge": "Messwerkzeuge",
   "kabel-adapter": "Kabel & Adapter",
   "arbeitskleidung-arbeitsschutz": "Arbeitskleidung & Arbeitsschutz",
   "auto-fahrzeugzubehoer": "Auto & Fahrzeugzubehör",
