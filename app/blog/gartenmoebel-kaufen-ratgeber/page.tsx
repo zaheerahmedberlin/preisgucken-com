@@ -91,7 +91,7 @@ export default function GartenmoebелRatgeber() {
 
         <h2 className="h4 fw-bold mt-5 mb-3" style={{ color: "#1A3A6B" }}>Gartenmöbel günstig kaufen – die besten Tipps</h2>
         <ol>
-          <li><strong>Ende-Saison kaufen:</strong> Ab August werden Gartenmöbel um 30–60% reduziert – perfekter Zeitpunkt für den Kauf.</li>
+          <li><strong>Ende-Saison kaufen:</strong> Gegen Ende der Saison werden Gartenmöbel häufig reduziert – ein guter Zeitpunkt für den Kauf.</li>
           <li><strong>Preisvergleich nutzen:</strong> Auf <a href="https://www.preisgucken.de" target="_blank" rel="noopener">preisgucken.de</a> siehst du Preise aus allen deutschen Shops.</li>
           <li><strong>Sets statt Einzelteile:</strong> Gartensets sind oft günstiger als die Einzelteile zusammen.</li>
           <li><strong>Auf Schutzhülle achten:</strong> Eine gute Abdeckung verdoppelt die Lebensdauer der Möbel – und spart langfristig Geld.</li>

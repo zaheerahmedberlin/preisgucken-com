@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Gesundheitsprodukte online kaufen",
-  description: "Nahrungsergänzungsmittel, Massagegeräte & Co: Qualität erkennen, Fakes vermeiden, bis zu 35% sparen.",
+  description: "Nahrungsergänzungsmittel, Massagegeräte & Co: Qualität erkennen, Fakes vermeiden und Preise vergleichen.",
   keywords: ["gesundheitsprodukte online kaufen", "nahrungsergänzungsmittel kaufen", "massagegerät preisvergleich", "gesundheit online shop", "gesundheitsprodukte ratgeber"],
   openGraph: {
     title: "Gesundheitsprodukte online kaufen",
-    description: "Nahrungsergänzungsmittel, Massagegeräte & Co: Qualität erkennen, Fakes vermeiden, bis zu 35% sparen.",
+    description: "Nahrungsergänzungsmittel, Massagegeräte & Co: Qualität erkennen, Fakes vermeiden und Preise vergleichen.",
     url: "https://www.preisgucken.com/blog/gesundheitsprodukte-online-kaufen/",
     type: "article",
     publishedTime: "2026-07-16",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Gesundheitsprodukte online kaufen",
-    description: "Nahrungsergänzungsmittel, Massagegeräte & Co: Qualität erkennen, Fakes vermeiden, bis zu 35% sparen.",
+    description: "Nahrungsergänzungsmittel, Massagegeräte & Co: Qualität erkennen, Fakes vermeiden und Preise vergleichen.",
   },
 };
 
@@ -61,7 +61,7 @@ export default function GesundheitsprodukteSeite() {
 
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Warum der Online-Kauf von Gesundheitsprodukten boomt</h2>
-          <p>Der Online-Markt für Gesundheitsprodukte wächst in Deutschland jährlich um rund 12%. Verbraucher schätzen die Bequemlichkeit, die Preistransparenz und die große Auswahl. Gleichzeitig birgt das Segment besondere Risiken: Qualitätsschwankungen, Fake-Produkte und irreführende Versprechen sind häufiger als in anderen Kategorien.</p>
+          <p>Gesundheitsprodukte werden in Deutschland immer häufiger online gekauft. Verbraucher schätzen die Bequemlichkeit, die Preistransparenz und die große Auswahl. Gleichzeitig birgt das Segment besondere Risiken: Qualitätsschwankungen, Fake-Produkte und irreführende Versprechen sind häufiger als in anderen Kategorien.</p>
           <p>Mit dem richtigen Wissen kannst du sicher und günstig einkaufen.</p>
         </section>
 
@@ -93,13 +93,13 @@ export default function GesundheitsprodukteSeite() {
             <li><strong>CE-Kennzeichnung:</strong> Pflicht für alle Medizinprodukte in der EU – ohne CE-Zeichen nicht kaufen</li>
             <li><strong>Markenhersteller bevorzugen:</strong> Beurer, Medisana, Omron und Welch Allyn sind etablierte Qualitätsmarken</li>
             <li><strong>Garantie prüfen:</strong> Seriöse Hersteller bieten mindestens 2 Jahre Garantie, Premium-Geräte oft 3–5 Jahre</li>
-            <li><strong>Bewertungen auf mehreren Plattformen:</strong> Verifizierte Käuferbewertungen auf Amazon, idealo und beim Händler direkt vergleichen</li>
+            <li><strong>Bewertungen auf mehreren Plattformen:</strong> Verifizierte Käuferbewertungen auf mehreren Plattformen und beim Händler direkt vergleichen</li>
           </ul>
         </section>
 
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Preisunterschiede bei Gesundheitsprodukten</h2>
-          <p>Identische Produkte von Beurer, Medisana oder Life Extension können je nach Shop um <strong>25–35%</strong> im Preis variieren. Bei Nahrungsergänzungsmitteln sind sogar größere Unterschiede möglich, da verschiedene Shops unterschiedliche Packungsgrößen anbieten.</p>
+          <p>Identische Produkte von Beurer, Medisana oder Life Extension können je nach Shop <strong>deutlich unterschiedlich</strong> kosten. Bei Nahrungsergänzungsmitteln sind sogar größere Unterschiede möglich, da verschiedene Shops unterschiedliche Packungsgrößen anbieten.</p>
           <p><strong>Wichtig beim Vergleich:</strong> Achte immer auf den Preis pro Kapsel oder pro Gramm Wirkstoff, nicht nur auf den Gesamtpreis der Packung.</p>
           <div className="alert alert-success small">
             💡 <strong>Tipp:</strong> Auf <a href="https://www.preisgucken.de" target="_blank" rel="noopener">preisgucken.de</a> findest du aktuelle Preise für Gesundheitsprodukte aus deutschen Online-Shops – inklusive aktueller Verfügbarkeit.

@@ -155,6 +155,18 @@ for (const p of ok) {
     }
   }
 
+  // Quantified savings promises ("bis zu 40 %") are only safe when they are true and typical (UWG § 5).
+  // Claims about vendor coupons are fine as long as real, current coupons back them, so a
+  // promise next to "Gutschein/Coupon/Rabattcode" is skipped; the rest is flagged as a warning.
+  const claimText = `${p.title} ${p.desc} ${p.isPost ? textOf(p.article) : ""}`;
+  const promiseRe = /(bis zu \d{1,3}\s?(%|Prozent)|spar\w* (dir )?bis (zu )?\d{1,3}\s?(%|Prozent)|\d{1,3}\s?[–-]\s?\d{1,3}\s?(%|Prozent) (günstiger|billiger|sparen|reduziert|Rabatt|Ersparnis))/gi;
+  for (const m of claimText.matchAll(promiseRe)) {
+    const around = claimText.slice(Math.max(0, m.index - 140), m.index + m[0].length + 140);
+    if (/Gutschein|Coupon|Rabattcode|Aktionscode/i.test(around)) continue;
+    add("warn", "savings-claim", url, `savings promise outside a coupon context: "${m[0]}" – keep it qualitative unless real data backs it`);
+  }
+  if (/Idealo|Check24|Geizhals|billiger\.de/i.test(claimText)) add("warn", "competitor-name", url, "names a competing price-comparison brand; make sure it is a truthful, necessary reference");
+
   if (p.isPost) {
     if (p.words < MIN_WORDS) add("warn", "thin-content", url, `${p.words} words in the article (target ${MIN_WORDS}+)`);
     if (p.h2 < 3) add("warn", "few-headings", url, `only ${p.h2} <h2> sections`);
@@ -164,8 +176,8 @@ for (const p of ok) {
     for (const m of p.article.matchAll(/<(p|li)\b[^>]*>([\s\S]*?)<\/\1>/g)) {
       const inner = m[2];
       const t = textOf(inner);
-      if (/\b\d{1,3}\s?(%|Prozent)/.test(t) && /(Studie|Umfrage|Bitkom|Idealo zeig|Statistik|laut (einer|dem|der) )/i.test(t) && !/<a\s/.test(inner))
-        add("warn", "unsourced-statistic", url, `statistic without a linked source: "${t.slice(0, 110)}…"`);
+      if (/\b\d{1,3}\s?(%|Prozent)/.test(t) && /(Studie|Umfrage|Statistik|laut (einer|dem|der) |Bitkom|Idealo|Verbraucherzentrale|Stiftung Warentest)/i.test(t) && !/<a\s/.test(inner))
+        add("error", "unsourced-statistic", url, `statistic attributed to a study/organisation without a linked source (UWG: misleading): "${t.slice(0, 110)}…"`);
     }
   }
 }

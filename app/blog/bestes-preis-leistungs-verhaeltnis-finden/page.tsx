@@ -153,9 +153,7 @@ export default function PreisLeistungPage() {
             <li><strong>Bewertungen querlesen:</strong> Wiederkehrende Kritikpunkte in mehreren unabhängigen Bewertungen sind aussagekräftiger als eine einzelne Fünf-Sterne-Rezension.</li>
           </ol>
           <div className="alert alert-info small">
-            💡 <strong>Sparfuchs-Tipp:</strong> Das Vorgängermodell eines aktuellen Produkts bietet oft 90% der
-            Leistung zu 60–70% des Preises – bei Technik-Produkten lohnt sich der Blick auf die vorherige
-            Generation fast immer.
+            💡 <strong>Sparfuchs-Tipp:</strong> Das Vorgängermodell eines aktuellen Produkts bietet oft fast die gleiche Leistung zu einem niedrigeren Preis – bei Technik-Produkten lohnt sich der Blick auf die vorherige Generation.
           </div>
         </section>
 

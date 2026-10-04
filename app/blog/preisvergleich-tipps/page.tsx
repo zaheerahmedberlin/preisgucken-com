@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Preisvergleich richtig nutzen",
-  description: "Warum gleiche Produkte bis zu 40% günstiger sein können und wie du den besten Preis findest.",
+  description: "Warum dieselben Produkte je nach Shop unterschiedlich viel kosten und wie du mit einem Preisvergleich den besten Preis findest.",
   keywords: ["preisvergleich", "preisvergleich tipps", "online preisvergleich", "günstigster preis online", "preisvergleich wie funktioniert"],
   openGraph: {
     title: "Preisvergleich richtig nutzen",
-    description: "Warum gleiche Produkte bis zu 40% günstiger sein können und wie du den besten Preis findest.",
+    description: "Warum dieselben Produkte je nach Shop unterschiedlich viel kosten und wie du mit einem Preisvergleich den besten Preis findest.",
     url: "https://www.preisgucken.com/blog/preisvergleich-tipps/",
     type: "article",
     publishedTime: "2026-07-15",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Preisvergleich richtig nutzen",
-    description: "Warum gleiche Produkte bis zu 40% günstiger sein können und wie du den besten Preis findest.",
+    description: "Warum dieselben Produkte je nach Shop unterschiedlich viel kosten und wie du mit einem Preisvergleich den besten Preis findest.",
   },
 };
 
@@ -67,7 +67,7 @@ export default function PreisvergleichTippsPage() {
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Ratgeber</span>
           <h1 className="brand-heading fw-bold display-6 mb-3">Preisvergleich richtig nutzen</h1>
-          <p className="lead text-muted">Gleiche Produkte, verschiedene Preise – manchmal bis zu 40% Unterschied. So funktioniert Preisvergleich und warum es sich bei jedem Online-Kauf lohnt.</p>
+          <p className="lead text-muted">Gleiche Produkte, verschiedene Preise – je nach Shop können sich die Preise deutlich unterscheiden. So funktioniert Preisvergleich und warum es sich bei jedem Online-Kauf lohnt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 15. Juli 2026</span>
             <span>⏱ 5 Min. Lesezeit</span>
@@ -77,7 +77,7 @@ export default function PreisvergleichTippsPage() {
 
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Warum Preise so stark schwanken</h2>
-          <p>Ein Samsung-Fernseher kostet bei Shop A 649 €, bei Shop B 749 € – dasselbe Modell, dieselbe Seriennummer. Das ist kein Einzelfall. Studien des Vergleichsportals Idealo zeigen, dass bei Elektronikartikeln die Preisdifferenz zwischen günstigstem und teuerstem Anbieter im Schnitt bei <strong>23%</strong> liegt, bei Möbeln sogar bei bis zu <strong>41%</strong>.</p>
+          <p>Ein Beispiel mit angenommenen Werten: Ein Fernseher kostet bei Shop A 649 €, bei Shop B 749 € – dasselbe Modell. Solche Unterschiede sind kein Einzelfall, besonders bei Elektronik und Möbeln, fallen aber je nach Produkt und Zeitpunkt unterschiedlich groß aus.</p>
           <p>Die Gründe dafür sind vielfältig: unterschiedliche Einkaufskonditionen der Händler, Lagerkapazitäten, regionale Preisstrategien und das sogenannte <strong>Dynamic Pricing</strong> – ein algorithmusbasiertes System, das Preise in Echtzeit an Nachfrage, Tageszeit und sogar dein Nutzerprofil anpasst.</p>
         </section>
 
@@ -105,9 +105,9 @@ export default function PreisvergleichTippsPage() {
           <h2 className="fw-bold h4 mb-3">Die besten Kategorien für Preisvergleich</h2>
           <p>Nicht alle Produktkategorien eignen sich gleich gut für Preisvergleiche. Hier lohnt es sich besonders:</p>
           <ul>
-            <li><strong>Elektronik:</strong> Fernsehgeräte, Smartphones, Kopfhörer – bis zu 30% günstiger durch Vergleich</li>
-            <li><strong>Möbel & Betten:</strong> Boxspringbetten, Sofas, Kleiderschränke – Preisunterschiede bis 41%</li>
-            <li><strong>Gesundheit & Pflege:</strong> Nahrungsergänzungsmittel, Massagegeräte – identische Produkte mit bis zu 35% Aufschlag</li>
+            <li><strong>Elektronik:</strong> Fernsehgeräte, Smartphones, Kopfhörer – die Preise schwanken je nach Händler und Zeitpunkt</li>
+            <li><strong>Möbel & Betten:</strong> Boxspringbetten, Sofas, Kleiderschränke – oft deutliche Unterschiede zwischen den Shops</li>
+            <li><strong>Gesundheit & Pflege:</strong> Nahrungsergänzungsmittel, Massagegeräte – identische Produkte können je nach Shop und Packungsgröße unterschiedlich kosten</li>
             <li><strong>Outdoor & Garten:</strong> Saisonale Produkte mit extremen Preisschwankungen je nach Jahreszeit</li>
           </ul>
         </section>

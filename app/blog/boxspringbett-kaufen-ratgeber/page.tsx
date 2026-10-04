@@ -131,7 +131,7 @@ export default function BoxspringbettRatgeber() {
 
         <section id="preisvergleich" className="mb-5">
           <h2 className="fw-bold h4 mb-3">6. Wo kaufst du am günstigsten?</h2>
-          <p>Preisunterschiede bei identischen Modellen können bis zu 40% betragen. Plattformen wie XXXLutz, Home24, DeubaXXL und Weddix bieten häufig die günstigsten Preise online.</p>
+          <p>Bei identischen Modellen können die Preise zwischen den Shops deutlich auseinanderliegen. Ein Preisvergleich zeigt, welcher Händler aktuell am günstigsten ist.</p>
           <div className="alert alert-success small">
             💡 <strong>Tipp:</strong> Nutze <a href="https://www.preisgucken.de" target="_blank" rel="noopener">Preisgucken.de</a>, um aktuelle Bettpreise aus mehreren deutschen Shops gleichzeitig zu vergleichen – kostenlos und ohne Anmeldung.
           </div>
@@ -144,7 +144,7 @@ export default function BoxspringbettRatgeber() {
             <li>Mindestgröße 160×200 cm für Paare</li>
             <li>Härtegrad passend zu deinem Gewicht (H3 für die meisten)</li>
             <li>Budget zwischen 600–1.000 € für gute Qualität</li>
-            <li>Preisvergleich vor dem Kauf – spare bis zu 40%</li>
+            <li>Preisvergleich vor dem Kauf – so findest du den günstigsten Anbieter</li>
           </ol>
         </section>
 
