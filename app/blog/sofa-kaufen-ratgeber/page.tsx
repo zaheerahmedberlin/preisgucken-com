@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Welches Sofa passt zu deinem Wohnzimmer?",
-  description: "Sofa kaufen: Welche Größe, welcher Stoff und wie viel Budget? Der Experten-Ratgeber hilft dir.",
-  keywords: ["sofa kaufen", "couch kaufen ratgeber", "sofa kaufberatung 2026", "bestes sofa preisvergleich", "sofa stoff oder leder", "sofa maße"],
+  description: "Sofa kaufen: Größe, Sitzhöhe und Sitztiefe, Stoff oder Leder, Polsterung und Raumgewicht, Probesitzen und Lieferweg – der Ratgeber für den Sofa-Kauf.",
+  keywords: ["sofa kaufen", "couch kaufen ratgeber", "sofa kaufberatung 2026", "bestes sofa preisvergleich", "sofa stoff oder leder", "sofa maße", "sofa sitzhöhe sitztiefe", "sofa polsterung raumgewicht", "sofa probesitzen", "sofa stoff oder leder", "sofa lieferung treppenhaus"],
   openGraph: {
     title: "Welches Sofa passt zu deinem Wohnzimmer?",
     description: "Sofa kaufen: Welche Größe, welcher Stoff und wie viel Budget? Der Experten-Ratgeber hilft dir.",
     url: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-17",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Welches Sofa passt zu deinem Wohnzimmer?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/sofa-kaufen-ratgeber/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Welches Sofa passt zu deinem Wohnzimmer?",
   datePublished: "2026-07-17",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function SofaKaufenPage() {
           <p className="lead text-muted">Größe, Form, Stoff – beim Sofakauf gibt es viele Entscheidungen. Wir führen dich Schritt für Schritt zum richtigen Sofa zum besten Preis.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 17. Juli 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -143,6 +146,59 @@ export default function SofaKaufenPage() {
             <li><strong>Schaumstoff-Dichte über 35 kg/m³</strong> für den Sitz</li>
             <li><strong>Abnehmbare, waschbare Bezüge</strong> – erleichtert die Pflege enorm</li>
             <li><strong>Stabile Füße</strong> aus Metall oder Massivholz statt Plastik</li>
+          </ol>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Sofa-Maße: Sitzhöhe und Sitztiefe</h2>
+          <p>Neben der Gesamtgröße entscheiden zwei Maße über den Komfort. Beide stehen im Datenblatt:</p>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th>Maß</th><th>Richtwert</th><th>Was es bedeutet</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Sitzhöhe</td><td>42–45 cm</td><td>Üblich bei den meisten Modellen</td></tr>
+                <tr><td>Sitzhöhe</td><td>46–48 cm</td><td>Leichteres Aufstehen, etwa bei Knieproblemen</td></tr>
+                <tr><td>Sitztiefe</td><td>50–55 cm</td><td>Aufrechtes Sitzen</td></tr>
+                <tr><td>Sitztiefe</td><td>55–65 cm</td><td>Entspannt zurückgelehnt</td></tr>
+                <tr><td>Sitztiefe</td><td>über 65 cm</td><td>Lounge-Charakter, eher zum Liegen</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="small text-muted">Große Menschen brauchen oft eine größere Sitztiefe, kleine Menschen sitzen bei zu tiefen Sofas ohne Rückenstütze.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Polsterung: Raumgewicht und Federung</h2>
+          <p>Die Qualität der Polsterung bestimmt, ob dein Sofa nach zwei Jahren noch gut sitzt. Wichtig ist das Raumgewicht des Schaumstoffs, das im Datenblatt in kg/m³ steht. Als grober Richtwert gilt:</p>
+          <ul>
+            <li><strong>Unter 25:</strong> Sichtbare Mulden nach ein bis zwei Jahren sind wahrscheinlich.</li>
+            <li><strong>30 bis 35:</strong> Solide Alltagsqualität für etwa fünf bis acht Jahre.</li>
+            <li><strong>Ab 40:</strong> Premium-Polsterung, die oft über ein Jahrzehnt formstabil bleibt.</li>
+          </ul>
+          <p>Kaltschaum gibt punktelastisch nach, Federkern bietet mehr Gegendruck. Eine Boxspring-Unterfederung kombiniert beides. Welche Variante bequemer ist, hängt davon ab, ob du lieber weich einsinkst oder fest sitzt.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Probesitzen und Lieferweg planen</h2>
+          <ul>
+            <li><strong>Lange probesitzen:</strong> Der erste Eindruck täuscht oft. Ein sehr weiches Sofa fühlt sich im Möbelhaus herrlich an, bildet aber nach einigen Monaten Kuhlen, wenn der Kern zu leicht ist. Setze dich mindestens einige Minuten, auch in Ruhe zurückgelehnt.</li>
+            <li><strong>Lieferweg messen:</strong> Miss Haustür, Treppenhaus, Türen und Aufzug nach. Ein Sofa, das nicht durch die Tür passt, ist ein teurer Fehlkauf.</li>
+            <li><strong>Bezug prüfen:</strong> Mikrofaser ist oft pflegeleicht, abnehmbare Bezüge lassen sich meist waschen. Bei Kindern und Haustieren lohnen sich robuste, abwischbare Materialien.</li>
+            <li><strong>Rückgabe klären:</strong> Prüfe bei Online-Käufen, ob Rückgabe und Rücktransport möglich sind und wer sie bezahlt.</li>
+          </ul>
+          <p className="small text-muted">Wenn du das Wohnzimmer ganz neu einrichtest, helfen dir unsere Tipps zu <a href="/blog/wohnaccessoires-beleuchtung-preisvergleich/">Wohnaccessoires und Beleuchtung</a>.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Sofa-Kauf</h2>
+          <ol>
+            <li><strong>Den Raum nicht ausgemessen:</strong> Zu große Sofas nehmen Platz und Durchgang weg.</li>
+            <li><strong>Nur auf Optik und Weichheit achten:</strong> Polsterqualität und Gestell entscheiden über die Haltbarkeit.</li>
+            <li><strong>Den Lieferweg vergessen:</strong> Türen, Treppenhaus und Aufzug müssen passen.</li>
+            <li><strong>Zu kurz probesitzen:</strong> Ein Eindruck von wenigen Sekunden sagt wenig über den Komfort nach Stunden.</li>
+            <li><strong>Den Bezug ignorieren:</strong> Pflege und Alltagstauglichkeit sind bei Familie und Haustieren wichtiger als das Muster.</li>
           </ol>
         </section>
 

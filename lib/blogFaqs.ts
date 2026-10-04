@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "sofa-kaufen-ratgeber": [
+    { q: "Wie viel Platz brauche ich vor und neben dem Sofa?", a: "Plane vor dem Sofa mindestens 90 bis 120 cm bis zum Couchtisch oder Fernseher ein und lasse für Durchgänge mindestens 60 cm frei. Das Sofa sollte maximal zwei Drittel der Wandbreite einnehmen." },
+    { q: "Welche Sitzhöhe ist bei einem Sofa üblich?", a: "Bei den meisten Modellen liegt die Sitzhöhe zwischen 42 und 45 cm. Wer Knieprobleme hat oder leichter aufstehen möchte, wählt oft 46 bis 48 cm." },
+    { q: "Was bedeutet das Raumgewicht bei der Sofa-Polsterung?", a: "Das Raumgewicht gibt an, wie dicht der Schaumstoff ist. Als grober Richtwert halten Polster unter 25 weniger lange formstabil, 30 bis 35 gelten als solide Alltagsqualität und ab 40 als hochwertig." },
+    { q: "Stoff oder Leder – was ist besser für Familien mit Haustieren?", a: "Leder ist robust und leicht abwischbar, zeigt aber Kratzer. Stoffe sind günstiger und weicher, aber schwerer zu reinigen. Abnehmbare und waschbare Bezüge sind eine praktische Lösung." },
+  ],
   "mesh-wlan-router-repeater-guide": [
     { q: "Mesh-WLAN oder Repeater – was ist besser?", a: "Ein Repeater ist die günstige Lösung für ein einzelnes Problemzimmer. Ein Mesh-System bildet ein gemeinsames Netz mit einem WLAN-Namen und eignet sich besser für größere Wohnungen oder mehrere Etagen mit vielen Geräten." },
     { q: "Was ist der Unterschied zwischen Repeater und Mesh-Repeater?", a: "Ein einfacher Repeater sendet ein eigenes Netz unter anderem Namen. Ein Mesh-Repeater bildet mit dem Router ein gemeinsames Netz, übernimmt dessen Einstellungen und verbindet Geräte automatisch mit dem besten Zugangspunkt." },
