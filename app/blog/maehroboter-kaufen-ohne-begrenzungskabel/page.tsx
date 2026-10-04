@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mähroboter ohne Begrenzungskabel kaufen: Der RTK-Guide",
+  title: "Mähroboter ohne Begrenzungskabel: RTK-Guide",
   description: "Kein Kabel vergraben, keine Signalstörung: Wie RTK-Mähroboter ohne Begrenzungskabel funktionieren und worauf du beim Kauf achten solltest – mit Preisvergleich.",
   keywords: [
     "mähroboter ohne begrenzungskabel",

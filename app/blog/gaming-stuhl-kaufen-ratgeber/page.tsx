@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gaming Stuhl kaufen: Material, Ergonomie & Massage-Funktion",
+  title: "Gaming Stuhl kaufen: Material & Ergonomie",
   description: "Racing-Optik oder Ergonomie? Stoff, PU-Leder oder Wildleder-Optik im Vergleich – worauf es beim Gaming-Stuhl-Kauf wirklich ankommt, mit Preisvergleich.",
   keywords: [
     "gaming stuhl kaufen",

@@ -6,6 +6,56 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "staubsauger-kaufen-ratgeber": [
+    { q: "Beutel oder beutellos – was ist besser?", a: "Beutel sind hygienischer beim Entleeren, verursachen aber laufende Kosten. Beutellose Geräte sparen die Beutel, brauchen aber regelmäßige Filterreinigung. Allergiker fahren mit Beutel und gutem Filter oft besser." },
+    { q: "Sagt die Wattzahl etwas über die Saugkraft aus?", a: "Nein, die Wattzahl zeigt vor allem die Stromaufnahme. Bodendüse, Bürste und Abdichtung beeinflussen die Reinigung ebenso stark." },
+    { q: "Welcher Staubsauger ist für Allergiker geeignet?", a: "Ein Gerät mit HEPA-Filter und dichtem Gehäuse, das Staub und Pollen zurückhält. Beutelsauger sind beim Entleeren hygienischer." },
+    { q: "Welcher Staubsauger ist für Tierhaare am besten?", a: "Geräte mit rotierender Bürste oder Turbodüse lösen Tierhaare besonders gut. Akku-Sauger mit Bürstenwalze sind bei Haustierbesitzern beliebt." },
+  ],
+  "monitor-oder-beamer-kaufratgeber": [
+    { q: "Ist ein Beamer als Monitor fürs Homeoffice geeignet?", a: "Meist nicht für die tägliche Arbeit: Die Textschärfe ist geringer als bei einem Monitor, und das Bild braucht einen abgedunkelten Raum. Für Präsentationen und Meetings mit mehreren Personen ist ein Beamer dagegen gut geeignet." },
+    { q: "Was ist besser zum Gaming: Monitor oder Beamer?", a: "Für schnelle Spiele ist ein Monitor besser, weil er kurze Reaktionszeiten und hohe Bildwiederholraten bietet. Ein Beamer punktet bei der Bildgröße, hat aber meist mehr Verzögerung." },
+    { q: "Welche Monitorgröße passt zum Schreibtisch?", a: "Für den Schreibtisch sind 24 bis 27 Zoll üblich, für Gaming auch 27 bis 32 Zoll. Größere Monitore lohnen sich nur bei ausreichendem Sitzabstand." },
+    { q: "Lohnt sich ein Beamer anstelle eines Fernsehers?", a: "Das hängt vom Raum ab: Ein Beamer liefert ein sehr großes Bild, braucht aber einen abgedunkelten Raum und Platz. Ein Fernseher ist auch bei Tageslicht hell und schneller eingerichtet." },
+  ],
+  "sofa-kaufen-ratgeber": [
+    { q: "Wie viel Platz brauche ich vor und neben dem Sofa?", a: "Plane vor dem Sofa mindestens 90 bis 120 cm bis zum Couchtisch oder Fernseher ein und lasse für Durchgänge mindestens 60 cm frei. Das Sofa sollte maximal zwei Drittel der Wandbreite einnehmen." },
+    { q: "Welche Sitzhöhe ist bei einem Sofa üblich?", a: "Bei den meisten Modellen liegt die Sitzhöhe zwischen 42 und 45 cm. Wer Knieprobleme hat oder leichter aufstehen möchte, wählt oft 46 bis 48 cm." },
+    { q: "Was bedeutet das Raumgewicht bei der Sofa-Polsterung?", a: "Das Raumgewicht gibt an, wie dicht der Schaumstoff ist. Als grober Richtwert halten Polster unter 25 weniger lange formstabil, 30 bis 35 gelten als solide Alltagsqualität und ab 40 als hochwertig." },
+    { q: "Stoff oder Leder – was ist besser für Familien mit Haustieren?", a: "Leder ist robust und leicht abwischbar, zeigt aber Kratzer. Stoffe sind günstiger und weicher, aber schwerer zu reinigen. Abnehmbare und waschbare Bezüge sind eine praktische Lösung." },
+  ],
+  "mesh-wlan-router-repeater-guide": [
+    { q: "Mesh-WLAN oder Repeater – was ist besser?", a: "Ein Repeater ist die günstige Lösung für ein einzelnes Problemzimmer. Ein Mesh-System bildet ein gemeinsames Netz mit einem WLAN-Namen und eignet sich besser für größere Wohnungen oder mehrere Etagen mit vielen Geräten." },
+    { q: "Was ist der Unterschied zwischen Repeater und Mesh-Repeater?", a: "Ein einfacher Repeater sendet ein eigenes Netz unter anderem Namen. Ein Mesh-Repeater bildet mit dem Router ein gemeinsames Netz, übernimmt dessen Einstellungen und verbindet Geräte automatisch mit dem besten Zugangspunkt." },
+    { q: "Wo platziere ich einen WLAN-Repeater?", a: "Auf halber Strecke zwischen Router und Funkloch, an einer Stelle mit noch gutem Empfang, erhöht und frei, mit Abstand zu Heizkörpern, Metallflächen und Mikrowellen." },
+    { q: "Brauche ich für Mesh-WLAN die gleiche Marke wie beim Router?", a: "Am zuverlässigsten funktionieren Mesh-Systeme, wenn sie vom selben Hersteller stammen oder ausdrücklich zum Router kompatibel sind." },
+    { q: "Was ist Backhaul beim Mesh-WLAN?", a: "Backhaul ist die Verbindung zwischen den Mesh-Knoten und dem Router. Ein LAN-Kabel oder ein eigenes Funkband für diese Verbindung macht das Netz meist schneller und stabiler." },
+  ],
+  "schuhe-online-kaufen-groessentabelle": [
+    { q: "Wie messe ich meine Fußlänge richtig?", a: "Stelle den Fuß auf ein Blatt Papier, die Ferse an die Wand, markiere die längste Stelle und miss den Abstand in Zentimetern. Miss am besten abends und beide Füße einzeln, der größere Wert zählt." },
+    { q: "Wie berechne ich meine Schuhgröße aus der Fußlänge?", a: "Rechne (Fußlänge in cm + 1 bis 1,5 cm Zugabe) × 1,5. Bei 25 cm Fußlänge ergibt das etwa Größe 40. Prüfe zusätzlich immer die Größentabelle des Herstellers." },
+    { q: "Sollte ich Sportschuhe eine Nummer größer kaufen?", a: "Viele Läufer wählen eine halbe bis eine Nummer größer, weil der Fuß beim Laufen anschwillt und die Zehen Spielraum brauchen. Probiere im Zweifel zwei Größen." },
+    { q: "Wie lange kann ich Schuhe online zurückgeben?", a: "Bei Online-Käufen gilt in Deutschland in der Regel ein 14-tägiges Widerrufsrecht. Viele Händler gewähren mehr Zeit. Prüfe vor dem Kauf auch, wer die Rücksendekosten trägt." },
+  ],
+  "parfuem-kaufen-edt-edp-guide": [
+    { q: "Was ist der Unterschied zwischen Eau de Toilette und Eau de Parfum?", a: "Der Unterschied liegt in der Konzentration des Parfümöls: Eau de Toilette enthält etwa 5 bis 15 Prozent, Eau de Parfum etwa 15 bis 20 Prozent. Ein Eau de Parfum duftet intensiver, hält länger und kostet meist mehr." },
+    { q: "Wie lange hält ein Parfüm auf der Haut?", a: "Das hängt von der Konzentration ab: Eau de Cologne hält etwa 1 bis 2 Stunden, Eau de Toilette 3 bis 5 Stunden, Eau de Parfum 5 bis 8 Stunden und Parfum Extrait 8 Stunden oder länger. Haut, Duft und Anwendung beeinflussen das Ergebnis." },
+    { q: "Wie bewahre ich Parfüm richtig auf?", a: "Kühl, dunkel und trocken, am besten nicht im Badezimmer. Wärme, Licht und Feuchtigkeit lassen den Duft schneller altern." },
+    { q: "Kann ich Parfüm online kaufen, ohne es vorher zu riechen?", a: "Das ist möglich, aber riskant, weil ein Duft auf jeder Haut anders wirkt. Probiergrößen oder Miniaturen sind eine günstige Möglichkeit, einen Duft vor dem Kauf eines großen Flakons zu testen." },
+  ],
+  "bestes-preis-leistungs-verhaeltnis-finden": [
+    { q: "Was bedeutet Preis-Leistungs-Verhältnis?", a: "Das Preis-Leistungs-Verhältnis beschreibt, wie viel Nutzen du für dein Geld bekommst. Es entsteht erst, wenn du Preis, Qualität, Lebensdauer, Folgekosten und Garantie gemeinsam bewertest." },
+    { q: "Wie berechne ich den Preis pro Nutzungsjahr?", a: "Teile den Kaufpreis durch die erwartete Lebensdauer in Jahren. Ein Gerät für 100 €, das 5 Jahre hält, kostet 20 € pro Jahr, ein Gerät für 60 € mit 1,5 Jahren Lebensdauer dagegen 40 € pro Jahr." },
+    { q: "Woran erkenne ich, ob ein Rabatt echt ist?", a: "Vergleiche den Preis mit dem Marktpreis mehrerer Händler und dem Preisverlauf, nicht mit der UVP. Händler müssen bei einer Preisermäßigung in der Regel den niedrigsten Preis der letzten 30 Tage angeben." },
+    { q: "Sollte ich immer das günstigste Produkt kaufen?", a: "Nicht unbedingt. Ein niedriger Preis kann auf kurze Lebensdauer, hohe Folgekosten oder fehlende Garantie hinweisen. Rechne die Gesamtkosten über die Nutzungsdauer." },
+  ],
+  "fernseher-kaufen-ratgeber": [
+    { q: "Welche Fernseher-Größe passt zu meinem Sitzabstand?", a: "Teile den Sitzabstand in Zentimetern durch 4: Das Ergebnis ist die ungefähre Größe in Zoll. Bei 2,2 Metern sind das etwa 55 Zoll, bei 3 Metern etwa 75 Zoll." },
+    { q: "OLED, QLED oder Mini-LED – was ist besser?", a: "OLED bietet die besten Schwarzwerte und den höchsten Kontrast, ideal für abgedunkelte Räume. QLED und Mini-LED sind heller und eignen sich besser für Tageslicht, Mini-LED mit besserem Kontrast als einfache LED-Modelle." },
+    { q: "Brauche ich 120 Hz und HDMI 2.1?", a: "Wer mit der Konsole spielt oder viel Sport schaut, profitiert von 120 Hz. Für 4K bei 120 Bildern pro Sekunde ist HDMI 2.1 nötig – prüfe, wie viele Anschlüsse den vollen Standard unterstützen." },
+    { q: "Lohnt sich ein 8K-Fernseher?", a: "Für die meisten nicht: Es gibt bisher kaum natives 8K-Material, 4K reicht in fast allen Wohnzimmern aus." },
+    { q: "Was sagt das Energielabel beim Fernseher aus?", a: "Es zeigt die Effizienzklasse von A bis G und oft zwei Verbrauchswerte, einen für normales Bild und einen für HDR. Im HDR-Betrieb verbraucht ein Fernseher meist mehr Strom." },
+  ],
   "werkstatt-ausstattung-was-du-wirklich-brauchst": [
     { q: "Was gehört zum Werkstattbedarf?", a: "Zum Werkstattbedarf zählen Werkzeug und Maschinen, Verbrauchsmaterial wie Schrauben, Dübel, Schleifpapier und Kleber, die Ausstattung mit Werkbank und Aufbewahrung sowie Arbeitsschutz wie Schutzbrille, Handschuhe, Gehörschutz und Staubmaske." },
     { q: "Was braucht man für eine Werkstatt zu Hause mindestens?", a: "Eine stabile Werkbank, ein Grundsortiment aus Handwerkzeug, ein Akku-Bohrschrauber, Messwerkzeuge, Verbrauchsmaterial wie Schrauben und Kleber, Arbeitsschutz und eine Aufbewahrung für Werkzeug und Kleinteile." },

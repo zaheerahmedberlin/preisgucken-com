@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Vitamin D Mangel im Winter: Symptome, Dosierung & Preisvergleich",
+  title: "Vitamin D Mangel im Winter: Symptome & Dosierung",
   description: "Warum die Vitamin-D-Bildung ab Oktober in Deutschland fast zum Stillstand kommt, welche Dosierung sinnvoll ist und was Vitamin D3 im Preisvergleich wirklich kostet.",
   keywords: [
     "vitamin d mangel winter",

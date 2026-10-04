@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
-  description: "Eau de Toilette, Eau de Parfum oder Parfum Extrait – was den Preisunterschied wirklich erklärt und wie lange ein Duft tatsächlich hält, mit Preisvergleich.",
+  title: "Parfüm kaufen: EDT, EDP oder Parfum?",
+  description: "Parfüm kaufen: Eau de Toilette, Eau de Parfum und Extrait im Vergleich, Duftnoten und Duftfamilien, Haltbarkeit, Lagerung und Preis pro 100 ml.",
   keywords: [
     "parfüm kaufen",
     "edt oder edp",
@@ -10,6 +10,11 @@ export const metadata: Metadata = {
     "parfum extrait",
     "duft kaufen",
     "parfüm günstig kaufen",
+    "duftpyramide",
+    "duftfamilien",
+    "parfüm haltbarkeit verlängern",
+    "parfüm online kaufen echt",
+    "parfüm preis pro 100 ml",
   ],
   openGraph: {
     title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
@@ -17,6 +22,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/parfuem-kaufen-edt-edp-guide/",
     type: "article",
     publishedTime: "2026-09-09",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Parfüm kaufen: EDT, EDP oder Parfum?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/parfuem-kaufen-edt-edp-guide/" },
@@ -33,6 +39,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
   datePublished: "2026-09-09",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -61,7 +68,8 @@ export default function ParfuemKaufenPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 9. September 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -150,6 +158,49 @@ export default function ParfuemKaufenPage() {
             pro Milliliter – lohnt sich vor allem bei einem Duft, den du schon kennst und sicher weiter
             benutzt.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Duftnoten und Duftfamilien: So liest du eine Duftpyramide</h2>
+          <p>Ein Parfüm entfaltet sich in drei Schritten. Das erklärt, warum ein Duft in der ersten Minute anders riecht als nach einer Stunde:</p>
+          <ul>
+            <li><strong>Kopfnote:</strong> Der erste Eindruck in den ersten Minuten, oft frisch und leicht, etwa Zitrusfrüchte.</li>
+            <li><strong>Herznote:</strong> Der eigentliche Charakter des Dufts, zum Beispiel Blüten oder Gewürze. Sie zeigt sich nach einigen Minuten.</li>
+            <li><strong>Basisnote:</strong> Sie bleibt am längsten auf der Haut, etwa Holz, Vanille oder Moschus.</li>
+          </ul>
+          <p>Dazu kommen die großen Duftfamilien: <strong>frisch und zitrisch</strong> für den Alltag und warme Tage, <strong>blumig</strong> für klassische, weiche Düfte, <strong>orientalisch und würzig</strong> für intensive Düfte am Abend und <strong>holzig</strong> für warme, ruhige Düfte. Wenn dir ein Parfüm gefallen hat, erkennst du die Familie meist auch an anderen Düften wieder.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">So hält dein Duft länger</h2>
+          <ul>
+            <li><strong>Auf Pulspunkte auftragen:</strong> Handgelenke, Hals und Ellenbeugen sind warm, dort entfaltet sich der Duft besonders gut.</li>
+            <li><strong>Nicht reiben:</strong> Das Verreiben der Handgelenke verändert die Kopfnote und lässt den Duft schneller verfliegen.</li>
+            <li><strong>Auf gepflegte Haut sprühen:</strong> Auf leicht eingecremter, unparfümierter Haut hält ein Duft oft länger als auf trockener Haut.</li>
+            <li><strong>Richtig lagern:</strong> Kühl, dunkel und nicht im Badezimmer. Wärme und Licht verändern den Duft mit der Zeit.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Parfüm online kaufen: Probieren, Echtheit und Preis pro 100 ml</h2>
+          <ul>
+            <li><strong>Vorher testen:</strong> Ein Duft entwickelt sich auf der Haut über mehrere Stunden und riecht bei jedem Menschen etwas anders. Probiergrößen oder Miniaturen sind ein günstiger Weg, bevor du einen großen Flakon kaufst.</li>
+            <li><strong>Seriösen Händler wählen:</strong> Bei Markenparfüm sind sehr niedrige Preise ein Warnzeichen. Achte auf ein vollständiges Impressum, nachvollziehbare Bewertungen und die originale, versiegelte Verpackung.</li>
+            <li><strong>Preis pro 100 ml vergleichen:</strong> Die Flakongröße verzerrt den Vergleich. Ein Flakon mit 50 ml für 40 € kostet umgerechnet 80 € pro 100 ml, ein Flakon mit 100 ml für 60 € nur 60 € pro 100 ml.</li>
+            <li><strong>Inhaltsstoffe lesen:</strong> Bei Allergien lohnt ein Blick auf die Inhaltsstoffliste auf der Verpackung, denn Duftstoffe gehören zu den häufigen Auslösern.</li>
+          </ul>
+          <p className="small text-muted">Wenn du einen Duft als Geschenk suchst, hilft auch unser <a href="/blog/schmuck-als-geschenk-ratgeber/">Geschenk-Ratgeber</a> mit Ideen nach Anlass und Budget, und im <a href="/blog/gesichtspflege-routine-hauttyp-guide/">Ratgeber zur Gesichtspflege</a> findest du passende Ergänzungen.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Parfüm-Kauf</h2>
+          <ol>
+            <li><strong>Blind kaufen:</strong> Ein Duft, der im Online-Shop gut beschrieben klingt, muss auf deiner Haut nicht passen.</li>
+            <li><strong>Nur nach der Marke entscheiden:</strong> Konzentration, Duftfamilie und Preis pro ml sagen mehr über den Wert aus als der Name.</li>
+            <li><strong>Zu viel auftragen:</strong> Besonders bei Eau de Parfum und Extrait reichen meist wenige Sprühstöße.</li>
+            <li><strong>Falsch lagern:</strong> Wärme und Licht lassen einen Duft schneller altern.</li>
+            <li><strong>Zu schnell urteilen:</strong> Die Basisnote zeigt sich erst nach Stunden. Gib dem Duft Zeit, bevor du entscheidest.</li>
+          </ol>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

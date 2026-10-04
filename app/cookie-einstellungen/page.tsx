@@ -1,19 +1,12 @@
 "use client";
 import { useState, useEffect } from "react";
-
-const COOKIE_KEY = "pg_cookie_consent";
+import { COOKIE_KEY, getValidConsent } from "@/lib/consent";
 
 type Consent = { necessary: boolean; stats: boolean; marketing: boolean };
 
 function readConsent(): Consent {
-  try {
-    const stored = localStorage.getItem(COOKIE_KEY);
-    if (!stored) return { necessary: true, stats: false, marketing: false };
-    const parsed = JSON.parse(stored);
-    return { necessary: true, stats: !!parsed.stats, marketing: false };
-  } catch {
-    return { necessary: true, stats: false, marketing: false };
-  }
+  // An expired (older than 12 months) or missing choice shows as "not agreed".
+  return { necessary: true, stats: !!getValidConsent()?.stats, marketing: false };
 }
 
 export default function CookieEinstellungenPage() {

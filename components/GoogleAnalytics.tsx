@@ -1,18 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
 import Script from "next/script";
+import { getValidConsent } from "@/lib/consent";
 
 const GA_ID = "G-F40F0J8JMB";
-const COOKIE_KEY = "pg_cookie_consent";
 
 function hasStatsConsent(): boolean {
-  try {
-    const stored = localStorage.getItem(COOKIE_KEY);
-    if (!stored) return false;
-    return !!JSON.parse(stored).stats;
-  } catch {
-    return false;
-  }
+  return !!getValidConsent()?.stats;
 }
 
 // Expire GA's cookies (_ga, _ga_<container>) on this host and every parent

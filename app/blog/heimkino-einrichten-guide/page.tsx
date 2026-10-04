@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ProjectionDiagram } from "@/components/PostDiagrams";
 
 export const metadata: Metadata = {
   title: "Heimkino einrichten: Beamer & Sound",
@@ -170,6 +171,7 @@ export default function HeimkinoEinrichtenPage() {
               </tbody>
             </table>
           </div>
+        <ProjectionDiagram />
           <p className="small text-muted">Passt der Abstand im Wohnzimmer nicht, wähle ein kleineres Bild oder einen Beamer mit kürzerem Wurfverhältnis, statt den Aufbau zu erzwingen.</p>
         </section>
 
