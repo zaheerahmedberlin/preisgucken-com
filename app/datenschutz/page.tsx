@@ -22,10 +22,11 @@ export default function DatenschutzPage() {
       <section className="mb-4">
         <h2 className="h5 fw-bold">2. Welche Daten wir erheben</h2>
         <p className="small text-muted">
-          Beim Besuch unserer Website speichert unser Hosting-Anbieter automatisch sog.
-          Server-Logfiles. Diese enthalten: IP-Adresse (anonymisiert), Datum/Uhrzeit, aufgerufene
-          URL, HTTP-Statuscode, Referrer-URL sowie Browser-User-Agent. Diese Daten sind technisch
-          notwendig (Art. 6 Abs. 1 lit. f DSGVO) und werden nach 7 Tagen gelöscht.
+          Beim Besuch unserer Website werden technisch notwendige Verbindungsdaten verarbeitet,
+          insbesondere Ihre IP-Adresse, Datum und Uhrzeit sowie die aufgerufene URL. Das ist nötig,
+          damit die Seite ausgeliefert werden kann und der Betrieb sicher bleibt (Art. 6 Abs. 1
+          lit. f DSGVO). Ein dauerhaftes Zugriffsprotokoll mit diesen Daten führen wir auf unserem
+          Webserver nicht.
         </p>
         <p className="small text-muted mb-0">
           Wir speichern keine personenbezogenen Daten in Benutzerkonten, da keine Registrierung
