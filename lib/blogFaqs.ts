@@ -208,6 +208,9 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Brauche ich Heiz- und Massagefunktion?", a: "Nein, sie sind kein Muss. Wer sie nicht nutzen wird, spart mit einem Basismodell – ein direkter Preisvergleich zeigt, ob sich der Aufpreis überhaupt lohnt." },
   ],
   "hoverboard-kaufen-ratgeber": [
+    { q: "Darf ich mit dem Hoverboard auf der Straße oder dem Gehweg fahren?", a: "Nein. In Deutschland gibt es keine Zulassung für Hoverboards im öffentlichen Straßenverkehr, deshalb sind Straße, Radweg und Gehweg tabu. Erlaubt ist die Nutzung auf Privatgelände mit Zustimmung des Eigentümers. Das ist keine Rechtsberatung." },
+    { q: "Ist ein Hoverboard versichert?", a: "Im Straßenverkehr sind Hoverboards nach Angaben der Versicherungswirtschaft nicht versicherbar. Frage bei deiner Haftpflichtversicherung nach, ob Schäden beim Fahren auf Privatgelände abgedeckt sind." },
+    { q: "Was ist die Alternative für den Weg zur Schule oder Arbeit?", a: "Ein zugelassener E-Scooter mit Betriebserlaubnis nach eKFV, mit Versicherungskennzeichen und Mindestalter. Hoverboards dürfen dafür nicht genutzt werden." },
     { q: "6,5 oder 8,5 Zoll – welche Radgröße brauche ich?", a: "6,5 Zoll ist leicht und wendig und passt für Innenräume, glatte Gehwege und Einsteiger. 8,5 Zoll mit größeren, oft profilierten Reifen verkraftet Unebenheiten und leichtes Gelände deutlich besser." },
     { q: "Worauf sollte ich bei der Sicherheit achten?", a: "Ein GS-Zeichen oder vergleichbares Prüfsiegel sollte vorhanden sein, besonders bei sehr günstigen Modellen ohne Markennamen. Prüfe außerdem maximale Zuladung und empfohlenes Mindestalter." },
     { q: "Lohnt sich ein Set mit Sitzaufsatz für den Kart-Umbau?", a: "Wer auch im Kart-Modus fahren will, greift am besten gleich zum Set: Der Sitzaufsatz kostet einzeln meist mehr als der Aufpreis im Komplettpaket." },

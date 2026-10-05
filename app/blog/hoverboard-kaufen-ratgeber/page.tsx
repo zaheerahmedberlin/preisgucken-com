@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Hoverboard kaufen: Zollgröße & Sicherheit",
-  description: "6,5\" oder 8,5\" Zoll, mit oder ohne Sitz? Worauf es beim Hoverboard-Kauf wirklich ankommt – Sicherheitszertifikat, Geländetauglichkeit und Preisvergleich.",
+  description: "Hoverboard kaufen: Radgröße, Sicherheit und Rechtslage – wo du fahren darfst, worauf es beim Akku ankommt und was bei Versicherung zählt.",
   keywords: [
     "hoverboard kaufen",
     "hoverboard test",
@@ -10,6 +10,11 @@ export const metadata: Metadata = {
     "hoverboard mit sitz",
     "bestes hoverboard",
     "hoverboard gelände",
+    "hoverboard erlaubt straße",
+    "hoverboard gehweg verboten",
+    "hoverboard versicherung",
+    "hoverboard privatgelände",
+    "hoverboard oder e-scooter",
   ],
   openGraph: {
     title: "Hoverboard kaufen: Zollgröße, Sicherheit & Kart-Umbau erklärt",
@@ -17,6 +22,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/hoverboard-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-09-19",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Hoverboard kaufen: Zollgröße, Sicherheit & Kart-Umbau erklärt" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/hoverboard-kaufen-ratgeber/" },
@@ -33,6 +39,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Hoverboard kaufen: Zollgröße, Sicherheit & Kart-Umbau erklärt",
   datePublished: "2026-09-19",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -61,10 +68,23 @@ export default function HoverboardKaufenPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. September 2026</span>
-            <span>⏱ 6 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 9 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Wo darfst du mit dem Hoverboard fahren?</h2>
+          <p><strong>Kurz gesagt: nur auf privatem Gelände.</strong> In Deutschland gibt es für Hoverboards keine Zulassung für den öffentlichen Straßenverkehr. Sie dürfen deshalb nicht auf Straßen, Radwegen oder Gehwegen gefahren werden. Die Verordnung für Elektrokleinstfahrzeuge (eKFV) gilt nur für Fahrzeuge mit Lenk- oder Haltestange, und Hoverboards haben keine.</p>
+          <ul>
+            <li><strong>Erlaubt:</strong> Eigener Garten, Hof, Halle oder anderes Privatgelände, wenn der Eigentümer zustimmt.</li>
+            <li><strong>Nicht erlaubt:</strong> Straße, Radweg, Gehweg und andere öffentliche Verkehrsflächen.</li>
+            <li><strong>Versicherung:</strong> Im Straßenverkehr sind Hoverboards laut Versicherungswirtschaft nicht versicherbar. Frage vor dem Kauf bei deiner Haftpflichtversicherung nach, ob Schäden auf Privatgelände abgedeckt sind.</li>
+            <li><strong>Für den Alltagsweg:</strong> Wer zur Schule oder zur Arbeit fahren möchte, braucht ein zugelassenes Fahrzeug, zum Beispiel einen E-Scooter mit Betriebserlaubnis nach eKFV.</li>
+          </ul>
+          <p className="small text-muted">Passende E-Scooter findest du im <a href="https://www.preisgucken.de/kategorie/e-scooter" target="_blank" rel="noopener">Preisvergleich</a>. Dieser Abschnitt ist keine Rechtsberatung, die Rechtslage kann sich ändern (Stand: Oktober 2026).</p>
+        </section>
 
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">6,5" oder 8,5" Zoll: Welche Radgröße für wen?</h2>
@@ -73,7 +93,7 @@ export default function HoverboardKaufenPage() {
               <div className="card p-4 h-100">
                 <h3 className="h6 fw-bold mb-2">🛞 6,5 Zoll — kompakt & leicht</h3>
                 <p className="small text-muted mb-0">
-                  Die klassische Größe für Innenräume, Bürgersteige und Einsteiger, oft auch für Kinder
+                  Die klassische Größe für Innenräume, private Flächen und Einsteiger, oft auch für Kinder
                   geeignet. Leichter und wendiger, aber weniger geeignet für Schlaglöcher oder Kopfsteinpflaster.
                 </p>
               </div>
@@ -83,7 +103,7 @@ export default function HoverboardKaufenPage() {
                 <h3 className="h6 fw-bold mb-2">🏔️ 8,5 Zoll — geländetauglich</h3>
                 <p className="small text-muted mb-0">
                   Größere, oft profilierte Reifen verkraften Unebenheiten und leichtes Gelände deutlich besser –
-                  die richtige Wahl für alles außerhalb glatter Innenstadt-Gehwege.
+                  die richtige Wahl für alles außerhalb glatter Flächen auf privatem Gelände.
                 </p>
               </div>
             </div>
@@ -113,15 +133,36 @@ export default function HoverboardKaufenPage() {
           <ol>
             <li><strong>Sicherheitszertifikat:</strong> Ein GS-Zeichen oder vergleichbares Prüfsiegel sollte vorhanden sein – gerade bei sehr günstigen Modellen ohne Markennamen ein häufiger Schwachpunkt.</li>
             <li><strong>Nutzergewicht und Altersfreigabe:</strong> Modelle unterscheiden sich in maximaler Zuladung und empfohlenem Mindestalter – wichtig bei der Wahl für Kinder oder schwerere Nutzer.</li>
-            <li><strong>Reichweite pro Ladung:</strong> Für den täglichen Weg zur Schule oder Arbeit reicht meist weniger Kapazität als fürs Gelände-Fahren am Wochenende.</li>
+            <li><strong>Reichweite pro Ladung:</strong> Für kurze Runden auf privatem Gelände reicht meist weniger Kapazität als fürs Gelände-Fahren am Wochenende.</li>
             <li><strong>Bluetooth & App-Anbindung:</strong> Praktisch für Musik unterwegs, aber kein Muss – wer nur kurze Strecken fährt, kann darauf verzichten und sparen.</li>
-            <li><strong>Untergrund realistisch einschätzen:</strong> Kopfsteinpflaster, Waldwege oder nur glatte Gehwege entscheiden mit, ob 6,5 oder 8,5 Zoll die bessere Wahl ist.</li>
+            <li><strong>Untergrund realistisch einschätzen:</strong> Kopfsteinpflaster, Waldwege oder nur glatte Flächen entscheiden auf privatem Gelände mit, ob 6,5 oder 8,5 Zoll die bessere Wahl ist.</li>
           </ol>
           <div className="alert alert-info small">
             💡 <strong>Sparfuchs-Tipp:</strong> Wer sowohl drinnen als auch im Kart-Modus fahren will, sollte
             gleich zum Set mit Sitzaufsatz greifen statt später nachzurüsten – einzeln gekauft ist der
             Sitzaufsatz meist teurer als der Aufpreis im Komplettpaket.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Sicherheit beim Fahren und Laden</h2>
+          <ul>
+            <li><strong>Schutzausrüstung:</strong> Trage einen Helm sowie Handgelenk-, Knie- und Ellenbogenschoner. Das gilt besonders für Kinder und Einsteiger.</li>
+            <li><strong>Laden:</strong> Nutze nur das Original-Ladegerät, lade nicht unbeaufsichtigt und nicht auf brennbarem Untergrund.</li>
+            <li><strong>Prüfsiegel und Akku:</strong> Achte auf ein Prüfzeichen und gute Akku-Kennzeichnung. Sehr billige Modelle ohne Marke sind häufig ein Risiko.</li>
+            <li><strong>Altersangabe:</strong> Halte dich an die vom Hersteller empfohlenen Mindestalter- und Gewichtsangaben.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Hoverboard-Kauf</h2>
+          <ol>
+            <li><strong>Es für den Alltagsweg kaufen:</strong> Auf öffentlichen Wegen ist es nicht erlaubt.</li>
+            <li><strong>Die Radgröße nach Optik wählen:</strong> Der Untergrund entscheidet zwischen 6,5 und 8,5 Zoll.</li>
+            <li><strong>Ohne Schutzausrüstung fahren:</strong> Stürze sind bei Einsteigern häufig.</li>
+            <li><strong>Ein No-Name-Modell ohne Prüfzeichen kaufen:</strong> Gerade beim Akku ist das riskant.</li>
+            <li><strong>Den Sitzaufsatz einzeln nachkaufen:</strong> Im Set ist er oft günstiger.</li>
+          </ol>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
