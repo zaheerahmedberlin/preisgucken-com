@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Stecker, Creolen oder Dangle?",
-  description: "Stecker, Creolen oder Dangle-Ohrringe? Materialien, Verschlüsse und Preise im Vergleich – für jeden Anlass das passende Paar.",
-  keywords: ["ohrringe kaufen", "ohrstecker damen", "creolen kaufen", "hypoallergene ohrringe", "ohrringe empfindliche ohren", "ohrringe gesichtsform"],
+  description: "Ohrringe kaufen: Stecker, Creolen, Hänger und Ohrclips, Materialien und Verschlüsse, Erstohrringe bei frischen Ohrlöchern, Gewicht und Pflege im Überblick.",
+  keywords: ["ohrringe kaufen", "ohrstecker damen", "creolen kaufen", "hypoallergene ohrringe", "ohrringe empfindliche ohren", "ohrringe gesichtsform", "ohrringe kaufen", "ohrclips ohne ohrloch", "erstohrringe titan", "ohrringe empfindliche haut", "creolen oder stecker"],
   openGraph: {
     title: "Stecker, Creolen oder Dangle?",
     description: "Stecker, Creolen oder Dangle-Ohrringe? Materialien, Verschlüsse und Preise im Vergleich.",
     url: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Stecker, Creolen oder Dangle?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/ohrringe-kaufen-ratgeber/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Stecker, Creolen oder Dangle?",
   datePublished: "2026-08-01",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function OhrringeKaufenPage() {
           <p className="lead text-muted">Vom dezenten Ohrstecker bis zur auffälligen Creole – wir zeigen dir Typen, Materialien und Verschlüsse, damit du die richtige Wahl triffst.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
-            <span>⏱ 6 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 9 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -83,7 +86,7 @@ export default function OhrringeKaufenPage() {
           <h2 className="fw-bold h4 mb-3">Schritt 2: Material & Verträglichkeit</h2>
           <p>Ohrringe haben durch das Ohrloch dauerhaften Hautkontakt – die Materialwahl ist hier besonders wichtig:</p>
           <ul>
-            <li><strong>Chirurgischer Edelstahl (Surgical Steel):</strong> nickelfrei, ideal für empfindliche und frisch gestochene Ohren</li>
+            <li><strong>Chirurgischer Edelstahl (Surgical Steel):</strong> gibt nur sehr wenig Nickel ab und ist für viele empfindliche Ohren gut verträglich</li>
             <li><strong>925er Sterlingsilber:</strong> hochwertig, kann bei sehr empfindlicher Haut leicht reizen</li>
             <li><strong>Titan:</strong> sehr gut verträglich, oft für Erstohrringe empfohlen</li>
             <li><strong>Vergoldet:</strong> edle Optik, bei Nickelallergie auf "nickelfrei" achten</li>
@@ -118,6 +121,46 @@ export default function OhrringeKaufenPage() {
             <li><strong>Herzförmiges Gesicht:</strong> Ohrstecker mit breiterer Basis balancieren das Kinn aus</li>
             <li><strong>Ovales Gesicht:</strong> Nahezu jede Form passt – hier ist Geschmackssache gefragt</li>
           </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Ohrclips: Ohrringe ohne Ohrloch</h2>
+          <p>Ohrclips werden ohne Ohrloch getragen und mit leichtem Druck am Ohrläppchen gehalten. Sie sind eine gute Wahl, wenn du keine Ohrlöcher hast oder Ohrringe nur zu besonderen Anlässen trägst. Achte auf einen gut gepolsterten, einstellbaren Bügel, damit der Clip nicht drückt oder rutscht.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Frisch gestochene Ohrlöcher: Erstohrringe</h2>
+          <p>In der Heilphase eines neuen Ohrlochs zählt Verträglichkeit mehr als Optik. Medizinische Erststecker aus Titan oder Chirurgenstahl sind dafür üblich. Während der Heilung, die mehrere Monate dauern kann, solltest du Stecker mit stiftförmigem Innenteil tragen. Der Stift sollte aus einem hautfreundlichen Material wie Titan, Echtgold, Chirurgenstahl oder Sterlingsilber bestehen. Erst danach wechselst du auf andere Modelle. Frage im Zweifel den Piercer oder eine Ärztin, wie lange dein Ohrloch Schonzeit braucht.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Gewicht und Tragekomfort</h2>
+          <ul>
+            <li><strong>Schwere Hänger:</strong> Sie ziehen am Ohrläppchen und können bei langem Tragen unangenehm sein. Das Gewicht steht oft im Datenblatt.</li>
+            <li><strong>Größe der Creolen:</strong> Kleine Creolen liegen eng am Ohr, große wirken auffälliger und sind meist schwerer.</li>
+            <li><strong>Alltag und Sport:</strong> Für Büro und Bewegung sind Stecker oder kleine Creolen praktischer als lange Hänger.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Pflege und Aufbewahrung</h2>
+          <ul>
+            <li>Reinige Ohrstecker regelmäßig, besonders den Stift, der durch das Ohrloch geht.</li>
+            <li>Silberohrringe mit einem weichen Tuch polieren und trocken lagern.</li>
+            <li>Bewahre Paare getrennt oder in einer Box auf, damit nichts verloren geht oder verkratzt.</li>
+          </ul>
+          <p className="small text-muted">Mehr zu Materialien und Allergien findest du im Vergleich <a href="/blog/sterlingsilber-vs-edelstahl-schmuck/">Sterlingsilber vs. Edelstahl</a>, und als Geschenkidee im <a href="/blog/schmuck-als-geschenk-ratgeber/">Geschenk-Ratgeber</a>.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Ohrringe-Kauf</h2>
+          <ol>
+            <li><strong>Material nicht prüfen:</strong> Bei empfindlicher Haut zählt Titan oder gut verträglicher Edelstahl mehr als der Preis.</li>
+            <li><strong>Zu früh wechseln:</strong> Ein frisches Ohrloch braucht Erststecker, bis es verheilt ist.</li>
+            <li><strong>Zu schwere Modelle:</strong> Sie belasten das Ohrläppchen.</li>
+            <li><strong>Verschluss ignorieren:</strong> Ein lockerer Verschluss verliert schnell einen Ohrring.</li>
+            <li><strong>Nur nach Optik wählen:</strong> Alltagstauglichkeit entscheidet, wie oft du sie wirklich trägst.</li>
+          </ol>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Carbon oder Aluminium? Kamerastativ finden",
-  description: "Reisestativ, Videostativ oder Einbeinstativ? Material, Traglast und Stativkopf im Ratgeber.",
-  keywords: ["kamerastativ kaufen", "reisestativ ratgeber", "carbon oder aluminium stativ", "kugelkopf kaufen", "videostativ kaufen", "einbeinstativ ratgeber"],
+  description: "Kamerastativ kaufen: Carbon oder Aluminium, Stativkopf, Traglast, Beinsegmente und Packmaß, Schnellwechselplatte, Stabilität bei Wind – mit Tabellen und Tipps.",
+  keywords: ["kamerastativ kaufen", "reisestativ ratgeber", "carbon oder aluminium stativ", "kugelkopf kaufen", "videostativ kaufen", "einbeinstativ ratgeber", "kamerastativ traglast", "stativ beinsegmente packmaß", "schnellwechselplatte arca swiss", "stativ kugelkopf oder neiger", "stativ wind stabil"],
   openGraph: {
     title: "Carbon oder Aluminium? Kamerastativ finden",
     description: "Reisestativ, Videostativ oder Einbeinstativ? Material, Traglast und Stativkopf im Ratgeber.",
     url: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-29",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Carbon oder Aluminium? Kamerastativ finden" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/kamerastativ-kaufen-ratgeber/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Carbon oder Aluminium? Kamerastativ finden",
   datePublished: "2026-07-29",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function KamerastativKaufenPage() {
           <p className="lead text-muted">Carbon oder Aluminium, Kugelkopf oder Videokopf – welches Stativ wirklich zu deinem Einsatzzweck passt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 9 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -131,6 +134,50 @@ export default function KamerastativKaufenPage() {
           <div className="alert alert-info small">
             💡 <strong>Sparfuchs-Tipp:</strong> Stativ-Kits (Stativ + Kopf zusammen) sind meist günstiger als der Einzelkauf. Vergleiche Foto- und Videozubehör auf <a href="https://www.preisgucken.de" target="_blank" rel="noopener">preisgucken.de</a> unter Elektronik &amp; Foto &amp; Optik.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Beinsegmente, Höhe und Packmaß</h2>
+          <ul>
+            <li><strong>Mehr Segmente:</strong> Ein Stativ mit mehr Beinsegmenten lässt sich meist kleiner zusammenfalten, braucht aber mehr Klemmen und ist dadurch etwas weniger stabil.</li>
+            <li><strong>Arbeitshöhe:</strong> Ein gutes Stativ erreicht ohne Mittelsäule etwa Augenhöhe. Die Mittelsäule gibt zusätzliche Höhe, macht das Stativ aber wackeliger.</li>
+            <li><strong>Packmaß und Gewicht:</strong> Für Reisen zählt das Packmaß, für das Studio die Standfestigkeit.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Schnellwechselplatte und Gewinde</h2>
+          <ul>
+            <li>Kameras haben in der Regel ein 1/4-Zoll-Stativgewinde, größere Stativköpfe nutzen oft 3/8 Zoll. Prüfe, ob Adapter im Lieferumfang sind.</li>
+            <li>Eine Schnellwechselplatte spart Zeit, weil du die Kamera mit einem Handgriff befestigst und löst. Achte auf einen verbreiteten Standard wie Arca-Swiss, damit Zubehör passt.</li>
+            <li>Vor dem Kauf prüfen, wie deine Kamera befestigt wird und welcher Anschluss am Stativkopf sitzt.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Stabilität bei Wind und im Gelände</h2>
+          <ul>
+            <li>Fahre die Beine nur so weit aus wie nötig, die dünnen unteren Segmente sind am anfälligsten.</li>
+            <li>Hänge an den Haken der Mittelsäule ein Gewicht, etwa die Fototasche, damit das Stativ ruhiger steht.</li>
+            <li>Stelle die Beine auf festem Untergrund und mit gleichem Winkel auf.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Smartphone und Action-Cam</h2>
+          <p>Für Smartphone und kleine Kameras reichen leichte Reise- oder Tischstative mit Halterung. Wichtig ist eine feste Klemmung und eine Traglast, die auch das Gewicht von Zubehör wie Mikrofon oder Licht trägt.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Stativ-Kauf</h2>
+          <ol>
+            <li><strong>Die Traglast knapp wählen:</strong> Plane mindestens die 1,5-fache Reserve ein.</li>
+            <li><strong>Nur auf den Preis achten:</strong> Ein wackeliges Stativ verwackelt Fotos und Videos.</li>
+            <li><strong>Den Stativkopf vergessen:</strong> Bei vielen Modellen wird er separat gekauft.</li>
+            <li><strong>Zu viele Segmente:</strong> Sie sparen Platz, kosten aber Stabilität.</li>
+            <li><strong>Das Gewinde nicht prüfen:</strong> Passt der Anschluss nicht, brauchst du einen Adapter.</li>
+          </ol>
+          <p className="small text-muted">Für Aufnahmen im Wohnzimmer oder beim Gaming lohnt der Blick in den Ratgeber <a href="/blog/monitor-oder-beamer-kaufratgeber/">Monitor oder Beamer</a>.</p>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

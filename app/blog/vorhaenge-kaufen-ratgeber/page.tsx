@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Welcher Vorhang taugt wofür?",
-  description: "Verdunkelung, Schallschutz oder Deko? Der komplette Ratgeber für den richtigen Vorhang.",
-  keywords: ["vorhänge kaufen", "verdunkelungsvorhang ratgeber", "schallschutzvorhang", "gardinen vs vorhänge", "vorhang stoffarten", "vorhänge kaufberatung 2026"],
+  description: "Vorhänge kaufen: Typen, Verdunkelung, richtige Größe und Stoffmenge, Aufhängung, Thermo- und Schallschutz, Sicherheit mit Kindern und Pflege im Überblick.",
+  keywords: ["vorhänge kaufen", "verdunkelungsvorhang ratgeber", "schallschutzvorhang", "gardinen vs vorhänge", "vorhang stoffarten", "vorhänge kaufberatung 2026", "vorhang stoffmenge faltenfaktor", "gardinenstange oder schiene", "verdunkelungsvorhang kaufen", "vorhänge waschen", "vorhang kinder sicherheit"],
   openGraph: {
     title: "Welcher Vorhang taugt wofür?",
     description: "Verdunkelung, Schallschutz oder Deko? Der komplette Ratgeber für den richtigen Vorhang.",
     url: "https://www.preisgucken.com/blog/vorhaenge-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-29",
+    modifiedTime: "2026-10-04",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Welcher Vorhang taugt wofür?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/vorhaenge-kaufen-ratgeber/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Welcher Vorhang taugt wofür?",
   datePublished: "2026-07-29",
+  dateModified: "2026-10-04",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function VorhaengeKaufenPage() {
           <p className="lead text-muted">Nicht jeder Vorhang kann alles – wir zeigen dir, welcher Stoff für welchen Zweck taugt und wie du beim Kauf nichts falsch machst.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>
-            <span>⏱ 6 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>⏱ 9 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -110,6 +113,46 @@ export default function VorhaengeKaufenPage() {
             <li>Regelmäßig absaugen reduziert Staub und Hausstaubmilben</li>
             <li>Vor dem Waschen immer das Pflegeetikett prüfen – beschichtete Stoffe vertragen keine hohen Temperaturen</li>
           </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Stoffmenge und Faltenwurf</h2>
+          <p>Je mehr Falten du möchtest, desto mehr Stoff brauchst du. Eine schlichte Optik gelingt mit etwa dem 1,5- bis 2-Fachen der Fensterbreite, ein üppiger Faltenwurf braucht das 2- bis 3-Fache. Misst du nur die Fensterbreite, wirken die Vorhänge später zu straff.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Aufhängung: Stange, Schiene oder Ösen</h2>
+          <ul>
+            <li><strong>Gardinenstange:</strong> Der Klassiker für Ösen- und Schlaufenschals. Die Stange sollte auf beiden Seiten über das Fenster hinausragen.</li>
+            <li><strong>Deckenschiene:</strong> Wirkt dezenter und lässt den Vorhang fast schweben, ideal für Verdunkelung nah an der Decke.</li>
+            <li><strong>Ösen, Schlaufen oder Faltenband:</strong> Prüfe, ob der Vorhang zur Aufhängung passt. Ösen und Schlaufen laufen leicht auf einer Stange, ein Faltenband braucht Gleiter oder Haken.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Thermo und Schallschutz: Was ein Vorhang kann</h2>
+          <p>Dicke, mehrlagige Vorhänge können Geräusche dämpfen und kalte Zugluft vom Fenster abhalten. Sie ersetzen aber keine Fensterdämmung. Das Ergebnis hängt von Stoffdichte, Länge und davon ab, wie dicht der Vorhang am Fenster und an der Wand abschließt.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Sicherheit mit Kindern</h2>
+          <ul>
+            <li>Halte Zugkordeln und Schlaufen außerhalb der Reichweite von Kleinkindern.</li>
+            <li>Befestige Vorhänge so, dass Kinder sich nicht daran hochziehen können.</li>
+            <li>Lies vor dem Kauf die Sicherheitshinweise des Herstellers.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Die häufigsten Fehler beim Vorhang-Kauf</h2>
+          <ol>
+            <li><strong>Zu wenig Stoff kaufen:</strong> Ohne Faltenfaktor wirken Vorhänge flach.</li>
+            <li><strong>Nur auf die Fensterbreite achten:</strong> Seitliche Überlappung und Montage nah an der Decke sind für die Verdunkelung entscheidend.</li>
+            <li><strong>Pflegehinweise ignorieren:</strong> Viele Vorhänge vertragen nur 30 Grad und gehören nicht in den Trockner.</li>
+            <li><strong>Die Aufhängung vergessen:</strong> Ösen, Schlaufen und Faltenband brauchen die passende Stange oder Schiene.</li>
+            <li><strong>Zu günstig bei Verdunkelung:</strong> Einlagige Stoffe lassen oft viel Licht durch.</li>
+          </ol>
+          <p className="small text-muted">Passende Ergänzungen für Schlafzimmer und Wohnzimmer findest du im Ratgeber <a href="/blog/matratze-kaufen-ratgeber/">Matratze kaufen</a> und bei den <a href="/blog/wohnaccessoires-beleuchtung-preisvergleich/">Wohnaccessoires</a>.</p>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
