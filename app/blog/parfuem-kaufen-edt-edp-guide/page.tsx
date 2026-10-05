@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Parfüm kaufen: EDT, EDP oder Parfum?",
-  description: "Parfüm kaufen: Eau de Toilette, Eau de Parfum und Extrait im Vergleich, Duftnoten und Duftfamilien, Haltbarkeit, Lagerung und Preis pro 100 ml.",
+  title: "EDT oder EDP? Der Unterschied beim Parfüm",
+  description: "Unterschied zwischen Eau de Toilette (EDT) und Eau de Parfum (EDP): Konzentration, Haltbarkeit, Preis und Anwendung – plus Tipps zu Duftnoten und Kauf.",
   keywords: [
     "parfüm kaufen",
     "edt oder edp",
@@ -15,6 +15,10 @@ export const metadata: Metadata = {
     "parfüm haltbarkeit verlängern",
     "parfüm online kaufen echt",
     "parfüm preis pro 100 ml",
+    "unterschied edt edp",
+    "unterschied eau de toilette eau de parfum",
+    "eau de toilette oder eau de parfum",
+    "edt edp haltbarkeit",
   ],
   openGraph: {
     title: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
@@ -22,7 +26,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/parfuem-kaufen-edt-edp-guide/",
     type: "article",
     publishedTime: "2026-09-09",
-    modifiedTime: "2026-10-04",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Parfüm kaufen: EDT, EDP oder Parfum?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/parfuem-kaufen-edt-edp-guide/" },
@@ -39,7 +43,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Parfüm kaufen: EDT, EDP oder Parfum? Der Konzentrations-Guide",
   datePublished: "2026-09-09",
-  dateModified: "2026-10-04",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -68,11 +72,31 @@ export default function ParfuemKaufenPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 9. September 2026</span>
-            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
             <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Unterschied zwischen Eau de Toilette (EDT) und Eau de Parfum (EDP)</h2>
+          <p><strong>Kurz gesagt:</strong> Ein Eau de Parfum enthält mehr Parfümöl als ein Eau de Toilette. Es duftet intensiver, hält länger und kostet meist mehr. Ein Eau de Toilette ist leichter und günstiger.</p>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th></th><th>Eau de Toilette (EDT)</th><th>Eau de Parfum (EDP)</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Parfümöl</td><td>etwa 5–15 %</td><td>etwa 15–20 %</td></tr>
+                <tr><td>Haltbarkeit auf der Haut</td><td>etwa 3–5 Stunden</td><td>etwa 5–8 Stunden</td></tr>
+                <tr><td>Duft</td><td>leichter, frischer</td><td>intensiver, länger spürbar</td></tr>
+                <tr><td>Preis</td><td>günstiger</td><td>meist teurer, aber sparsamer in der Anwendung</td></tr>
+                <tr><td>Passt zu</td><td>Sommer, Büro, zum Kennenlernen eines Duftes</td><td>Alltag, Abend, wenn der Duft den Tag halten soll</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="small text-muted">Die Zeiten sind Richtwerte: Haut, Duft und Anwendung beeinflussen, wie lange ein Parfüm wirklich hält.</p>
+        </section>
 
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Die Konzentration entscheidet über Preis und Haltbarkeit</h2>
