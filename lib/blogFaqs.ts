@@ -6,6 +6,20 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "ssd-festplatte-usb-stick-kaufen-ratgeber": [
+    { q: "SSD oder Festplatte – was ist besser?", a: "Eine SSD ist deutlich schneller, robuster und leiser. Eine Festplatte ist pro Terabyte günstiger und eignet sich für große Archive und Backups." },
+    { q: "Was ist der Unterschied zwischen SATA und NVMe?", a: "SATA ist der ältere Anschluss mit maximal etwa 560 MB/s. NVMe läuft über PCIe, ist deutlich schneller und braucht einen M.2-Steckplatz am Mainboard." },
+    { q: "Wie viel Kapazität brauche ich für eine SSD?", a: "Das hängt von Nutzung ab. Plane für System und Programme großzügig, denn eine volle SSD wird langsamer. Für Fotos, Videos und Spiele brauchst du mehr Platz." },
+    { q: "Was bedeutet die 3-2-1-Regel beim Backup?", a: "Drei Kopien deiner Daten, auf zwei verschiedenen Medien, davon eine an einem anderen Ort, zum Beispiel extern oder in der Cloud." },
+    { q: "Ist ein USB-Stick ein gutes Backup?", a: "Eher nicht. Er eignet sich zum Transport kleiner Datenmengen, ist aber leicht zu verlieren und fällt schnell aus. Besser sind externe SSDs oder Festplatten und eine zweite Kopie an einem anderen Ort." },
+  ],
+  "pc-komponenten-kaufen-ratgeber": [
+    { q: "Welche PC-Komponenten müssen zusammenpassen?", a: "Prozessor und Mainboard (Sockel), RAM und Mainboard (DDR4 oder DDR5), Gehäuse und Mainboard (Formfaktor und Platz für die Grafikkarte) sowie Netzteil und alle Stromverbraucher." },
+    { q: "Wie viel RAM brauche ich?", a: "Für Büro und Alltag reichen meist 16 GB. Bei Videoschnitt und anspruchsvollen Programmen sind oft 32 GB oder mehr sinnvoll." },
+    { q: "DDR4 oder DDR5?", a: "Das hängt vom Mainboard ab: Viele Mainboards unterstützen nur einen der beiden Typen. Kaufe den Typ, den dein Mainboard vorgibt." },
+    { q: "Wie viel Watt braucht das Netzteil?", a: "Addiere den Bedarf aller Komponenten und plane eine Reserve von etwa 20 bis 30 % ein. Prüfe außerdem, ob alle benötigten Stromanschlüsse vorhanden sind." },
+    { q: "Wie verteile ich das Budget beim PC-Bau?", a: "Als Faustregel gehen etwa 50 bis 65 % an Prozessor und Grafikkarte, 10 bis 15 % ans Mainboard und der Rest an RAM, SSD, Netzteil, Gehäuse und Kühler." },
+  ],
   "smartwatch-armband-kaufen-guide": [
     { q: "Welche Bandbreite hat meine Smartwatch?", a: "Die Breite zwischen den Stegen steht im Datenblatt, gängig sind 20 mm und 22 mm. Du kannst sie auch mit einem Lineal zwischen den Gehäuseenden messen. Bei Uhren mit eigenem Stecksystem zählt zusätzlich das exakte Modell." },
     { q: "Wie wechsle ich das Smartwatch-Armband?", a: "Bei Quick-Release-Stegen löst du das Band mit einem Hebel am Federsteg ohne Werkzeug. Bei Standardstegen brauchst du ein Federstegwerkzeug, bei eigenen Stecksystemen folgst du der Anleitung der Uhr." },
