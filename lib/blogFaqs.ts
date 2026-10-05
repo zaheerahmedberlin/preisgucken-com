@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "smartwatch-armband-kaufen-guide": [
+    { q: "Welche Bandbreite hat meine Smartwatch?", a: "Die Breite zwischen den Stegen steht im Datenblatt, gängig sind 20 mm und 22 mm. Du kannst sie auch mit einem Lineal zwischen den Gehäuseenden messen. Bei Uhren mit eigenem Stecksystem zählt zusätzlich das exakte Modell." },
+    { q: "Wie wechsle ich das Smartwatch-Armband?", a: "Bei Quick-Release-Stegen löst du das Band mit einem Hebel am Federsteg ohne Werkzeug. Bei Standardstegen brauchst du ein Federstegwerkzeug, bei eigenen Stecksystemen folgst du der Anleitung der Uhr." },
+    { q: "Welches Armbandmaterial ist für Sport am besten?", a: "Silikon oder Fluorelastomer sind schweißresistent und wasserfest und für Sport am besten geeignet. Leder verträgt Wasser und Schweiß schlecht." },
+    { q: "Was tun bei Nickelallergie?", a: "Wähle Bänder und Schnallen aus Titan oder Edelstahl in guter Qualität und achte auf die Materialangabe. Bei bekannter Allergie sprich im Zweifel mit einer Ärztin." },
+  ],
   "smartphone-kaufen-ratgeber": [
     { q: "Wie viel Speicher braucht ein Smartphone?", a: "128 GB reichen bei normaler Nutzung, 256 GB sind für die meisten Nutzer eine gute Wahl, 512 GB oder mehr brauchst du bei vielen Videos und Fotos ohne Cloud." },
     { q: "Wie wichtig sind Software-Updates?", a: "Sehr, denn sie schließen Sicherheitslücken. Prüfe vor dem Kauf, für wie viele Jahre der Hersteller Updates verspricht." },
@@ -129,6 +135,8 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Stoff oder Leder – was ist besser für Familien mit Haustieren?", a: "Leder ist robust und leicht abwischbar, zeigt aber Kratzer. Stoffe sind günstiger und weicher, aber schwerer zu reinigen. Abnehmbare und waschbare Bezüge sind eine praktische Lösung." },
   ],
   "mesh-wlan-router-repeater-guide": [
+    { q: "Was ist der Unterschied zwischen WLAN-Verstärker und Repeater?", a: "Meist keiner: Beide Begriffe bezeichnen ein Gerät, das das WLAN-Signal des Routers aufnimmt und erneut aussendet. Wichtiger ist der Unterschied zwischen einem einfachen Repeater und einem Mesh-System." },
+    { q: "Welche Vorteile hat Mesh gegenüber einem Repeater?", a: "Mesh bildet ein Netz mit einem Namen, verbindet Geräte automatisch mit dem besten Knoten, wird zentral verwaltet und verliert weniger Geschwindigkeit. Dafür kostet es mehr als ein einfacher Repeater." },
     { q: "Mesh-WLAN oder Repeater – was ist besser?", a: "Ein Repeater ist die günstige Lösung für ein einzelnes Problemzimmer. Ein Mesh-System bildet ein gemeinsames Netz mit einem WLAN-Namen und eignet sich besser für größere Wohnungen oder mehrere Etagen mit vielen Geräten." },
     { q: "Was ist der Unterschied zwischen Repeater und Mesh-Repeater?", a: "Ein einfacher Repeater sendet ein eigenes Netz unter anderem Namen. Ein Mesh-Repeater bildet mit dem Router ein gemeinsames Netz, übernimmt dessen Einstellungen und verbindet Geräte automatisch mit dem besten Zugangspunkt." },
     { q: "Wo platziere ich einen WLAN-Repeater?", a: "Auf halber Strecke zwischen Router und Funkloch, an einer Stelle mit noch gutem Empfang, erhöht und frei, mit Abstand zu Heizkörpern, Metallflächen und Mikrowellen." },
