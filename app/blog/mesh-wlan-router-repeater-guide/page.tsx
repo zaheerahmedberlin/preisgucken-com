@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     "wlan repeater aufstellen",
     "mesh backhaul",
     "wlan reichweite erhöhen",
+    "wlan mesh vs repeater",
+    "unterschied wlan verstärker und repeater",
+    "vorteil mesh repeater",
+    "mesh repeater unterschied",
   ],
   openGraph: {
     title: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide",
@@ -23,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/mesh-wlan-router-repeater-guide/",
     type: "article",
     publishedTime: "2026-09-09",
-    modifiedTime: "2026-10-04",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/mesh-wlan-router-repeater-guide/" },
@@ -40,7 +44,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Mesh-WLAN, Router oder Repeater? Der WLAN-Ausbau-Guide",
   datePublished: "2026-09-09",
-  dateModified: "2026-10-04",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -69,11 +73,41 @@ export default function MeshWlanGuidePage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 9. September 2026</span>
-            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
             <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">WLAN-Verstärker, Repeater, Mesh: Was ist der Unterschied?</h2>
+          <p>Die Begriffe <strong>WLAN-Verstärker</strong> und <strong>WLAN-Repeater</strong> meinen meist dasselbe: ein Gerät, das das Signal deines Routers empfängt und erneut aussendet. Der eigentliche Unterschied liegt zwischen einem einfachen Repeater und einem Mesh-System.</p>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th></th><th>Einfacher Repeater</th><th>Mesh-Repeater</th><th>Mesh-System</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Netzname</td><td>oft ein zweites Netz</td><td>derselbe wie beim Router</td><td>ein gemeinsamer Name</td></tr>
+                <tr><td>Einstellungen</td><td>separat am Gerät</td><td>vom Router übernommen</td><td>zentral per App</td></tr>
+                <tr><td>Wechsel zwischen Räumen</td><td>oft manuell</td><td>automatisch</td><td>automatisch zum besten Knoten</td></tr>
+                <tr><td>Geschwindigkeitsverlust</td><td>spürbar</td><td>geringer</td><td>am geringsten, besonders mit Kabel-Backhaul</td></tr>
+                <tr><td>Preis</td><td>am günstigsten</td><td>mittel</td><td>am höchsten</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Vorteile von Mesh gegenüber einem Repeater</h2>
+          <ul>
+            <li><strong>Ein Netz, ein Name:</strong> Du verbindest dich einmal, Geräte wechseln selbst zum besten Zugangspunkt.</li>
+            <li><strong>Zentrale Verwaltung:</strong> Name, Passwort und Gastnetz änderst du an einer Stelle.</li>
+            <li><strong>Mehr Tempo bei vielen Geräten:</strong> Die Last verteilt sich auf mehrere Knoten.</li>
+            <li><strong>Erweiterbar:</strong> Du kannst weitere Knoten hinzufügen, wenn das Haus größer ist als gedacht.</li>
+            <li><strong>Nachteil:</strong> Mesh-Systeme kosten mehr als ein einfacher Repeater, für ein einzelnes Problemzimmer reicht dieser oft aus.</li>
+          </ul>
+        </section>
 
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Die drei Lösungen im Überblick</h2>
