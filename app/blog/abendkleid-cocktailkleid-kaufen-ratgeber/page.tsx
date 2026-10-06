@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Kleid für den Anlass richtig wählen",
-  description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt? Schnitt, Länge und Farbe im Ratgeber mit Preisvergleich.",
-  keywords: ["abendkleid kaufen", "cocktailkleid ratgeber", "kleid für hochzeit als gast", "abendkleid welcher schnitt", "kleid online kaufen 2026", "brautjungfernkleid kaufen"],
+  description: "Abendkleid oder Cocktailkleid? Dresscode, Farben, Zubehör, Größentabelle, Maßanfertigung und Rückgabe – so findest du das passende Kleid.",
+  keywords: ["abendkleid kaufen", "cocktailkleid ratgeber", "kleid für hochzeit als gast", "abendkleid welcher schnitt", "kleid online kaufen 2026", "brautjungfernkleid kaufen", "dresscode festlich", "kleid hochzeitsgast farbe", "abendkleid größentabelle", "kleid maßanfertigung widerruf"],
   openGraph: {
     title: "Kleid für den Anlass richtig wählen",
     description: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt? Schnitt, Länge und Farbe im Ratgeber mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-07-29",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Kleid für den Anlass richtig wählen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/abendkleid-cocktailkleid-kaufen-ratgeber/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Kleid für den Anlass richtig wählen",
   datePublished: "2026-07-29",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function AbendkleidKaufenPage() {
           <p className="lead text-muted">Von der Hochzeit als Gast bis zur Gala – welcher Schnitt, welche Länge und welche Farbe wirklich passen.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 29. Juli 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -128,6 +131,72 @@ export default function AbendkleidKaufenPage() {
         <section className="mb-5">
           <h2 className="fw-bold h4 mb-3">Schritt 5: Größentabelle richtig lesen</h2>
           <p>Viele Boutique-Marken produzieren nach eigenen Maßtabellen statt Konfektionsgrößen. Miss vor der Bestellung immer Oberweite, Taille und Hüfte selbst nach und vergleiche mit der Größentabelle des jeweiligen Shops – so vermeidest du teure Retouren.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Dresscode verstehen: Was „festlich“ wirklich heißt</h2>
+          <p>
+            Einladungen nennen den Dresscode oft nur knapp. Als grobe Orientierung hilft diese Übersicht;
+            im Zweifel lohnt eine Nachfrage beim Gastgeber:
+          </p>
+          <ul>
+            <li><strong>Festlich / elegant:</strong> Cocktailkleid oder Midi-Kleid, gedeckte oder kräftige Farben, kein zu kurzer Rock.</li>
+            <li><strong>Cocktail:</strong> Knie- bis Wadenlänge, gerne mit Detail wie Spitze, Pailletten oder Cutout.</li>
+            <li><strong>Black Tie / Gala:</strong> Bodenlanges Abendkleid; der Name steht für den formellsten Dresscode.</li>
+            <li><strong>Business-Anlass / Weihnachtsfeier:</strong> Festlich, aber nicht zu freizügig — hochgeschlossene Schnitte oder ein Blazer darüber funktionieren gut.</li>
+          </ul>
+          <p>
+            Als Hochzeitsgast gilt: Weiß, Creme und sehr helle Champagnertöne bleiben der Braut vorbehalten.
+            Mehr zum Anlass Hochzeit findest du im Beitrag{" "}
+            <a href="/blog/hochzeitsgeschenke-brautpaar-gaeste/">Hochzeit planen: Brautkleid, Schmuck und Geschenke</a>,
+            und eine ergänzende Übersicht zu weiteren Anlässen im{" "}
+            <a href="/blog/kleider-fuer-jeden-anlass/">Kleider-Ratgeber für jeden Anlass</a>.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Farben und Accessoires: Das Kleid ist nur der Anfang</h2>
+          <ul>
+            <li><strong>Farbe:</strong> Dunkle Töne wie Schwarz, Navy oder Bordeaux sind vielseitig und wirken schnell elegant. Kräftige Farben passen gut zu festlichen Anlässen im Herbst und Winter. Pastelltöne und Blumenmuster sind bei Sommerhochzeiten beliebt.</li>
+            <li><strong>Schmuck:</strong> Bei einem auffälligen Ausschnitt reichen kleine Ohrringe; bei schlichtem Kleid darf es mehr sein. Ideen findest du im <a href="/blog/schmuck-kaufen-ratgeber/">Schmuck-Ratgeber</a> und bei den <a href="/blog/schmucksets-kaufen-ratgeber/">Schmucksets</a>.</li>
+            <li><strong>Schuhe und Tasche:</strong> Wähle Schuhe, in denen du mehrere Stunden stehen kannst. Eine kleine Clutch genügt meist für Handy, Schlüssel und Lippenstift.</li>
+            <li><strong>Jacke oder Stola:</strong> Praktisch bei kühlen Abenden und in Kirchen, in denen Schultern oft bedeckt sein sollen.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Passform, Anprobe und Rückgabe</h2>
+          <p>
+            Beim Online-Kauf ist die Passform das größte Risiko. Dazu gehört: vor der Bestellung selbst
+            messen, die Größentabelle des Shops verwenden (siehe Schritt 5) und auf Angaben wie Stretch-Anteil,
+            Futter und Rückenreißverschluss achten. Bei der Anprobe zu Hause gilt: Anprobieren ist
+            erlaubt, ein Tragen auf der Feier mit anschließender Rückgabe sollte vermieden werden.
+          </p>
+          <ul>
+            <li><strong>Widerruf:</strong> Bei Online-Käufen gilt grundsätzlich ein gesetzliches Widerrufsrecht von 14 Tagen ab Erhalt der Ware.</li>
+            <li><strong>Maßanfertigung:</strong> Wird ein Kleid nach deinen Maßen gefertigt (Custom- oder Made-to-order-Angebot), entfällt das Widerrufsrecht in der Regel, weil es sich um eine individuell angefertigte Ware handelt. Prüfe die Bedingungen des Shops vor der Bestellung.</li>
+            <li><strong>Lieferzeit:</strong> Bei Boutique-Anbietern mit Produktion auf Bestellung kann die Fertigung länger dauern. Plane deshalb mehrere Wochen Puffer vor dem Termin ein und bestelle nicht erst kurz vorher.</li>
+            <li><strong>Änderungen:</strong> Ein Schneider kann Länge, Träger oder Taille oft anpassen. Plane Zeit und Kosten dafür ein.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Pflege nach dem Anlass</h2>
+          <p>
+            Hänge das Kleid nach dem Tragen zum Auslüften auf. Lies das Pflegeetikett: Satin, Spitze und
+            Pailletten sind oft nur für Handwäsche oder die chemische Reinigung geeignet. Bewahre
+            empfindliche Kleider im Kleidersack auf, damit Stoffe nicht verhaken oder verfärben.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler beim Kleiderkauf für Feiern</h2>
+          <ul>
+            <li><strong>Zu spät bestellen:</strong> Retoure, Umtausch und Änderung brauchen Zeit.</li>
+            <li><strong>Nur nach Foto kaufen:</strong> Stoffbeschreibung, Futter und Größentabelle gehören zur Entscheidung, nicht nur das Bild.</li>
+            <li><strong>Falsche Länge für den Anlass:</strong> Bodenlang ist nicht überall passend, besonders nicht bei einem Büro-Event.</li>
+            <li><strong>Die Schuhe vergessen:</strong> Die Absatzhöhe verändert die nötige Kleidlänge.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

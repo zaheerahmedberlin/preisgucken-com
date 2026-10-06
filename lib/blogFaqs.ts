@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "abendkleid-cocktailkleid-kaufen-ratgeber": [
+    { q: "Welche Kleidlänge passt zu welchem Anlass?", a: "Cocktailpartys und Afterwork-Termine vertragen Mini bis Midi, Hochzeiten tagsüber meist Midi oder Maxi, und bei Gala oder Black Tie ist ein bodenlanges Kleid üblich. Im Zweifel hilft eine Nachfrage beim Gastgeber." },
+    { q: "Welche Farben sollte ich als Hochzeitsgast meiden?", a: "Weiß, Creme und sehr helle Champagnertöne gelten als Farben der Braut. Alle anderen Töne sind meist unproblematisch; dunkle und kräftige Farben sind im Herbst und Winter beliebt." },
+    { q: "Kann ich ein online bestelltes Kleid zurückgeben?", a: "Bei Online-Käufen gilt grundsätzlich ein Widerrufsrecht von 14 Tagen ab Erhalt. Wird ein Kleid nach deinen Maßen individuell angefertigt, entfällt das Widerrufsrecht in der Regel. Die Bedingungen stehen im jeweiligen Shop." },
+    { q: "Wie messe ich mich richtig für die Größentabelle?", a: "Miss Oberweite, Taille und Hüfte mit einem Maßband an der jeweils breitesten beziehungsweise schmalsten Stelle und vergleiche die Werte mit der Größentabelle des Shops, nicht mit deiner üblichen Konfektionsgröße." },
+    { q: "Wann sollte ich ein Kleid für eine Feier bestellen?", a: "So früh wie möglich, damit Zeit für Lieferung, Anprobe, Rückgabe oder Änderung bleibt. Bei Maßanfertigungen und Bestellungen auf Produktion kommt zusätzliche Fertigungszeit dazu." },
+  ],
   "uhren-kaufen-ratgeber": [
     { q: "Automatik oder Quarz: was ist besser?", a: "Quarzuhren sind genauer, wartungsarm und günstiger. Automatikuhren überzeugen durch ihr mechanisches Uhrwerk ohne Batterie, brauchen aber regelmäßiges Tragen und gelegentlich eine Wartung. Für den Alltag ist Quarz die pragmatischere Wahl." },
     { q: "Wie wasserdicht muss eine Uhr sein?", a: "30 m (3 ATM) genügen für Spritzwasser. Zum Schwimmen sollte die Uhr mindestens 100 m (10 ATM) angeben. Für Tauchen gelten eigene Normen; achte auf die Herstellerangabe." },
