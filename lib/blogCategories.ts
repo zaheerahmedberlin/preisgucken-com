@@ -111,7 +111,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     description: "Von der Alltagsuhr bis zur Luxusuhr, plus Smartwatch-Armbänder im Guide.",
     pgLink: "uhren",
     posts: [
-      { slug: "uhren-kaufen-ratgeber", title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt", excerpt: "Automatik oder Quarz? Welches Material hält am längsten? Der komplette Uhren-Ratgeber mit Preisvergleich.", date: "1. August 2026", readTime: "7 Min.", featured: true, pgLink: "uhren" },
+      { slug: "uhren-kaufen-ratgeber", title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt", excerpt: "Automatik oder Quarz? Welches Material hält am längsten? Der komplette Uhren-Ratgeber mit Preisvergleich.", date: "1. August 2026", readTime: "10 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "uhren" },
       { slug: "luxusuhren-kaufen", title: "Luxusuhren kaufen 2026: Was einen hohen Preis rechtfertigt", excerpt: "Material, Limitierung und Fertigung im Check – mit der Dark Matter 4 von Tsarbomba als Praxisbeispiel im Preisvergleich.", date: "4. August 2026", readTime: "8 Min.", featured: true, pgLink: "uhren" },
       { slug: "smartwatch-armband-kaufen-guide", title: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt", excerpt: "Ersatzarmband für Apple Watch, Samsung, Garmin, Fitbit oder Xiaomi gesucht? Kompatibilität, Material und Größe im Guide.", date: "4. August 2026", readTime: "9 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "smartwatch-armbaender" },
     ],

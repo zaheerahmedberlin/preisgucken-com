@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Automatik oder Quarz? Uhrenkauf",
-  description: "Automatik oder Quarz? Welches Material hält am längsten? Werke, Größen und Preisklassen im Ratgeber.",
-  keywords: ["uhren kaufen", "armbanduhr damen kaufen", "herrenuhr online kaufen", "automatikuhr oder quarzuhr", "uhren preisvergleich", "uhrwerk vergleich"],
+  description: "Uhren kaufen: Automatik, Quarz oder Solar, Glas und Armband, Wasserdichtigkeit, Garantie und Fälschungen – der Ratgeber mit Preisvergleich.",
+  keywords: ["uhren kaufen", "armbanduhr damen kaufen", "herrenuhr online kaufen", "automatikuhr oder quarzuhr", "uhren preisvergleich", "uhrwerk vergleich", "uhr saphirglas oder mineralglas", "uhrenarmband wechseln", "uhr geschenk", "damenuhr herrenuhr größe"],
   openGraph: {
     title: "Automatik oder Quarz? Uhrenkauf",
     description: "Automatik oder Quarz? Welches Material hält am längsten? Werke, Größen und Preisklassen im Ratgeber.",
     url: "https://www.preisgucken.com/blog/uhren-kaufen-ratgeber/",
     type: "article",
     publishedTime: "2026-08-01",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Automatik oder Quarz? Uhrenkauf" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/uhren-kaufen-ratgeber/" },
@@ -26,6 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Automatik oder Quarz? Uhrenkauf",
   datePublished: "2026-08-01",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -50,7 +52,8 @@ export default function UhrenKaufenPage() {
           <p className="lead text-muted">Automatik, Quarz oder Solar – und aus welchem Material sollte das Gehäuse sein? Wir erklären, worauf es bei einer guten Uhr wirklich ankommt.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 1. August 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -129,6 +132,72 @@ export default function UhrenKaufenPage() {
             <li><strong>Automatikuhren regelmäßig tragen</strong> oder ein Uhrenbeweger verwenden, damit sie nicht stehen bleibt</li>
             <li><strong>Armband regelmäßig reinigen</strong>, besonders bei Leder- oder Metallarmbändern mit Hautkontakt</li>
           </ol>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Glas, Armband und Funktionen: Details, die den Alltag prägen</h2>
+          <h3 className="h6 fw-bold mt-3">Uhrenglas</h3>
+          <p>
+            Das Glas entscheidet darüber, wie lange die Uhr gut aussieht. <strong>Mineralglas</strong> ist
+            günstig, kratzt aber schneller. <strong>Saphirglas</strong> ist deutlich kratzfester und kommt
+            meist ab der mittleren Preisklasse zum Einsatz. <strong>Acrylglas</strong> (Plexiglas) findet
+            sich vor allem bei sehr günstigen oder bewusst klassisch gestalteten Modellen; es kratzt
+            leicht, lässt sich aber oft wieder aufpolieren.
+          </p>
+          <h3 className="h6 fw-bold mt-3">Armband</h3>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th>Armband</th><th>Passt zu</th><th>Zu beachten</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Metall (Edelstahl)</td><td>Alltag, Büro, Wasserkontakt</td><td>Länge muss meist angepasst werden, schwerer</td></tr>
+                <tr><td>Leder</td><td>Klassische und elegante Uhren</td><td>Empfindlich gegen Wasser und Schweiß</td></tr>
+                <tr><td>Silikon / Kautschuk</td><td>Sport, Schwimmen, Freizeit</td><td>Zieht Staub an, wirkt weniger elegant</td></tr>
+                <tr><td>Textil / Nylon</td><td>Casual, Sommer</td><td>Nutzt sich bei Dauergebrauch schneller ab</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Prüfe vor dem Kauf die <strong>Bandbreite</strong> in Millimetern (Abstand der Bandanstöße): Sie
+            bestimmt, welche Wechselarmbänder später passen. Mit Schnellwechsel-Federstegen lässt sich das
+            Armband ohne Werkzeug tauschen, sodass eine Uhr mit mehreren Bändern ganz unterschiedlich wirken kann.
+          </p>
+          <h3 className="h6 fw-bold mt-3">Zusatzfunktionen</h3>
+          <ul>
+            <li><strong>Datumsanzeige:</strong> Praktisch im Alltag, bei Automatikuhren muss das Datum nach längerem Stillstand neu eingestellt werden.</li>
+            <li><strong>Chronograph:</strong> Stoppfunktion über Drücker; nützlich, aber für den Alltag nicht zwingend.</li>
+            <li><strong>Leuchtziffern:</strong> Gut ablesbar im Dunkeln, besonders bei Sport- und Taucheruhren.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Damenuhr oder Herrenuhr? Eine Frage der Größe, nicht des Labels</h2>
+          <p>
+            Die Unterscheidung ist in erster Linie eine Frage von Gehäusegröße und Armbandbreite. Viele
+            Frauen tragen bewusst größere Uhren, und manche Herren bevorzugen schmale, klassische Modelle.
+            Entscheidend ist, dass das Gehäuse zum Handgelenk passt (siehe Schritt 3) und das Armband
+            bequem sitzt. Als Geschenk ist die Größe der heikelste Punkt: Frage im Zweifel die Person
+            vorsichtig nach dem Handgelenkumfang oder schaue, welche Uhren sie bereits trägt.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Garantie, Gewährleistung und Fälschungen</h2>
+          <ul>
+            <li><strong>Gewährleistung:</strong> Bei neuer Ware gilt gegenüber dem Händler eine gesetzliche Gewährleistung von zwei Jahren. Sie ist von einer Herstellergarantie zu unterscheiden, die freiwillig ist und eigene Bedingungen hat.</li>
+            <li><strong>Seriöse Händler wählen:</strong> Sehr günstige Angebote für bekannte Markenuhren sind ein Warnzeichen. Prüfe Impressum, Bewertungen und Rückgabebedingungen des Händlers, bevor du kaufst.</li>
+            <li><strong>Batteriewechsel:</strong> Wird das Gehäuse einer wasserdichten Uhr geöffnet, sollte danach die Dichtung geprüft werden. Lass die Batterie deshalb vom Fachmann wechseln.</li>
+            <li><strong>Magnetfelder und Stöße:</strong> Lautsprecher, Handyhüllen mit Magnet und starke Erschütterungen können mechanische Uhren beeinträchtigen.</li>
+          </ul>
+          <p>
+            Wer sich für hochpreisige Modelle interessiert, findet im Beitrag{" "}
+            <a href="/blog/luxusuhren-kaufen/">Luxusuhren kaufen</a> zusätzliche Hinweise. Als Geschenkidee
+            passt die Uhr in die Auswahl des{" "}
+            <a href="/blog/weihnachtsgeschenke-ideen-guide/">Weihnachtsgeschenke-Ratgebers</a>, und eine
+            Übersicht über Schmuck als Geschenk gibt{" "}
+            <a href="/blog/schmuck-als-geschenk-ratgeber/">dieser Beitrag</a>.
+          </p>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

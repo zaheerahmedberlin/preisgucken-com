@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "uhren-kaufen-ratgeber": [
+    { q: "Automatik oder Quarz: was ist besser?", a: "Quarzuhren sind genauer, wartungsarm und günstiger. Automatikuhren überzeugen durch ihr mechanisches Uhrwerk ohne Batterie, brauchen aber regelmäßiges Tragen und gelegentlich eine Wartung. Für den Alltag ist Quarz die pragmatischere Wahl." },
+    { q: "Wie wasserdicht muss eine Uhr sein?", a: "30 m (3 ATM) genügen für Spritzwasser. Zum Schwimmen sollte die Uhr mindestens 100 m (10 ATM) angeben. Für Tauchen gelten eigene Normen; achte auf die Herstellerangabe." },
+    { q: "Was ist der Unterschied zwischen Saphirglas und Mineralglas?", a: "Saphirglas ist deutlich kratzfester und bleibt im Alltag länger klar. Mineralglas ist günstiger, kratzt aber schneller. Bei Uhren, die täglich getragen werden, lohnt sich Saphirglas meist." },
+    { q: "Wie finde ich die richtige Gehäusegröße?", a: "Das Gehäuse sollte nicht breiter sein als der sichtbare Bereich des Handgelenks von oben. 39 bis 42 mm passen für die meisten Handgelenke; kleine Handgelenke kommen oft mit 34 bis 38 mm besser zurecht." },
+    { q: "Woran erkenne ich ein seriöses Angebot für eine Markenuhr?", a: "Sehr niedrige Preise für bekannte Marken sind ein Warnzeichen. Prüfe Impressum, Bewertungen und Rückgabebedingungen des Händlers und vergleiche den Preis bei mehreren Anbietern." },
+  ],
   "matratze-kaufen-ratgeber": [
     { q: "Welcher Härtegrad ist für Seitenschläfer richtig?", a: "Seitenschläfer kommen meist mit einem etwas weicheren Härtegrad besser zurecht, damit Schulter und Hüfte leicht einsinken können. Entscheidend sind daneben das Körpergewicht und die Zonierung der Matratze." },
     { q: "Wie lange hält eine Matratze?", a: "Als Orientierung nennen viele Hersteller rund acht bis zehn Jahre. Die tatsächliche Lebensdauer hängt von Material, Nutzung und Pflege ab. Kuhlen oder nachlassende Stützkraft sind Anzeichen für einen Wechsel." },
