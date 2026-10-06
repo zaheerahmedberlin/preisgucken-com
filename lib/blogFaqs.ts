@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "matratze-kaufen-ratgeber": [
+    { q: "Welcher Härtegrad ist für Seitenschläfer richtig?", a: "Seitenschläfer kommen meist mit einem etwas weicheren Härtegrad besser zurecht, damit Schulter und Hüfte leicht einsinken können. Entscheidend sind daneben das Körpergewicht und die Zonierung der Matratze." },
+    { q: "Wie lange hält eine Matratze?", a: "Als Orientierung nennen viele Hersteller rund acht bis zehn Jahre. Die tatsächliche Lebensdauer hängt von Material, Nutzung und Pflege ab. Kuhlen oder nachlassende Stützkraft sind Anzeichen für einen Wechsel." },
+    { q: "Brauche ich zur neuen Matratze auch einen neuen Lattenrost?", a: "Nicht immer, aber ein ausgeleierter oder beschädigter Lattenrost mindert die Wirkung jeder Matratze. Prüfe Zustand und Maße der Unterlage vor dem Kauf und tausche sie bei Bedarf mit aus." },
+    { q: "Kann ich eine online bestellte Matratze zurückgeben?", a: "Bei Online-Käufen gilt grundsätzlich ein gesetzliches Widerrufsrecht von 14 Tagen ab Erhalt. Viele Händler bieten zusätzlich eine längere Probeschlafzeit an; die Bedingungen wie Rücksendekosten und Verpackung stehen im jeweiligen Shop." },
+    { q: "Lohnt sich ein Topper?", a: "Ein Topper kann Härte oder Komfort einer vorhandenen Matratze verändern. Eine durchgelegene Matratze ersetzt er nicht — in diesem Fall ist eine neue Matratze die bessere Lösung." },
+  ],
   "weihnachtsgeschenke-ideen-guide": [
     { q: "Wann sollte ich Weihnachtsgeschenke bestellen?", a: "Möglichst früh, spätestens zu Beginn des Dezembers. Dann bleiben Auswahl und Zeit für eine mögliche Rückgabe. Die verbindliche Frist für rechtzeitige Lieferung nennt der jeweilige Händler in seinen Versandinformationen." },
     { q: "Kann ich Weihnachtsgeschenke zurückgeben?", a: "Bei Online-Käufen gilt grundsätzlich ein gesetzliches Widerrufsrecht von 14 Tagen ab Erhalt der Ware, mit Ausnahmen etwa für individuell angefertigte Artikel. Manche Händler bieten zu Weihnachten längere freiwillige Fristen an; die Bedingungen stehen im jeweiligen Shop." },
