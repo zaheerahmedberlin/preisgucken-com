@@ -6,6 +6,12 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "weihnachtsgeschenke-ideen-guide": [
+    { q: "Wann sollte ich Weihnachtsgeschenke bestellen?", a: "Möglichst früh, spätestens zu Beginn des Dezembers. Dann bleiben Auswahl und Zeit für eine mögliche Rückgabe. Die verbindliche Frist für rechtzeitige Lieferung nennt der jeweilige Händler in seinen Versandinformationen." },
+    { q: "Kann ich Weihnachtsgeschenke zurückgeben?", a: "Bei Online-Käufen gilt grundsätzlich ein gesetzliches Widerrufsrecht von 14 Tagen ab Erhalt der Ware, mit Ausnahmen etwa für individuell angefertigte Artikel. Manche Händler bieten zu Weihnachten längere freiwillige Fristen an; die Bedingungen stehen im jeweiligen Shop." },
+    { q: "Was schenkt man, wenn das Budget klein ist?", a: "Kleine, hochwertige Aufmerksamkeiten wie Pralinen, ein einzelnes Schmuckstück oder ein passendes Zubehörteil. Ein gut gewähltes kleines Geschenk kommt meist besser an als ein teureres, das nicht zur Person passt." },
+    { q: "Wie finde ich den günstigsten Preis für ein Geschenk?", a: "Vergleiche den Gesamtpreis inklusive Versand bei mehreren Händlern und beobachte den Preis einige Tage, statt sofort zu kaufen. Ein Preisvergleich wie auf Preisgucken.de zeigt dir die Angebote nebeneinander." },
+  ],
   "ssd-festplatte-usb-stick-kaufen-ratgeber": [
     { q: "SSD oder Festplatte – was ist besser?", a: "Eine SSD ist deutlich schneller, robuster und leiser. Eine Festplatte ist pro Terabyte günstiger und eignet sich für große Archive und Backups." },
     { q: "Was ist der Unterschied zwischen SATA und NVMe?", a: "SATA ist der ältere Anschluss mit maximal etwa 560 MB/s. NVMe läuft über PCIe, ist deutlich schneller und braucht einen M.2-Steckplatz am Mainboard." },
