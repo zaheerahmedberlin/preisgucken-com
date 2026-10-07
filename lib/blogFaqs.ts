@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "haengelampe-oder-stehlampe-design-leuchte": [
+    { q: "Wie hoch sollte eine Hängelampe über dem Esstisch hängen?", a: "Als Faustregel etwa 60 bis 70 cm über der Tischplatte, gemessen bis zur Unterkante der Lampe. Bei sehr hohen oder niedrigen Decken kann sich der Wert unterscheiden." },
+    { q: "Welche Farbtemperatur ist für das Wohnzimmer richtig?", a: "Warmweißes Licht um 2700 bis 3000 Kelvin wirkt gemütlich und passt zu Wohn- und Schlafräumen. Für Küche und Arbeitsplatz ist neutralweißes Licht geeigneter." },
+    { q: "Was bedeutet Lumen bei Lampen?", a: "Lumen gibt die Helligkeit einer Lampe an. Die Wattzahl beschreibt dagegen den Stromverbrauch und ist bei LED kein Maß für die Helligkeit." },
+    { q: "Darf ich eine Deckenlampe selbst anschließen?", a: "Arbeiten an der Hausinstallation sollte eine Elektrofachkraft übernehmen. In jedem Fall muss vor den Arbeiten die Sicherung ausgeschaltet sein. Alternativ bieten sich Stehlampen mit Stecker an." },
+    { q: "Stehlampe oder Hängelampe: Was ist sinnvoller?", a: "Eine Hängelampe schafft gezieltes Licht über Tisch oder Raummitte, eine Stehlampe ist flexibel und braucht keine Montage. Viele Räume profitieren von der Kombination beider Leuchtentypen." },
+  ],
   "kinderwagen-kaufen-typ-guide": [
     { q: "Buggy oder Kombikinderwagen: Was ist besser?", a: "Ein Buggy ist leicht und kompakt, aber meist erst ab dem Sitzalter geeignet. Ein Kombikinderwagen deckt mehrere Lebensphasen mit einem Gestell ab, ist dafür meist schwerer und teurer. Entscheidend sind Alltag, Wohnsituation und Planung." },
     { q: "Ab wann kann ein Kind im Buggy sitzen?", a: "Buggys sind in der Regel für Kinder ab dem Sitzalter gedacht, oft ab etwa sechs Monaten. Die genaue Angabe steht in der Herstellerbeschreibung und sollte maßgeblich sein." },
@@ -277,6 +284,11 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Lohnt sich ein Set mit Sitzaufsatz für den Kart-Umbau?", a: "Wer auch im Kart-Modus fahren will, greift am besten gleich zum Set: Der Sitzaufsatz kostet einzeln meist mehr als der Aufpreis im Komplettpaket." },
   ],
   "tragbare-espressomaschine-kaufen": [
+    { q: "Wie viel Bar braucht eine tragbare Espressomaschine?", a: "Für ein cremiges Ergebnis werden oft rund 15 Bar und mehr angegeben. Der Druck allein entscheidet aber nicht über den Geschmack; auch Mahlgrad, Temperatur und Kaffeequalität spielen eine Rolle." },
+    { q: "Wie viele Tassen schafft eine Akkuladung?", a: "Das hängt vom Modell ab: Kompakte Geräte schaffen oft nur wenige Tassen, größere Modelle mehr. Herstellerangaben gelten unter Testbedingungen, im Alltag kann die Zahl niedriger ausfallen." },
+    { q: "Brauche ich heißes Wasser oder heizt das Gerät selbst?", a: "Das unterscheidet sich je nach Modell. Manche Geräte erhitzen das Wasser selbst, andere benötigen vorher erhitztes Wasser. Die Produktbeschreibung des Herstellers gibt Auskunft." },
+    { q: "Kann ich die Espressomaschine im Flugzeug mitnehmen?", a: "Geräte mit Lithium-Akku unterliegen eigenen Vorschriften und dürfen meist nur im Handgepäck mitgeführt werden. Frage vorab bei der Fluggesellschaft nach den aktuellen Regeln." },
+    { q: "Wie reinige und entkalke ich eine tragbare Espressomaschine?", a: "Nach jedem Gebrauch Filter und Brühkammer ausspülen und trocknen lassen. Zum Entkalken nur die vom Hersteller vorgesehenen Mittel verwenden und die empfohlenen Abstände einhalten." },
     { q: "Wie viel Druck braucht eine tragbare Espressomaschine?", a: "Für echte Crema sollten es mindestens 15 Bar sein. Darunter wird der Espresso eher wässrig statt cremig." },
     { q: "Wie viele Tassen schafft eine Akkuladung?", a: "Kompakte Modelle schaffen oft nur 1–2 Tassen pro Ladung, größere Maschinen deutlich mehr. Bei mehrtägigen Trips ohne Lademöglichkeit ist das ein wichtiges Kaufkriterium." },
     { q: "Kann ich gemahlenen Kaffee und Kapseln verwenden?", a: "Viele Modelle nehmen beides. Wer flexibel bleiben will, achtet auf einen Doppelfilter, statt sich früh auf eine Variante festzulegen." },
