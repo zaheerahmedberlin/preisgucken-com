@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Hunde- und Katzenbedarf online kaufen",
   description: "Haustierbedarf online kaufen: Futterqualität erkennen, Futter umstellen, Größe bei Geschirr und Bett, Transport im Auto, Zubehör und Spielzeug im Überblick.",
-  keywords: ["tierbedarf online kaufen", "hundebedarf ratgeber", "katzenbedarf kaufen", "hundegeschirr größe finden", "katzenkratzbaum kaufen", "tierfutter qualität erkennen", "haustierbedarf online kaufen", "hundefutter qualität erkennen", "hundegeschirr größe messen", "transportbox auto hund", "futter umstellen"],
+  keywords: ["tierbedarf online kaufen", "hundebedarf ratgeber", "katzenbedarf kaufen", "hundegeschirr größe finden", "katzenkratzbaum kaufen", "tierfutter qualität erkennen", "haustierbedarf online kaufen", "hundefutter qualität erkennen", "hundegeschirr größe messen", "transportbox auto hund", "futter umstellen", "hund grundausstattung", "katze grundausstattung", "katzenstreu wechseln"],
   openGraph: {
     title: "Hunde- und Katzenbedarf online kaufen",
     description: "Futterqualität erkennen, die richtige Größe bei Betten und Geschirren finden – mit Preisvergleich.",
     url: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen/",
     type: "article",
     publishedTime: "2026-08-18",
-    modifiedTime: "2026-10-04",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Hunde- und Katzenbedarf online kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/haustierbedarf-online-kaufen/" },
@@ -27,7 +27,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Hunde- und Katzenbedarf online kaufen",
   datePublished: "2026-08-18",
-  dateModified: "2026-10-04",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -52,7 +52,7 @@ export default function HaustierbedarfOnlineKaufenPage() {
           <p className="lead text-muted">Vom Futternapf bis zum Kratzbaum: Worauf es bei Tierbedarf wirklich ankommt und wie du unnötige Fehlkäufe vermeidest.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 18. August 2026</span>
-            <span>🔄 Aktualisiert: 4. Oktober 2026</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
             <span>⏱ 8 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
@@ -160,6 +160,43 @@ export default function HaustierbedarfOnlineKaufenPage() {
             <li><strong>Zu große Vorräte:</strong> Probiere neue Futtersorten erst in kleinen Mengen.</li>
           </ol>
           <p className="small text-muted">Für Garten und Terrasse mit Tieren hilft der Ratgeber <a href="/blog/gartengeraete-kaufen-ratgeber/">Gartengeräte kaufen</a>.</p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Grundausstattung für den Start</h2>
+          <div className="row g-3">
+            <div className="col-md-6">
+              <div className="card p-4 h-100">
+                <h3 className="h6 fw-bold mb-2">🐕 Hund</h3>
+                <p className="small text-muted mb-0">Halsband oder Geschirr, Leine, Futter- und Wassernapf, Bett oder Decke, Kotbeutel, Pflegeutensilien und Spielzeug. Eine Transportmöglichkeit für Auto oder Tierarzt kommt je nach Größe dazu.</p>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="card p-4 h-100">
+                <h3 className="h6 fw-bold mb-2">🐈 Katze</h3>
+                <p className="small text-muted mb-0">Katzentoilette mit Streu, Futter- und Wassernapf, Kratzmöglichkeit, Schlafplatz, Transportbox und Spielzeug. Rückzugsorte in der Höhe nutzen viele Katzen gern.</p>
+              </div>
+            </div>
+          </div>
+          <p className="mt-3">
+            Kaufe zum Start nicht alles auf einmal. Beobachte, was dein Tier annimmt, und ergänze
+            Zubehör nach und nach. Teure Anschaffungen wie Kratzbaum oder Hundebett lohnen sich erst,
+            wenn du weißt, welche Variante dein Tier akzeptiert.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Pflege und Hygiene</h2>
+          <ul>
+            <li><strong>Näpfe:</strong> Täglich reinigen und frisches Wasser anbieten.</li>
+            <li><strong>Bett und Decken:</strong> Regelmäßig waschen; wähle Bezüge, die sich abziehen lassen.</li>
+            <li><strong>Fell- und Krallenpflege:</strong> Bürsten und Pflegezubehör passend zur Fellart; bei Unsicherheit hilft der Tierarzt oder die Hundefriseurin.</li>
+            <li><strong>Katzenstreu:</strong> Täglich Klumpen entfernen und die Toilette regelmäßig komplett reinigen. Viele Katzen mögen unparfümierte Streu lieber.</li>
+          </ul>
+          <p className="small text-muted">
+            Bei Gesundheitsfragen, Futterumstellungen mit Beschwerden oder Pflege von kranken Tieren ersetzt
+            kein Ratgeber den Besuch beim Tierarzt.
+          </p>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
