@@ -6,6 +6,33 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "abendkleid-cocktailkleid-kaufen-ratgeber": [
+    { q: "Welche Kleidlänge passt zu welchem Anlass?", a: "Cocktailpartys und Afterwork-Termine vertragen Mini bis Midi, Hochzeiten tagsüber meist Midi oder Maxi, und bei Gala oder Black Tie ist ein bodenlanges Kleid üblich. Im Zweifel hilft eine Nachfrage beim Gastgeber." },
+    { q: "Welche Farben sollte ich als Hochzeitsgast meiden?", a: "Weiß, Creme und sehr helle Champagnertöne gelten als Farben der Braut. Alle anderen Töne sind meist unproblematisch; dunkle und kräftige Farben sind im Herbst und Winter beliebt." },
+    { q: "Kann ich ein online bestelltes Kleid zurückgeben?", a: "Bei Online-Käufen gilt grundsätzlich ein Widerrufsrecht von 14 Tagen ab Erhalt. Wird ein Kleid nach deinen Maßen individuell angefertigt, entfällt das Widerrufsrecht in der Regel. Die Bedingungen stehen im jeweiligen Shop." },
+    { q: "Wie messe ich mich richtig für die Größentabelle?", a: "Miss Oberweite, Taille und Hüfte mit einem Maßband an der jeweils breitesten beziehungsweise schmalsten Stelle und vergleiche die Werte mit der Größentabelle des Shops, nicht mit deiner üblichen Konfektionsgröße." },
+    { q: "Wann sollte ich ein Kleid für eine Feier bestellen?", a: "So früh wie möglich, damit Zeit für Lieferung, Anprobe, Rückgabe oder Änderung bleibt. Bei Maßanfertigungen und Bestellungen auf Produktion kommt zusätzliche Fertigungszeit dazu." },
+  ],
+  "uhren-kaufen-ratgeber": [
+    { q: "Automatik oder Quarz: was ist besser?", a: "Quarzuhren sind genauer, wartungsarm und günstiger. Automatikuhren überzeugen durch ihr mechanisches Uhrwerk ohne Batterie, brauchen aber regelmäßiges Tragen und gelegentlich eine Wartung. Für den Alltag ist Quarz die pragmatischere Wahl." },
+    { q: "Wie wasserdicht muss eine Uhr sein?", a: "30 m (3 ATM) genügen für Spritzwasser. Zum Schwimmen sollte die Uhr mindestens 100 m (10 ATM) angeben. Für Tauchen gelten eigene Normen; achte auf die Herstellerangabe." },
+    { q: "Was ist der Unterschied zwischen Saphirglas und Mineralglas?", a: "Saphirglas ist deutlich kratzfester und bleibt im Alltag länger klar. Mineralglas ist günstiger, kratzt aber schneller. Bei Uhren, die täglich getragen werden, lohnt sich Saphirglas meist." },
+    { q: "Wie finde ich die richtige Gehäusegröße?", a: "Das Gehäuse sollte nicht breiter sein als der sichtbare Bereich des Handgelenks von oben. 39 bis 42 mm passen für die meisten Handgelenke; kleine Handgelenke kommen oft mit 34 bis 38 mm besser zurecht." },
+    { q: "Woran erkenne ich ein seriöses Angebot für eine Markenuhr?", a: "Sehr niedrige Preise für bekannte Marken sind ein Warnzeichen. Prüfe Impressum, Bewertungen und Rückgabebedingungen des Händlers und vergleiche den Preis bei mehreren Anbietern." },
+  ],
+  "matratze-kaufen-ratgeber": [
+    { q: "Welcher Härtegrad ist für Seitenschläfer richtig?", a: "Seitenschläfer kommen meist mit einem etwas weicheren Härtegrad besser zurecht, damit Schulter und Hüfte leicht einsinken können. Entscheidend sind daneben das Körpergewicht und die Zonierung der Matratze." },
+    { q: "Wie lange hält eine Matratze?", a: "Als Orientierung nennen viele Hersteller rund acht bis zehn Jahre. Die tatsächliche Lebensdauer hängt von Material, Nutzung und Pflege ab. Kuhlen oder nachlassende Stützkraft sind Anzeichen für einen Wechsel." },
+    { q: "Brauche ich zur neuen Matratze auch einen neuen Lattenrost?", a: "Nicht immer, aber ein ausgeleierter oder beschädigter Lattenrost mindert die Wirkung jeder Matratze. Prüfe Zustand und Maße der Unterlage vor dem Kauf und tausche sie bei Bedarf mit aus." },
+    { q: "Kann ich eine online bestellte Matratze zurückgeben?", a: "Bei Online-Käufen gilt grundsätzlich ein gesetzliches Widerrufsrecht von 14 Tagen ab Erhalt. Viele Händler bieten zusätzlich eine längere Probeschlafzeit an; die Bedingungen wie Rücksendekosten und Verpackung stehen im jeweiligen Shop." },
+    { q: "Lohnt sich ein Topper?", a: "Ein Topper kann Härte oder Komfort einer vorhandenen Matratze verändern. Eine durchgelegene Matratze ersetzt er nicht — in diesem Fall ist eine neue Matratze die bessere Lösung." },
+  ],
+  "weihnachtsgeschenke-ideen-guide": [
+    { q: "Wann sollte ich Weihnachtsgeschenke bestellen?", a: "Möglichst früh, spätestens zu Beginn des Dezembers. Dann bleiben Auswahl und Zeit für eine mögliche Rückgabe. Die verbindliche Frist für rechtzeitige Lieferung nennt der jeweilige Händler in seinen Versandinformationen." },
+    { q: "Kann ich Weihnachtsgeschenke zurückgeben?", a: "Bei Online-Käufen gilt grundsätzlich ein gesetzliches Widerrufsrecht von 14 Tagen ab Erhalt der Ware, mit Ausnahmen etwa für individuell angefertigte Artikel. Manche Händler bieten zu Weihnachten längere freiwillige Fristen an; die Bedingungen stehen im jeweiligen Shop." },
+    { q: "Was schenkt man, wenn das Budget klein ist?", a: "Kleine, hochwertige Aufmerksamkeiten wie Pralinen, ein einzelnes Schmuckstück oder ein passendes Zubehörteil. Ein gut gewähltes kleines Geschenk kommt meist besser an als ein teureres, das nicht zur Person passt." },
+    { q: "Wie finde ich den günstigsten Preis für ein Geschenk?", a: "Vergleiche den Gesamtpreis inklusive Versand bei mehreren Händlern und beobachte den Preis einige Tage, statt sofort zu kaufen. Ein Preisvergleich wie auf Preisgucken.de zeigt dir die Angebote nebeneinander." },
+  ],
   "ssd-festplatte-usb-stick-kaufen-ratgeber": [
     { q: "SSD oder Festplatte – was ist besser?", a: "Eine SSD ist deutlich schneller, robuster und leiser. Eine Festplatte ist pro Terabyte günstiger und eignet sich für große Archive und Backups." },
     { q: "Was ist der Unterschied zwischen SATA und NVMe?", a: "SATA ist der ältere Anschluss mit maximal etwa 560 MB/s. NVMe läuft über PCIe, ist deutlich schneller und braucht einen M.2-Steckplatz am Mainboard." },
@@ -225,6 +252,11 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Wann ist der beste Zeitpunkt für den Kauf?", a: "Zum Ende der Hauptmähsaison, etwa Ende September, senken viele Händler die Preise. Ein Kauf auf Vorrat fürs nächste Frühjahr ändert nichts an Technik oder Garantie." },
   ],
   "gaming-stuhl-kaufen-ratgeber": [
+    { q: "Für wen lohnt sich ein Gaming-Stuhl?", a: "Für alle, die lange sitzen und eine verstellbare Rückenlehne, Armlehnen und eine auffällige Optik schätzen. Entscheidend ist, dass Sitzhöhe, Tiefe und Belastbarkeit zu Körpergröße und Gewicht passen." },
+    { q: "Stoff oder PU-Leder: Was ist besser?", a: "Stoff ist atmungsaktiver und bei langen Sessions angenehmer, aber fleckenanfälliger. PU-Leder ist pflegeleichter, staut aber mehr Wärme. Bei langem Sitzen ist Stoff oder atmungsaktives Kunstleder oft die bessere Wahl." },
+    { q: "Wie stelle ich einen Gaming-Stuhl richtig ein?", a: "Die Füße stehen flach auf dem Boden, die Knie sind im etwa rechten Winkel gebeugt, die Unterarme liegen entspannt auf den Armlehnen, und das Lendenkissen stützt die natürliche Wölbung des unteren Rückens." },
+    { q: "Sind Massage- und Heizfunktionen sinnvoll?", a: "Sie sind ein Komfortzusatz, aber kein Ersatz für Pausen und Bewegung. Wer sie nicht nutzen wird, spart mit einem Basismodell. Vergleiche vor dem Kauf, ob der Aufpreis zur Ausstattung passt." },
+    { q: "Kann ich einen Gaming-Stuhl zurückgeben?", a: "Bei Online-Käufen gilt grundsätzlich ein gesetzliches Widerrufsrecht von 14 Tagen ab Erhalt. Wer zurückschickt, sollte Verpackung und Rücksendekosten vorher klären, weil die Ware bei Möbeln sperrig ist." },
     { q: "Welches Bezugsmaterial ist für einen Gaming-Stuhl am besten?", a: "Stoff ist atmungsaktiv und meist am günstigsten, aber fleckenanfälliger. PU-Leder ist pflegeleicht, staut aber mehr Wärme. Wildleder-Optik liegt als weicher Mittelweg im Luxus-Segment." },
     { q: "Worauf kommt es bei der Ergonomie an?", a: "Wichtig sind mehrfach verstellbare Armlehnen, ein Neigungswinkel bis über 150 Grad und eine Lordosenstütze. Dazu müssen Sitztiefe, Rückenlehnenhöhe und Belastbarkeit zu Körpergröße und Gewicht passen." },
     { q: "Brauche ich Heiz- und Massagefunktion?", a: "Nein, sie sind kein Muss. Wer sie nicht nutzen wird, spart mit einem Basismodell – ein direkter Preisvergleich zeigt, ob sich der Aufpreis überhaupt lohnt." },
