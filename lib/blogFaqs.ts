@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "kinderwagen-kaufen-typ-guide": [
+    { q: "Buggy oder Kombikinderwagen: Was ist besser?", a: "Ein Buggy ist leicht und kompakt, aber meist erst ab dem Sitzalter geeignet. Ein Kombikinderwagen deckt mehrere Lebensphasen mit einem Gestell ab, ist dafür meist schwerer und teurer. Entscheidend sind Alltag, Wohnsituation und Planung." },
+    { q: "Ab wann kann ein Kind im Buggy sitzen?", a: "Buggys sind in der Regel für Kinder ab dem Sitzalter gedacht, oft ab etwa sechs Monaten. Die genaue Angabe steht in der Herstellerbeschreibung und sollte maßgeblich sein." },
+    { q: "Lohnt sich ein Trio-Set?", a: "Es kann sich lohnen, wenn du Gestell, Babyschale und Sportsitz ohnehin brauchst, weil die Teile aufeinander abgestimmt sind. Hast du bereits eine passende Babyschale, ist ein einzelnes Gestell mit Sportsitz oft günstiger." },
+    { q: "Welche Sicherheitsnorm gilt für Kinderwagen?", a: "In Europa gilt für Kinderwagen die Norm EN 1888. Für Autositzschalen gelten davon getrennt die Vorschriften ECE R44 oder ECE R129 (i-Size)." },
+    { q: "Kann ich einen gebrauchten Kinderwagen kaufen?", a: "Ja, wenn Bremse, Gestell, Räder, Gurte und Bezug in gutem Zustand sind und keine offenen Rückrufe vorliegen. Eine gebrauchte Babyschale solltest du eher vermeiden, weil ihre Unfallgeschichte oft unbekannt ist." },
+  ],
   "abendkleid-cocktailkleid-kaufen-ratgeber": [
     { q: "Welche Kleidlänge passt zu welchem Anlass?", a: "Cocktailpartys und Afterwork-Termine vertragen Mini bis Midi, Hochzeiten tagsüber meist Midi oder Maxi, und bei Gala oder Black Tie ist ein bodenlanges Kleid üblich. Im Zweifel hilft eine Nachfrage beim Gastgeber." },
     { q: "Welche Farben sollte ich als Hochzeitsgast meiden?", a: "Weiß, Creme und sehr helle Champagnertöne gelten als Farben der Braut. Alle anderen Töne sind meist unproblematisch; dunkle und kräftige Farben sind im Herbst und Winter beliebt." },
@@ -280,6 +287,11 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Welche Geschwindigkeit brauche ich zum Arbeiten?", a: "Fürs Arbeiten reichen meist 1–6 km/h. Höhere Maximalgeschwindigkeiten sind nur relevant, wenn das Pad auch außerhalb der Arbeitszeit fürs Training genutzt wird." },
   ],
   "grill-kaufen-gas-kohle-elektro-guide": [
+    { q: "Gas, Kohle oder Elektro: Welcher Grill ist der richtige?", a: "Holzkohle bietet das klassische Raucharoma bei längerer Anzündzeit, Gas ist schnell startklar und gut regelbar, und ein Elektrogrill ist für viele Balkone die einzige Option. Die Wahl hängt vor allem von Wohnsituation, Häufigkeit und Geschmack ab." },
+    { q: "Darf ich auf dem Balkon grillen?", a: "Das regeln Mietvertrag, Hausordnung und örtliche Vorgaben, und die Rechtslage ist im Einzelfall unterschiedlich. Elektrogrills sind meist unproblematisch; bei Kohle- und Gasgrills solltest du vorher nachlesen oder den Vermieter fragen." },
+    { q: "Wie sicher ist ein Gasgrill?", a: "Bei richtigem Umgang ist er sicher: Schlauch und Anschlüsse vor der Saison prüfen, die Flasche aufrecht lagern, nach dem Grillen das Ventil schließen und nur im Freien grillen. Bei Gasgeruch das Ventil schließen und nicht anzünden." },
+    { q: "Wie überwintere ich meinen Grill richtig?", a: "Gründlich reinigen, vollständig trocknen lassen, mit einer Haube abdecken oder trocken lagern. Bei Gasgrills die Flasche abklemmen und aufrecht außerhalb von Wohnräumen aufbewahren." },
+    { q: "Was gehört zur Grundausstattung zum Grillen?", a: "Grillzange, Wender, Reinigungsbürste, Grillhandschuhe und ein Thermometer. Eine Abdeckhaube schützt den Grill im Freien, und bei Kohlegrills ist ein Anzündkamin praktisch." },
     { q: "Gas-, Kohle- oder Elektrogrill – welcher passt zu mir?", a: "Der Holzkohlegrill bietet das beste Raucharoma zum günstigsten Einstieg, braucht aber 20–30 Minuten Anzündzeit. Der Gasgrill ist in 5–10 Minuten startklar und präzise regelbar. Der Elektrogrill ist rauch- und geruchsarm und für viele Balkone die einzige Option." },
     { q: "Darf ich auf dem Balkon grillen?", a: "Viele Hausordnungen erlauben nur Elektrogrills; Holzkohle- und Gasgrills sind auf Balkonen oft explizit verboten. Schau vorher in Mietvertrag oder Hausordnung." },
     { q: "Welche Grillfläche brauche ich?", a: "Für 4–6 Personen reichen meist 47–57 cm Durchmesser. Größere Modelle lohnen sich erst bei regelmäßigen größeren Runden." },
