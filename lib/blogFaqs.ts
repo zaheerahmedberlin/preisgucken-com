@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "wildkamera-kaufen-ratgeber": [
+    { q: "Wie schnell sollte die Auslöserzeit einer Wildkamera sein?", a: "Für schnelle Tiere und enge Wildwechsel gelten rund 0,1 Sekunden als Referenzwert. Bei ruhigeren Standorten reichen auch 0,3 bis 0,5 Sekunden; ab über einer Sekunde verpasst die Kamera häufig das Motiv." },
+    { q: "Was ist der Unterschied zwischen No-Glow und Low-Glow?", a: "No-Glow-Infrarot ist praktisch unsichtbar, hat aber meist eine geringere Reichweite. Low-Glow leuchtet schwach rot und erreicht oft weiter. White-Flash liefert Farbbilder bei Nacht, ist aber auffällig." },
+    { q: "Brauche ich eine Mobilfunk-Wildkamera?", a: "Sie lohnt sich, wenn der Standort schwer erreichbar ist und du Bilder aufs Handy bekommen möchtest. Dafür fallen eine SIM-Karte und laufende Kosten an, und es muss Netzabdeckung vorhanden sein." },
+    { q: "Darf ich eine Wildkamera im Garten aufstellen?", a: "Auf dem eigenen Grundstück ist das oft unproblematisch, solange keine Nachbargrundstücke, öffentlichen Wege oder erkennbare Personen erfasst werden. Dies ist eine allgemeine Orientierung und keine Rechtsberatung." },
+    { q: "Wie lange halten die Batterien einer Wildkamera?", a: "Das hängt von Auslösehäufigkeit, Videoeinstellungen und Temperatur ab. Bei vielen Auslösungen können Batterien in wenigen Wochen leer sein; ein Solarpanel reduziert den Wartungsaufwand." },
+  ],
   "haengelampe-oder-stehlampe-design-leuchte": [
     { q: "Wie hoch sollte eine Hängelampe über dem Esstisch hängen?", a: "Als Faustregel etwa 60 bis 70 cm über der Tischplatte, gemessen bis zur Unterkante der Lampe. Bei sehr hohen oder niedrigen Decken kann sich der Wert unterscheiden." },
     { q: "Welche Farbtemperatur ist für das Wohnzimmer richtig?", a: "Warmweißes Licht um 2700 bis 3000 Kelvin wirkt gemütlich und passt zu Wohn- und Schlafräumen. Für Küche und Arbeitsplatz ist neutralweißes Licht geeigneter." },
@@ -74,6 +81,9 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Brauche ich 5G?", a: "Nur wenn dein Netz es gut abdeckt und du es nutzt. Für Alltag und Streaming reicht oft auch gutes LTE." },
   ],
   "haustierbedarf-online-kaufen": [
+    { q: "Was braucht ein Hund oder eine Katze zum Start?", a: "Für Hunde sind Halsband oder Geschirr, Leine, Napf, Bett und Pflegeutensilien wichtig, für Katzen Toilette, Streu, Napf, Kratzmöglichkeit und Transportbox. Alles Weitere kannst du nach und nach ergänzen." },
+    { q: "Wie messe ich ein Hundegeschirr richtig?", a: "Miss den Brustumfang direkt hinter den Vorderbeinen und vergleiche ihn mit der Größentabelle des Herstellers. Die Rasse allein ist nur eine grobe Orientierung, besonders bei Mischlingen." },
+    { q: "Wie stelle ich Futter am besten um?", a: "Schrittweise über mehrere Tage: Mische das neue Futter anfangs mit dem bisherigen und erhöhe den Anteil langsam. Bei Verdauungsproblemen sprich mit dem Tierarzt." },
     { q: "Woran erkenne ich gutes Hunde- oder Katzenfutter?", a: "An deklarierten Fleischanteilen statt nur „tierischen Nebenerzeugnissen“, wenigen künstlichen Zusätzen und einer ausgewogenen Zusammensetzung. Getreidefrei ist nicht automatisch besser." },
     { q: "Wie stelle ich das Futter richtig um?", a: "Schrittweise über mehrere Tage: Mische das neue Futter zunehmend unter das alte, damit sich der Magen daran gewöhnt." },
     { q: "Wie finde ich die richtige Größe bei Geschirr und Bett?", a: "Miss beim Geschirr den Brustumfang hinter den Vorderbeinen und beim Bett die Körperlänge plus etwas Puffer. Die Rassenangabe ist nur eine grobe Orientierung." },
