@@ -271,6 +271,11 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Welche Sicherheitsfunktionen sollte eine Elektroheizung haben?", a: "Kippschutz und Überhitzungsschutz sollten Standard sein, besonders bei Geräten, die unbeaufsichtigt laufen. Ein Thermostat schaltet das Gerät zudem ab, sobald die Zieltemperatur erreicht ist." },
   ],
   "maehroboter-kaufen-ohne-begrenzungskabel": [
+    { q: "Wie funktioniert ein Mähroboter ohne Begrenzungskabel?", a: "RTK-Modelle empfangen Satellitensignale und Korrekturdaten einer Referenzstation und können sich damit sehr genau positionieren. Die Grenzen legst du per App fest." },
+    { q: "Für welche Gärten eignet sich RTK nicht?", a: "In stark verschatteten Gärten mit hohen Bäumen, Hecken oder Gebäuden kann das Signal abgeschwächt werden. Dann kann ein klassisches Modell mit Begrenzungskabel besser geeignet sein." },
+    { q: "Ist ein Mähroboter gefährlich für Igel?", a: "Nicht jedes Gerät erkennt nachtaktive Tiere zuverlässig. Naturschutzverbände empfehlen, Mähroboter nicht nachts oder in der Dämmerung laufen zu lassen." },
+    { q: "Wann darf mein Mähroboter laufen?", a: "Das hängt von Lärmschutzvorgaben, Gemeinde und Hausordnung ab. Nimm Rücksicht auf Ruhezeiten wie Sonn- und Feiertage und die Nachtstunden. Dies ist eine allgemeine Orientierung." },
+    { q: "Wie überwintere ich einen Mähroboter?", a: "Gerät reinigen, Akku nach Herstellerangabe laden und das Gerät trocken und frostfrei lagern. Die Referenzstation geschützt aufbewahren." },
     { q: "Wie funktioniert ein Mähroboter ohne Begrenzungskabel?", a: "Eine RTK-Referenzstation im Garten sendet Korrektursignale an den Roboter, der sich damit auf wenige Zentimeter genau positioniert. Die Grenzen zeichnest du per App ein – Anpassungen sind in Minuten statt Stunden erledigt." },
     { q: "Worauf muss ich beim Kauf eines RTK-Mähroboters achten?", a: "Wichtig sind eine realistische Einschätzung der Gartengröße (maximale Mähfläche), die maximale Steigung laut Datenblatt, eine 4G-/App-Anbindung und das Zubehör wie Ladestation, Garage und Ersatzklingen." },
     { q: "Wann ist der beste Zeitpunkt für den Kauf?", a: "Zum Ende der Hauptmähsaison, etwa Ende September, senken viele Händler die Preise. Ein Kauf auf Vorrat fürs nächste Frühjahr ändert nichts an Technik oder Garantie." },
