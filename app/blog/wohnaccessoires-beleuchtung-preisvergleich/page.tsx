@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Wohnaccessoires & Beleuchtung im Vergleich",
-  description: "Von Design-Leuchten über Bilderrahmen bis zu praktischen Wohnhelfern – die besten Preise im Überblick.",
+  description: "Wohnaccessoires und Beleuchtung: LED-Streifen, Bilderrahmen, Wandmontage, Kleiderlift, Mietwohnung und Preisvergleich – praktische Kauf-Tipps.",
   keywords: [
     "preisvergleich für wohnaccessoires und beleuchtung",
     "wohnaccessoires kaufen",
@@ -10,6 +10,10 @@ export const metadata: Metadata = {
     "design leuchten günstig",
     "wohnaccessoires günstig kaufen",
     "leuchten preisvergleich",
+    "led streifen anbringen",
+    "bilder aufhängen höhe",
+    "wohnaccessoires mietwohnung",
+    "wohnzimmer beleuchtung planen",
   ],
   openGraph: {
     title: "Wohnaccessoires & Beleuchtung im Vergleich",
@@ -17,6 +21,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/wohnaccessoires-beleuchtung-preisvergleich/",
     type: "article",
     publishedTime: "2026-08-27",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Wohnaccessoires & Beleuchtung im Vergleich" }],
   },
   twitter: {
@@ -33,6 +38,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Wohnaccessoires & Beleuchtung im Vergleich",
   datePublished: "2026-08-27",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -61,7 +67,8 @@ export default function WohnaccessoiresBeleuchtungPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 27. August 2026</span>
-            <span>⏱ 6 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -116,6 +123,59 @@ export default function WohnaccessoiresBeleuchtungPage() {
             Leuchten sind oft ein Bruchteil des Preises einer neuen Lampe – bevor du komplett neu kaufst, lohnt
             sich der Blick, ob nur ein Teil ausgetauscht werden muss.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">In welcher Reihenfolge einrichten und kaufen?</h2>
+          <ol>
+            <li><strong>Licht zuerst:</strong> Mit wenigen Leuchten lässt sich ein Raum spürbar verändern. Orientierung zu Hänge- und Stehlampen gibt der Beitrag <a href="/blog/haengelampe-oder-stehlampe-design-leuchte/">Hängelampe oder Stehlampe</a>.</li>
+            <li><strong>Textilien und Vorhänge:</strong> Sie prägen Akustik und Stimmung. Eine Übersicht findest du im Ratgeber <a href="/blog/vorhaenge-kaufen-ratgeber/">Vorhänge kaufen</a>.</li>
+            <li><strong>Wandgestaltung:</strong> Bilderrahmen, Wanduhr und Regale kommen, wenn Möbel und Licht stehen und du die Wandflächen einschätzen kannst.</li>
+            <li><strong>Praktische Helfer zuletzt:</strong> Einbaulösungen, Kleiderlift oder Wetterschutz kaufst du, wenn du die tatsächlichen Maße und den Bedarf kennst.</li>
+          </ol>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">LED-Streifen richtig kaufen und anbringen</h2>
+          <ul>
+            <li><strong>Länge und Stromversorgung:</strong> Miss die Strecke aus und prüfe, ob Netzteil und Steuerung zur Länge passen. Bei langen Strecken kann die Helligkeit am Ende nachlassen.</li>
+            <li><strong>Lichtfarbe:</strong> Warmweiß für Wohnbereiche, neutralweiß für Küche und Arbeitsplatz. RGB-Streifen eignen sich für Akzente, weniger für Grundlicht.</li>
+            <li><strong>Dimmen und Steuerung:</strong> Fernbedienung oder App machen die Stimmung flexibel. Prüfe, ob das System mit deinem Smart-Home kompatibel ist, falls du eines nutzt.</li>
+            <li><strong>Untergrund:</strong> Der Kleber haftet nicht auf jeder Oberfläche, etwa nicht auf rauer Tapete oder Staub. Reinige und trockne die Fläche vorher.</li>
+            <li><strong>Sicherheit:</strong> Verwende nur Netzteile mit CE-Kennzeichnung und den passenden Leistungsangaben. Decke Netzteile nicht ab, damit sie nicht überhitzen.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Bilderrahmen und Wandaccessoires aufhängen</h2>
+          <ul>
+            <li><strong>Höhe:</strong> Als Faustregel hängt die Bildmitte etwa auf Augenhöhe. Über einem Sofa sollte ein Abstand zur Rückenlehne bleiben, damit das Bild nicht erdrückt.</li>
+            <li><strong>Anordnung planen:</strong> Lege Rahmen vorher auf dem Boden oder mit Papierschablonen an der Wand aus. So vermeidest du unnötige Löcher.</li>
+            <li><strong>Dübel und Schrauben:</strong> Wähle Befestigungen passend zur Wand (Beton, Trockenbau, Ziegel). Prüfe vor dem Bohren, ob dort Leitungen verlaufen.</li>
+            <li><strong>Mietwohnung:</strong> Klebehaken und rückstandsfrei lösbare Lösungen schonen die Wand, tragen aber nur begrenzte Lasten. Beachte die Angaben auf der Verpackung.</li>
+            <li><strong>Rahmenmaße:</strong> Achte auf Außenmaß, Bildausschnitt und Passepartout, damit das Bild zum Rahmen passt.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Praktische Wohnhelfer: Worauf es ankommt</h2>
+          <ul>
+            <li><strong>Kleiderlift:</strong> Prüfe Tragkraft, Montagehöhe und Deckenbefestigung. Eine stabile Unterkonstruktion ist wichtig; bei Zweifeln lass die Montage fachkundig ausführen.</li>
+            <li><strong>Abfallsammler zum Einbau:</strong> Miss Schrankbreite und -tiefe und achte auf Auszugsschienen sowie die Höhe der Behälter.</li>
+            <li><strong>Wetterschutzgitter und Lüftungsabdeckungen:</strong> Passende Größe und Material (zum Beispiel Edelstahl oder Kunststoff) prüfen und auf Luftdurchlass achten.</li>
+            <li><strong>Wanduhr:</strong> Ein leises Uhrwerk ist besonders im Schlafzimmer angenehm. Prüfe, ob Batterien beiliegen.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler bei Deko und Licht</h2>
+          <ul>
+            <li><strong>Zu viele kleine Teile:</strong> Wenige größere Akzente wirken oft ruhiger als viele kleine Dekostücke.</li>
+            <li><strong>Maße nicht prüfen:</strong> Besonders bei Rahmen, Regalen und Einbauhelfern entscheiden Zentimeter über Passform.</li>
+            <li><strong>Lichtfarben mischen:</strong> Warmweiß und Kaltweiß in einem Raum wirken uneinheitlich. Bleibe für den Raum bei einer Farbtemperatur.</li>
+            <li><strong>Nur auf den Preis schauen:</strong> Billige Netzteile und Befestigungen sind eine Sicherheitsfrage. Gleiche Preise bei mehreren Händlern ab.</li>
+            <li><strong>Rückgabe:</strong> Bei Online-Käufen gilt grundsätzlich ein 14-tägiges Widerrufsrecht. Probiere Größen und Farben zu Hause, bevor du bohrst oder klebst.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

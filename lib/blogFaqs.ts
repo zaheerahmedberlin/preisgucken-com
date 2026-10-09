@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "wohnaccessoires-beleuchtung-preisvergleich": [
+    { q: "In welcher Höhe hängt man Bilder auf?", a: "Als Faustregel liegt die Bildmitte etwa auf Augenhöhe. Über Möbeln sollte ein Abstand bleiben, damit das Bild nicht zu dicht an der Rückenlehne hängt. Plane die Anordnung vorher mit Schablonen." },
+    { q: "Worauf muss ich bei LED-Streifen achten?", a: "Auf passende Länge, Netzteil und Steuerung, die Lichtfarbe, die Dimmbarkeit und einen sauberen, trockenen Untergrund. Verwende nur Netzteile mit CE-Kennzeichnung und decke sie nicht ab." },
+    { q: "Wie befestige ich Wandaccessoires in der Mietwohnung?", a: "Mit rückstandsfrei lösbaren Klebehaken oder Klebestreifen, die nur begrenzte Lasten tragen. Beachte die Herstellerangaben. Vor dem Bohren in die Wand solltest du den Vermieter fragen." },
+    { q: "Welche Lichtfarbe passt zum Wohnbereich?", a: "Warmweiß um 2700 bis 3000 Kelvin wirkt gemütlich. Neutralweiß eignet sich besser für Küche und Arbeitsplatz. Mische nach Möglichkeit keine Lichtfarben in einem Raum." },
+    { q: "Was kostet es, ein Zimmer mit Licht und Deko aufzuwerten?", a: "Das hängt stark von Anspruch und Auswahl ab. Einzelne Leuchtmittel, LED-Streifen oder Rahmen-Sets sind günstig, aufwendige Design-Leuchten deutlich teurer. Ein Preisvergleich zeigt, wie stark die Preise zwischen Händlern schwanken." },
+  ],
   "wildkamera-kaufen-ratgeber": [
     { q: "Wie schnell sollte die Auslöserzeit einer Wildkamera sein?", a: "Für schnelle Tiere und enge Wildwechsel gelten rund 0,1 Sekunden als Referenzwert. Bei ruhigeren Standorten reichen auch 0,3 bis 0,5 Sekunden; ab über einer Sekunde verpasst die Kamera häufig das Motiv." },
     { q: "Was ist der Unterschied zwischen No-Glow und Low-Glow?", a: "No-Glow-Infrarot ist praktisch unsichtbar, hat aber meist eine geringere Reichweite. Low-Glow leuchtet schwach rot und erreicht oft weiter. White-Flash liefert Farbbilder bei Nacht, ist aber auffällig." },
