@@ -309,6 +309,11 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Kann ich gemahlenen Kaffee und Kapseln verwenden?", a: "Viele Modelle nehmen beides. Wer flexibel bleiben will, achtet auf einen Doppelfilter, statt sich früh auf eine Variante festzulegen." },
   ],
   "walking-pad-kaufen-under-desk-treadmill": [
+    { q: "Wie schnell sollte ich mit einem Walking Pad gehen?", a: "Fürs Arbeiten reichen meist niedrige Geschwindigkeiten im Bereich von etwa 1 bis 6 km/h. Beginne langsam und steigere das Tempo schrittweise, bis sich Gehen und Arbeiten gut kombinieren lassen." },
+    { q: "Brauche ich einen höhenverstellbaren Schreibtisch?", a: "Er ist in der Praxis sehr hilfreich, weil du den Tisch im Stehen auf Unterarmhöhe einstellen kannst. Bei einem festen Tisch musst du die Höhe des Pads und die Arbeitshaltung genau prüfen." },
+    { q: "Wie laut ist ein Walking Pad?", a: "Das hängt vom Modell ab. Die Dezibel-Angabe bezieht sich auf den Motor, nicht auf die Schrittgeräusche. In Mehrfamilienhäusern kann Trittschall stören; eine Matte und ein fester Untergrund helfen." },
+    { q: "Muss ich ein Walking Pad warten?", a: "Viele Geräte benötigen gelegentlich Pflege wie Reinigen und Nachschmieren des Bandes. Halte dich an die Herstellerangaben zu Mittel und Abständen." },
+    { q: "Ist ein Walking Pad für Joggen geeignet?", a: "Meist nicht. Walking Pads sind für Gehen bei niedriger Geschwindigkeit gedacht. Wer laufen möchte, sollte ein klassisches Laufband mit Haltegriffen und höherer Maximalgeschwindigkeit wählen." },
     { q: "Was ist der Unterschied zwischen Walking Pad und Laufband?", a: "Ein Walking Pad ist flach, faltbar und meist ohne Haltegriffe – gemacht fürs Gehen bei niedriger Geschwindigkeit. Ein klassisches Laufband bietet Haltegriffe, höhere Geschwindigkeit und oft Steigung, braucht aber deutlich mehr Platz." },
     { q: "Wie laut darf ein Walking Pad im Homeoffice sein?", a: "Für Videocalls zählt der Dezibel-Wert mehr als die Motorleistung. Ein leiser Motor, meist unter 50 dB angegeben, ist im Homeoffice Pflicht." },
     { q: "Welche Geschwindigkeit brauche ich zum Arbeiten?", a: "Fürs Arbeiten reichen meist 1–6 km/h. Höhere Maximalgeschwindigkeiten sind nur relevant, wenn das Pad auch außerhalb der Arbeitszeit fürs Training genutzt wird." },

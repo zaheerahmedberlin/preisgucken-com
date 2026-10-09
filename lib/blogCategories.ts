@@ -262,7 +262,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "sportschuhe",
     posts: [
       { slug: "fussballschuhe-kaufen-bodenbelag-guide", title: "Fußballschuhe kaufen: FG, SG oder AG? Der Bodenbelag-Guide", excerpt: "Fester Rasen, Kunstrasen oder weicher Boden – welches Stollenmuster wirklich passt und worauf du beim Kauf achten solltest, mit Preisvergleich.", date: "9. September 2026", readTime: "7 Min.", featured: true, pgLink: "sportschuhe" },
-      { slug: "walking-pad-kaufen-under-desk-treadmill", title: "Walking Pad kaufen: Der Under-Desk-Treadmill-Guide", excerpt: "Gehen statt sitzen im Homeoffice: Wie du das richtige Walking Pad für unter den Schreibtisch findest – Lautstärke, Geschwindigkeit und Platzbedarf im Vergleich.", date: "19. September 2026", readTime: "6 Min.", featured: true, pgLink: "laufbaender" },
+      { slug: "walking-pad-kaufen-under-desk-treadmill", title: "Walking Pad kaufen: Der Under-Desk-Treadmill-Guide", excerpt: "Gehen statt sitzen im Homeoffice: Wie du das richtige Walking Pad für unter den Schreibtisch findest – Lautstärke, Geschwindigkeit und Platzbedarf im Vergleich.", date: "19. September 2026", readTime: "11 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "laufbaender" },
     ],
   },
 ];
