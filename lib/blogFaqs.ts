@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "arbeitskleidung-arbeitsschutz-kaufen": [
+    { q: "Welche Norm gilt für Schutzhelme?", a: "Industrieschutzhelme werden nach EN 397 geprüft. Eine Anstoßkappe nach EN 812 schützt dagegen nur vor Anstoßen und ersetzt keinen Schutzhelm." },
+    { q: "Wer bezahlt die Arbeitsschutzkleidung?", a: "Bei Angestellten legt der Arbeitgeber auf Basis der Gefährdungsbeurteilung fest, welche Schutzausrüstung nötig ist, und stellt sie in der Regel zur Verfügung. Selbstständige sind selbst verantwortlich. Das ist eine allgemeine Orientierung, keine Rechtsberatung." },
+    { q: "Wie lange hält ein Schutzhelm?", a: "Die Nutzungsdauer gibt der Hersteller an. Zusätzlich solltest du den Helm nach Stößen, Stürzen oder bei sichtbaren Beschädigungen austauschen und das Herstellungsdatum beachten." },
+    { q: "Woran erkenne ich geeignete Schutzhandschuhe?", a: "An der Normangabe für das jeweilige Risiko, zum Beispiel EN 388 für mechanische Gefahren, und an der passenden Größe. Welche Handschuhe geeignet sind, hängt von der Tätigkeit ab." },
+    { q: "Brauche ich als Heimwerker Schutzausrüstung?", a: "Ja, beim Bohren, Sägen oder Schleifen sind Schutzbrille, Gehörschutz und Handschuhe sinnvoll. Achte auf Produkte mit passender Normangabe." },
+  ],
   "wohnaccessoires-beleuchtung-preisvergleich": [
     { q: "In welcher Höhe hängt man Bilder auf?", a: "Als Faustregel liegt die Bildmitte etwa auf Augenhöhe. Über Möbeln sollte ein Abstand bleiben, damit das Bild nicht zu dicht an der Rückenlehne hängt. Plane die Anordnung vorher mit Schablonen." },
     { q: "Worauf muss ich bei LED-Streifen achten?", a: "Auf passende Länge, Netzteil und Steuerung, die Lichtfarbe, die Dimmbarkeit und einen sauberen, trockenen Untergrund. Verwende nur Netzteile mit CE-Kennzeichnung und decke sie nicht ab." },
