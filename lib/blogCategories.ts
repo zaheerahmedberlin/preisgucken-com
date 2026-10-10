@@ -195,7 +195,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "auto-fahrzeugzubehoer",
     posts: [
       { slug: "auto-zubehoer-kaufratgeber", title: "Auto-Zubehör kaufen: Von der Dachbox bis zur Anhängerkupplung", excerpt: "Traglast, Kompatibilität und Sicherheitsnormen im Überblick – worauf es beim Kauf von Auto-Zubehör wirklich ankommt.", date: "19. August 2026", readTime: "9 Min.", updated: "4. Oktober 2026", pgLink: "auto-fahrzeugzubehoer" },
-      { slug: "e-scooter-kaufen-strassenzulassung", title: "E-Scooter kaufen: ABE und eKFV erklärt", excerpt: "Mit oder ohne Straßenzulassung? ABE, eKFV und Reichweite im Überblick – worauf es beim E-Scooter-Kauf wirklich ankommt.", date: "1. September 2026", readTime: "7 Min.", featured: true, pgLink: "e-scooter" },
+      { slug: "e-scooter-kaufen-strassenzulassung", title: "E-Scooter kaufen: ABE und eKFV erklärt", excerpt: "Mit oder ohne Straßenzulassung? ABE, eKFV und Reichweite im Überblick – worauf es beim E-Scooter-Kauf wirklich ankommt.", date: "1. September 2026", readTime: "10 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "e-scooter" },
       { slug: "hoverboard-kaufen-ratgeber", title: "Hoverboard kaufen: Zollgröße, Sicherheit & Kart-Umbau erklärt", excerpt: "6,5\" oder 8,5\" Zoll, mit oder ohne Sitz? Worauf es beim Hoverboard-Kauf wirklich ankommt – Sicherheitszertifikat, Geländetauglichkeit und Preisvergleich.", date: "19. September 2026", readTime: "9 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "hoverboards" },
     ],
   },

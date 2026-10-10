@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "e-scooter-kaufen-strassenzulassung": [
+    { q: "Brauche ich einen Führerschein für einen E-Scooter?", a: "Nein, ein Führerschein ist für E-Scooter mit Straßenzulassung nicht nötig. Es gilt aber ein Mindestalter von 14 Jahren sowie die Pflicht zum Versicherungskennzeichen." },
+    { q: "Wo darf ich mit dem E-Scooter fahren?", a: "Auf Radwegen, Radfahrstreifen und in Fahrradstraßen, ansonsten auf der Fahrbahn. Gehwege sind nicht erlaubt. Dies ist eine allgemeine Orientierung, keine Rechtsberatung." },
+    { q: "Wie lange gilt das Versicherungskennzeichen?", a: "Für ein Verkehrsjahr, das jeweils am 1. März beginnt und Ende Februar endet. Danach benötigst du ein neues Kennzeichen." },
+    { q: "Gibt es eine Helmpflicht?", a: "Nein, aber ein Helm schützt bei Stürzen und wird dringend empfohlen." },
+    { q: "Wie weit komme ich mit einer Akkuladung?", a: "Das hängt von Akku, Gewicht, Strecke und Temperatur ab. Herstellerangaben gelten unter Idealbedingungen; im Alltag fällt die Reichweite oft geringer aus, besonders bei Kälte und Steigungen." },
+  ],
   "motorradzubehoer-kaufen": [
     { q: "Brauche ich für Motorradzubehör eine ABE?", a: "Für Teile, die die Betriebserlaubnis berühren können, ist eine Genehmigung nötig, zum Beispiel über eine ABE oder ein ECE-Prüfzeichen. Manche Teile müssen zusätzlich eingetragen werden. Das ist eine allgemeine Orientierung, keine Rechtsberatung." },
     { q: "Welche Teile sollte ich nicht selbst montieren?", a: "Sicherheitsrelevante Teile wie Bremsbeläge, Bremsleitungen und Fahrwerk gehören in die Werkstatt, sofern du keine Fachkenntnis und das passende Werkzeug hast." },
