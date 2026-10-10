@@ -165,7 +165,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "elektroinstallation-kaufen", title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick", excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt — worauf es wirklich ankommt.", date: "30. August 2026", readTime: "11 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "elektroinstallation" },
       { slug: "arbeitskleidung-arbeitsschutz-kaufen", title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick", excerpt: "Schutzhelm, Knieschoner oder Warnschutz — worauf es bei Arbeitsschutzausrüstung wirklich ankommt.", date: "30. August 2026", readTime: "11 Min.", updated: "5. Oktober 2026", pgLink: "arbeitskleidung-arbeitsschutz" },
       { slug: "beschlaege-schloesser-kaufen", title: "Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick", excerpt: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt.", date: "30. August 2026", readTime: "11 Min.", updated: "5. Oktober 2026", pgLink: "beschlaege-schloesser" },
-      { slug: "materialbearbeitung-fraeser-schleifscheiben-kaufen", title: "Fräser, Trenn- und Schleifscheiben kaufen: Material, Norm und Maschinenkompatibilität", excerpt: "Welche Scheibe für welches Material, worauf bei Durchmesser und Drehzahl zu achten ist.", date: "30. August 2026", readTime: "7 Min.", pgLink: "materialbearbeitung" },
+      { slug: "materialbearbeitung-fraeser-schleifscheiben-kaufen", title: "Fräser, Trenn- und Schleifscheiben kaufen: Material, Norm und Maschinenkompatibilität", excerpt: "Welche Scheibe für welches Material, worauf bei Durchmesser und Drehzahl zu achten ist.", date: "30. August 2026", readTime: "11 Min.", updated: "5. Oktober 2026", pgLink: "materialbearbeitung" },
     ],
   },
   {
@@ -230,7 +230,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     description: "Passgenauigkeit, Komfort und Optik — Kaufberatung für Motorradzubehör.",
     pgLink: "motorradzubehoer",
     posts: [
-      { slug: "motorradzubehoer-kaufen", title: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick", excerpt: "Windschutzscheibe, Sozius-Rückenpolster oder Chrom-Zubehör — mit Kohl DE als Praxisbeispiel im Preisvergleich.", date: "30. August 2026", readTime: "7 Min.", featured: true, pgLink: "motorradzubehoer" },
+      { slug: "motorradzubehoer-kaufen", title: "Motorradzubehör kaufen: Passgenauigkeit, Komfort und Optik im Überblick", excerpt: "Windschutzscheibe, Sozius-Rückenpolster oder Chrom-Zubehör — mit Kohl DE als Praxisbeispiel im Preisvergleich.", date: "30. August 2026", readTime: "10 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "motorradzubehoer" },
     ],
   },
   {
