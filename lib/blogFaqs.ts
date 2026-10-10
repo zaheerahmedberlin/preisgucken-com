@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "wohnaccessoires-beleuchtung-preisvergleich": [
+    { q: "In welcher Höhe hängt man Bilder auf?", a: "Als Faustregel liegt die Bildmitte etwa auf Augenhöhe. Über Möbeln sollte ein Abstand bleiben, damit das Bild nicht zu dicht an der Rückenlehne hängt. Plane die Anordnung vorher mit Schablonen." },
+    { q: "Worauf muss ich bei LED-Streifen achten?", a: "Auf passende Länge, Netzteil und Steuerung, die Lichtfarbe, die Dimmbarkeit und einen sauberen, trockenen Untergrund. Verwende nur Netzteile mit CE-Kennzeichnung und decke sie nicht ab." },
+    { q: "Wie befestige ich Wandaccessoires in der Mietwohnung?", a: "Mit rückstandsfrei lösbaren Klebehaken oder Klebestreifen, die nur begrenzte Lasten tragen. Beachte die Herstellerangaben. Vor dem Bohren in die Wand solltest du den Vermieter fragen." },
+    { q: "Welche Lichtfarbe passt zum Wohnbereich?", a: "Warmweiß um 2700 bis 3000 Kelvin wirkt gemütlich. Neutralweiß eignet sich besser für Küche und Arbeitsplatz. Mische nach Möglichkeit keine Lichtfarben in einem Raum." },
+    { q: "Was kostet es, ein Zimmer mit Licht und Deko aufzuwerten?", a: "Das hängt stark von Anspruch und Auswahl ab. Einzelne Leuchtmittel, LED-Streifen oder Rahmen-Sets sind günstig, aufwendige Design-Leuchten deutlich teurer. Ein Preisvergleich zeigt, wie stark die Preise zwischen Händlern schwanken." },
+  ],
   "wildkamera-kaufen-ratgeber": [
     { q: "Wie schnell sollte die Auslöserzeit einer Wildkamera sein?", a: "Für schnelle Tiere und enge Wildwechsel gelten rund 0,1 Sekunden als Referenzwert. Bei ruhigeren Standorten reichen auch 0,3 bis 0,5 Sekunden; ab über einer Sekunde verpasst die Kamera häufig das Motiv." },
     { q: "Was ist der Unterschied zwischen No-Glow und Low-Glow?", a: "No-Glow-Infrarot ist praktisch unsichtbar, hat aber meist eine geringere Reichweite. Low-Glow leuchtet schwach rot und erreicht oft weiter. White-Flash liefert Farbbilder bei Nacht, ist aber auffällig." },
@@ -271,6 +278,11 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Welche Sicherheitsfunktionen sollte eine Elektroheizung haben?", a: "Kippschutz und Überhitzungsschutz sollten Standard sein, besonders bei Geräten, die unbeaufsichtigt laufen. Ein Thermostat schaltet das Gerät zudem ab, sobald die Zieltemperatur erreicht ist." },
   ],
   "maehroboter-kaufen-ohne-begrenzungskabel": [
+    { q: "Wie funktioniert ein Mähroboter ohne Begrenzungskabel?", a: "RTK-Modelle empfangen Satellitensignale und Korrekturdaten einer Referenzstation und können sich damit sehr genau positionieren. Die Grenzen legst du per App fest." },
+    { q: "Für welche Gärten eignet sich RTK nicht?", a: "In stark verschatteten Gärten mit hohen Bäumen, Hecken oder Gebäuden kann das Signal abgeschwächt werden. Dann kann ein klassisches Modell mit Begrenzungskabel besser geeignet sein." },
+    { q: "Ist ein Mähroboter gefährlich für Igel?", a: "Nicht jedes Gerät erkennt nachtaktive Tiere zuverlässig. Naturschutzverbände empfehlen, Mähroboter nicht nachts oder in der Dämmerung laufen zu lassen." },
+    { q: "Wann darf mein Mähroboter laufen?", a: "Das hängt von Lärmschutzvorgaben, Gemeinde und Hausordnung ab. Nimm Rücksicht auf Ruhezeiten wie Sonn- und Feiertage und die Nachtstunden. Dies ist eine allgemeine Orientierung." },
+    { q: "Wie überwintere ich einen Mähroboter?", a: "Gerät reinigen, Akku nach Herstellerangabe laden und das Gerät trocken und frostfrei lagern. Die Referenzstation geschützt aufbewahren." },
     { q: "Wie funktioniert ein Mähroboter ohne Begrenzungskabel?", a: "Eine RTK-Referenzstation im Garten sendet Korrektursignale an den Roboter, der sich damit auf wenige Zentimeter genau positioniert. Die Grenzen zeichnest du per App ein – Anpassungen sind in Minuten statt Stunden erledigt." },
     { q: "Worauf muss ich beim Kauf eines RTK-Mähroboters achten?", a: "Wichtig sind eine realistische Einschätzung der Gartengröße (maximale Mähfläche), die maximale Steigung laut Datenblatt, eine 4G-/App-Anbindung und das Zubehör wie Ladestation, Garage und Ersatzklingen." },
     { q: "Wann ist der beste Zeitpunkt für den Kauf?", a: "Zum Ende der Hauptmähsaison, etwa Ende September, senken viele Händler die Preise. Ein Kauf auf Vorrat fürs nächste Frühjahr ändert nichts an Technik oder Garantie." },
@@ -304,6 +316,11 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Kann ich gemahlenen Kaffee und Kapseln verwenden?", a: "Viele Modelle nehmen beides. Wer flexibel bleiben will, achtet auf einen Doppelfilter, statt sich früh auf eine Variante festzulegen." },
   ],
   "walking-pad-kaufen-under-desk-treadmill": [
+    { q: "Wie schnell sollte ich mit einem Walking Pad gehen?", a: "Fürs Arbeiten reichen meist niedrige Geschwindigkeiten im Bereich von etwa 1 bis 6 km/h. Beginne langsam und steigere das Tempo schrittweise, bis sich Gehen und Arbeiten gut kombinieren lassen." },
+    { q: "Brauche ich einen höhenverstellbaren Schreibtisch?", a: "Er ist in der Praxis sehr hilfreich, weil du den Tisch im Stehen auf Unterarmhöhe einstellen kannst. Bei einem festen Tisch musst du die Höhe des Pads und die Arbeitshaltung genau prüfen." },
+    { q: "Wie laut ist ein Walking Pad?", a: "Das hängt vom Modell ab. Die Dezibel-Angabe bezieht sich auf den Motor, nicht auf die Schrittgeräusche. In Mehrfamilienhäusern kann Trittschall stören; eine Matte und ein fester Untergrund helfen." },
+    { q: "Muss ich ein Walking Pad warten?", a: "Viele Geräte benötigen gelegentlich Pflege wie Reinigen und Nachschmieren des Bandes. Halte dich an die Herstellerangaben zu Mittel und Abständen." },
+    { q: "Ist ein Walking Pad für Joggen geeignet?", a: "Meist nicht. Walking Pads sind für Gehen bei niedriger Geschwindigkeit gedacht. Wer laufen möchte, sollte ein klassisches Laufband mit Haltegriffen und höherer Maximalgeschwindigkeit wählen." },
     { q: "Was ist der Unterschied zwischen Walking Pad und Laufband?", a: "Ein Walking Pad ist flach, faltbar und meist ohne Haltegriffe – gemacht fürs Gehen bei niedriger Geschwindigkeit. Ein klassisches Laufband bietet Haltegriffe, höhere Geschwindigkeit und oft Steigung, braucht aber deutlich mehr Platz." },
     { q: "Wie laut darf ein Walking Pad im Homeoffice sein?", a: "Für Videocalls zählt der Dezibel-Wert mehr als die Motorleistung. Ein leiser Motor, meist unter 50 dB angegeben, ist im Homeoffice Pflicht." },
     { q: "Welche Geschwindigkeit brauche ich zum Arbeiten?", a: "Fürs Arbeiten reichen meist 1–6 km/h. Höhere Maximalgeschwindigkeiten sind nur relevant, wenn das Pad auch außerhalb der Arbeitszeit fürs Training genutzt wird." },

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Mähroboter ohne Begrenzungskabel: RTK-Guide",
-  description: "Kein Kabel vergraben, keine Signalstörung: Wie RTK-Mähroboter ohne Begrenzungskabel funktionieren und worauf du beim Kauf achten solltest – mit Preisvergleich.",
+  description: "Mähroboter ohne Begrenzungskabel: RTK-Voraussetzungen, Sicherheit, Igelschutz, Mähzeiten, Wartung und Winterlager – der Ratgeber mit Preisvergleich.",
   keywords: [
     "mähroboter ohne begrenzungskabel",
     "mähroboter kaufen",
@@ -10,6 +10,10 @@ export const metadata: Metadata = {
     "mähroboter test",
     "bester mähroboter",
     "mähroboter für große gärten",
+    "rtk mähroboter garten verschattet",
+    "mähroboter igel",
+    "mähroboter winterlager",
+    "mähroboter diebstahlschutz",
   ],
   openGraph: {
     title: "Mähroboter ohne Begrenzungskabel kaufen: Der RTK-Guide",
@@ -17,6 +21,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/maehroboter-kaufen-ohne-begrenzungskabel/",
     type: "article",
     publishedTime: "2026-09-19",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Mähroboter ohne Begrenzungskabel kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/maehroboter-kaufen-ohne-begrenzungskabel/" },
@@ -33,6 +38,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Mähroboter ohne Begrenzungskabel kaufen: Der RTK-Guide",
   datePublished: "2026-09-19",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -62,7 +68,8 @@ export default function MaehroboterKaufenPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 19. September 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 11 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -125,6 +132,72 @@ export default function MaehroboterKaufenPage() {
             Händler die Preise für den Rest des Jahres – ein guter Zeitpunkt für den Kauf auf Vorrat fürs nächste
             Frühjahr, ohne dass sich an Technik oder Garantie etwas ändert.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Damit RTK funktioniert: Voraussetzungen im Garten</h2>
+          <p>
+            RTK-Mähroboter orientieren sich per Satellitensignal und einer Referenzstation. Das klappt am
+            besten, wenn der Himmel über der Fläche möglichst frei ist. Prüfe deshalb vor dem Kauf:
+          </p>
+          <ul>
+            <li><strong>Freie Sicht zum Himmel:</strong> Große Bäume, hohe Hecken und Gebäude können das Signal abschatten. Gärten mit viel Überbau sind für kabellose Systeme schwieriger.</li>
+            <li><strong>Standort der Referenzstation:</strong> Sie sollte möglichst frei und fest montiert stehen und die Mähfläche gut abdecken. Frage beim Hersteller nach der empfohlenen Position.</li>
+            <li><strong>Mobilfunk und WLAN:</strong> Für App-Steuerung und Updates braucht der Mäher Verbindung. Prüfe die Abdeckung im Garten.</li>
+            <li><strong>Engstellen und Durchgänge:</strong> Schmale Passagen zwischen Flächen müssen für den Roboter befahrbar und auch für das Signal erreichbar sein.</li>
+          </ul>
+          <p className="small text-muted">
+            Wenn dein Garten stark verschattet ist, kann ein klassisches Modell mit Begrenzungskabel
+            zuverlässiger sein. Die Technik ist keine pauschal bessere Lösung, sondern hängt vom Standort ab.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Sicherheit: Kinder, Haustiere und Igel</h2>
+          <ul>
+            <li><strong>Messer:</strong> Mähroboter haben Sicherheitsfunktionen wie Hebe- und Kippsensoren, ersetzen aber keine Aufsicht. Lass Kinder und Haustiere nicht im Mähbereich spielen.</li>
+            <li><strong>Igel und andere Wildtiere:</strong> Nachtaktive Tiere wie Igel erkennt nicht jedes Gerät zuverlässig. Naturschutzverbände empfehlen deshalb, Mähroboter nicht in der Dämmerung oder nachts laufen zu lassen.</li>
+            <li><strong>Hindernisse prüfen:</strong> Spielzeug, Schläuche und Gartengeräte vor dem Mähen vom Rasen entfernen.</li>
+            <li><strong>Diebstahlschutz:</strong> PIN-Code, Alarm und GPS-Ortung erschweren das Entwenden. Aktiviere diese Funktionen nach dem Aufbau.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Mähzeiten und Nachbarn</h2>
+          <p>
+            Auch Mähroboter machen Geräusche, wenn auch meist leiser als ein Benzinmäher. Für den Betrieb
+            gelten Lärmschutzvorgaben und gegebenenfalls Regeln der Gemeinde oder der Hausordnung. Die
+            Vorgaben unterscheiden sich vor Ort, daher solltest du dich vor der Inbetriebnahme informieren.
+            Auf Ruhezeiten wie Sonn- und Feiertage und die Nachtstunden solltest du in jedem Fall Rücksicht
+            nehmen. Das ist eine allgemeine Orientierung, keine Rechtsberatung.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Wartung, Pflege und Winterlager</h2>
+          <ul>
+            <li><strong>Messer:</strong> Stumpfe Messer reißen das Gras und leisten schlechtere Schnittergebnisse. Wechsle sie nach Herstellerangabe. Ersatzklingen gehören zum Zubehör (siehe oben).</li>
+            <li><strong>Reinigung:</strong> Entferne Grasreste an Gehäuse, Rädern und Messerteller regelmäßig. Schalte das Gerät dafür aus.</li>
+            <li><strong>Ladestation:</strong> Halte die Kontakte sauber und den Platz um die Station frei.</li>
+            <li><strong>Winterlager:</strong> Gerät reinigen, Akku nach Herstellerangabe laden und trocken, frostfrei lagern. Die Referenzstation geschützt aufbewahren oder nach Anleitung überwintern.</li>
+            <li><strong>Updates:</strong> Halte die Software aktuell, da sie die Navigation und Sicherheitsfunktionen verbessern kann.</li>
+          </ul>
+          <p>
+            Weitere Geräte für Garten und Rasen findest du im Ratgeber{" "}
+            <a href="/blog/gartengeraete-kaufen-ratgeber/">Gartengeräte kaufen</a>, passende Möbel für die Terrasse im{" "}
+            <a href="/blog/gartenmoebel-kaufen-ratgeber/">Gartenmöbel-Ratgeber</a>.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler beim Mähroboter-Kauf</h2>
+          <ul>
+            <li><strong>Standort nicht prüfen:</strong> Verschattete Gärten sind für RTK schwierig; frage bei Unsicherheit den Hersteller.</li>
+            <li><strong>Zu klein planen:</strong> Das Gerät sollte auch an regnerischen Tagen die Fläche in zumutbarer Zeit schaffen.</li>
+            <li><strong>Den Rasen vernachlässigen:</strong> Ein Mäher ersetzt weder Düngen noch das gelegentliche Beschneiden von Rändern.</li>
+            <li><strong>Gewährleistung bei Generalüberholten ignorieren:</strong> Prüfe die Garantiebedingungen und die Gewährleistung des Händlers.</li>
+            <li><strong>Rückgabe:</strong> Bei Online-Käufen gilt grundsätzlich ein 14-tägiges Widerrufsrecht. Beachte die Bedingungen für Rücksendung großer Geräte.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
