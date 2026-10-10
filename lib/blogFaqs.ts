@@ -6,6 +6,20 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "handyhuellen-kaufen-material-schutz": [
+    { q: "Schützt eine Handyhülle auch das Display?", a: "Nur begrenzt. Eine erhöhte Kante verhindert, dass das Display bei einem flachen Sturz direkt aufschlägt. Für Kratzer und Stöße auf der Displayfläche braucht es zusätzlich Panzerglas oder eine Schutzfolie." },
+    { q: "Welche Hülle ist am besten bei Stürzen?", a: "Hybrid-Hüllen mit hartem Rahmen und weicher Innenschicht dämpfen Stöße oft besser als reine Silikonhüllen. Verstärkte Ecken und eine erhöhte Kante verbessern den Schutz." },
+    { q: "Funktioniert kabelloses Laden mit Hülle?", a: "Meist ja, wenn die Hülle nicht zu dick ist und kein Metall enthält. Achte auf die Angaben des Herstellers; für magnetisches Zubehör muss die Hülle ausdrücklich dafür geeignet sein." },
+    { q: "Warum vergilben transparente Hüllen?", a: "Viele durchsichtige Hüllen bestehen aus TPU oder ähnlichen Kunststoffen, die durch UV-Licht, Wärme und Hautkontakt mit der Zeit gelb werden können." },
+    { q: "Wie erkenne ich eine gute Handyhülle?", a: "An exakter Passform, sauberen Kanten, erhöhten Rändern um Display und Kamera, gut bedienbaren Tasten und einem Material, das nicht klebrig wird. Sehr niedrige Preise bei Markenhüllen sind ein Warnsignal." },
+  ],
+  "spielzeug-kaufen-sicherheit-alter": [
+    { q: "Was bedeutet das CE-Zeichen auf Spielzeug?", a: "Es ist eine Herstellererklärung, dass das Spielzeug die EU-Sicherheitsanforderungen erfüllt. Eine unabhängige Prüfung ist damit nicht verbunden. Das freiwillige GS-Zeichen verweist dagegen auf eine Prüfung durch eine unabhängige Stelle." },
+    { q: "Ab welchem Alter dürfen Kinder Spielzeug mit Kleinteilen benutzen?", a: "Spielzeug mit verschluckbaren Kleinteilen ist für Kinder unter drei Jahren nicht geeignet. Beachte immer die Altersangabe und den Warnhinweis auf der Verpackung." },
+    { q: "Warum sind Knopfzellen und Magnete gefährlich?", a: "Verschluckte Knopfzellen und starke Magnete können schwere innere Verletzungen verursachen. Halte entsprechende Spielzeuge und Batterien von kleinen Kindern fern und suche bei Verdacht sofort ärztliche Hilfe." },
+    { q: "Woran erkenne ich schadstoffbelastetes Spielzeug?", a: "Starker chemischer Geruch, abfärbende Oberflächen oder auffällige Verarbeitung sind Warnsignale. Im Zweifel nicht benutzen und beim Händler reklamieren. Prüfzeichen wie GS geben zusätzliche Orientierung." },
+    { q: "Wie finde ich heraus, ob ein Spielzeug zurückgerufen wurde?", a: "Über offizielle Warnportale wie das europäische Schnellwarnsystem Safety Gate und die Rückrufseiten der Behörden. Auch der Händler kann Auskunft geben." },
+  ],
   "e-scooter-kaufen-strassenzulassung": [
     { q: "Brauche ich einen Führerschein für einen E-Scooter?", a: "Nein, ein Führerschein ist für E-Scooter mit Straßenzulassung nicht nötig. Es gilt aber ein Mindestalter von 14 Jahren sowie die Pflicht zum Versicherungskennzeichen." },
     { q: "Wo darf ich mit dem E-Scooter fahren?", a: "Auf Radwegen, Radfahrstreifen und in Fahrradstraßen, ansonsten auf der Fahrbahn. Gehwege sind nicht erlaubt. Dies ist eine allgemeine Orientierung, keine Rechtsberatung." },
