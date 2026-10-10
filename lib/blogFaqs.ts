@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "beschlaege-schloesser-kaufen": [
+    { q: "Wie messe ich einen Profilzylinder?", a: "Miss von der Mitte der Befestigungsschraube bis zum jeweiligen Ende, getrennt für Innen- und Außenseite. Der Zylinder soll nicht überstehen, da überstehende Zylinder leichter manipuliert werden können." },
+    { q: "Welcher Vierkant passt bei Fenstergriffen?", a: "Gängig ist ein Vierkantstift mit 7 mm Stärke. Die benötigte Länge hängt vom Fensterrahmen ab; am besten misst du den vorhandenen Griff oder Stift nach." },
+    { q: "Sind abschließbare Fenstergriffe einbruchsicher?", a: "Sie erschweren das Öffnen von außen, machen ein Fenster aber nicht automatisch einbruchsicher. Für eine Nachrüstung berät der Fachhandel oder die polizeiliche Beratungsstelle." },
+    { q: "Welche Maße sind bei Topfscharnieren wichtig?", a: "Üblich ist ein Topf mit 35 mm Durchmesser. Wichtig sind außerdem der Anschlag (aufliegend, halb aufliegend oder einliegend) und der Öffnungswinkel." },
+    { q: "Darf ich ein Geländer selbst montieren?", a: "Geländer dienen der Absturzsicherung; Höhe, Abstände und Befestigung unterliegen Vorschriften, die je nach Bundesland verschieden sind. Bei Unsicherheit solltest du einen Fachbetrieb beauftragen. Das ist keine Rechtsberatung." },
+  ],
   "arbeitskleidung-arbeitsschutz-kaufen": [
     { q: "Welche Norm gilt für Schutzhelme?", a: "Industrieschutzhelme werden nach EN 397 geprüft. Eine Anstoßkappe nach EN 812 schützt dagegen nur vor Anstoßen und ersetzt keinen Schutzhelm." },
     { q: "Wer bezahlt die Arbeitsschutzkleidung?", a: "Bei Angestellten legt der Arbeitgeber auf Basis der Gefährdungsbeurteilung fest, welche Schutzausrüstung nötig ist, und stellt sie in der Regel zur Verfügung. Selbstständige sind selbst verantwortlich. Das ist eine allgemeine Orientierung, keine Rechtsberatung." },
