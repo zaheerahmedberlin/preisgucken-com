@@ -6,6 +6,20 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "motorradzubehoer-kaufen": [
+    { q: "Brauche ich für Motorradzubehör eine ABE?", a: "Für Teile, die die Betriebserlaubnis berühren können, ist eine Genehmigung nötig, zum Beispiel über eine ABE oder ein ECE-Prüfzeichen. Manche Teile müssen zusätzlich eingetragen werden. Das ist eine allgemeine Orientierung, keine Rechtsberatung." },
+    { q: "Welche Teile sollte ich nicht selbst montieren?", a: "Sicherheitsrelevante Teile wie Bremsbeläge, Bremsleitungen und Fahrwerk gehören in die Werkstatt, sofern du keine Fachkenntnis und das passende Werkzeug hast." },
+    { q: "Wie finde ich Zubehör, das zu meinem Modell passt?", a: "Prüfe Modellreihe und Baujahr in der Artikelbezeichnung und frage im Zweifel beim Händler nach. Verkleidungsteile, Sitzbänke und Rückenpolster sind meist auf eine bestimmte Baureihe zugeschnitten." },
+    { q: "Wann sollte ich Bremsbeläge wechseln?", a: "Sobald die Belagdicke das vom Hersteller vorgegebene Minimum erreicht. Kontrolliere sie regelmäßig und verwende nur für dein Modell freigegebene Beläge." },
+    { q: "Wie überwintere ich mein Motorrad richtig?", a: "Reinigen, Batterie laden oder ausbauen, Reifendruck erhöhen und das Motorrad trocken lagern. Weitere Hinweise stehen in der Betriebsanleitung." },
+  ],
+  "materialbearbeitung-fraeser-schleifscheiben-kaufen": [
+    { q: "Kann ich eine Trennscheibe zum Schleifen benutzen?", a: "Nein. Trennscheiben sind dünn und nicht für seitliche Belastung ausgelegt. Zum Schleifen verwendest du Schrupp-, Fächer- oder Lamellenscheiben." },
+    { q: "Welche Norm gilt für Trenn- und Schleifscheiben?", a: "Gebundene Schleifmittel werden unter anderem nach EN 12413 geprüft. Achte auf die Kennzeichnung und die maximal zulässige Drehzahl auf der Scheibe." },
+    { q: "Welcher Schaft passt zu meiner Oberfräse?", a: "Das hängt von der Spannzange ab. Gängig sind 8 mm und 12 mm. Der Durchmesser des Schafts muss exakt zur Aufnahme passen, ein Adapter ist nicht immer eine Lösung." },
+    { q: "HSS oder Hartmetall: Was ist besser für Fräser?", a: "HSS ist günstiger und für weiches Holz geeignet. Hartmetall hält bei harten Hölzern und Plattenwerkstoffen länger und kostet mehr." },
+    { q: "Welche Schutzausrüstung brauche ich beim Winkelschleifer?", a: "Mindestens Schutzbrille oder Gesichtsschutz, Gehörschutz und Handschuhe, bei Staub zusätzlich eine Atemschutzmaske. Die Schutzhaube der Maschine muss montiert bleiben." },
+  ],
   "elektroinstallation-kaufen": [
     { q: "Darf ich Steckdosen selbst wechseln?", a: "Arbeiten an der festen Elektroinstallation gehören in die Hände einer Elektrofachkraft. Das gilt auch für den Austausch von Steckdosen und Schaltern. Dieser Beitrag ersetzt keine fachliche Beratung." },
     { q: "Welche Dose brauche ich für Trockenbauwände?", a: "Für Gips- und Trockenbauwände gibt es spezielle Hohlwanddosen. Eine normale Unterputzdose hält dort nicht sicher." },

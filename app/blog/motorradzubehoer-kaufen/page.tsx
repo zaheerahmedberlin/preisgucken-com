@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Motorradzubehör kaufen: Worauf achten?",
-  description: "Windschutzscheibe, Rückenpolster oder Chrom-Zubehör – worauf es bei Passgenauigkeit und Komfort ankommt.",
+  description: "Motorradzubehör kaufen: Passform, ABE und Eintragung, Montage, Verschleißteile, Wetterschutz und Reisekomfort – Ratgeber mit Preisvergleich.",
   keywords: [
     "motorradzubehör kaufen",
     "motorrad zubehör ratgeber",
@@ -12,6 +12,10 @@ export const metadata: Metadata = {
     "harley davidson zubehör",
     "motorrad tuning teile",
     "motorradzubehör passgenauigkeit",
+    "motorradzubehör abe",
+    "motorrad bremsbeläge wechseln",
+    "motorrad winterpause",
+    "motorrad windschutzscheibe passend",
   ],
   openGraph: {
     title: "Motorradzubehör kaufen: Worauf achten?",
@@ -19,6 +23,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/motorradzubehoer-kaufen/",
     type: "article",
     publishedTime: "2026-08-30",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Motorradzubehör kaufen: Worauf achten?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/motorradzubehoer-kaufen/" },
@@ -35,6 +40,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Motorradzubehör kaufen: Worauf achten?",
   datePublished: "2026-08-30",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -63,7 +69,8 @@ export default function MotorradzubehoerKaufenPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 30. August 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -152,13 +159,90 @@ export default function MotorradzubehoerKaufenPage() {
             <li><strong>Wetterfestigkeit bei Außenteilen:</strong> Windschutzscheiben und Verkleidungsteile sollten Regen und UV-Einstrahlung dauerhaft standhalten, ohne zu vergilben oder spröde zu werden.</li>
             <li><strong>Material bei Chrom- und Zierteilen:</strong> Echtes Chrom auf Metall hält deutlich länger als lackierter Kunststoff mit Chrom-Optik – bei sichtbaren Anbauteilen lohnt sich der Blick auf die Materialangabe.</li>
             <li><strong>Montageaufwand realistisch einschätzen:</strong> Manche Teile (z. B. Bremsleitungen) erfordern Fachkenntnis oder eine Werkstatt, andere (z. B. Zierteile) lassen sich ohne Vorkenntnisse montieren – das sollte vor dem Kauf klar sein.</li>
-            <li><strong>Original-Ersatzteil vs. Zubehör unterscheiden:</strong> Wartungsteile wie Zündkerzen oder Luftfilter gibt es sowohl als Original- als auch als Zubehörteil vom selben Hersteller — beide erfüllen ihren Zweck, der Unterschied liegt meist nur im Preis, nicht in sicherheitsrelevanten Eigenschaften.</li>
+            <li><strong>Original-Ersatzteil vs. Zubehör unterscheiden:</strong> Wartungsteile wie Zündkerzen oder Luftfilter gibt es sowohl als Original- als auch als Zubehörteil vom selben Hersteller — die Unterschiede liegen oft im Preis. Prüfe bei sicherheitsrelevanten Teilen wie Bremsbelägen die Freigabe für dein Modell und die Herstellerangaben.</li>
           </ol>
           <div className="alert alert-info small">
             💡 <strong>Sparfuchs-Tipp:</strong> Verschleißteile wie Zündkerzen, Luftfilter und Bremsbeläge lohnt
             es sich auf Vorrat zu vergleichen, sobald du weißt, welches Modell du fährst — die Preise
             unterschiedlicher Händler für exakt dasselbe Teil können auch bei Wartungsteilen spürbar auseinanderliegen.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">ABE, ECE und Eintragung: Was ist erlaubt?</h2>
+          <p>
+            Nicht jedes Anbauteil darf ohne Weiteres montiert werden. In Deutschland gilt für Änderungen am
+            Fahrzeug, die die Betriebserlaubnis berühren können, dass die Teile eine entsprechende
+            Genehmigung haben müssen. Das geschieht meist über:
+          </p>
+          <ul>
+            <li><strong>ABE (Allgemeine Betriebserlaubnis):</strong> Das Teil ist für bestimmte Modelle zugelassen. Die ABE muss bei Kontrollen mitgeführt werden.</li>
+            <li><strong>ECE-Prüfzeichen:</strong> Zeigt die Prüfung nach einer europäischen Regelung, etwa bei Leuchten oder Spiegeln.</li>
+            <li><strong>Teilegutachten und Eintragung:</strong> Manche Teile müssen vom Prüfer abgenommen und in die Papiere eingetragen werden. Wird das versäumt, kann die Betriebserlaubnis erlöschen.</li>
+          </ul>
+          <p className="small text-muted">
+            Das ist eine allgemeine Orientierung, keine Rechtsberatung. Welche Vorgaben für dein Modell
+            gelten, klärt die Produktbeschreibung, der Händler oder eine Prüforganisation.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Montage: Selbst machen oder Werkstatt?</h2>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th>Teil</th><th>Empfehlung</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Zierteile, Embleme, Chrom-Abdeckungen</td><td>Meist gut selbst zu montieren</td></tr>
+                <tr><td>Windschutzscheibe, Sitzbank, Rückenpolster</td><td>Mit Anleitung oft machbar; auf passende Befestigung achten</td></tr>
+                <tr><td>Bremsbeläge, Bremsleitungen, Fahrwerk</td><td>Sicherheitsrelevant: Werkstatt, außer du hast Fachkenntnis und Werkzeug</td></tr>
+                <tr><td>Elektrik, Beleuchtung, Zusatzscheinwerfer</td><td>Auf Belastbarkeit und Vorschriften achten; bei Zweifeln Werkstatt</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Verwende bei Schrauben das vom Hersteller vorgegebene Anzugsdrehmoment und arbeite mit passendem
+            Werkzeug. Tipps zur Ausstattung der Werkstatt gibt der Beitrag{" "}
+            <a href="/blog/werkstatt-ausstattung-was-du-wirklich-brauchst/">Werkstatt-Ausstattung</a>.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Verschleißteile und Wartung planen</h2>
+          <ul>
+            <li><strong>Bremsbeläge:</strong> Kontrolliere die Dicke regelmäßig und wechsle sie rechtzeitig. Verwende nur Beläge, die für dein Modell freigegeben sind.</li>
+            <li><strong>Zündkerzen, Luftfilter, Öl:</strong> Halte die Wechselintervalle des Herstellers ein. Sie stehen im Serviceheft oder in der Betriebsanleitung.</li>
+            <li><strong>Kette und Ritzel:</strong> Reinigen, schmieren und spannen. Wechsle bei Verschleiß Kette und Ritzel gemeinsam.</li>
+            <li><strong>Reifen:</strong> Prüfe Profil, Alter und Luftdruck.</li>
+            <li><strong>Winterpause:</strong> Reinigen, Batterie laden oder ausbauen, Reifendruck erhöhen und trocken lagern.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Reisekomfort und Gepäck</h2>
+          <ul>
+            <li><strong>Koffer und Taschen:</strong> Beachte die zulässige Zuladung von Gepäckträger und Maschine und verteile das Gewicht gleichmäßig.</li>
+            <li><strong>Windschutz:</strong> Höhe und Form beeinflussen Windgeräusche und Fahrverhalten. Teste, wenn möglich, vor dem Kauf.</li>
+            <li><strong>Sitzbank und Rückenpolster:</strong> Sinnvoll bei langen Touren zu zweit. Achte auf rutschfeste Befestigung.</li>
+            <li><strong>Sicherheit des Sozius:</strong> Zubehör ersetzt nicht Schutzkleidung und Helm. Die passende Ausstattung ist wichtiger als Komfortteile.</li>
+          </ul>
+          <p>
+            Wer auch am Auto Teile tauscht, findet im Beitrag{" "}
+            <a href="/blog/auto-zubehoer-kaufratgeber/">Auto-Zubehör kaufen</a> weitere Hinweise zu Passform und
+            Qualität.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler beim Zubehörkauf</h2>
+          <ul>
+            <li><strong>Modell und Baujahr nicht prüfen:</strong> Bei der Passform entscheiden Baureihe und Jahrgang.</li>
+            <li><strong>ABE vergessen:</strong> Ohne die erforderliche Genehmigung droht Ärger bei der Kontrolle.</li>
+            <li><strong>Bei Bremsen sparen:</strong> Hier zählt Qualität und Freigabe vor dem Preis.</li>
+            <li><strong>Zu viel Gepäck:</strong> Eine Überladung beeinträchtigt Fahrverhalten und Sicherheit.</li>
+            <li><strong>Rückgabe:</strong> Bei Online-Käufen gilt grundsätzlich ein 14-tägiges Widerrufsrecht. Montierte Teile lassen sich häufig nicht mehr zurückgeben; prüfe die Passform vor dem Einbau.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
