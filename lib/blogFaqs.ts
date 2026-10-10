@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "elektroinstallation-kaufen": [
+    { q: "Darf ich Steckdosen selbst wechseln?", a: "Arbeiten an der festen Elektroinstallation gehören in die Hände einer Elektrofachkraft. Das gilt auch für den Austausch von Steckdosen und Schaltern. Dieser Beitrag ersetzt keine fachliche Beratung." },
+    { q: "Welche Dose brauche ich für Trockenbauwände?", a: "Für Gips- und Trockenbauwände gibt es spezielle Hohlwanddosen. Eine normale Unterputzdose hält dort nicht sicher." },
+    { q: "Passen Schalter verschiedener Hersteller zusammen?", a: "In der Regel nicht. Rahmen, Wippen und Einsätze verschiedener Hersteller sind selten kompatibel, und auch Farben können abweichen. Bleibe bei einem Programm." },
+    { q: "Was ist der Unterschied zwischen Leitungsschutzschalter und FI?", a: "Der Leitungsschutzschalter schützt die Leitung vor Überlast und Kurzschluss, der Fehlerstrom-Schutzschalter (FI / RCD) schützt Personen vor gefährlichen Fehlerströmen." },
+    { q: "Kann ich Smart-Home-Aktoren selbst einbauen?", a: "Aktoren hinter der Dose oder in der Unterverteilung sind Eingriffe in die feste Installation und gehören zur Elektrofachkraft. Für Mietwohnungen gibt es Steckdosenadapter ohne Eingriff." },
+  ],
   "beschlaege-schloesser-kaufen": [
     { q: "Wie messe ich einen Profilzylinder?", a: "Miss von der Mitte der Befestigungsschraube bis zum jeweiligen Ende, getrennt für Innen- und Außenseite. Der Zylinder soll nicht überstehen, da überstehende Zylinder leichter manipuliert werden können." },
     { q: "Welcher Vierkant passt bei Fenstergriffen?", a: "Gängig ist ein Vierkantstift mit 7 mm Stärke. Die benötigte Länge hängt vom Fensterrahmen ab; am besten misst du den vorhandenen Griff oder Stift nach." },
@@ -281,6 +288,11 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Brauche ich für smarte Wandschalter einen Elektriker?", a: "Smarte Wandschalter greifen in die feste 230-Volt-Installation ein und brauchen oft einen Nulleiter in der Dose. Arbeiten daran gehören in die Hände einer Elektrofachkraft; die einfachste Nachrüstung ohne Elektriker sind smarte Steckdosen-Adapter." },
   ],
   "buero-grundausstattung-was-du-wirklich-brauchst": [
+    { q: "Was brauche ich für ein Homeoffice mindestens?", a: "Einen Schreibtisch und einen verstellbaren Stuhl, gutes Licht, eine Steckdosenleiste, Aktenordner, Notizbuch, Stift, Klebeband, Schere, Locher und Hefter. Alles Weitere lässt sich nach Bedarf ergänzen." },
+    { q: "Lohnt sich ein Aktenvernichter?", a: "Wenn du Unterlagen mit personenbezogenen Daten entsorgst, ja. Die Sicherheitsstufen sind in DIN 66399 geregelt; für sensible Dokumente wählst du eine höhere Stufe." },
+    { q: "Wie viele Aktenordner brauche ich?", a: "Rechne grob mit einem Ordner pro laufendem Projekt oder Jahr. Kaufe zunächst wenige und ergänze nach Bedarf." },
+    { q: "Kann ich Büroausstattung von der Steuer absetzen?", a: "Das hängt von deiner Situation ab, etwa Angestellte, Selbstständige oder Arbeitszimmer. Bewahre Rechnungen auf und lass dich von einer Steuerberatung beraten." },
+    { q: "Wann lohnt sich Markenqualität im Büro?", a: "Bei täglich genutzten Dingen wie Stift, Unterlage oder Stuhl. Bei Verbrauchsmaterial wie einfachem Klebeband oder Papier sind die Unterschiede im Alltag oft gering." },
     { q: "Wie viele Aktenordner brauche ich für ein Homeoffice?", a: "Rechne grob mit einem Ordner pro laufendem Projekt oder Jahr, nicht pro Aktenberg. Zu wenige Ordner lassen alles lose herumliegen, ein ganzer Karton endet oft halb leer im Regal." },
     { q: "Lohnt sich ein Marken-Kugelschreiber im Büro?", a: "Bei einem Stift, den du täglich mehrere Stunden benutzt, ja: Griffzone, Tintenfluss und Minenverbrauch unterscheiden sich spürbar. Für Ersatzstifte, die ohnehin nur im Becher liegen, lohnt sich der Aufpreis kaum." },
     { q: "Wo kann ich bei Büromaterial sparen?", a: "Bei Klebeband, Kleber und Kleinkram lohnt keine Markenfixierung. Verbrauchsmaterial, das du regelmäßig brauchst, kaufst du am günstigsten in größeren Gebinden; Dinge für ein einmaliges Projekt besser in der kleinen Packung." },

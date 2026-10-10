@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Büro-Grundausstattung: Was du wirklich brauchst",
-  description: "Ordner, Schreibgeräte, Klebeband und Schreibtisch-Zubehör: Womit du dein Homeoffice oder kleines Büro sinnvoll ausstattest – mit Preisvergleich.",
+  description: "Büro-Grundausstattung: Checkliste fürs Homeoffice, Ordnungssystem, Aktenvernichter, Schreibtisch-Zubehör, Ergonomie und was du dir sparen kannst.",
   keywords: [
     "büro grundausstattung",
     "homeoffice einrichten",
@@ -10,6 +10,10 @@ export const metadata: Metadata = {
     "schreibwaren online kaufen",
     "büroausstattung günstig",
     "aktenordner kaufen",
+    "homeoffice checkliste",
+    "büro einrichten günstig",
+    "aktenvernichter sicherheitsstufe",
+    "homeoffice ergonomie",
   ],
   openGraph: {
     title: "Büro-Grundausstattung: Was du wirklich brauchst (und was nicht)",
@@ -17,6 +21,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/buero-grundausstattung-was-du-wirklich-brauchst/",
     type: "article",
     publishedTime: "2026-09-25",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Büro-Grundausstattung" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/buero-grundausstattung-was-du-wirklich-brauchst/" },
@@ -33,6 +38,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Büro-Grundausstattung: Was du wirklich brauchst (und was nicht)",
   datePublished: "2026-09-25",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -61,7 +67,8 @@ export default function BueroGrundausstattungPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 25. September 2026</span>
-            <span>⏱ 6 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -108,8 +115,7 @@ export default function BueroGrundausstattungPage() {
           <h2 className="fw-bold h4 mb-3">Klebeband, Kleber & Kleinkram</h2>
           <p>
             Die Dinge, die man erst dann sucht, wenn man sie dringend braucht: Klebeband, Alleskleber, Klebeknete
-            für Poster ohne Wandschaden. Hier lohnt sich keine Markenfixierung — ein Tesa-Klebeband und ein
-            No-Name-Klebeband aus derselben Papierfabrik kleben in der Praxis identisch.
+            für Poster ohne Wandschaden. Hier lohnt sich selten eine Markenfixierung — bei einfachem Klebeband sind die Unterschiede im Alltag oft gering.
           </p>
           <div className="table-responsive">
             <table className="table table-bordered small">
@@ -140,6 +146,75 @@ export default function BueroGrundausstattungPage() {
             spürbar. Bei Dingen, die du nur gelegentlich brauchst (Locher, Hefter, Aktenordner für ein einmaliges
             Projekt), lohnt sich dagegen die kleine Packung, nicht der Vorratskauf.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Checkliste: Das brauchst du am ersten Tag</h2>
+          <div className="row g-3">
+            <div className="col-md-6">
+              <div className="card p-4 h-100">
+                <h3 className="h6 fw-bold mb-2">✅ Unbedingt</h3>
+                <p className="small text-muted mb-0">Schreibtisch und Stuhl in passender Höhe, Beleuchtung, Steckdosenleiste mit Überspannungsschutz, Aktenordner, Notizbuch, ein guter Stift, Klebeband, Schere und Locher mit Hefter.</p>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="card p-4 h-100">
+                <h3 className="h6 fw-bold mb-2">🕒 Später nachkaufen</h3>
+                <p className="small text-muted mb-0">Deko-Organizer, zusätzliche Ablagen, Spezialstifte, größere Mengen Papier und Klarsichthüllen. Sieh erst im Alltag, was wirklich fehlt.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Ergonomie: Der Teil, bei dem Sparen sich rächt</h2>
+          <ul>
+            <li><strong>Stuhl:</strong> Wer mehrere Stunden am Tag sitzt, sollte in einen verstellbaren Stuhl investieren. Orientierung gibt der Ratgeber <a href="/blog/gaming-stuhl-kaufen-ratgeber/">Gaming-Stuhl kaufen</a>, der auch auf Einstellungen eingeht.</li>
+            <li><strong>Bildschirmhöhe:</strong> Die Oberkante liegt ungefähr auf Augenhöhe, der Abstand beträgt etwa eine Armlänge.</li>
+            <li><strong>Licht:</strong> Stelle die Lampe so auf, dass sie weder auf dem Bildschirm spiegelt noch blendet. Tageslicht kommt idealerweise seitlich.</li>
+            <li><strong>Bewegung:</strong> Wechsle zwischen Sitzen, Stehen und Gehen. Ein <a href="/blog/walking-pad-kaufen-under-desk-treadmill/">Walking Pad</a> ist eine mögliche Ergänzung.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Ordnung und Datenschutz bei Papierunterlagen</h2>
+          <ul>
+            <li><strong>Ordnungssystem:</strong> Beschrifte Ordnerrücken sofort und lege eine feste Struktur an, zum Beispiel nach Jahr, Projekt oder Thema.</li>
+            <li><strong>Aufbewahrungsfristen:</strong> Für Geschäfts- und Steuerunterlagen gelten gesetzliche Aufbewahrungsfristen. Wirf Unterlagen nicht vorschnell weg und frage im Zweifel eine Steuerberatung.</li>
+            <li><strong>Aktenvernichter:</strong> Für Unterlagen mit personenbezogenen Daten ist ein Schredder sinnvoll. Die Sicherheitsstufen sind in DIN 66399 geregelt; für sensible Dokumente wählst du eine höhere Stufe.</li>
+            <li><strong>Digital statt Papier:</strong> Ein Scanner oder die Scan-Funktion des Druckers reduziert Papier. Sichere digitale Unterlagen regelmäßig.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Papier, Umwelt und Qualität</h2>
+          <p>
+            Beim Kopierpapier ist vor allem die Grammatur wichtig; 80 g/m² ist der Standard im Büroalltag.
+            Wer auf Umweltaspekte achtet, kann Papier mit Siegeln wie FSC oder Blauer Engel wählen. Achte bei
+            Recyclingpapier darauf, dass es zu deinem Drucker passt. Bei Verbrauchsmaterial lohnt es sich,
+            mehrere Händler zu vergleichen, denn Preise unterscheiden sich schon bei kleinen Artikeln.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Steuerlich absetzbar? Eine Frage für die Beratung</h2>
+          <p>
+            Ob und in welchem Umfang du Büroausstattung und Homeoffice-Kosten steuerlich geltend machen
+            kannst, hängt von deiner Situation ab (Angestellte, Selbstständige, Arbeitszimmer oder
+            Pauschale). Bewahre Rechnungen auf und lass dich bei Bedarf von einer Steuerberatung beraten.
+            Dieser Beitrag gibt keine Steuerberatung.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler bei der Büro-Ausstattung</h2>
+          <ul>
+            <li><strong>Zu viel auf einmal bestellen:</strong> Beginne mit der Grundausstattung und ergänze nach Bedarf.</li>
+            <li><strong>Ergonomie vergessen:</strong> Stuhl, Tisch und Bildschirm sind wichtiger als Deko.</li>
+            <li><strong>Falsche Ordnergröße:</strong> Rückenbreite und Format sollten zu den Unterlagen passen.</li>
+            <li><strong>Nur auf den Preis schauen:</strong> Bei täglich genutzten Dingen wie Stift oder Unterlage lohnt sich bessere Qualität.</li>
+            <li><strong>Rückgabe:</strong> Bei Online-Käufen von Händlern gilt grundsätzlich ein 14-tägiges Widerrufsrecht.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
