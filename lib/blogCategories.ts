@@ -142,7 +142,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     description: "Ordner, Schreibgeräte und Schreibtisch-Zubehör im Kaufberatungs-Check.",
     pgLink: "buero-schreibwaren",
     posts: [
-      { slug: "buero-grundausstattung-was-du-wirklich-brauchst", title: "Büro-Grundausstattung: Was du wirklich brauchst (und was nicht)", excerpt: "Ordner, Schreibgeräte, Klebeband und Schreibtisch-Zubehör: Womit du dein Homeoffice sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Preisvergleich.", date: "25. September 2026", readTime: "6 Min.", featured: true, pgLink: "buero-schreibwaren" },
+      { slug: "buero-grundausstattung-was-du-wirklich-brauchst", title: "Büro-Grundausstattung: Was du wirklich brauchst (und was nicht)", excerpt: "Ordner, Schreibgeräte, Klebeband und Schreibtisch-Zubehör: Womit du dein Homeoffice sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Preisvergleich.", date: "25. September 2026", readTime: "10 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "buero-schreibwaren" },
     ],
   },
   {
@@ -162,9 +162,9 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     posts: [
       { slug: "messwerkzeuge-kaufen-ratgeber", title: "Messwerkzeuge kaufen: Welches Werkzeug taugt wofür?", excerpt: "Bandmaß, Wasserwaage, Messschieber, Laser und Spannungsprüfer im Überblick: wofür sie taugen, wie genau sie sein müssen und worauf es beim Kauf ankommt.", date: "4. Oktober 2026", readTime: "9 Min.", pgLink: "messwerkzeuge" },
       { slug: "werkstatt-ausstattung-was-du-wirklich-brauchst", title: "Werkstatt ausstatten: Was du wirklich brauchst (und was nicht)", excerpt: "Womit du deine Werkstatt sinnvoll ausstattest, ohne unnötig Geld auszugeben – mit Contorion als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "10 Min.", updated: "4. Oktober 2026", featured: true, pgLink: "werkzeug-heimwerken" },
-      { slug: "elektroinstallation-kaufen", title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick", excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt — worauf es wirklich ankommt.", date: "30. August 2026", readTime: "7 Min.", featured: true, pgLink: "elektroinstallation" },
-      { slug: "arbeitskleidung-arbeitsschutz-kaufen", title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick", excerpt: "Schutzhelm, Knieschoner oder Warnschutz — worauf es bei Arbeitsschutzausrüstung wirklich ankommt.", date: "30. August 2026", readTime: "7 Min.", pgLink: "arbeitskleidung-arbeitsschutz" },
-      { slug: "beschlaege-schloesser-kaufen", title: "Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick", excerpt: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt.", date: "30. August 2026", readTime: "6 Min.", pgLink: "beschlaege-schloesser" },
+      { slug: "elektroinstallation-kaufen", title: "Elektroinstallation kaufen: Schalterprogramm, Dosentyp und Sicherheit im Überblick", excerpt: "Unterputz oder Aufputz, Schalterprogramm-Kompatibilität und Schutzkontakt — worauf es wirklich ankommt.", date: "30. August 2026", readTime: "11 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "elektroinstallation" },
+      { slug: "arbeitskleidung-arbeitsschutz-kaufen", title: "Arbeitskleidung & Arbeitsschutz kaufen: Passform, Norm und Material im Überblick", excerpt: "Schutzhelm, Knieschoner oder Warnschutz — worauf es bei Arbeitsschutzausrüstung wirklich ankommt.", date: "30. August 2026", readTime: "11 Min.", updated: "5. Oktober 2026", pgLink: "arbeitskleidung-arbeitsschutz" },
+      { slug: "beschlaege-schloesser-kaufen", title: "Beschläge & Schlösser kaufen: Material, Maße und Belastbarkeit im Überblick", excerpt: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt.", date: "30. August 2026", readTime: "11 Min.", updated: "5. Oktober 2026", pgLink: "beschlaege-schloesser" },
       { slug: "materialbearbeitung-fraeser-schleifscheiben-kaufen", title: "Fräser, Trenn- und Schleifscheiben kaufen: Material, Norm und Maschinenkompatibilität", excerpt: "Welche Scheibe für welches Material, worauf bei Durchmesser und Drehzahl zu achten ist.", date: "30. August 2026", readTime: "7 Min.", pgLink: "materialbearbeitung" },
     ],
   },

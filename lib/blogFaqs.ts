@@ -6,6 +6,27 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "elektroinstallation-kaufen": [
+    { q: "Darf ich Steckdosen selbst wechseln?", a: "Arbeiten an der festen Elektroinstallation gehören in die Hände einer Elektrofachkraft. Das gilt auch für den Austausch von Steckdosen und Schaltern. Dieser Beitrag ersetzt keine fachliche Beratung." },
+    { q: "Welche Dose brauche ich für Trockenbauwände?", a: "Für Gips- und Trockenbauwände gibt es spezielle Hohlwanddosen. Eine normale Unterputzdose hält dort nicht sicher." },
+    { q: "Passen Schalter verschiedener Hersteller zusammen?", a: "In der Regel nicht. Rahmen, Wippen und Einsätze verschiedener Hersteller sind selten kompatibel, und auch Farben können abweichen. Bleibe bei einem Programm." },
+    { q: "Was ist der Unterschied zwischen Leitungsschutzschalter und FI?", a: "Der Leitungsschutzschalter schützt die Leitung vor Überlast und Kurzschluss, der Fehlerstrom-Schutzschalter (FI / RCD) schützt Personen vor gefährlichen Fehlerströmen." },
+    { q: "Kann ich Smart-Home-Aktoren selbst einbauen?", a: "Aktoren hinter der Dose oder in der Unterverteilung sind Eingriffe in die feste Installation und gehören zur Elektrofachkraft. Für Mietwohnungen gibt es Steckdosenadapter ohne Eingriff." },
+  ],
+  "beschlaege-schloesser-kaufen": [
+    { q: "Wie messe ich einen Profilzylinder?", a: "Miss von der Mitte der Befestigungsschraube bis zum jeweiligen Ende, getrennt für Innen- und Außenseite. Der Zylinder soll nicht überstehen, da überstehende Zylinder leichter manipuliert werden können." },
+    { q: "Welcher Vierkant passt bei Fenstergriffen?", a: "Gängig ist ein Vierkantstift mit 7 mm Stärke. Die benötigte Länge hängt vom Fensterrahmen ab; am besten misst du den vorhandenen Griff oder Stift nach." },
+    { q: "Sind abschließbare Fenstergriffe einbruchsicher?", a: "Sie erschweren das Öffnen von außen, machen ein Fenster aber nicht automatisch einbruchsicher. Für eine Nachrüstung berät der Fachhandel oder die polizeiliche Beratungsstelle." },
+    { q: "Welche Maße sind bei Topfscharnieren wichtig?", a: "Üblich ist ein Topf mit 35 mm Durchmesser. Wichtig sind außerdem der Anschlag (aufliegend, halb aufliegend oder einliegend) und der Öffnungswinkel." },
+    { q: "Darf ich ein Geländer selbst montieren?", a: "Geländer dienen der Absturzsicherung; Höhe, Abstände und Befestigung unterliegen Vorschriften, die je nach Bundesland verschieden sind. Bei Unsicherheit solltest du einen Fachbetrieb beauftragen. Das ist keine Rechtsberatung." },
+  ],
+  "arbeitskleidung-arbeitsschutz-kaufen": [
+    { q: "Welche Norm gilt für Schutzhelme?", a: "Industrieschutzhelme werden nach EN 397 geprüft. Eine Anstoßkappe nach EN 812 schützt dagegen nur vor Anstoßen und ersetzt keinen Schutzhelm." },
+    { q: "Wer bezahlt die Arbeitsschutzkleidung?", a: "Bei Angestellten legt der Arbeitgeber auf Basis der Gefährdungsbeurteilung fest, welche Schutzausrüstung nötig ist, und stellt sie in der Regel zur Verfügung. Selbstständige sind selbst verantwortlich. Das ist eine allgemeine Orientierung, keine Rechtsberatung." },
+    { q: "Wie lange hält ein Schutzhelm?", a: "Die Nutzungsdauer gibt der Hersteller an. Zusätzlich solltest du den Helm nach Stößen, Stürzen oder bei sichtbaren Beschädigungen austauschen und das Herstellungsdatum beachten." },
+    { q: "Woran erkenne ich geeignete Schutzhandschuhe?", a: "An der Normangabe für das jeweilige Risiko, zum Beispiel EN 388 für mechanische Gefahren, und an der passenden Größe. Welche Handschuhe geeignet sind, hängt von der Tätigkeit ab." },
+    { q: "Brauche ich als Heimwerker Schutzausrüstung?", a: "Ja, beim Bohren, Sägen oder Schleifen sind Schutzbrille, Gehörschutz und Handschuhe sinnvoll. Achte auf Produkte mit passender Normangabe." },
+  ],
   "wohnaccessoires-beleuchtung-preisvergleich": [
     { q: "In welcher Höhe hängt man Bilder auf?", a: "Als Faustregel liegt die Bildmitte etwa auf Augenhöhe. Über Möbeln sollte ein Abstand bleiben, damit das Bild nicht zu dicht an der Rückenlehne hängt. Plane die Anordnung vorher mit Schablonen." },
     { q: "Worauf muss ich bei LED-Streifen achten?", a: "Auf passende Länge, Netzteil und Steuerung, die Lichtfarbe, die Dimmbarkeit und einen sauberen, trockenen Untergrund. Verwende nur Netzteile mit CE-Kennzeichnung und decke sie nicht ab." },
@@ -267,6 +288,11 @@ export const BLOG_FAQS: Record<string, Faq[]> = {
     { q: "Brauche ich für smarte Wandschalter einen Elektriker?", a: "Smarte Wandschalter greifen in die feste 230-Volt-Installation ein und brauchen oft einen Nulleiter in der Dose. Arbeiten daran gehören in die Hände einer Elektrofachkraft; die einfachste Nachrüstung ohne Elektriker sind smarte Steckdosen-Adapter." },
   ],
   "buero-grundausstattung-was-du-wirklich-brauchst": [
+    { q: "Was brauche ich für ein Homeoffice mindestens?", a: "Einen Schreibtisch und einen verstellbaren Stuhl, gutes Licht, eine Steckdosenleiste, Aktenordner, Notizbuch, Stift, Klebeband, Schere, Locher und Hefter. Alles Weitere lässt sich nach Bedarf ergänzen." },
+    { q: "Lohnt sich ein Aktenvernichter?", a: "Wenn du Unterlagen mit personenbezogenen Daten entsorgst, ja. Die Sicherheitsstufen sind in DIN 66399 geregelt; für sensible Dokumente wählst du eine höhere Stufe." },
+    { q: "Wie viele Aktenordner brauche ich?", a: "Rechne grob mit einem Ordner pro laufendem Projekt oder Jahr. Kaufe zunächst wenige und ergänze nach Bedarf." },
+    { q: "Kann ich Büroausstattung von der Steuer absetzen?", a: "Das hängt von deiner Situation ab, etwa Angestellte, Selbstständige oder Arbeitszimmer. Bewahre Rechnungen auf und lass dich von einer Steuerberatung beraten." },
+    { q: "Wann lohnt sich Markenqualität im Büro?", a: "Bei täglich genutzten Dingen wie Stift, Unterlage oder Stuhl. Bei Verbrauchsmaterial wie einfachem Klebeband oder Papier sind die Unterschiede im Alltag oft gering." },
     { q: "Wie viele Aktenordner brauche ich für ein Homeoffice?", a: "Rechne grob mit einem Ordner pro laufendem Projekt oder Jahr, nicht pro Aktenberg. Zu wenige Ordner lassen alles lose herumliegen, ein ganzer Karton endet oft halb leer im Regal." },
     { q: "Lohnt sich ein Marken-Kugelschreiber im Büro?", a: "Bei einem Stift, den du täglich mehrere Stunden benutzt, ja: Griffzone, Tintenfluss und Minenverbrauch unterscheiden sich spürbar. Für Ersatzstifte, die ohnehin nur im Becher liegen, lohnt sich der Aufpreis kaum." },
     { q: "Wo kann ich bei Büromaterial sparen?", a: "Bei Klebeband, Kleber und Kleinkram lohnt keine Markenfixierung. Verbrauchsmaterial, das du regelmäßig brauchst, kaufst du am günstigsten in größeren Gebinden; Dinge für ein einmaliges Projekt besser in der kleinen Packung." },

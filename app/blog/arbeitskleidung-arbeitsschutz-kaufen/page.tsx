@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Arbeitskleidung & Arbeitsschutz kaufen",
-  description: "Schutzhelm, Knieschoner, Warnschutz: Worauf es bei Arbeitsschutzausrüstung ankommt – mit Preisvergleich.",
+  description: "Arbeitskleidung und Arbeitsschutz kaufen: Normen für Helm, Schuhe, Handschuhe, Warnschutz und Gehörschutz, Passform, Pflege und Pflichten.",
   keywords: [
     "arbeitskleidung kaufen",
     "arbeitsschutz kaufen ratgeber",
@@ -11,6 +11,10 @@ export const metadata: Metadata = {
     "arbeitsschutz norm en397",
     "berufsbekleidung kaufen",
     "warnschutzkleidung",
+    "arbeitsschutz normen",
+    "schutzhelm en 397",
+    "sicherheitsschuhe s1 s3",
+    "warnschutzkleidung en iso 20471",
   ],
   openGraph: {
     title: "Arbeitskleidung & Arbeitsschutz kaufen",
@@ -18,6 +22,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/arbeitskleidung-arbeitsschutz-kaufen/",
     type: "article",
     publishedTime: "2026-08-30",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Arbeitskleidung & Arbeitsschutz kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/arbeitskleidung-arbeitsschutz-kaufen/" },
@@ -34,6 +39,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Arbeitskleidung & Arbeitsschutz kaufen",
   datePublished: "2026-08-30",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -61,7 +67,8 @@ export default function ArbeitskleidungArbeitsschutzKaufenPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 30. August 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 11 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -156,6 +163,82 @@ export default function ArbeitskleidungArbeitsschutzKaufenPage() {
             lohnt sich der Preisvergleich für den Mehrfachkauf besonders – die Kosten pro Stück sinken oft
             deutlich, ohne dass die Schutzwirkung darunter leidet.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Wichtige Normen im Überblick</h2>
+          <p>
+            Auf Schutzausrüstung steht meist eine Norm, die zeigt, wogegen sie schützt. Die folgende
+            Übersicht nennt gängige Beispiele. Maßgeblich sind immer die Angaben des Herstellers und die
+            Anforderungen deiner Tätigkeit.
+          </p>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th>Ausrüstung</th><th>Gängige Norm</th><th>Worauf sie sich bezieht</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Schutzhelm</td><td>EN 397</td><td>Industrieschutzhelme gegen herabfallende Gegenstände</td></tr>
+                <tr><td>Anstoßkappe</td><td>EN 812</td><td>Schutz gegen Anstoßen, kein Ersatz für einen Schutzhelm</td></tr>
+                <tr><td>Sicherheitsschuhe</td><td>EN ISO 20345</td><td>Zehenschutz, Kennzeichnung der Schutzklasse (zum Beispiel S1, S3)</td></tr>
+                <tr><td>Schutzhandschuhe</td><td>EN 388</td><td>Mechanische Risiken wie Abrieb und Schnitt</td></tr>
+                <tr><td>Warnschutzkleidung</td><td>EN ISO 20471</td><td>Sichtbarkeit, Einteilung in Klassen</td></tr>
+                <tr><td>Gehörschutz</td><td>EN 352</td><td>Kapselgehörschutz und Gehörschutzstöpsel</td></tr>
+                <tr><td>Schutzbrille</td><td>EN 166</td><td>Augenschutz, Kennzeichnung der Schutzart</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="small text-muted">
+            Persönliche Schutzausrüstung muss ein CE-Kennzeichen tragen. Die Auswahl richtet sich nach den
+            Gefährdungen am Arbeitsplatz; eine fachliche Beratung ersetzt dieser Beitrag nicht.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Wer zahlt und wer entscheidet?</h2>
+          <ul>
+            <li><strong>Angestellte:</strong> Der Arbeitgeber legt auf Grundlage einer Gefährdungsbeurteilung fest, welche Schutzausrüstung erforderlich ist, und stellt sie in der Regel zur Verfügung. Frage im Zweifel bei der Sicherheitsfachkraft oder dem Arbeitgeber nach.</li>
+            <li><strong>Selbstständige und Handwerker:</strong> Du bist selbst für die passende Ausstattung verantwortlich. Orientiere dich an den Vorgaben deiner Branche und deiner Berufsgenossenschaft.</li>
+            <li><strong>Heimwerker:</strong> Auch beim Bohren, Sägen oder Schleifen lohnen sich Schutzbrille, Gehörschutz und Handschuhe. Wähle Produkte mit passender Normangabe.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Passform, Komfort und Tragedauer</h2>
+          <ul>
+            <li><strong>Größe messen:</strong> Handschuhe, Schuhe und Jacken sollten bequem sitzen und dürfen die Bewegung nicht behindern. Vergleiche mit der Größentabelle des Herstellers.</li>
+            <li><strong>Mehrere Lagen:</strong> Im Winter braucht Arbeitskleidung Platz für darunterliegende Schichten, ohne zu eng oder zu weit zu werden.</li>
+            <li><strong>Atmungsaktivität:</strong> Wer den ganzen Tag arbeitet, profitiert von Materialien, die Feuchtigkeit abgeben.</li>
+            <li><strong>Sichtbarkeit:</strong> Bei Arbeiten im Straßenbereich oder bei schlechter Sicht sind Warnfarben und reflektierende Streifen wichtig. Beachte die jeweils vorgeschriebene Klasse.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Pflege, Lebensdauer und Austausch</h2>
+          <ul>
+            <li><strong>Helme:</strong> Prüfe Risse, Verfärbungen und Beschädigungen, und tausche den Helm nach Stößen oder Stürzen aus. Die Hersteller geben eine maximale Nutzungsdauer an; halte dich an diese Angabe und das Herstellungsdatum.</li>
+            <li><strong>Waschen:</strong> Beachte Waschhinweise, vor allem bei Warnschutzkleidung, damit Farbe und Reflexstreifen erhalten bleiben.</li>
+            <li><strong>Handschuhe und Gehörschutz:</strong> Verschleißteile regelmäßig prüfen und bei Beschädigung ersetzen. Gehörschutzstöpsel sind teils zum Einmalgebrauch gedacht.</li>
+            <li><strong>Lagern:</strong> Schutzhelme, Brillen und Gehörschutz trocken, sauber und vor Sonne geschützt aufbewahren.</li>
+          </ul>
+          <p>
+            Wer eine Werkstatt oder Baustelle ausstattet, findet im Beitrag{" "}
+            <a href="/blog/werkstatt-ausstattung-was-du-wirklich-brauchst/">Werkstatt-Ausstattung</a>{" "}
+            Hinweise zur Grundausrüstung, und im Ratgeber{" "}
+            <a href="/blog/elektroinstallation-kaufen/">Elektroinstallation kaufen</a> geht es um Material für
+            Elektroarbeiten.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler beim Kauf</h2>
+          <ul>
+            <li><strong>Ohne Normangabe kaufen:</strong> Fehlt die Norm, ist die Schutzwirkung unklar.</li>
+            <li><strong>Zu billig wählen:</strong> Der Preis sollte nicht das einzige Kriterium sein, besonders bei Helmen und Schuhen.</li>
+            <li><strong>Falsche Größe:</strong> Zu große Schuhe oder zu lockere Handschuhe erhöhen das Unfallrisiko.</li>
+            <li><strong>Gebrauchte Helme kaufen:</strong> Beschädigungen sind oft nicht sichtbar. Kaufe Helme neu.</li>
+            <li><strong>Rückgabe:</strong> Bei Online-Käufen gilt grundsätzlich ein 14-tägiges Widerrufsrecht. Probiere Schuhe und Handschuhe zu Hause an, ohne sie bei der Arbeit zu tragen.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

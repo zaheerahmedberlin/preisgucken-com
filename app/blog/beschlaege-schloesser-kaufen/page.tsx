@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Beschläge & Schlösser kaufen",
-  description: "Edelstahl oder beschichteter Stahl, welches Bohrbild passt und worauf es bei Belastbarkeit ankommt.",
+  description: "Beschläge und Schlösser kaufen: Profilzylinder, Fenstergriffe, Möbelscharniere, Geländer, Maße, Sicherheit und Montage – mit Preisvergleich.",
   keywords: [
     "beschläge kaufen",
     "möbelbeschläge kaufen ratgeber",
@@ -10,6 +10,10 @@ export const metadata: Metadata = {
     "fenstergriff abschließbar",
     "treppengeländer kaufen",
     "beschläge edelstahl",
+    "profilzylinder messen",
+    "fenstergriff abschließbar",
+    "topfscharnier 35 mm",
+    "geländer montieren",
   ],
   openGraph: {
     title: "Beschläge & Schlösser kaufen",
@@ -17,6 +21,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/beschlaege-schloesser-kaufen/",
     type: "article",
     publishedTime: "2026-08-30",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Beschläge & Schlösser kaufen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/beschlaege-schloesser-kaufen/" },
@@ -33,6 +38,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Beschläge & Schlösser kaufen",
   datePublished: "2026-08-30",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -60,7 +66,8 @@ export default function BeschlaegeSchloesserKaufenPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 30. August 2026</span>
-            <span>⏱ 6 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 11 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -154,6 +161,87 @@ export default function BeschlaegeSchloesserKaufenPage() {
             kaufen ist fast immer günstiger pro Stück als der Einzelkauf – besonders wenn ohnehin mehrere
             Fenster im Haus betroffen sind.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Türschloss und Profilzylinder: So misst du richtig</h2>
+          <ul>
+            <li><strong>Zylinderlänge:</strong> Miss die Länge von der Mitte der Befestigungsschraube bis zum Ende, getrennt für Innen- und Außenseite. Zylinder, die zu weit überstehen, sind ein Sicherheitsrisiko, da sie sich leichter abbrechen lassen.</li>
+            <li><strong>Funktion:</strong> Achte auf Notfunktion oder Gefahrenfunktion, falls innen ein Schlüssel steckt, sowie auf die gewünschte Schließanlage, wenn mehrere Türen mit einem Schlüssel schließen sollen.</li>
+            <li><strong>Sicherheitsmerkmale:</strong> Hochwertigere Zylinder bieten Schutz gegen Aufbohren, Ziehen und Aufpicken. Prüfzeichen und Herstellerangaben helfen bei der Einordnung.</li>
+            <li><strong>Türschild und Rosette:</strong> Ein Schutzbeschlag erschwert den Zugriff auf den Zylinder. Er muss zum Bohrbild der Tür passen.</li>
+            <li><strong>Mietwohnung:</strong> Sprich den Austausch von Zylindern mit dem Vermieter ab, damit Schließanlage und Schlüsselübergabe geklärt sind.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Fenstergriffe: Worauf es ankommt</h2>
+          <ul>
+            <li><strong>Vierkant und Länge:</strong> Gängig ist ein Vierkantstift in 7 mm Stärke. Die benötigte Länge hängt vom Fensterrahmen ab. Miss sie am alten Griff nach.</li>
+            <li><strong>Bohrabstand:</strong> Der Abstand der Befestigungsschrauben muss zum bestehenden Beschlag passen, sonst entstehen neue Löcher.</li>
+            <li><strong>Abschließbar oder nicht:</strong> Abschließbare Griffe erschweren das Öffnen von außen und können Kinder sichern. Bewahre den Schlüssel gut erreichbar auf, damit das Fenster im Notfall geöffnet werden kann.</li>
+            <li><strong>Einbruchschutz:</strong> Ein Griff allein macht ein Fenster nicht einbruchsicher. Ob und wie du nachrüstest, kann der Fachhandel oder die polizeiliche Beratungsstelle zeigen.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Möbelbeschläge: Scharniere, Griffe und Schubladen</h2>
+          <ul>
+            <li><strong>Topfscharniere:</strong> Üblich ist ein Topf mit 35 mm Durchmesser. Prüfe den Anschlag (aufliegend, halb aufliegend, einliegend), der zur Tür passen muss.</li>
+            <li><strong>Möbelgriffe:</strong> Entscheidend ist der Lochabstand, auch Bohrabstand genannt. Er wird von Schraube zu Schraube gemessen.</li>
+            <li><strong>Schubladenführungen:</strong> Beachte Auszugslänge, Tragkraft und Einbauart (seitlich oder unter der Schublade).</li>
+            <li><strong>Material:</strong> Metall ist langlebiger als Kunststoff. In Küche und Bad lohnen sich korrosionsbeständige Oberflächen.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Geländer und Handläufe: Sicherheit zuerst</h2>
+          <p>
+            Geländer sind Teil der Absturzsicherung. Höhe, Abstände und Befestigung unterliegen
+            Vorschriften, die je nach Bundesland und Einsatzort verschieden sind. Das gilt besonders bei
+            Treppen im Außenbereich, Balkonen und Terrassen. Informiere dich vorab bei der Bauaufsicht oder
+            einem Fachbetrieb, und lass die Montage ausführen, wenn du dir bei der Verankerung nicht sicher bist.
+            Wichtig sind der passende Dübel für das Mauerwerk, eine tragfähige Unterkonstruktion und das
+            Prüfen der Befestigung nach der Montage. Dieser Hinweis ist eine allgemeine Orientierung und ersetzt
+            keine fachliche Beratung.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Material und Pflege</h2>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th>Material</th><th>Vorteile</th><th>Zu beachten</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Edelstahl</td><td>Witterungsbeständig, langlebig</td><td>Fingerabdrücke sichtbar; Güte (zum Beispiel V2A oder V4A) für Küstennähe prüfen</td></tr>
+                <tr><td>Messing</td><td>Edle Optik, gut zu bearbeiten</td><td>Läuft mit der Zeit an, sofern nicht beschichtet</td></tr>
+                <tr><td>Verchromt</td><td>Pflegeleicht, glänzend</td><td>Beschichtung kann bei starker Beanspruchung abnutzen</td></tr>
+                <tr><td>Beschichteter Stahl</td><td>Günstig, in vielen Farben</td><td>Nur für trockene Innenräume geeignet</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Reinige Beschläge mit mildem Reiniger und einem weichen Tuch. Scharfe Mittel greifen
+            Beschichtungen an. Ein Tropfen Öl (nicht in Schlösser, sondern an beweglichen Teilen) hält
+            Scharniere leichtgängig; Schließzylinder pflegst du mit Grafit- oder Spezialmitteln.
+            Passendes Werkzeug findest du im Beitrag{" "}
+            <a href="/blog/werkstatt-ausstattung-was-du-wirklich-brauchst/">Werkstatt-Ausstattung</a>, und zum
+            Messen hilft der Ratgeber{" "}
+            <a href="/blog/messwerkzeuge-kaufen-ratgeber/">Messwerkzeuge</a>.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler beim Beschlagkauf</h2>
+          <ul>
+            <li><strong>Nicht nachmessen:</strong> Bohrabstand, Länge und Anschlag müssen zum Bestand passen.</li>
+            <li><strong>Falsches Material:</strong> Beschichteter Stahl rostet im Außenbereich schnell.</li>
+            <li><strong>Zu lange Zylinder:</strong> Sie stehen über und bieten Angriffsfläche.</li>
+            <li><strong>Schrauben vergessen:</strong> Nicht jedes Set liefert Schrauben für jeden Untergrund mit.</li>
+            <li><strong>Rückgabe:</strong> Bei Online-Käufen gilt grundsätzlich ein 14-tägiges Widerrufsrecht. Prüfe Passform, bevor du montierst; nach dem Einbau ist eine Rückgabe oft schwierig.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
