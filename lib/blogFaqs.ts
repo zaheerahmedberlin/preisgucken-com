@@ -6,6 +6,27 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "luxusuhren-kaufen": [
+    { q: "Wie erkenne ich eine gefälschte Luxusuhr?", a: "Warnzeichen sind Preise weit unter dem üblichen Niveau, fehlende Papiere, unseriöse Händler und Abweichungen bei Verarbeitung oder Seriennummer. Kaufe bei autorisierten oder etablierten Händlern und lasse im Zweifel bei einem Uhrmacher prüfen." },
+    { q: "Was kostet die Wartung einer mechanischen Uhr?", a: "Das hängt von Marke, Modell und Werk ab und kann bei Premiumuhren mehrere hundert Euro oder mehr betragen. Der Hersteller nennt Intervall und Service-Umfang." },
+    { q: "Ist eine Luxusuhr eine sichere Geldanlage?", a: "Nein. Manche Modelle behalten oder gewinnen an Wert, viele verlieren aber. Preise hängen von Nachfrage, Zustand und Papieren ab. Dieser Beitrag ist keine Anlageberatung." },
+    { q: "Brauche ich eine extra Versicherung für eine teure Uhr?", a: "Wertvolle Uhren sind nicht automatisch ausreichend über die Hausratversicherung gedeckt. Lass dich vom Versicherer beraten und halte Kaufbeleg und Seriennummer bereit." },
+    { q: "Was bedeutet ein Chronometer-Zertifikat?", a: "Es bestätigt, dass ein Werk bestimmte Genauigkeitskriterien in einer Prüfung erfüllt hat. Es sagt nichts über Marke, Preis oder Optik aus." },
+  ],
+  "schokolade-pralinen-kaufen": [
+    { q: "Welcher Kakaoanteil ist für den Einstieg richtig?", a: "Viele finden 60 bis 70 Prozent als Einstieg angenehm. Höhere Anteile sind intensiver und bitterer. Entscheidend sind auch Bohne und Verarbeitung." },
+    { q: "Wie lagere ich Schokolade richtig?", a: "Kühl, trocken und dunkel, getrennt von stark riechenden Lebensmitteln. Im Kühlschrank kann sie Gerüche annehmen und Feuchtigkeit bilden." },
+    { q: "Was ist der weiße Belag auf Schokolade?", a: "Ein Fett- oder Zuckerreif entsteht durch Temperaturschwankungen. Er ist meist unbedenklich, kann aber Optik und Textur verschlechtern." },
+    { q: "Wie bestelle ich Schokolade im Sommer?", a: "Wähle nach Möglichkeit gekühlten Versand oder bestelle in kühleren Monaten. Prüfe, wie der Händler Schokolade bei Hitze verpackt und verschickt." },
+    { q: "Sind Schokolade und Pralinen für Haustiere gefährlich?", a: "Ja, Schokolade enthält Theobromin, das für Hunde und Katzen giftig sein kann. Halte sie von Tieren fern und suche bei Verdacht tierärztlichen Rat." },
+  ],
+  "umstandsmode-kaufen-guide": [
+    { q: "Wann sollte ich mit dem Kauf von Umstandsmode beginnen?", a: "Viele kommen mit normaler, weiter Kleidung bis zum zweiten Trimester aus. Kaufe zuerst die Teile, die du wirklich brauchst, etwa eine Hose mit Bauchbund, und ergänze nach Bedarf." },
+    { q: "Welche Umstandsmode lohnt sich am meisten?", a: "Hosen oder Leggings mit mitwachsendem Bund und Shirts mit Stillfunktion, weil sie am längsten getragen werden. Eine Jacke mit Platz über dem Bauch lohnt sich vor allem im Herbst und Winter." },
+    { q: "Wann kaufe ich einen Still-BH?", a: "Viele kaufen einen oder zwei zu Beginn und ergänzen gegen Ende der Schwangerschaft, wenn sich die Größe besser einschätzen lässt. Eine Fachberatung oder die Hebamme kann dir helfen." },
+    { q: "Kann ich Umstandsmode gebraucht kaufen?", a: "Ja, besonders bei Teilen, die nur wenige Monate getragen werden, wie Business- oder Anlassmode. Prüfe Zustand, Stoff und Passform." },
+    { q: "Sind Stützgürtel oder Kompressionsstrümpfe notwendig?", a: "Das ist individuell. Ob sie sinnvoll sind, besprichst du am besten mit Ärztin, Arzt oder Hebamme, bevor du sie kaufst." },
+  ],
   "workwear-trend-painter-pants-chore-jacket": [
     { q: "Was ist eine Painter Pant?", a: "Eine robuste Bundhose im Stil klassischer Malerhosen, meist aus Baumwolle oder Twill, mit weitem Bein und praktischen Taschen. Heute ist sie vor allem als Alltagsmode beliebt." },
     { q: "Was ist der Unterschied zwischen Chore Jacket und Coverall Jacket?", a: "Eine Chore Jacket ist eine kurze, robuste Arbeitsjacke mit Knopfleiste, oft aus schwererem Stoff. Eine Coverall Jacket ist meist etwas leichter und kürzer geschnitten, oft aus Twill." },

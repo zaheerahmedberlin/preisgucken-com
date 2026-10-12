@@ -77,7 +77,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
       { slug: "workwear-trend-painter-pants-chore-jacket", title: "Painter Pant oder Cargo? Der Workwear-Guide für den Alltag", excerpt: "Was Workwear-Kleidung von normaler Freizeitmode unterscheidet – mit Stan Ray als Praxisbeispiel im Preisvergleich.", date: "14. August 2026", readTime: "9 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "herrenmode" },
       { slug: "schuhe-online-kaufen-groessentabelle", title: "Schuhgröße online richtig bestimmen: So vermeidest du Fehlkäufe", excerpt: "EU-, US- und UK-Größen im Vergleich, Fußlänge richtig messen und worauf du bei Material und Rückgaberecht achten solltest.", date: "19. August 2026", readTime: "9 Min.", updated: "4. Oktober 2026", pgLink: "schuhe" },
       { slug: "alltagslook-damenmode-make-up-guide", title: "Alltagslook für Frauen: Damenmode und Make-up richtig kombinieren", excerpt: "Basic-Teile, Layering und Everyday-Make-up im Guide: So baust du dir einen Alltagslook, der zu jedem Anlass passt – mit Preisvergleich für Damenmode und Kosmetik.", date: "19. August 2026", readTime: "7 Min.", featured: true, pgLink: "damenmode,kosmetik-beauty" },
-      { slug: "umstandsmode-kaufen-guide", title: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen", excerpt: "Umstands- und Stillmode, die über die Schwangerschaft hinaus nutzbar bleibt – worauf du beim Kauf achten solltest, mit Preisvergleich.", date: "9. September 2026", readTime: "6 Min.", featured: true, pgLink: "umstandsmode" },
+      { slug: "umstandsmode-kaufen-guide", title: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen", excerpt: "Umstands- und Stillmode, die über die Schwangerschaft hinaus nutzbar bleibt – worauf du beim Kauf achten solltest, mit Preisvergleich.", date: "9. September 2026", readTime: "9 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "umstandsmode" },
     ],
   },
   {
@@ -112,7 +112,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     pgLink: "uhren",
     posts: [
       { slug: "uhren-kaufen-ratgeber", title: "Automatik oder Quarz? Was beim Uhrenkauf wirklich zählt", excerpt: "Automatik oder Quarz? Welches Material hält am längsten? Der komplette Uhren-Ratgeber mit Preisvergleich.", date: "1. August 2026", readTime: "10 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "uhren" },
-      { slug: "luxusuhren-kaufen", title: "Luxusuhren kaufen 2026: Was einen hohen Preis rechtfertigt", excerpt: "Material, Limitierung und Fertigung im Check – mit der Dark Matter 4 von Tsarbomba als Praxisbeispiel im Preisvergleich.", date: "4. August 2026", readTime: "8 Min.", featured: true, pgLink: "uhren" },
+      { slug: "luxusuhren-kaufen", title: "Luxusuhren kaufen 2026: Was einen hohen Preis rechtfertigt", excerpt: "Material, Limitierung und Fertigung im Check – mit der Dark Matter 4 von Tsarbomba als Praxisbeispiel im Preisvergleich.", date: "4. August 2026", readTime: "11 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "uhren" },
       { slug: "smartwatch-armband-kaufen-guide", title: "Passt jedes Ersatzarmband an jede Smartwatch? Kompatibilität erklärt", excerpt: "Ersatzarmband für Apple Watch, Samsung, Garmin, Fitbit oder Xiaomi gesucht? Kompatibilität, Material und Größe im Guide.", date: "4. August 2026", readTime: "9 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "smartwatch-armbaender" },
     ],
   },
@@ -133,7 +133,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     description: "Schokolade, Pralinen und Geschenkideen für Genießer im Kaufberatungs-Check.",
     pgLink: "suesswaren",
     posts: [
-      { slug: "schokolade-pralinen-kaufen", title: "Pralinen, Tafel oder Geschenkbox? So findest du die richtige Schokolade", excerpt: "Kakaoanteil, Herkunft und Verarbeitung im Überblick – mit Venchi als Praxisbeispiel im Preisvergleich.", date: "7. August 2026", readTime: "6 Min.", featured: true, pgLink: "suesswaren" },
+      { slug: "schokolade-pralinen-kaufen", title: "Pralinen, Tafel oder Geschenkbox? So findest du die richtige Schokolade", excerpt: "Kakaoanteil, Herkunft und Verarbeitung im Überblick – mit Venchi als Praxisbeispiel im Preisvergleich.", date: "7. August 2026", readTime: "9 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "suesswaren" },
     ],
   },
   {

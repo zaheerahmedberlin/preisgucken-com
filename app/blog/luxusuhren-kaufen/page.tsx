@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Luxusuhren kaufen: Worauf achten?",
-  description: "Was rechtfertigt einen 5-stelligen Uhrenpreis? Material, Fertigung, Limitierung und Wiederverkaufswert im Überblick.",
+  description: "Luxusuhren kaufen: Werk, Material, Echtheit, Papiere, Service, Versicherung und Wertentwicklung realistisch einschätzen – mit Preisvergleich.",
   keywords: [
     "luxusuhren kaufen",
     "teure uhren kaufen",
@@ -13,6 +13,10 @@ export const metadata: Metadata = {
     "tsarbomba dark matter 4",
     "investment uhren",
     "uhren über 2000 euro",
+    "luxusuhr echtheit prüfen",
+    "luxusuhr wartung kosten",
+    "uhr versicherung",
+    "chronometer zertifikat",
   ],
   openGraph: {
     title: "Luxusuhren kaufen: Worauf achten?",
@@ -20,6 +24,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/luxusuhren-kaufen/",
     type: "article",
     publishedTime: "2026-08-04",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Luxusuhren kaufen: Worauf achten?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/luxusuhren-kaufen/" },
@@ -36,6 +41,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Luxusuhren kaufen: Worauf achten?",
   datePublished: "2026-08-04",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -64,7 +70,8 @@ export default function LuxusuhrenKaufenPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 4. August 2026</span>
-            <span>⏱ 8 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 11 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -163,6 +170,63 @@ export default function LuxusuhrenKaufenPage() {
             „💎 Premium Highlights" tagesaktuell die derzeit teuersten verfügbaren Uhren und Premium-Produkte im
             direkten Preisvergleich – darunter auch die Dark Matter 4 von Tsarbomba.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Uhrwerk und Zertifizierung: Was du wissen solltest</h2>
+          <ul>
+            <li><strong>Quarz:</strong> Genau, wartungsarm und robust. Auch in Premium-Uhren zu finden.</li>
+            <li><strong>Automatik:</strong> Mechanisches Werk, das sich durch Armbewegung aufzieht. Beliebt wegen Handwerk und Optik.</li>
+            <li><strong>Manufakturwerk:</strong> Vom Hersteller selbst entwickelt und gebaut, oft mit höherem Aufwand und Preis.</li>
+            <li><strong>Chronometer-Zertifikat:</strong> Prüft die Ganggenauigkeit eines Werks nach festgelegten Kriterien. Ein Zertifikat sagt etwas über Genauigkeit aus, nicht über den Preis oder die Optik.</li>
+            <li><strong>Saphirglas:</strong> Sehr kratzfest und in dieser Preisklasse üblich.</li>
+          </ul>
+          <p>
+            Grundlagen zu Werk, Glas und Material stehen im Beitrag{" "}
+            <a href="/blog/uhren-kaufen-ratgeber/">Uhren kaufen: Automatik, Quarz oder Solar</a>.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Echtheit und Händlerwahl: So schützt du dich</h2>
+          <ul>
+            <li><strong>Autorisierter Händler oder etablierter Fachhandel:</strong> Hier bekommst du Garantie, Papiere und Rückgabe nach Gesetz.</li>
+            <li><strong>Papiere und Zubehör:</strong> Garantiekarte, Kaufbeleg, Originalbox und Zubehör gehören bei neuen Uhren dazu. Fehlende Unterlagen sind ein Warnsignal.</li>
+            <li><strong>Seriennummer:</strong> Sie sollte auf der Uhr und in den Papieren übereinstimmen. Abweichungen oder fehlende Nummern sind ein Warnsignal.</li>
+            <li><strong>Zu gutes Angebot:</strong> Ein Preis weit unter üblichen Händlerpreisen ist ein deutliches Warnzeichen für Fälschung oder unseriösen Verkauf.</li>
+            <li><strong>Gebraucht kaufen:</strong> Frage nach Zustand, Servicehistorie und Rückgabebedingungen. Bei hohen Summen kann eine Prüfung durch einen Uhrmacher sinnvoll sein.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Service, Versicherung und Aufbewahrung</h2>
+          <ul>
+            <li><strong>Wartung:</strong> Mechanische Uhren brauchen in regelmäßigen Abständen eine Revision, die der Hersteller angibt. Die Kosten sind je nach Modell hoch und sollten in die Planung einfließen.</li>
+            <li><strong>Versicherung:</strong> Wertvolle Uhren sind nicht automatisch ausreichend über die Hausratversicherung gedeckt. Lass dich beraten und halte Kaufbeleg und Seriennummer bereit.</li>
+            <li><strong>Aufbewahrung:</strong> Trocken, stoßgeschützt und getrennt von Magnetfeldern. Ein Uhrenbeweger ist nur bei Automatikwerken ein Thema.</li>
+            <li><strong>Tragen im Alltag:</strong> Beachte die Wasserdichtigkeit und vermeide Stöße, Hitze und Chemikalien.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Wertentwicklung: Keine Geldanlage mit Garantie</h2>
+          <p>
+            Manche Uhren behalten ihren Wert oder gewinnen ihn, viele verlieren aber über die Jahre
+            deutlich. Preise hängen von Nachfrage, Zustand, Papieren und Marktphase ab. Kaufe eine Uhr, weil
+            sie dir gefällt und du sie tragen willst, nicht als sichere Geldanlage. Dieser Beitrag ist keine
+            Anlageberatung.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler beim Kauf hochpreisiger Uhren</h2>
+          <ul>
+            <li><strong>Nur auf den Markennamen achten:</strong> Material, Werk und Verarbeitung entscheiden, ob der Preis fair ist.</li>
+            <li><strong>Folgekosten übersehen:</strong> Service und Versicherung kommen zum Kaufpreis dazu.</li>
+            <li><strong>Papiere nicht prüfen:</strong> Ohne Unterlagen sinkt Wiederverkaufswert und Sicherheit.</li>
+            <li><strong>Unter Zeitdruck kaufen:</strong> Gerade bei Sondereditionen entsteht schnell Hektik. Prüfe Händler und Bedingungen in Ruhe.</li>
+            <li><strong>Rückgabe:</strong> Bei Online-Käufen gilt grundsätzlich ein 14-tägiges Widerrufsrecht. Trage die Uhr bis dahin nicht im Alltag, damit sie in neuwertigem Zustand zurückgehen kann.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

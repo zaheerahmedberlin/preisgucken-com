@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Umstandsmode kaufen: Was sich wirklich lohnt",
-  description: "Umstands- und Stillmode, die über die Schwangerschaft hinaus nutzbar bleibt – worauf du beim Kauf achten solltest, mit Preisvergleich.",
+  description: "Umstandsmode kaufen: Kapselgarderobe, Stillmode, Passform, Schuhe, Second-Hand und Pflege – welche Teile sich wirklich lohnen.",
   keywords: [
     "umstandsmode kaufen",
     "umstandsmode schwangerschaft",
@@ -10,6 +10,10 @@ export const metadata: Metadata = {
     "umstandskleidung",
     "schwangerschaftsmode",
     "umstandsleggings",
+    "umstandsmode kapselgarderobe",
+    "still bh kaufen wann",
+    "umstandsmode second hand",
+    "stillmode lohnt sich",
   ],
   openGraph: {
     title: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen",
@@ -17,6 +21,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/umstandsmode-kaufen-guide/",
     type: "article",
     publishedTime: "2026-09-09",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/umstandsmode-kaufen-guide/" },
@@ -33,6 +38,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Umstandsmode kaufen: Welche Teile sich wirklich lohnen",
   datePublished: "2026-09-09",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -61,7 +67,8 @@ export default function UmstandsmodeKaufenPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 9. September 2026</span>
-            <span>⏱ 6 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 9 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -148,6 +155,72 @@ export default function UmstandsmodeKaufenPage() {
             günstiger pro Teil als der Einzelkauf derselben Stücke – besonders bei Basics lohnt sich das
             Set nachzurechnen.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Kapselgarderobe: Das reicht für die meisten</h2>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th>Teil</th><th>Anzahl als Richtwert</th><th>Hinweis</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Hosen oder Leggings</td><td>2–3</td><td>Bauchbund wächst mit; dunkle Farben sind vielseitig</td></tr>
+                <tr><td>Shirts und Oberteile</td><td>4–6</td><td>Stillfunktion verlängert die Tragedauer</td></tr>
+                <tr><td>Kleid</td><td>1–2</td><td>Sowohl für Alltag als auch für Anlässe nutzbar</td></tr>
+                <tr><td>Strickjacke oder Pullover</td><td>1–2</td><td>Lässt sich über Basics schichten</td></tr>
+                <tr><td>Jacke</td><td>1</td><td>Je nach Jahreszeit, mit Platz über dem Bauch</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="small text-muted">
+            Die Zahlen sind eine grobe Orientierung. Dein Bedarf hängt von Jahreszeit, Job und
+            Waschrhythmus ab. Kaufe lieber später nach, als zu viel auf einmal.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Still-BH, Schuhe und Basics: Worauf du achten solltest</h2>
+          <ul>
+            <li><strong>Still-BH:</strong> Die Brust verändert sich während der Schwangerschaft und nach der Geburt noch einmal. Viele kaufen deshalb nur wenige Stück zu Beginn und ergänzen gegen Ende der Schwangerschaft, wenn sich die Größe besser einschätzen lässt. Eine Fachberatung im Laden oder durch die Hebamme kann helfen.</li>
+            <li><strong>Schuhe:</strong> Füße können anschwellen. Bequeme Schuhe mit etwas Spielraum und gutem Halt sind sinnvoll. Prüfe die Passform am besten am Nachmittag.</li>
+            <li><strong>Unterwäsche:</strong> Nahtlose, dehnbare Modelle mit weichem Bund sind angenehm. Der Bund sollte nicht einschneiden.</li>
+            <li><strong>Stützgürtel und Kompressionsstrümpfe:</strong> Ob sie für dich sinnvoll sind, besprich mit Ärztin, Arzt oder Hebamme. Kaufe sie nicht auf Verdacht.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Normale Kleidung weiter nutzen</h2>
+          <ul>
+            <li><strong>Größer kaufen:</strong> Weite Oberteile, Wickelkleider und dehnbare Stoffe aus der normalen Garderobe tragen sich oft lange weiter.</li>
+            <li><strong>Bauchband:</strong> Mit einem Bauchband für Hosen lässt sich der Knopf offen lassen, ohne eine neue Hose zu kaufen.</li>
+            <li><strong>Leihen und tauschen:</strong> Freundinnen, Familie und Tauschbörsen sind eine gute Quelle für Umstandsmode, die oft nur wenige Monate getragen wurde.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Pflege und Weiterverwendung</h2>
+          <ul>
+            <li><strong>Waschen:</strong> Wähle pflegeleichte Stoffe und beachte die Etiketten, damit Dehnbarkeit und Passform erhalten bleiben.</li>
+            <li><strong>Nach der Geburt:</strong> Stillmode und weite Basics lassen sich in der Stillzeit weiter tragen. Danach kannst du sie weitergeben oder verkaufen.</li>
+            <li><strong>Aufbewahren:</strong> Wenn du ein weiteres Kind planst, lagere gut erhaltene Teile trocken und luftig.</li>
+          </ul>
+          <p>
+            Weitere Themen rund um die erste Zeit findest du in den Beiträgen{" "}
+            <a href="/blog/kinderwagen-kaufen-typ-guide/">Kinderwagen kaufen</a> und{" "}
+            <a href="/blog/babyschlafsack-tog-wert-guide/">Babyschlafsack und TOG-Wert</a>.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler beim Kauf von Umstandsmode</h2>
+          <ul>
+            <li><strong>Zu früh zu viel kaufen:</strong> Der Bauch wächst individuell und nicht linear.</li>
+            <li><strong>Nur auf Optik achten:</strong> Komfort, Bund und Stoff entscheiden, wie oft du ein Teil trägst.</li>
+            <li><strong>Die Jahreszeit vergessen:</strong> Ein Winterbauch braucht andere Teile als ein Sommerbauch.</li>
+            <li><strong>Stillfunktion übersehen:</strong> Sie verlängert die Nutzungsdauer erheblich.</li>
+            <li><strong>Rückgabe:</strong> Bei Online-Käufen gilt grundsätzlich ein 14-tägiges Widerrufsrecht. Bestelle bei Unsicherheit zwei Größen und sende eine zurück.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
