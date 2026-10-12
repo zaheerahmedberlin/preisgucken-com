@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Überwachungskamera kaufen: Akku oder Solar?",
-  description: "Outdoor, Video-Türklingel oder Innenkamera – welcher Kameratyp zu welchem Einsatzort passt.",
+  description: "Überwachungskamera kaufen: Kameratypen, Auflösung, Speicher, Datenschutz und Recht, sichere Einrichtung und Standort – mit Preisvergleich.",
   keywords: [
     "überwachungskamera kaufen",
     "outdoor kamera akku",
@@ -12,6 +12,10 @@ export const metadata: Metadata = {
     "imou kamera",
     "wlan kamera außen",
     "sicherheitskamera zuhause",
+    "überwachungskamera datenschutz",
+    "überwachungskamera hinweisschild",
+    "überwachungskamera sicher einrichten",
+    "kamera cloud oder sd karte",
   ],
   openGraph: {
     title: "Überwachungskamera kaufen: Akku oder Solar?",
@@ -19,6 +23,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/ueberwachungskamera-kaufen/",
     type: "article",
     publishedTime: "2026-08-11",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Überwachungskamera kaufen: Akku oder Solar?" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/ueberwachungskamera-kaufen/" },
@@ -35,6 +40,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Überwachungskamera kaufen: Akku oder Solar?",
   datePublished: "2026-08-11",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -63,7 +69,8 @@ export default function UeberwachungskameraKaufenPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 11. August 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -155,6 +162,62 @@ export default function UeberwachungskameraKaufenPage() {
             gleiche Anzahl an Einzelkameras mit jeweils eigenem Cloud-Abo — besonders wenn du mehr als zwei Bereiche
             dauerhaft überwachen willst.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Datenschutz und Recht: Was ist erlaubt?</h2>
+          <p>
+            Eine Kamera am eigenen Haus ist grundsätzlich möglich, aber sie darf die Rechte anderer nicht
+            verletzen. Die folgenden Punkte sind eine allgemeine Orientierung und keine Rechtsberatung. Bei
+            konkreten Fragen helfen Datenschutzbehörde oder Fachanwalt.
+          </p>
+          <ul>
+            <li><strong>Nur das eigene Grundstück:</strong> Der Erfassungsbereich sollte auf dein Grundstück begrenzt sein. Öffentliche Wege, Straße und Nachbargrundstücke gehören nicht ins Bild. Viele Kameras erlauben Privatzonen, die du ausblenden kannst.</li>
+            <li><strong>Hinweisschild:</strong> Weise bei Aufnahmen, die Personen erfassen können, deutlich auf die Videoüberwachung hin.</li>
+            <li><strong>Speicherdauer:</strong> Speichere Aufnahmen nur so lange wie nötig. Häufig werden wenige Tage empfohlen; die Behörden verweisen auf den Zweck der Überwachung.</li>
+            <li><strong>Ton:</strong> Das heimliche Aufzeichnen von Gesprächen kann strafbar sein. Schalte die Tonaufnahme aus, wenn du sie nicht brauchst.</li>
+            <li><strong>Innenräume und Mietwohnung:</strong> In Gemeinschaftsflächen und im Treppenhaus brauchst du in der Regel eine Zustimmung. Kameras, die Gäste oder Mitbewohner erfassen, sollten besprochen werden.</li>
+            <li><strong>Beschäftigte:</strong> Wer Personal im Haushalt beschäftigt, sollte die Überwachung vorher klären, da besondere Regeln gelten.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Sicher einrichten: Die Kamera darf nicht zur Schwachstelle werden</h2>
+          <ul>
+            <li><strong>Starkes Passwort:</strong> Ändere das Standardpasswort sofort und nutze für jedes Gerät ein eigenes. Aktiviere die Zwei-Faktor-Anmeldung, wenn die App sie anbietet.</li>
+            <li><strong>Firmware aktualisieren:</strong> Installiere Updates, da sie Sicherheitslücken schließen.</li>
+            <li><strong>WLAN absichern:</strong> Verwende ein sicheres WLAN-Passwort und nach Möglichkeit ein eigenes Netz für Smart-Home-Geräte.</li>
+            <li><strong>Cloud oder lokal:</strong> Prüfe, wo Aufnahmen gespeichert werden, ob sie verschlüsselt sind und welche Kosten das Abo verursacht. Lokale Speicherung gibt dir mehr Kontrolle.</li>
+            <li><strong>Zugriff teilen:</strong> Gib Zugang nur Personen, die ihn brauchen, und entferne ihn, wenn sich die Situation ändert.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Standort und Montage: So holst du das Beste heraus</h2>
+          <ul>
+            <li><strong>Höhe und Winkel:</strong> Montiere Kameras so, dass sie Gesichter und Wege gut erfassen, aber nicht leicht erreichbar sind. Eine leicht nach unten geneigte Position reduziert Spiegelungen.</li>
+            <li><strong>Gegenlicht vermeiden:</strong> Richte die Kamera nicht direkt gegen Sonne oder helle Lampen, da der Bildbereich sonst überstrahlt.</li>
+            <li><strong>Erfassungszonen:</strong> Lege Bewegungsbereiche fest, damit nicht jede Katze oder jedes Auto einen Alarm auslöst.</li>
+            <li><strong>Stromversorgung:</strong> Plane Kabelwege, Steckdosen oder Solarpanel vor dem Kauf. Bei Akkus brauchst du Zugang zum Laden.</li>
+            <li><strong>Nachtsicht:</strong> Prüfe die Reichweite der Infrarot-Beleuchtung und ob die Kamera Farbbilder bei Nacht bietet.</li>
+          </ul>
+          <p>
+            Eine andere Einsatzart behandelt der Ratgeber{" "}
+            <a href="/blog/wildkamera-kaufen-ratgeber/">Wildkamera kaufen</a>, und den Einstieg in vernetzte
+            Geräte erleichtert der Beitrag{" "}
+            <a href="/blog/smart-home-nachruesten-guide/">Smart Home nachrüsten</a>.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler beim Kamerakauf</h2>
+          <ul>
+            <li><strong>Datenschutz nicht prüfen:</strong> Falsche Ausrichtung kann zu Abmahnungen oder Beschwerden führen.</li>
+            <li><strong>Standardpasswort belassen:</strong> Ungeschützte Kameras sind ein Einfallstor.</li>
+            <li><strong>Nur auf Megapixel achten:</strong> Sensor, Nachtsicht und Software entscheiden über die Bildqualität.</li>
+            <li><strong>Abo-Kosten übersehen:</strong> Cloud-Funktionen kosten oft monatlich. Vergleiche Gesamtkosten über mehrere Jahre.</li>
+            <li><strong>Rückgabe:</strong> Bei Online-Käufen gilt grundsätzlich ein 14-tägiges Widerrufsrecht. Teste Verbindung, Bildqualität und App direkt nach Erhalt.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

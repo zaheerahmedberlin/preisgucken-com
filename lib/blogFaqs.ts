@@ -6,6 +6,20 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "workwear-trend-painter-pants-chore-jacket": [
+    { q: "Was ist eine Painter Pant?", a: "Eine robuste Bundhose im Stil klassischer Malerhosen, meist aus Baumwolle oder Twill, mit weitem Bein und praktischen Taschen. Heute ist sie vor allem als Alltagsmode beliebt." },
+    { q: "Was ist der Unterschied zwischen Chore Jacket und Coverall Jacket?", a: "Eine Chore Jacket ist eine kurze, robuste Arbeitsjacke mit Knopfleiste, oft aus schwererem Stoff. Eine Coverall Jacket ist meist etwas leichter und kürzer geschnitten, oft aus Twill." },
+    { q: "Läuft Workwear beim Waschen ein?", a: "Unbehandelte Baumwolle kann beim ersten Waschen einlaufen. Achte auf Hinweise des Herstellers zu Vorwäsche und Pflege und wähle im Zweifel eine größere Größe." },
+    { q: "Ist Workwear als Mode auch Arbeitsschutzkleidung?", a: "Nein. Die Teile sind für den Alltag gedacht und nicht nach Normen für Arbeitsschutz geprüft. Für Baustelle und Werkstatt brauchst du entsprechende Schutzkleidung." },
+    { q: "Wie pflege ich Workwear am besten?", a: "Nach Etikett bei niedriger Temperatur und auf links waschen, luftgetrocknet schont Fasern und Farbe. Kleine Schäden lassen sich nähen oder mit Patches reparieren." },
+  ],
+  "ueberwachungskamera-kaufen": [
+    { q: "Darf ich eine Überwachungskamera an meinem Haus anbringen?", a: "Grundsätzlich ja, wenn sie nur dein eigenes Grundstück erfasst. Öffentliche Wege, Straße und Nachbargrundstücke dürfen nicht ins Bild. Das ist eine allgemeine Orientierung, keine Rechtsberatung." },
+    { q: "Brauche ich ein Hinweisschild für die Kamera?", a: "Wenn Personen von der Kamera erfasst werden können, ist ein deutlicher Hinweis auf die Videoüberwachung empfehlenswert und je nach Situation gesetzlich vorgeschrieben." },
+    { q: "Wie lange darf ich Aufnahmen speichern?", a: "So lange, wie es für den Zweck nötig ist. Häufig werden wenige Tage genannt; maßgeblich sind der konkrete Zweck und die Hinweise der Datenschutzbehörde." },
+    { q: "Cloud-Speicher oder SD-Karte: Was ist besser?", a: "Cloud-Speicher schützt vor Verlust bei Diebstahl der Kamera, verursacht aber laufende Kosten und gibt Daten an einen Anbieter. Eine SD-Karte oder ein NVR ist einmalig, kann aber bei Diebstahl weg sein." },
+    { q: "Wie mache ich meine Kamera sicherer?", a: "Standardpasswort ändern, Zwei-Faktor-Anmeldung aktivieren, Firmware aktuell halten, ein sicheres WLAN nutzen und den Zugriff auf Personen beschränken, die ihn brauchen." },
+  ],
   "handyhuellen-kaufen-material-schutz": [
     { q: "Schützt eine Handyhülle auch das Display?", a: "Nur begrenzt. Eine erhöhte Kante verhindert, dass das Display bei einem flachen Sturz direkt aufschlägt. Für Kratzer und Stöße auf der Displayfläche braucht es zusätzlich Panzerglas oder eine Schutzfolie." },
     { q: "Welche Hülle ist am besten bei Stürzen?", a: "Hybrid-Hüllen mit hartem Rahmen und weicher Innenschicht dämpfen Stöße oft besser als reine Silikonhüllen. Verstärkte Ecken und eine erhöhte Kante verbessern den Schutz." },
