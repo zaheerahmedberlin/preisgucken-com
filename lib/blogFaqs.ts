@@ -6,6 +6,20 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "damenpullover-kaufen-material-pflege-guide": [
+    { q: "Merino oder Kaschmir: Was ist besser?", a: "Merino ist robuster und meist pflegeleichter, Kaschmir ist sehr weich und leicht, braucht aber schonende Pflege. Die Qualität schwankt bei beiden stark, daher lohnt der Blick auf Verarbeitung und Zusammensetzung." },
+    { q: "Wie wasche ich einen Wollpullover?", a: "Nach Etikett im Schonprogramm oder mit der Hand, bei niedriger Temperatur und mit Wollwaschmittel. Nicht auswringen, sondern flach liegend trocknen." },
+    { q: "Warum bilden sich Knötchen am Pullover?", a: "Das nennt man Pilling. Es entsteht durch Reibung, besonders bei Mischgeweben, und lässt sich mit einem Fusselrasierer entfernen. Bei vielen Strickwaren ist es normal." },
+    { q: "Läuft ein Pullover beim Waschen ein?", a: "Das kann passieren, vor allem bei Wolle und zu heißem Waschen oder Trocknen im Trockner. Halte dich an das Pflegeetikett." },
+    { q: "Wie finde ich die richtige Größe online?", a: "Vergleiche Brust-, Taillen- und Hüftumfang mit der Größentabelle des Shops und achte auf die Passformangabe (normal, locker, figurbetont). Bei Zwischengrößen kann die größere Größe sinnvoll sein." },
+  ],
+  "haarpflege-kaufen-haartyp-guide": [
+    { q: "Wie finde ich mein passendes Shampoo?", a: "Richte dich nach Kopfhaut und Haartyp: Fettet der Ansatz schnell, passen leichte Shampoos; ist das Haar trocken oder gefärbt, helfen pflegende Varianten. Probiere ein Produkt einige Wochen aus, bevor du urteilst." },
+    { q: "Brauche ich Spülung und Haarkur?", a: "Spülung glättet die Oberfläche und erleichtert das Kämmen. Eine Kur ist eine Intensivpflege für strapaziertes Haar und wird nur gelegentlich benutzt. Bei feinem, gesundem Haar reicht oft die Spülung." },
+    { q: "Sind Silikone und Sulfate schlecht für die Haare?", a: "Das lässt sich nicht pauschal sagen. Silikone glätten und schützen, können aber bei feinem Haar beschweren; Sulfate reinigen gründlich, können empfindliche Kopfhaut aber reizen. Entscheidend ist, wie dein Haar reagiert." },
+    { q: "Wie oft sollte ich meine Haare waschen?", a: "Das hängt vom Haar und der Kopfhaut ab. Wasche so oft, wie du es für angenehm hältst, etwa wenn der Ansatz fettet oder die Kopfhaut spannt." },
+    { q: "Brauche ich Hitzeschutz?", a: "Wenn du Föhn, Glätteisen oder Lockenstab regelmäßig benutzt, ist Hitzeschutz sinnvoll, um die Haare zu schonen. Trage ihn auf das handtuchtrockene Haar auf." },
+  ],
   "kleider-fuer-jeden-anlass": [
     { q: "Welches Kleid ist für den Alltag am vielseitigsten?", a: "Ein Midi-Kleid in A-Linie oder als Wickelkleid aus weichem, knitterarmem Stoff wie Jersey oder Viskose lässt sich vom Büro bis in die Freizeit tragen." },
     { q: "Wie lange vorher sollte ich ein Brautkleid bestellen?", a: "So früh wie möglich, da Lieferung und Änderungen mehrere Monate brauchen können. Die genaue Lieferzeit nennt der jeweilige Shop." },
