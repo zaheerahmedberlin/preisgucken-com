@@ -144,6 +144,16 @@ export default function Page() {
           </ul>
         </section>
 
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Farben und Muster: Was lässt sich gut kombinieren?</h2>
+          <ul>
+            <li><strong>Basisfarben:</strong> Schwarz, Navy, Grau, Creme und Kamel passen zu fast allem und sind als erster Pullover eine sichere Wahl.</li>
+            <li><strong>Akzentfarben:</strong> Ein farbiger Pullover wirkt zu neutralen Hosen und lässt sich leicht mit einem Schal oder Schmuck ergänzen.</li>
+            <li><strong>Muster:</strong> Zopfmuster, Streifen oder Norwegerstrick sind markant. Kombiniere sie mit schlichten Teilen, damit der Look ruhig bleibt.</li>
+            <li><strong>Hauttyp und Lichtfarbe:</strong> Probiere Farben bei Tageslicht an, denn sie wirken drinnen oft anders als im Freien oder auf dem Bildschirm.</li>
+          </ul>
+        </section>
+
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>
           <h3 className="h5 fw-bold mb-2">Damenpullover im Preisvergleich</h3>
           <p className="text-muted small mb-3">Pullover und Strickwaren aus deutschen Online-Shops vergleichen.</p>
