@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "kleider-fuer-jeden-anlass": [
+    { q: "Welches Kleid ist für den Alltag am vielseitigsten?", a: "Ein Midi-Kleid in A-Linie oder als Wickelkleid aus weichem, knitterarmem Stoff wie Jersey oder Viskose lässt sich vom Büro bis in die Freizeit tragen." },
+    { q: "Wie lange vorher sollte ich ein Brautkleid bestellen?", a: "So früh wie möglich, da Lieferung und Änderungen mehrere Monate brauchen können. Die genaue Lieferzeit nennt der jeweilige Shop." },
+    { q: "Kann ich ein Brautkleid zurückgeben, das ich online bestellt habe?", a: "Bei Online-Käufen gilt grundsätzlich ein Widerrufsrecht von 14 Tagen. Wird das Kleid nach deinen Maßen angefertigt, entfällt es in der Regel. Die Bedingungen stehen im jeweiligen Shop; dies ist keine Rechtsberatung." },
+    { q: "Worauf achte ich bei Umstandskleidern?", a: "Auf Dehnungsreserve durch Elasthan, mitwachsende Details wie Wickel- oder Raffungen und, wenn gewünscht, eine Stillfunktion, damit das Kleid länger nutzbar bleibt." },
+    { q: "Wie finde ich die richtige Größe online?", a: "Miss Oberweite, Taille und Hüfte und vergleiche mit der Größentabelle des Shops. Bei Zwischengrößen ist die größere Größe oft die bessere Wahl, weil sich ein Kleid leichter enger machen als weiten lässt." },
+  ],
   "pc-zubehoer-original-oder-kompatibel": [
     { q: "Sind kompatible Druckerpatronen schlechter als Original?", a: "Nicht grundsätzlich. Bei Alltagsdokumenten ist der Unterschied oft gering, bei Fotos kann Originaltinte farbtreuer sein. Die Qualität schwankt zwischen Anbietern, daher helfen Bewertungen und die genaue Modellangabe." },
     { q: "Verliere ich die Garantie meines Druckers bei Fremdpatronen?", a: "Nicht automatisch. Die gesetzliche Gewährleistung gegenüber dem Verkäufer bleibt bestehen. Eine freiwillige Herstellergarantie hat eigene Bedingungen, und bei Schäden, die nachweislich durch die Patrone entstehen, kann der Anspruch eingeschränkt sein. Das ist keine Rechtsberatung." },
