@@ -1,6 +1,7 @@
 // Display names of the preisgucken.de categories referenced by `pgLink` in
 // lib/blogCategories.ts. Used for the keyword anchor text in <RelatedOffers>.
 export const PG_CATEGORY_NAMES: Record<string, string> = {
+  "damenhosen": "Damenhosen",
   "koerperpflege": "Körperpflege",
   "make-up-gesicht": "Make-up Gesicht",
   "damenpullover": "Damenpullover",
