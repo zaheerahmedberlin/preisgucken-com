@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Kleider für jeden Anlass: 3 Schnitte",
-  description: "Alltagskleid, Brautkleid oder Umstandskleid – welcher Schnitt und Stoff passt zu welchem Anlass?",
+  description: "Kleider für jeden Anlass: Alltag, Brautkleid und Umstandskleid – Schnitte, Stoffe, Größe und Rückgabe. Mit Wegweiser zu den Detail-Ratgebern.",
   keywords: [
     "kleider kaufen",
     "kleid für jeden anlass",
@@ -13,6 +13,10 @@ export const metadata: Metadata = {
     "damenkleider preisvergleich",
     "kleid stoffe vergleich",
     "kleidergröße bestimmen",
+    "kleid für anlass finden",
+    "brautkleid online bestellen zeitplan",
+    "kleid stoffe pflege",
+    "kleid größe bestimmen online",
   ],
   openGraph: {
     title: "Kleider für jeden Anlass: 3 Schnitte",
@@ -20,6 +24,7 @@ export const metadata: Metadata = {
     url: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass/",
     type: "article",
     publishedTime: "2026-08-04",
+    modifiedTime: "2026-10-05",
     images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Kleider für jeden Anlass: 3 Schnitte" }],
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/kleider-fuer-jeden-anlass/" },
@@ -36,6 +41,7 @@ const jsonLd = {
   image: "https://www.preisgucken.com/opengraph-image/",
   headline: "Kleider für jeden Anlass: 3 Schnitte",
   datePublished: "2026-08-04",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -64,7 +70,8 @@ export default function KleiderFuerJedenAnlassPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 4. August 2026</span>
-            <span>⏱ 8 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -82,9 +89,8 @@ export default function KleiderFuerJedenAnlassPage() {
             <li><strong>Midi-Länge:</strong> die vielseitigste Wahl zwischen Büro und Freizeit</li>
           </ul>
           <p className="small text-muted">
-            Im Preisvergleich für Alltagskleider lohnt sich ein Blick auf die Materialangabe im Detail – ein
-            Baumwollanteil ab 95 % ist meist ein guter Indikator für Langlebigkeit auch nach vielen Wäschen.
-          </p>
+            Im Preisvergleich für Alltagskleider lohnt sich ein Blick auf die Materialangabe im Detail: Pflegehinweis und
+            Zusammensetzung geben Hinweise auf Langlebigkeit: Natürliche Fasern sind atmungsaktiv, Mischgewebe oft pflegeleichter.</p>
         </section>
 
         <section className="mb-5">
@@ -149,6 +155,55 @@ export default function KleiderFuerJedenAnlassPage() {
             </a>{" "}
             siehst du tagesaktuelle Preise für Alltags-, Braut-, Umstands- und Cocktailkleider auf einen Blick.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Anlass-Finder: Welcher Ratgeber passt zu deiner Situation?</h2>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th>Anlass</th><th>Worauf es ankommt</th><th>Weiterlesen</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Alltag und Büro</td><td>Bequem, pflegeleicht, vielseitig kombinierbar</td><td><a href="/blog/alltagslook-damenmode-make-up-guide/">Alltagslook-Guide</a></td></tr>
+                <tr><td>Cocktail, Gala, Hochzeitsgast</td><td>Dresscode, Länge, Stoff und Accessoires</td><td><a href="/blog/abendkleid-cocktailkleid-kaufen-ratgeber/">Abend- und Cocktailkleid</a></td></tr>
+                <tr><td>Brautkleid und Hochzeit</td><td>Silhouette, Zeitplan, Änderungen, Geschenke</td><td><a href="/blog/hochzeitsgeschenke-brautpaar-gaeste/">Hochzeit planen</a></td></tr>
+                <tr><td>Schwangerschaft</td><td>Mitwachsen, Stillfunktion, Nutzungsdauer</td><td><a href="/blog/umstandsmode-kaufen-guide/">Umstandsmode</a></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Stoffe und Pflege: Was passt zu welchem Kleid?</h2>
+          <ul>
+            <li><strong>Jersey und Viskose:</strong> Weich fallend und knitterarm, ideal für Alltagskleider. Viskose kann beim Waschen einlaufen, daher Pflegehinweis beachten.</li>
+            <li><strong>Baumwolle und Leinen:</strong> Atmungsaktiv und angenehm im Sommer, aber knitteranfälliger und pflegeintensiver.</li>
+            <li><strong>Satin und Chiffon:</strong> Elegant für festliche Anlässe, empfindlich bei Reibung und Flecken.</li>
+            <li><strong>Spitze und Tüll:</strong> Häufig bei Brautkleidern. Prüfe Futter und Innenverarbeitung, damit nichts kratzt.</li>
+            <li><strong>Pflegeetikett:</strong> Es entscheidet, ob ein Kleid in die Maschine darf oder zur Reinigung muss. Lies es vor dem Kauf, nicht erst nach der ersten Wäsche.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Online bestellen: Zeitplan, Anprobe und Rückgabe</h2>
+          <ul>
+            <li><strong>Plane Puffer ein:</strong> Brautkleider und Sonderanfertigungen brauchen oft mehrere Monate. Rechne zusätzlich Zeit für Änderungen ein.</li>
+            <li><strong>Maße nehmen:</strong> Vergleiche Oberweite, Taille und Hüfte mit der Größentabelle des Shops, nicht mit deiner gewohnten Konfektionsgröße.</li>
+            <li><strong>Widerruf:</strong> Bei Online-Käufen gilt grundsätzlich ein gesetzliches Widerrufsrecht von 14 Tagen. Wird ein Kleid nach deinen Maßen individuell gefertigt, entfällt es in der Regel. Prüfe die Bedingungen des Shops vor der Bestellung.</li>
+            <li><strong>Anprobe:</strong> Probiere zu Hause an, ohne das Kleid zu tragen oder Etiketten zu entfernen, wenn du eine Rückgabe offenhalten möchtest.</li>
+            <li><strong>Änderungen:</strong> Ein Schneider kann Länge, Träger und Taille oft anpassen. Bei Brautkleidern plane mehrere Termine ein.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler beim Kleiderkauf</h2>
+          <ul>
+            <li><strong>Nur nach Foto kaufen:</strong> Stoffbeschreibung, Futter und Größentabelle gehören zur Entscheidung.</li>
+            <li><strong>Zu spät bestellen:</strong> Für Brautkleider und Anlässe mit festem Termin braucht es Reserve.</li>
+            <li><strong>Pflege ignorieren:</strong> Ein Kleid, das nur chemisch gereinigt werden darf, kostet im Unterhalt mehr.</li>
+            <li><strong>Die falsche Länge wählen:</strong> Absatzhöhe und Anlass beeinflussen die Länge, die dir steht.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

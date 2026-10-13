@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Original oder kompatibel? PC-Zubehör",
-  description: "Kompatible Druckerpatronen, das richtige USB-Kabel, SSD-Formfaktoren: Worauf es wirklich ankommt.",
+  title: "Druckerpatronen: Original oder kompatibel?",
+  description: "Druckerpatronen: Original oder kompatibel? Tinte und Toner, Seitenkosten, Firmware-Sperren, dazu USB-C-Kabel, SSD-Formfaktoren und Monitore.",
   keywords: [
     "pc zubehör kaufen",
     "kompatible druckerpatronen",
@@ -13,18 +13,23 @@ export const metadata: Metadata = {
     "netzwerkkabel kaufen",
     "pc zubehör günstig",
     "druckerpatronen original oder kompatibel",
+    "druckerpatronen original oder kompatibel",
+    "tinte oder toner",
+    "kosten pro seite drucker",
+    "firmware sperre fremdpatronen",
   ],
   openGraph: {
-    title: "Original oder kompatibel? PC-Zubehör",
+    title: "Druckerpatronen: Original oder kompatibel?",
     description: "Kompatible Druckerpatronen, das richtige USB-Kabel, SSD-Formfaktoren: Worauf es wirklich ankommt.",
     url: "https://www.preisgucken.com/blog/pc-zubehoer-original-oder-kompatibel/",
     type: "article",
     publishedTime: "2026-08-14",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Original oder kompatibel? PC-Zubehör" }],
+    modifiedTime: "2026-10-05",
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Druckerpatronen: Original oder kompatibel?" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Original oder kompatibel? PC-Zubehör",
+    title: "Druckerpatronen: Original oder kompatibel?",
     description: "Kompatible Druckerpatronen, das richtige USB-Kabel, SSD-Formfaktoren: Worauf es wirklich ankommt.",
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/pc-zubehoer-original-oder-kompatibel/" },
@@ -34,8 +39,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   image: "https://www.preisgucken.com/opengraph-image/",
-  headline: "Original oder kompatibel? PC-Zubehör",
+  headline: "Druckerpatronen: Original oder kompatibel?",
   datePublished: "2026-08-14",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -56,7 +62,7 @@ export default function PcZubehoerPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="brand-heading fw-bold display-6 mb-3">Original oder kompatibel? PC-Zubehör</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Druckerpatronen: Original oder kompatibel?</h1>
           <p className="lead text-muted">
             Ob Druckerpatrone, USB-Kabel oder SSD – bei PC-Zubehör lohnt sich vor dem Kauf ein zweiter Blick.
             Nicht jedes günstigere Produkt ist automatisch die schlechtere Wahl, aber ein paar technische Details
@@ -64,7 +70,8 @@ export default function PcZubehoerPage() {
           </p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 14. August 2026</span>
-            <span>⏱ 7 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 11 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -166,6 +173,79 @@ export default function PcZubehoerPage() {
             günstigste Einzelmaßnahme, um laufende Druckkosten spürbar zu senken – ohne bei alltäglichen
             Textdokumenten einen echten Qualitätsverlust zu bemerken.
           </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Tinte oder Toner? Die Grundlage für die Entscheidung</h2>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th>Merkmal</th><th>Tintenstrahldrucker</th><th>Laserdrucker</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Verbrauchsmaterial</td><td>Tintenpatronen oder Tintentanks</td><td>Tonerkartuschen</td></tr>
+                <tr><td>Geeignet für</td><td>Fotos, gelegentliches Drucken, Farbe</td><td>Viele Textseiten, schnelles Drucken</td></tr>
+                <tr><td>Typisches Risiko</td><td>Eintrocknen bei seltener Nutzung</td><td>Hohe Anschaffungskosten für Toner</td></tr>
+                <tr><td>Hinweis</td><td>Regelmäßig drucken, damit Düsen nicht verstopfen</td><td>Auf Tonerkapazität und Bildtrommel achten</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Original, kompatibel oder wiederbefüllt: Die drei Wege</h2>
+          <ul>
+            <li><strong>Original:</strong> Vom Druckerhersteller, auf das Modell abgestimmt. Meist am teuersten, dafür oft die sicherste Wahl bei Garantie und Fotodruck.</li>
+            <li><strong>Kompatibel (Neubau):</strong> Von Drittanbietern neu gebaut. Qualität und Preis variieren zwischen Anbietern; bekannte Marken liefern oft verlässliche Ergebnisse.</li>
+            <li><strong>Wiederbefüllt (Remanufactured):</strong> Gebrauchte Originalgehäuse werden neu befüllt. Das ist ressourcenschonend, die Qualität hängt aber stark vom Aufbereiter ab.</li>
+            <li><strong>Nachfüllsysteme und Tintentank-Drucker:</strong> Hier füllst du Tinte aus Flaschen nach. Die Kosten pro Seite sind meist niedrig, die Anschaffung des Druckers ist höher.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Kosten pro Seite richtig vergleichen</h2>
+          <p>
+            Der Preis einer Patrone sagt wenig, wenn du die Reichweite nicht kennst. Teile den Preis durch
+            die Seitenzahl, um die Kosten pro Seite zu erhalten. Hersteller geben die Reichweite meist nach
+            standardisierten Verfahren an (zum Beispiel ISO/IEC 24711 bei Tinte). Die Praxis kann abweichen,
+            weil Textmenge, Farbanteil und Druckqualität mitspielen. XL-Patronen und Multipacks senken die
+            Kosten pro Seite oft, solange du sie vor dem Eintrocknen verbrauchst.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Firmware-Sperren, Chips und Garantie</h2>
+          <ul>
+            <li><strong>Firmware-Updates:</strong> Manche Druckerhersteller schränken per Update die Nutzung von Fremdpatronen ein. Prüfe in Erfahrungsberichten, ob das für dein Modell gilt, und überlege, automatische Updates zu deaktivieren.</li>
+            <li><strong>Chip und Kompatibilität:</strong> Die Patrone muss exakt für deine Modellnummer freigegeben sein. Prüfe die Kennzeichnung des Anbieters.</li>
+            <li><strong>Garantie:</strong> Die gesetzliche Gewährleistung gegenüber dem Verkäufer bleibt grundsätzlich bestehen. Bedingungen einer freiwilligen Herstellergarantie solltest du nachlesen. Bei Schäden, die nachweislich durch die Patrone entstehen, kann der Anspruch eingeschränkt sein. Das ist eine allgemeine Orientierung, keine Rechtsberatung.</li>
+            <li><strong>Fotodruck:</strong> Farbtreue und Haltbarkeit der Ausdrucke sind bei Originaltinte oft besser abgestimmt. Für Alltagsdokumente reicht in vielen Fällen eine kompatible Patrone.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Kabel, SSDs und Monitore im Detail</h2>
+          <ul>
+            <li><strong>USB-C-Kabel:</strong> Prüfe Datenrate und Ladeleistung. Für Laptops mit höherer Leistung brauchst du Kabel, die diese Leistung ausdrücklich unterstützen. Mehr dazu im Ratgeber <a href="/blog/kabel-und-adapter-kaufen-ratgeber/">Kabel und Adapter</a>.</li>
+            <li><strong>SSD:</strong> Unterschieden wird zwischen SATA und NVMe sowie zwischen Formfaktoren wie M.2. Das Mainboard-Handbuch zeigt, was dein Rechner unterstützt. Details im Beitrag <a href="/blog/ssd-festplatte-usb-stick-kaufen-ratgeber/">SSD, Festplatte und USB-Stick kaufen</a>.</li>
+            <li><strong>Monitor:</strong> Auflösung, Bildwiederholrate und Anschlüsse müssen zu Grafikkarte und Kabel passen. Ein DisplayPort- oder HDMI-Kabel muss die gewünschte Auflösung und Frequenz unterstützen.</li>
+            <li><strong>Maus und Tastatur:</strong> Funk oder Bluetooth? Ein Dongle belegt einen USB-Port, Bluetooth braucht einen passenden Empfänger im Rechner.</li>
+          </ul>
+          <p>
+            Für Zubehör außerhalb des PCs, etwa Auto, Handy und Haushalt, gibt es den Beitrag{" "}
+            <a href="/blog/original-oder-kompatibel-zubehoer-kaufen/">Original oder Nachbau? Zubehör im Check</a>.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Häufige Fehler beim Kauf von Druckerzubehör und PC-Zubehör</h2>
+          <ul>
+            <li><strong>Modellnummer nicht prüfen:</strong> Viele Druckerserien sehen ähnlich aus, brauchen aber unterschiedliche Patronen.</li>
+            <li><strong>Zu viel auf Vorrat kaufen:</strong> Tinte und Toner altern. Kaufe nur so viel, wie du in absehbarer Zeit verbrauchst.</li>
+            <li><strong>Nur auf den Preis achten:</strong> Reichweite, Qualität und Rückgabebedingungen zählen genauso.</li>
+            <li><strong>Kabel unterschätzen:</strong> Ein günstiges Kabel kann ein schnelles Gerät ausbremsen.</li>
+            <li><strong>Rückgabe:</strong> Bei Online-Käufen gilt grundsätzlich ein 14-tägiges Widerrufsrecht. Bei geöffneten Verbrauchsmaterialien kann die Rückgabe eingeschränkt sein; die Bedingungen nennt der Händler.</li>
+          </ul>
         </section>
 
         <div className="card p-4 text-center mb-5" style={{ background: "var(--pg-blue-light)", border: "none" }}>

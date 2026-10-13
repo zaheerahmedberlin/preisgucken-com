@@ -6,6 +6,55 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "koerperpflege-kaufen-hauttyp-guide": [
+    { q: "Welche Körperpflege passt zu trockener Haut?", a: "Reichhaltige Lotionen, Cremes oder Öle, die du direkt nach dem Duschen auf noch leicht feuchte Haut aufträgst. Auch lauwarmes Wasser und kürzere Duschzeiten helfen." },
+    { q: "Bodylotion oder Körperöl: Was ist besser?", a: "Lotionen ziehen schneller ein und eignen sich für den Alltag. Öle sind reichhaltiger und pflegen länger, fühlen sich aber fettiger an. Beides lässt sich kombinieren." },
+    { q: "Wie oft sollte ich ein Körperpeeling nutzen?", a: "Meist ein- bis zweimal pro Woche oder seltener. Auf gereizter oder sonnenverbrannter Haut solltest du kein Peeling verwenden." },
+    { q: "Was bedeutet dermatologisch getestet?", a: "Es bedeutet, dass das Produkt in einer Prüfung unter ärztlicher Aufsicht getestet wurde. Es ist ein Hinweis, aber keine Garantie, dass jeder Mensch das Produkt verträgt." },
+    { q: "Wie vergleiche ich Preise bei Körperpflege richtig?", a: "Teile den Preis durch die Füllmenge und vergleiche den Preis pro 100 ml. Großpackungen sind pro Milliliter oft günstiger, wenn du sie vor Ablauf der Haltbarkeit verbrauchst." },
+  ],
+  "make-up-grundausstattung-guide": [
+    { q: "Was brauche ich als Make-up-Einsteigerin wirklich?", a: "Eine Basis für den Teint (Foundation oder Tinted Moisturizer), Concealer, Mascara, ein Brauenprodukt und etwas für die Lippen. Alles Weitere kannst du nach und nach ergänzen." },
+    { q: "Wie finde ich den richtigen Foundation-Farbton?", a: "Teste am Kiefer oder Unterarm bei Tageslicht und beachte deinen Hautunterton. Warte einige Minuten ab, da manche Produkte nachdunkeln." },
+    { q: "Wie lange halten Make-up-Produkte nach dem Öffnen?", a: "Das Symbol mit dem geöffneten Tiegel (PAO) zeigt die empfohlene Verwendungsdauer in Monaten. Mascara und Eyeliner solltest du nach einigen Monaten ersetzen." },
+    { q: "Wie reinige ich Make-up-Pinsel?", a: "Mit mildem Shampoo oder Pinselreiniger und lauwarmem Wasser, anschließend ausdrücken und liegend trocknen lassen. Reinige sie regelmäßig, damit sich keine Rückstände ansammeln." },
+    { q: "Muss ich teures Make-up kaufen?", a: "Nein. Preis und Qualität sind nicht immer verbunden. Wichtig sind Farbe, Textur und Verträglichkeit; Proben und kleine Größen helfen beim Testen." },
+  ],
+  "damenpullover-kaufen-material-pflege-guide": [
+    { q: "Merino oder Kaschmir: Was ist besser?", a: "Merino ist robuster und meist pflegeleichter, Kaschmir ist sehr weich und leicht, braucht aber schonende Pflege. Die Qualität schwankt bei beiden stark, daher lohnt der Blick auf Verarbeitung und Zusammensetzung." },
+    { q: "Wie wasche ich einen Wollpullover?", a: "Nach Etikett im Schonprogramm oder mit der Hand, bei niedriger Temperatur und mit Wollwaschmittel. Nicht auswringen, sondern flach liegend trocknen." },
+    { q: "Warum bilden sich Knötchen am Pullover?", a: "Das nennt man Pilling. Es entsteht durch Reibung, besonders bei Mischgeweben, und lässt sich mit einem Fusselrasierer entfernen. Bei vielen Strickwaren ist es normal." },
+    { q: "Läuft ein Pullover beim Waschen ein?", a: "Das kann passieren, vor allem bei Wolle und zu heißem Waschen oder Trocknen im Trockner. Halte dich an das Pflegeetikett." },
+    { q: "Wie finde ich die richtige Größe online?", a: "Vergleiche Brust-, Taillen- und Hüftumfang mit der Größentabelle des Shops und achte auf die Passformangabe (normal, locker, figurbetont). Bei Zwischengrößen kann die größere Größe sinnvoll sein." },
+  ],
+  "haarpflege-kaufen-haartyp-guide": [
+    { q: "Wie finde ich mein passendes Shampoo?", a: "Richte dich nach Kopfhaut und Haartyp: Fettet der Ansatz schnell, passen leichte Shampoos; ist das Haar trocken oder gefärbt, helfen pflegende Varianten. Probiere ein Produkt einige Wochen aus, bevor du urteilst." },
+    { q: "Brauche ich Spülung und Haarkur?", a: "Spülung glättet die Oberfläche und erleichtert das Kämmen. Eine Kur ist eine Intensivpflege für strapaziertes Haar und wird nur gelegentlich benutzt. Bei feinem, gesundem Haar reicht oft die Spülung." },
+    { q: "Sind Silikone und Sulfate schlecht für die Haare?", a: "Das lässt sich nicht pauschal sagen. Silikone glätten und schützen, können aber bei feinem Haar beschweren; Sulfate reinigen gründlich, können empfindliche Kopfhaut aber reizen. Entscheidend ist, wie dein Haar reagiert." },
+    { q: "Wie oft sollte ich meine Haare waschen?", a: "Das hängt vom Haar und der Kopfhaut ab. Wasche so oft, wie du es für angenehm hältst, etwa wenn der Ansatz fettet oder die Kopfhaut spannt." },
+    { q: "Brauche ich Hitzeschutz?", a: "Wenn du Föhn, Glätteisen oder Lockenstab regelmäßig benutzt, ist Hitzeschutz sinnvoll, um die Haare zu schonen. Trage ihn auf das handtuchtrockene Haar auf." },
+  ],
+  "kleider-fuer-jeden-anlass": [
+    { q: "Welches Kleid ist für den Alltag am vielseitigsten?", a: "Ein Midi-Kleid in A-Linie oder als Wickelkleid aus weichem, knitterarmem Stoff wie Jersey oder Viskose lässt sich vom Büro bis in die Freizeit tragen." },
+    { q: "Wie lange vorher sollte ich ein Brautkleid bestellen?", a: "So früh wie möglich, da Lieferung und Änderungen mehrere Monate brauchen können. Die genaue Lieferzeit nennt der jeweilige Shop." },
+    { q: "Kann ich ein Brautkleid zurückgeben, das ich online bestellt habe?", a: "Bei Online-Käufen gilt grundsätzlich ein Widerrufsrecht von 14 Tagen. Wird das Kleid nach deinen Maßen angefertigt, entfällt es in der Regel. Die Bedingungen stehen im jeweiligen Shop; dies ist keine Rechtsberatung." },
+    { q: "Worauf achte ich bei Umstandskleidern?", a: "Auf Dehnungsreserve durch Elasthan, mitwachsende Details wie Wickel- oder Raffungen und, wenn gewünscht, eine Stillfunktion, damit das Kleid länger nutzbar bleibt." },
+    { q: "Wie finde ich die richtige Größe online?", a: "Miss Oberweite, Taille und Hüfte und vergleiche mit der Größentabelle des Shops. Bei Zwischengrößen ist die größere Größe oft die bessere Wahl, weil sich ein Kleid leichter enger machen als weiten lässt." },
+  ],
+  "pc-zubehoer-original-oder-kompatibel": [
+    { q: "Sind kompatible Druckerpatronen schlechter als Original?", a: "Nicht grundsätzlich. Bei Alltagsdokumenten ist der Unterschied oft gering, bei Fotos kann Originaltinte farbtreuer sein. Die Qualität schwankt zwischen Anbietern, daher helfen Bewertungen und die genaue Modellangabe." },
+    { q: "Verliere ich die Garantie meines Druckers bei Fremdpatronen?", a: "Nicht automatisch. Die gesetzliche Gewährleistung gegenüber dem Verkäufer bleibt bestehen. Eine freiwillige Herstellergarantie hat eigene Bedingungen, und bei Schäden, die nachweislich durch die Patrone entstehen, kann der Anspruch eingeschränkt sein. Das ist keine Rechtsberatung." },
+    { q: "Was kostet eine Seite wirklich?", a: "Teile den Preis der Patrone durch die angegebene Seitenreichweite. Die Praxis weicht oft ab, weil Text, Farbanteil und Einstellungen mitspielen. XL-Patronen senken die Kosten pro Seite meist." },
+    { q: "Was sind Firmware-Sperren bei Druckern?", a: "Manche Hersteller schränken per Update die Nutzung von Fremdpatronen ein. Erfahrungsberichte zu deinem Modell helfen bei der Einschätzung. Automatische Updates lassen sich oft abstellen." },
+    { q: "Welche SSD passt in meinen PC?", a: "Das hängt vom Mainboard ab: Formfaktor (zum Beispiel M.2) und Schnittstelle (SATA oder NVMe) müssen passen. Das Handbuch oder die Herstellerseite zeigt, was dein Rechner unterstützt." },
+  ],
+  "original-oder-kompatibel-zubehoer-kaufen": [
+    { q: "Verliere ich die Garantie, wenn ich Nachbau-Zubehör benutze?", a: "Nicht automatisch. Die gesetzliche Gewährleistung gegenüber dem Verkäufer bleibt bestehen. Eine freiwillige Herstellergarantie kann eigene Bedingungen haben, und Schäden, die nachweislich durch das Zubehör entstehen, sind unter Umständen nicht gedeckt. Dies ist eine allgemeine Orientierung." },
+    { q: "Bei welchem Zubehör sollte ich nicht sparen?", a: "Bei allem mit Sicherheitsfunktion: Bremsteile, Akkus, Ladegeräte und Netzteile. Hier sind Original oder zertifizierte Markenware die bessere Wahl." },
+    { q: "Woran erkenne ich ein sicheres Ladegerät?", a: "An Prüfzeichen wie CE, einer deutlichen Herstellerangabe, Leistungsangaben auf dem Gerät und einem seriösen Händler. Sehr billige Netzteile ohne Kennzeichnung sind ein Warnsignal." },
+    { q: "Wo lohnt sich kompatibles Zubehör?", a: "Bei passivem Zubehör wie Hüllen, Halterungen und Staubsaugerbeuteln, sofern Passform und Verarbeitung stimmen. Die Ersparnis ist hier oft groß und das Risiko gering." },
+    { q: "Wo finde ich Hinweise zu Druckerpatronen?", a: "Im ausführlichen Ratgeber zu Druckerpatronen und PC-Zubehör, den wir separat veröffentlicht haben. Dort geht es um Tinte, Toner, Seitenkosten und Firmware-Sperren." },
+  ],
   "luxusuhren-kaufen": [
     { q: "Wie erkenne ich eine gefälschte Luxusuhr?", a: "Warnzeichen sind Preise weit unter dem üblichen Niveau, fehlende Papiere, unseriöse Händler und Abweichungen bei Verarbeitung oder Seriennummer. Kaufe bei autorisierten oder etablierten Händlern und lasse im Zweifel bei einem Uhrmacher prüfen." },
     { q: "Was kostet die Wartung einer mechanischen Uhr?", a: "Das hängt von Marke, Modell und Werk ab und kann bei Premiumuhren mehrere hundert Euro oder mehr betragen. Der Hersteller nennt Intervall und Service-Umfang." },
