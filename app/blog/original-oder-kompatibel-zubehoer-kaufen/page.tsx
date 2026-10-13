@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Original oder kompatibel? Zubehör-Kauf",
-  description: "Druckerpatronen, Autoteile oder Handy-Zubehör: Wo sich das Original lohnt und wo du sparen kannst.",
+  title: "Original oder Nachbau? Zubehör im Check",
+  description: "Original oder Nachbau? Wann sich Originalzubehör lohnt – bei Auto, Handy, Akkus und Haushalt – und wo Alternativen sicher sind. Mit Garantie-Hinweisen.",
   keywords: [
     "original oder kompatibel zubehör kaufen",
     "kompatible druckerpatronen",
@@ -10,18 +10,23 @@ export const metadata: Metadata = {
     "kompatibles zubehör test",
     "nachbau ersatzteile",
     "kompatibel vs original",
+    "original oder nachbau",
+    "ladegerät nachbau sicher",
+    "zubehör garantie fremdzubehör",
+    "ersatzakku original oder kompatibel",
   ],
   openGraph: {
-    title: "Original oder kompatibel? Zubehör-Kauf",
+    title: "Original oder Nachbau? Zubehör im Check",
     description: "Druckerpatronen, Autoteile oder Handy-Zubehör: Wo sich das Original lohnt und wo du sparen kannst.",
     url: "https://www.preisgucken.com/blog/original-oder-kompatibel-zubehoer-kaufen/",
     type: "article",
     publishedTime: "2026-08-27",
-    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Original oder kompatibel? Zubehör-Kauf" }],
+    modifiedTime: "2026-10-05",
+    images: [{ url: "https://www.preisgucken.com/opengraph-image/", width: 1200, height: 630, alt: "Original oder Nachbau? Zubehör im Check" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Original oder kompatibel? Zubehör-Kauf",
+    title: "Original oder Nachbau? Zubehör im Check",
     description: "Druckerpatronen, Autoteile oder Handy-Zubehör: Wo sich das Original lohnt und wo du sparen kannst.",
   },
   alternates: { canonical: "https://www.preisgucken.com/blog/original-oder-kompatibel-zubehoer-kaufen/" },
@@ -31,8 +36,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   image: "https://www.preisgucken.com/opengraph-image/",
-  headline: "Original oder kompatibel? Zubehör-Kauf",
+  headline: "Original oder Nachbau? Zubehör im Check",
   datePublished: "2026-08-27",
+  dateModified: "2026-10-05",
   author: { "@type": "Organization", name: "Preisgucken" },
   publisher: {
     "@type": "Organization",
@@ -53,15 +59,15 @@ export default function OriginalOderKompatibelPage() {
 
         <header className="mb-5">
           <span className="tag mb-3 d-inline-block">Kaufberatung</span>
-          <h1 className="brand-heading fw-bold display-6 mb-3">Original oder kompatibel? Zubehör-Kauf</h1>
+          <h1 className="brand-heading fw-bold display-6 mb-3">Original oder Nachbau? Zubehör im Check</h1>
           <p className="lead text-muted">
-            Ob Druckerpatrone, Autoteil oder Ladekabel – bei fast jedem Zubehör-Kauf stellt sich dieselbe Frage:
-            Original oder kompatibel? Wir zeigen, wo der Preisunterschied wirklich gerechtfertigt ist und wo du
-            bei Nachbau-Zubehör bedenkenlos zugreifen kannst.
-          </p>
+            Ob Autoteil, Ladegerät oder Haushaltszubehör – bei fast jedem Zubehör-Kauf stellt sich dieselbe Frage:
+            Original oder Nachbau? Wir zeigen, wo der Preisunterschied gerechtfertigt ist und wo du bedenkenlos
+            zu Alternativen greifen kannst. Zu Druckerpatronen und PC-Zubehör gibt es einen eigenen Ratgeber.</p>
           <div className="d-flex gap-3 small text-muted mt-3">
             <span>📅 27. August 2026</span>
-            <span>⏱ 6 Min. Lesezeit</span>
+            <span>🔄 Aktualisiert: 5. Oktober 2026</span>
+            <span>⏱ 10 Min. Lesezeit</span>
             <span>✍️ Preisgucken-Redaktion</span>
           </div>
         </header>
@@ -77,17 +83,12 @@ export default function OriginalOderKompatibelPage() {
         </section>
 
         <section className="mb-5">
-          <h2 className="fw-bold h4 mb-3">Beispiel Druckerpatronen: der Klassiker unter den Zubehör-Fragen</h2>
+          <h2 className="fw-bold h4 mb-3">Druckerpatronen: Dafür gibt es einen eigenen Ratgeber</h2>
           <p>
-            Bei kaum einem Produkt ist die Original-vs-kompatibel-Debatte so präsent wie bei Druckerpatronen. Im
-            Preisvergleich auf Preisgucken.de zeigt sich die Bandbreite deutlich: Original-Tintenpatronen und
-            -Toner sind mit weitem Abstand am stärksten vertreten, kompatible Patronen machen aber einen
-            substanziellen Teil des Angebots aus – oft zu einem Bruchteil des Original-Preises.
-          </p>
-          <p className="small text-muted">
-            Der Kompromiss bei kompatiblen Patronen: Farbtreue und Haltbarkeit können je nach Hersteller
-            schwanken, und manche Druckerhersteller schränken bei Fremdpatronen die Garantie ein – ein Blick in
-            die Garantiebedingungen des eigenen Druckers lohnt sich vor dem Kauf.
+            Bei Druckerpatronen und Toner spielen Seitenkosten, Reichweite und Firmware-Sperren eine Rolle.
+            Das haben wir ausführlich im Ratgeber{" "}
+            <a href="/blog/pc-zubehoer-original-oder-kompatibel/">Druckerpatronen &amp; PC-Zubehör: Original oder kompatibel?</a>{" "}
+            beschrieben.
           </p>
         </section>
 
@@ -99,7 +100,7 @@ export default function OriginalOderKompatibelPage() {
                 <tr><th>Produktart</th><th>Original oder kompatibel?</th></tr>
               </thead>
               <tbody>
-                <tr><td>Druckerpatronen & Toner</td><td>Kompatibel meist unbedenklich für Alltagsdruck – Original bei Fotodruck oder wenn der Hersteller die Garantie sonst einschränkt</td></tr>
+                <tr><td>Druckerpatronen &amp; Toner</td><td>Siehe eigenen <a href="/blog/pc-zubehoer-original-oder-kompatibel/">Ratgeber zu Druckerpatronen</a></td></tr>
                 <tr><td>Ladekabel & Netzteile</td><td>Kompatibel funktioniert meist einwandfrei – auf Sicherheitszertifizierung (CE, USB-IF) achten, nicht am Kabel selbst sparen</td></tr>
                 <tr><td>Verschleiß-Autoteile (Bremsbeläge, Filter)</td><td>Original oder markenbekannte Zulieferer-Ware – bei sicherheitsrelevanten Teilen lohnt sich der Aufpreis</td></tr>
                 <tr><td>Handyhüllen & Displayschutz</td><td>Kompatibel ist hier meist identisch zum Original, nur ohne Markenaufschlag</td></tr>
@@ -122,6 +123,61 @@ export default function OriginalOderKompatibelPage() {
             Halterungen) ist das Risiko bei kompatibler Ware meist gering. Bei allem mit eigener Elektronik oder
             Sicherheitsfunktion (Akkus, Ladegeräte, Bremsteile) lohnt sich der Blick auf Zertifizierung und
             Markenqualität eher.
+          </div>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Auto, Motorrad und Fahrzeug: Freigabe vor Preis</h2>
+          <ul>
+            <li><strong>Sicherheitsrelevante Teile:</strong> Bremsbeläge, Bremsscheiben, Reifen und Fahrwerksteile sollten für dein Modell freigegeben sein. Die Freigabe nennt der Hersteller oder der Händler.</li>
+            <li><strong>Verbrauchsteile:</strong> Filter, Wischerblätter oder Leuchtmittel gibt es von Markenherstellern in guter Qualität. Prüfe die Passform für dein Modell.</li>
+            <li><strong>Anbauteile:</strong> Teile, die die Betriebserlaubnis berühren können, brauchen eine Genehmigung (zum Beispiel ABE oder ECE-Zeichen). Details stehen im <a href="/blog/auto-zubehoer-kaufratgeber/">Auto-Zubehör-Ratgeber</a> und im <a href="/blog/motorradzubehoer-kaufen/">Motorradzubehör-Ratgeber</a>.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Handy, Ladegeräte und Akkus: Sicherheit zuerst</h2>
+          <ul>
+            <li><strong>Ladegeräte und Netzteile:</strong> Sie wandeln Netzspannung um und sollten Prüfzeichen wie CE tragen. Sehr billige Netzteile ohne Kennzeichnung sind ein Risiko für Gerät und Wohnung.</li>
+            <li><strong>Akkus:</strong> Ersatzakkus von unbekannten Anbietern können überhitzen. Wähle Original oder Akkus von Herstellern, die Zertifizierungen und Rücknahme nachweisen.</li>
+            <li><strong>Kabel:</strong> USB-Kabel unterscheiden sich in Datenrate und Ladeleistung. Details findest du im Ratgeber <a href="/blog/kabel-und-adapter-kaufen-ratgeber/">Kabel und Adapter kaufen</a>.</li>
+            <li><strong>Hüllen und Displayschutz:</strong> Hier sind Alternativen meist unkritisch, sofern Passform und Verarbeitung stimmen. Mehr im Beitrag <a href="/blog/handyhuellen-kaufen-material-schutz/">Handyhülle kaufen</a>.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Haushalt und Küche: Wo Alternativen gut funktionieren</h2>
+          <ul>
+            <li><strong>Staubsaugerbeutel, Filter und Bürsten:</strong> Passende Alternativen sind oft deutlich günstiger. Prüfe die Modellkompatibilität und die Filterklasse.</li>
+            <li><strong>Wasserfilter und Kaffeemaschinen-Zubehör:</strong> Achte auf Materialien, die für Lebensmittel geeignet sind, und auf die Passform.</li>
+            <li><strong>Ersatzteile für Geräte mit Heizelement:</strong> Verwende Teile, die für Typ und Leistung freigegeben sind. Falsche Teile können Gerät und Garantie gefährden.</li>
+          </ul>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Garantie und Gewährleistung: Was gilt bei Fremdzubehör?</h2>
+          <p>
+            Die Verwendung von Zubehör eines anderen Anbieters führt nicht automatisch dazu, dass Ansprüche
+            wegfallen. Die gesetzliche Gewährleistung gegenüber dem Verkäufer bleibt grundsätzlich bestehen.
+            Eine freiwillige Herstellergarantie kann eigene Bedingungen haben. Ein Schaden, der nachweislich
+            durch das Zubehör verursacht wurde, kann nicht abgedeckt sein. Lies deshalb die
+            Garantiebedingungen deines Geräts. Das ist eine allgemeine Orientierung, keine Rechtsberatung.
+          </p>
+        </section>
+
+        <section className="mb-5">
+          <h2 className="fw-bold h4 mb-3">Entscheidungshilfe: Original, Marke oder günstige Alternative?</h2>
+          <div className="table-responsive">
+            <table className="table table-bordered small">
+              <thead className="table-dark">
+                <tr><th>Frage</th><th>Wenn ja</th><th>Wenn nein</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Hat das Teil Sicherheitsfunktion (Bremse, Akku, Netzteil)?</td><td>Original oder zertifizierte Markenware</td><td>Weiter zur nächsten Frage</td></tr>
+                <tr><td>Hat das Teil eigene Elektronik oder Firmware?</td><td>Kompatibilität und Garantie prüfen</td><td>Alternativen sind meist unkritisch</td></tr>
+                <tr><td>Ist die Passform kritisch?</td><td>Modellnummer prüfen, im Zweifel Original</td><td>Preis vergleichen und bei Qualitätsmarken wählen</td></tr>
+              </tbody>
+            </table>
           </div>
         </section>
 
