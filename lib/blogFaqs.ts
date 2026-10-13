@@ -6,6 +6,20 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "koerperpflege-kaufen-hauttyp-guide": [
+    { q: "Welche Körperpflege passt zu trockener Haut?", a: "Reichhaltige Lotionen, Cremes oder Öle, die du direkt nach dem Duschen auf noch leicht feuchte Haut aufträgst. Auch lauwarmes Wasser und kürzere Duschzeiten helfen." },
+    { q: "Bodylotion oder Körperöl: Was ist besser?", a: "Lotionen ziehen schneller ein und eignen sich für den Alltag. Öle sind reichhaltiger und pflegen länger, fühlen sich aber fettiger an. Beides lässt sich kombinieren." },
+    { q: "Wie oft sollte ich ein Körperpeeling nutzen?", a: "Meist ein- bis zweimal pro Woche oder seltener. Auf gereizter oder sonnenverbrannter Haut solltest du kein Peeling verwenden." },
+    { q: "Was bedeutet dermatologisch getestet?", a: "Es bedeutet, dass das Produkt in einer Prüfung unter ärztlicher Aufsicht getestet wurde. Es ist ein Hinweis, aber keine Garantie, dass jeder Mensch das Produkt verträgt." },
+    { q: "Wie vergleiche ich Preise bei Körperpflege richtig?", a: "Teile den Preis durch die Füllmenge und vergleiche den Preis pro 100 ml. Großpackungen sind pro Milliliter oft günstiger, wenn du sie vor Ablauf der Haltbarkeit verbrauchst." },
+  ],
+  "make-up-grundausstattung-guide": [
+    { q: "Was brauche ich als Make-up-Einsteigerin wirklich?", a: "Eine Basis für den Teint (Foundation oder Tinted Moisturizer), Concealer, Mascara, ein Brauenprodukt und etwas für die Lippen. Alles Weitere kannst du nach und nach ergänzen." },
+    { q: "Wie finde ich den richtigen Foundation-Farbton?", a: "Teste am Kiefer oder Unterarm bei Tageslicht und beachte deinen Hautunterton. Warte einige Minuten ab, da manche Produkte nachdunkeln." },
+    { q: "Wie lange halten Make-up-Produkte nach dem Öffnen?", a: "Das Symbol mit dem geöffneten Tiegel (PAO) zeigt die empfohlene Verwendungsdauer in Monaten. Mascara und Eyeliner solltest du nach einigen Monaten ersetzen." },
+    { q: "Wie reinige ich Make-up-Pinsel?", a: "Mit mildem Shampoo oder Pinselreiniger und lauwarmem Wasser, anschließend ausdrücken und liegend trocknen lassen. Reinige sie regelmäßig, damit sich keine Rückstände ansammeln." },
+    { q: "Muss ich teures Make-up kaufen?", a: "Nein. Preis und Qualität sind nicht immer verbunden. Wichtig sind Farbe, Textur und Verträglichkeit; Proben und kleine Größen helfen beim Testen." },
+  ],
   "damenpullover-kaufen-material-pflege-guide": [
     { q: "Merino oder Kaschmir: Was ist besser?", a: "Merino ist robuster und meist pflegeleichter, Kaschmir ist sehr weich und leicht, braucht aber schonende Pflege. Die Qualität schwankt bei beiden stark, daher lohnt der Blick auf Verarbeitung und Zusammensetzung." },
     { q: "Wie wasche ich einen Wollpullover?", a: "Nach Etikett im Schonprogramm oder mit der Hand, bei niedriger Temperatur und mit Wollwaschmittel. Nicht auswringen, sondern flach liegend trocknen." },
