@@ -6,6 +6,20 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "pc-zubehoer-original-oder-kompatibel": [
+    { q: "Sind kompatible Druckerpatronen schlechter als Original?", a: "Nicht grundsätzlich. Bei Alltagsdokumenten ist der Unterschied oft gering, bei Fotos kann Originaltinte farbtreuer sein. Die Qualität schwankt zwischen Anbietern, daher helfen Bewertungen und die genaue Modellangabe." },
+    { q: "Verliere ich die Garantie meines Druckers bei Fremdpatronen?", a: "Nicht automatisch. Die gesetzliche Gewährleistung gegenüber dem Verkäufer bleibt bestehen. Eine freiwillige Herstellergarantie hat eigene Bedingungen, und bei Schäden, die nachweislich durch die Patrone entstehen, kann der Anspruch eingeschränkt sein. Das ist keine Rechtsberatung." },
+    { q: "Was kostet eine Seite wirklich?", a: "Teile den Preis der Patrone durch die angegebene Seitenreichweite. Die Praxis weicht oft ab, weil Text, Farbanteil und Einstellungen mitspielen. XL-Patronen senken die Kosten pro Seite meist." },
+    { q: "Was sind Firmware-Sperren bei Druckern?", a: "Manche Hersteller schränken per Update die Nutzung von Fremdpatronen ein. Erfahrungsberichte zu deinem Modell helfen bei der Einschätzung. Automatische Updates lassen sich oft abstellen." },
+    { q: "Welche SSD passt in meinen PC?", a: "Das hängt vom Mainboard ab: Formfaktor (zum Beispiel M.2) und Schnittstelle (SATA oder NVMe) müssen passen. Das Handbuch oder die Herstellerseite zeigt, was dein Rechner unterstützt." },
+  ],
+  "original-oder-kompatibel-zubehoer-kaufen": [
+    { q: "Verliere ich die Garantie, wenn ich Nachbau-Zubehör benutze?", a: "Nicht automatisch. Die gesetzliche Gewährleistung gegenüber dem Verkäufer bleibt bestehen. Eine freiwillige Herstellergarantie kann eigene Bedingungen haben, und Schäden, die nachweislich durch das Zubehör entstehen, sind unter Umständen nicht gedeckt. Dies ist eine allgemeine Orientierung." },
+    { q: "Bei welchem Zubehör sollte ich nicht sparen?", a: "Bei allem mit Sicherheitsfunktion: Bremsteile, Akkus, Ladegeräte und Netzteile. Hier sind Original oder zertifizierte Markenware die bessere Wahl." },
+    { q: "Woran erkenne ich ein sicheres Ladegerät?", a: "An Prüfzeichen wie CE, einer deutlichen Herstellerangabe, Leistungsangaben auf dem Gerät und einem seriösen Händler. Sehr billige Netzteile ohne Kennzeichnung sind ein Warnsignal." },
+    { q: "Wo lohnt sich kompatibles Zubehör?", a: "Bei passivem Zubehör wie Hüllen, Halterungen und Staubsaugerbeuteln, sofern Passform und Verarbeitung stimmen. Die Ersparnis ist hier oft groß und das Risiko gering." },
+    { q: "Wo finde ich Hinweise zu Druckerpatronen?", a: "Im ausführlichen Ratgeber zu Druckerpatronen und PC-Zubehör, den wir separat veröffentlicht haben. Dort geht es um Tinte, Toner, Seitenkosten und Firmware-Sperren." },
+  ],
   "luxusuhren-kaufen": [
     { q: "Wie erkenne ich eine gefälschte Luxusuhr?", a: "Warnzeichen sind Preise weit unter dem üblichen Niveau, fehlende Papiere, unseriöse Händler und Abweichungen bei Verarbeitung oder Seriennummer. Kaufe bei autorisierten oder etablierten Händlern und lasse im Zweifel bei einem Uhrmacher prüfen." },
     { q: "Was kostet die Wartung einer mechanischen Uhr?", a: "Das hängt von Marke, Modell und Werk ab und kann bei Premiumuhren mehrere hundert Euro oder mehr betragen. Der Hersteller nennt Intervall und Service-Umfang." },
