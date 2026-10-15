@@ -6,6 +6,13 @@
 export type Faq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, Faq[]> = {
+  "damenhosen-kaufen-passform-laenge-guide": [
+    { q: "Welche Hosenform passt zu welcher Figur?", a: "Straight und Tapered sind vielseitig und passen zu vielen Figuren; Wide Leg gleicht Hüfte und Oberschenkel optisch aus, Slim betont das Bein. Entscheidend ist, dass Bund und Oberschenkel bequem sitzen." },
+    { q: "Was bedeutet 7/8-Hose?", a: "Eine 7/8-Hose endet etwas über dem Knöchel und streckt das Bein optisch. Sie passt gut zu Ballerinas, Loafern und Sandalen." },
+    { q: "Wie finde ich die richtige Hosengröße online?", a: "Miss Taille, Hüfte und Schrittlänge und vergleiche mit der Größentabelle des Shops. Achte auf Leibhöhe und Dehnbarkeit, da Passform je nach Hersteller abweicht." },
+    { q: "Läuft eine Hose beim Waschen ein?", a: "Das kann bei Baumwolle, Leinen und Viskose passieren, besonders bei hohen Temperaturen oder im Trockner. Halte dich an das Pflegeetikett." },
+    { q: "Wie viel Elasthan sollte eine bequeme Hose haben?", a: "Ein kleiner Elasthan-Anteil sorgt für Bewegungsfreiheit und Formstabilität. Wie viel für dich angenehm ist, hängt von Schnitt und Stoff ab; Comfort-Fit-Hosen setzen oft auf mehr Dehnung." },
+  ],
   "koerperpflege-kaufen-hauttyp-guide": [
     { q: "Welche Körperpflege passt zu trockener Haut?", a: "Reichhaltige Lotionen, Cremes oder Öle, die du direkt nach dem Duschen auf noch leicht feuchte Haut aufträgst. Auch lauwarmes Wasser und kürzere Duschzeiten helfen." },
     { q: "Bodylotion oder Körperöl: Was ist besser?", a: "Lotionen ziehen schneller ein und eignen sich für den Alltag. Öle sind reichhaltiger und pflegen länger, fühlen sich aber fettiger an. Beides lässt sich kombinieren." },

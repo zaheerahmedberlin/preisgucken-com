@@ -72,6 +72,7 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     description: "Vom Alltagslook bis zum großen Anlass – Kleidung richtig auswählen.",
     pgLink: "damenmode",
     posts: [
+      { slug: "damenhosen-kaufen-passform-laenge-guide", title: "Damenhosen kaufen: Passform, Länge und Stoff", excerpt: "Slim, Straight, Wide oder Comfort Fit: So findest du Schnitt, Länge und Stoff, die zu dir und zum Anlass passen.", date: "13. Oktober 2026", readTime: "9 Min.", pgLink: "damenhosen" },
       { slug: "damenpullover-kaufen-material-pflege-guide", title: "Damenpullover kaufen: Material, Passform und Pflege", excerpt: "Merino, Kaschmir oder Mischgewebe: So wählst du den passenden Pullover und pflegst Strick richtig.", date: "13. Oktober 2026", readTime: "9 Min.", pgLink: "damenpullover" },
       { slug: "abendkleid-cocktailkleid-kaufen-ratgeber", title: "Welches Kleid für welchen Anlass? Cocktailparty bis Gala", excerpt: "Cocktailparty, Hochzeit oder Gala – welches Kleid passt zu welchem Anlass? Schnitt, Länge und Farbe richtig wählen.", date: "29. Juli 2026", readTime: "10 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "kleider" },
       { slug: "kleider-fuer-jeden-anlass", title: "Alltagskleid, Brautkleid, Umstandskleid: 3 Anlässe, 3 Schnitte", excerpt: "Alltagskleid, Brautkleid oder Umstandskleid – welcher Schnitt und Stoff passt zu welchem Anlass? Mit Preisvergleich.", date: "4. August 2026", readTime: "10 Min.", updated: "5. Oktober 2026", featured: true, pgLink: "kleider" },
